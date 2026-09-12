@@ -1,6 +1,6 @@
 // AI 情报站 — Node.js 后端（零依赖，使用内置 fetch）
 // - 静态托管 public/
-// - /api/data 返回六大版块；GitHub 热门与模型走实时抓取，失败回落种子数据
+// - /api/data 返回六大版块（全部来自 data.js，中文内容，由 scripts/update-data.mjs 定时刷新）
 // - /api/messages GET/POST 留言（内存 + messages.json 持久化）
 import http from 'node:http';
 import fs from 'node:fs';
@@ -14,86 +14,39 @@ const HOST = process.env.HOST || '0.0.0.0';
 const PUB = path.join(__dirname, 'public');
 const MSG_FILE = path.join(__dirname, 'messages.json');
 
-const UA = { 'User-Agent': 'Mozilla/5.0 (ai-intel-station)', 'Accept': 'application/json, text/html;q=0.9' };
-
-// ---------- 实时抓取：GitHub Trending ----------
-function parseTrending(html) {
-  const arts = html.split(/<article class="Box-row">/).slice(1);
-  const out = [];
-  for (const a of arts) {
-    const body = a.split('</article>')[0];
-    const h = body.match(/<h2[^>]*>[\s\S]*?href="\/([^"]+?)"/);
-    if (!h) continue;
-    const repo = h[1].replace(/^\/+/, '');
-    const d = body.match(/<p class="col-9[^"]*"[^>]*>([\s\S]*?)<\/p>/);
-    let desc = d ? d[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() : '';
-    desc = desc.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
-    const lang = body.match(/itemprop="programmingLanguage">([^<]+)</);
-    const today = body.match(/([\d,]+)\s+stars?\s+today/);
-    out.push({
-      repo, lang: lang ? lang[1].trim() : '—',
-      today: today ? Number(today[1].replace(/,/g, '')) : 0,
-      desc
-    });
-  }
-  return out.slice(0, 10);
-}
-
-async function fetchTrending() {
-  const r = await fetch('https://github.com/trending?since=daily', { headers: UA });
-  if (!r.ok) throw new Error('trending HTTP ' + r.status);
-  return parseTrending(await r.text());
-}
-
-// ---------- 实时抓取：OpenRouter 模型 ----------
-async function fetchModels() {
-  const r = await fetch('https://openrouter.ai/api/v1/models', { headers: UA });
-  if (!r.ok) throw new Error('openrouter HTTP ' + r.status);
-  const j = await JSON.parse(await r.text());
-  return (j.data || [])
-    .filter(m => m && m.id && !m.id.startsWith('~'))
-    .sort((a, b) => (b.created || 0) - (a.created || 0))
-    .slice(0, 10)
-    .map(m => {
-      const id = m.id;
-      const vendor = (m.name || id).split(':')[0].trim() || id.split('/')[0];
-      const date = m.created ? new Date(m.created * 1000).toISOString().slice(0, 10) : '';
-      const ctx = m.context_length ? `，上下文 ${Math.round(m.context_length / 1000)}k` : '';
-      return {
-        vendor,
-        name: (m.name || id).split(':').slice(1).join(':').trim() || id.split('/').pop(),
-        date,
-        desc: `OpenRouter 上架模型${ctx}。`,
-        url: 'https://openrouter.ai/' + id
-      };
-    });
-}
-
 // ---------- 缓存层 ----------
-const cache = { trending: null, models: null, at: 0 };
-const TTL = 10 * 60 * 1000;
-async function liveData() {
+// 数据由 scripts/update-data.mjs（GitHub Actions 每日 05:00/17:00）定时刷新到 data.js
+// 服务端定期重载 data.js，保证本地版与最新数据同步
+const DATA_FILE = path.join(__dirname, 'data.js');
+let cached = { at: 0, seed: null };
+async function freshSeed() {
   const now = Date.now();
-  if (cache.trending && cache.models && now - cache.at < TTL) {
-    return { trending: cache.trending, models: cache.models, live: true };
+  if (!cached.seed || now - cached.at > 10 * 60 * 1000) {
+    try {
+      // 清除模块缓存后重新加载最新 data.js
+      delete globalThis.__datajs_mtime;
+      const stat = fs.statSync(DATA_FILE);
+      const mtime = stat.mtimeMs;
+      if (cached.seed && cached.seed.__mtime === mtime) {
+        cached.at = now;
+        return cached.seed;
+      }
+      const mod = await import(`file://${DATA_FILE}?t=${mtime}`);
+      cached = { at: now, seed: { __mtime: mtime, ...mod } };
+    } catch (e) {
+      console.error('[data-reload]', e.message);
+      if (!cached.seed) cached.seed = { ...seed, __mtime: 0 };
+      cached.at = now;
+    }
   }
-  let tr = null, mo = null;
-  try { tr = await fetchTrending(); } catch (e) { console.error('[trending]', e.message); }
-  try { mo = await fetchModels(); } catch (e) { console.error('[models]', e.message); }
-  if (tr) cache.trending = tr;
-  if (mo) cache.models = mo;
-  cache.at = now;
-  return {
-    trending: cache.trending || seed.trending,
-    models: cache.models || seed.models,
-    live: Boolean(tr && mo)
-  };
+  return cached.seed;
 }
 
 // ---------- 讨论区帖子存储（按子版块 + 回复）----------
 let posts = [];
 try { posts = JSON.parse(fs.readFileSync(MSG_FILE, 'utf8')); } catch { posts = []; }
 if (!Array.isArray(posts) || posts.length === 0) { posts = seed.seedPosts.slice(); }
+// 讨论区版块定义与置顶帖相对固定，直接用启动时加载的 seed；热数据走 freshSeed()
 // 确保所有帖子都有 likes/favorites 字段（兼容旧数据）
 posts = posts.map(p => ({ likes: 0, favorites: 0, ...p }));
 const BOARD_IDS = new Set(seed.boards.map(b => b.id));
@@ -126,16 +79,17 @@ const server = http.createServer(async (req, res) => {
   try {
     if (p === '/api/health') return send(res, 200, { ok: true });
     if (p === '/api/data') {
-      const live = await liveData();
+      const d = await freshSeed();
       return send(res, 200, {
-        meta: seed.meta, news: seed.news,
-        agentFrameworks: seed.agentFrameworks, skills: seed.skills,
-        boards: seed.boards,
-        trending: live.trending, models: live.models,
-        live: live.live
+        meta: d.meta, news: d.news,
+        agentFrameworks: d.agentFrameworks, skills: d.skills,
+        boards: d.boards,
+        trending: d.trending, models: d.models,
+        live: false
       });
     }
     if (p === '/api/boards') return send(res, 200, seed.boards);
+    if (p === '/api/health') return send(res, 200, { ok: true, updated: seed.meta.generatedAt });
     if (p === '/api/messages' && req.method === 'GET') {
       const b = u.searchParams.get('board');
       return send(res, 200, b ? posts.filter(x => x.board === b) : posts);

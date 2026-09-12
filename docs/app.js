@@ -21,9 +21,15 @@ function modelCard(x) {
   </a>`;
 }
 function repoCard(x, mode) {
-  const meta = mode === 'stars'
-    ? `<span class="stars">★ ${fmt(x.stars)}</span>${x.lang && x.lang !== '—' ? langDot(x.lang) : ''}`
-    : `<span class="today">▲ ${fmt(x.today)} 今日</span>${x.lang && x.lang !== '—' ? langDot(x.lang) : ''}`;
+  const langPart = x.lang && x.lang !== '—' ? langDot(x.lang) : '';
+  let meta = '';
+  if (mode === 'today') {
+    // trending 卡片：总星数 + 今日新增 双显示
+    const starsPart = x.stars != null ? `<span class="stars">★ ${fmt(x.stars)}</span>` : '';
+    meta = `${starsPart}<span class="today">▲ ${fmt(x.today)} 今日</span>${langPart}`;
+  } else {
+    meta = `<span class="stars">★ ${fmt(x.stars)}</span>${langPart}`;
+  }
   return `<a class="card" href="${esc(gh(x.repo))}" target="_blank" rel="noopener">
     <div class="repo-name">${esc(x.repo)}</div>
     <p>${esc(x.desc)}</p>
@@ -41,7 +47,7 @@ async function load() {
     $('#agentList').innerHTML = d.agentFrameworks.map(x => repoCard(x, 'stars')).join('');
     $('#skillsList').innerHTML = d.skills.map(x => repoCard(x, 'stars')).join('');
     const chip = $('#liveChip');
-    chip.textContent = '每日定时更新 · 数据均标注出处';
+    chip.textContent = '每日 05:00 / 17:00 自动更新 · 描述已汉化';
     chip.className = 'chip live-chip on';
   } catch (e) {
     $('#newsList').innerHTML = '<p class="err">数据加载失败：' + esc(e.message) + '</p>';

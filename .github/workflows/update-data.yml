@@ -1,0 +1,48 @@
+# 大瑞的AI小窝 — 每日两次自动更新数据
+# 北京时间 05:00 / 17:00（UTC 21:00 前一天 / 09:00）
+# 数据写入 docs/data.json + data.js 后自动提交，GitHub Pages 随之发布
+name: Update Data
+
+on:
+  schedule:
+    - cron: '0 21 * * *'   # 北京时间 05:00（UTC 前一天 21:00）
+    - cron: '0 9 * * *'    # 北京时间 17:00
+  workflow_dispatch: {}      # 支持手动触发
+
+permissions:
+  contents: write             # 允许提交数据更新
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 配置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 运行数据更新脚本
+        env:
+          # 用 Actions 自动生成的临时 token 调 GitHub API（无需手动配置，无需管理密钥）
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-data.mjs
+
+      - name: 提交并推送（如有变更）
+        run: |
+          git config user.name "ai-intel-bot"
+          git config user.email "actions@github.com"
+          git add data.js docs/data.json
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "chore(data): 自动更新资讯数据 - $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')"
+            git push
+          fi
