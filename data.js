@@ -34,66 +34,336 @@ export const seedPosts = [
 ];
 
 export const news = [
-  { date: "2026-09-04", title: "OpenAI 发布 GPT-6 系列首个模型 GPT-6 Astra", desc: "定位“最智能、最对齐”的旗舰模型，引发行业广泛关注与讨论。", source: "雪球（财经资讯）", url: "https://xueqiu.com/9158901246/408242574" },
-  { date: "2026-09-11", title: "OpenAI 宣称攻克一项数学难题", desc: "被多家 AI 日报作为当日头条报道。", source: "CSDN · AI 行业日报", url: "https://blog.csdn.net/Smoothly_Lu/article/details/164965830" },
-  { date: "2026-09-10", title: "三星联手 Mistral AI，重构半导体设计与制造", desc: "双方合作将 AI 引入芯片设计与制造流程。", source: "腾讯新闻", url: "https://news.qq.com/rain/a/20260910A0BH2S00" },
-  { date: "2026-09-11", title: "特朗普驳斥“AI 末日论”：我只担心发展得不够快", desc: "关于 AI 监管与发展节奏的最新表态。", source: "财联社（转载）", url: "https://xueqiu.com/8722806774/408998635" },
-  { date: "2026-09-09", title: "AI Show 2026 杭州国际人工智能应用与机器人展举办", desc: "主题聚焦“会干活、能回本、敢出海”，释放产业落地信号。", source: "雪球", url: "https://xueqiu.com/8871682425/409002293" },
-  { date: "2026-09-12", title: "中国电信研究院发布《智能体》报告，预测爆发式增长", desc: "报告称相关规模今年或达“10 亿亿”级别。", source: "央视财经（转载）", url: "https://xueqiu.com/2464730035/409065773" },
-  { date: "2026-09-11", title: "DeepSeek 新模型动态与 AI 智能体“全面爆发”", desc: "国内大模型与 Agent 应用密集进展。", source: "CSDN · AI 行业日报", url: "https://blog.csdn.net/Smoothly_Lu/article/details/164965830" },
-  { date: "2026-09-06", title: "Anthropic 与昇腾（Ascend）相关行业动态", desc: "算力与模型生态的新一轮合作/竞争信号。", source: "AI 行业周报", url: "https://aibsz.com/2026-09-06/ai-industry-weekly-gpt6-astra-deepseek-ascend-2026-09-06/" },
-  { date: "2026-09-上旬", title: "9 月上旬 AI 动态盘点：GPT-6 Astra、Claude Fable 5 等", desc: "编码与前沿模型方向的阶段性盘点。", source: "aiho.net", url: "https://aiho.net/news/2026/ai-coding-early-september-2026.html" },
-  { date: "2026-09", title: "2026 下半年 AI 趋势：模型密集发布、安全能力受关注", desc: "对下半年行业走向的综述与预判。", source: "aiho.net", url: "https://aiho.net/news/2026/industry-trends-h2-2026.html" }
+  {
+    "date": "2026-09-13",
+    "title": "OpenAI CEO 奥特曼：OpenAI 不会在 2027 年前进行 IPO",
+    "desc": "奥特曼最新表态，打消市场对 OpenAI 近期上市的预期。",
+    "source": "新浪财经",
+    "url": "https://tech.163.com/keywords/0/6/006f00700065006e00610069/1.html"
+  },
+  {
+    "date": "2026-09-13",
+    "title": "OpenAI 智能体被指操控 RubyGems 攻击，拿下服务器 RCE",
+    "desc": "AI 智能体安全风险再引关注，被曝可操纵软件包仓库实施攻击。",
+    "source": "网易科技",
+    "url": "https://tech.163.com/keywords/0/6/006f00700065006e00610069/1.html"
+  },
+  {
+    "date": "2026-09-12",
+    "title": "工信部发布《\"人工智能+软件\"专项行动实施方案》",
+    "desc": "到 2030 年，人工智能与软件和信息技术服务业融合发展实现新跨越。",
+    "source": "新浪科技 / 光明日报",
+    "url": "https://tags.news.sina.com.cn/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD"
+  },
+  {
+    "date": "2026-09-12",
+    "title": "Anthropic 揭俄开发者用 Claude 造神风无人机",
+    "desc": "路透社/卫报首发披露，AI 模型被用于军事用途引发伦理讨论。",
+    "source": "AIProductHub",
+    "url": "https://aiproducthub.cn/newsflash/anthropic-russia-drone-swarm-claude-fpv-kamikaze/"
+  },
+  {
+    "date": "2026-09-11",
+    "title": "黄仁勋高盛重申：英伟达明年营收再增 70%",
+    "desc": "黄仁勋在高盛 Commun... 活动上对英伟达增长前景表达信心。",
+    "source": "AIProductHub",
+    "url": "https://aiproducthub.cn/newsflash/"
+  },
+  {
+    "date": "2026-09-11",
+    "title": "Anthropic 发 154 页威胁报告，揭 7 类 AI 滥用",
+    "desc": "Anthropic 详细披露 AI 系统可能被滥用的多种场景与风险。",
+    "source": "AIProductHub",
+    "url": "https://aiproducthub.cn/newsflash/"
+  },
+  {
+    "date": "2026-09-11",
+    "title": "NVIDIA 开源 PAIR：把家里多台电脑拼成 AI 算力池",
+    "desc": "NVIDIA 推出开源本地 AI 路由方案，可聚合多设备算力。",
+    "source": "AIProductHub",
+    "url": "https://aiproducthub.cn/newsflash/nvidia-launches-pair-open-source-local-ai-router/"
+  },
+  {
+    "date": "2026-09-11",
+    "title": "月之暗面启动 Kimi「登月计划」：Palantir 式 FDE 驻场模式切入企业 AI",
+    "desc": "首批签约五家上市公司，以前沿部署工程师模式推进企业级交付。",
+    "source": "拓实科技",
+    "url": "http://www.toast.com.cn/news"
+  },
+  {
+    "date": "2026-09-10",
+    "title": "DeepSeek V4.1 Flash 发布，KV 缓存砍 88%",
+    "desc": "采用 CED 架构，输入激活 8B 参数、输出激活 16B，推理效率大幅提升。",
+    "source": "AIProductHub",
+    "url": "https://aiproducthub.cn/newsflash/deepseek-v4-1-flash-kv-cache-88-percent-cut/"
+  },
+  {
+    "date": "2026-09-10",
+    "title": "NASA 联手 IBM 开源月球基础模型，精度碾压基线 23%",
+    "desc": "NASA 与 IBM 合作推出开源月球基础模型，助力月球科研与探测。",
+    "source": "AIProductHub",
+    "url": "https://aiproducthub.cn/newsflash/nasa-ibm-open-source-lunar-foundation-model/"
+  }
 ];
 
 export const models = [
-  { vendor: "Inference.net", name: "Schematron V2 Turbo", date: "2026-09-12", desc: "OpenRouter 最新上架模型之一。", url: "https://openrouter.ai/inference-net/schematron-v2-turbo" },
-  { vendor: "OpenAI", name: "GPT Astra (latest)", date: "2026-09-11", desc: "GPT-6 系列旗舰，OpenRouter 收录。", url: "https://openrouter.ai/~openai/gpt-astra-latest" },
-  { vendor: "OpenAI", name: "GPT Sol (latest)", date: "2026-09-11", desc: "OpenRouter 收录的 OpenAI 新变体。", url: "https://openrouter.ai/~openai/gpt-sol-latest" },
-  { vendor: "OpenAI", name: "GPT Terra (latest)", date: "2026-09-11", desc: "OpenRouter 收录的 OpenAI 新变体。", url: "https://openrouter.ai/~openai/gpt-terra-latest" },
-  { vendor: "Sakana", name: "Fugu Ultra v2", date: "2026-09-11", desc: "Sakana AI 的 Fugu 系列更新。", url: "https://openrouter.ai/sakana/fugu-ultra-v2" },
-  { vendor: "inclusionAI", name: "Ling 3.0 Flash VL", date: "2026-09-10", desc: "多模态（视觉语言）Flash 模型，提供免费版。", url: "https://openrouter.ai/inclusionai/ling-3.0-flash-vl" },
-  { vendor: "DeepSeek", name: "DeepSeek V4.1 Flash", date: "2026-09-10", desc: "DeepSeek 新一代 Flash 快速推理模型。", url: "https://openrouter.ai/deepseek/deepseek-v4.1-flash" },
-  { vendor: "Inception", name: "Mercury 2.5", date: "2026-09-08", desc: "Inception 的 Mercury 扩散式语言模型更新。", url: "https://openrouter.ai/inception/mercury-2.5" },
-  { vendor: "YuE", name: "YuE2 音乐生成模型", date: "2026-09-上旬", desc: "开源前沿音乐生成，符号化规划 + zero-shot 翻唱。", url: "https://github.com/multimodal-art-projection/YuE" },
-  { vendor: "聚合", name: "全部模型发布追踪", date: "实时", desc: "按发布时间排序的完整模型清单。", url: "https://openrouter.ai/models" }
+  {
+    "vendor": "Inference.net",
+    "name": "Schematron V2 Turbo",
+    "date": "2026-09-12",
+    "desc": "3B 参数 HTML-to-JSON 提取模型，面向高吞吐提取工作负载。",
+    "url": "https://openrouter.ai/inference-net/schematron-v2-turbo"
+  },
+  {
+    "vendor": "Inference.net",
+    "name": "Schematron V2 Small",
+    "date": "2026-09-12",
+    "desc": "3B 参数 HTML 提取模型，优先保证复杂 schema 和长页面的提取质量。",
+    "url": "https://openrouter.ai/inference-net/schematron-v2-small"
+  },
+  {
+    "vendor": "OpenAI",
+    "name": "GPT Astra (latest)",
+    "date": "2026-09-11",
+    "desc": "GPT Astra 系列的最新版本，自动重定向到最新模型。",
+    "url": "https://openrouter.ai/~openai/gpt-astra-latest"
+  },
+  {
+    "vendor": "OpenAI",
+    "name": "GPT Sol (latest)",
+    "date": "2026-09-11",
+    "desc": "GPT Sol 系列的最新版本，OpenRouter 收录。",
+    "url": "https://openrouter.ai/~openai/gpt-sol-latest"
+  },
+  {
+    "vendor": "OpenAI",
+    "name": "GPT Terra (latest)",
+    "date": "2026-09-11",
+    "desc": "GPT Terra 系列的最新版本，OpenRouter 收录。",
+    "url": "https://openrouter.ai/~openai/gpt-terra-latest"
+  },
+  {
+    "vendor": "OpenAI",
+    "name": "GPT Luna (latest)",
+    "date": "2026-09-11",
+    "desc": "GPT Luna 系列的最新版本，OpenRouter 收录。",
+    "url": "https://openrouter.ai/~openai/gpt-luna-latest"
+  },
+  {
+    "vendor": "Sakana",
+    "name": "Fugu Ultra v2",
+    "date": "2026-09-11",
+    "desc": "Sakana AI 的 Fugu 家族高性能模型，学习式多智能体编排系统。",
+    "url": "https://openrouter.ai/sakana/fugu-ultra-v2"
+  },
+  {
+    "vendor": "Sakana",
+    "name": "Fugu Max",
+    "date": "2026-09-11",
+    "desc": "Fugu 家族的成本效益模型，多智能体路由架构。",
+    "url": "https://openrouter.ai/sakana/fugu-max"
+  },
+  {
+    "vendor": "inclusionAI",
+    "name": "Ling 3.0 Flash VL",
+    "date": "2026-09-10",
+    "desc": "124B 总参数/5.5B 激活 MoE 多模态模型，新增视觉感知能力。",
+    "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-vl"
+  },
+  {
+    "vendor": "DeepSeek",
+    "name": "DeepSeek V4.1 Flash",
+    "date": "2026-09-09",
+    "desc": "CED 架构稀疏 MoE 模型，输入激活 8B、输出激活 16B 参数。",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+  }
 ];
 
 export const trending = [
-  { repo: "bilawalsidhu/gods-eye-view", lang: "JavaScript", today: 2265, desc: "浏览器里的间谍卫星模拟器，用的是真实开源时空数据。" },
-  { repo: "melgarafael/DeskcommCRM", lang: "TypeScript", today: 505, desc: "开源 AI 销售 OS：自托管 CRM，内置 AI Agent + WhatsApp。" },
-  { repo: "asgeirtj/system_prompts_leaks", lang: "JavaScript", today: 357, desc: "汇总 Anthropic Claude 等系统提示词的提取样本。" },
-  { repo: "deepseek-ai/deepseek-harness", lang: "—", today: 0, desc: "DeepSeek 官方 Agent Harness：“一切皆插件”，发布即爆火。" },
-  { repo: "p1neappleXpress/OpenFlux", lang: "Go", today: 355, desc: "网络栈研究工具，支持可插拔传输的 TCP 隧道。" },
-  { repo: "alSK1992/CloddsBot", lang: "TypeScript", today: 377, desc: "开源 AI 交易 Agent，可在 1000+ 市场自主操作（含 Polymarket）。" },
-  { repo: "Shubhamsaboo/awesome-llm-apps", lang: "Python", today: 237, desc: "100+ AI Agents、Agent Skills 与 RAG 应用，免费开源。" },
-  { repo: "jihe520/MathModelAgent", lang: "Python", today: 264, desc: "专为数学建模设计的 Agent & Skills，自动生成完整论文。" },
-  { repo: "multimodal-art-projection/YuE", lang: "Python", today: 193, desc: "YuE2：前沿开源音乐生成，符号规划 + agentic 工作流。" },
-  { repo: "max-sixty/worktrunk", lang: "Rust", today: 137, desc: "Git worktree 管理 CLI，面向并行 AI Agent 工作流。" }
+  {
+    "repo": "bilawalsidhu/gods-eye-view",
+    "lang": "JavaScript",
+    "today": 2265,
+    "desc": "浏览器里的间谍卫星模拟器，基于真实开源时空数据的 3D 地球。"
+  },
+  {
+    "repo": "melgarafael/DeskcommCRM",
+    "lang": "TypeScript",
+    "today": 505,
+    "desc": "开源 AI 销售 OS：自托管 CRM，内置 AI Agent + WhatsApp。"
+  },
+  {
+    "repo": "asgeirtj/system_prompts_leaks",
+    "lang": "JavaScript",
+    "today": 357,
+    "desc": "汇总 Claude、GPT-6、Gemini、Grok 等系统提示词提取样本。"
+  },
+  {
+    "repo": "alsk1992/CloddsBot",
+    "lang": "TypeScript",
+    "today": 377,
+    "desc": "开源 AI 交易 Agent，可在 1000+ 市场自主操作（含 Polymarket）。"
+  },
+  {
+    "repo": "p1neappleXpress/OpenFlux",
+    "lang": "Go",
+    "today": 355,
+    "desc": "网络栈研究工具，支持可插拔传输的 TCP 隧道。"
+  },
+  {
+    "repo": "jihe520/MathModelAgent",
+    "lang": "Python",
+    "today": 264,
+    "desc": "专为数学建模设计的 Agent & Skills，自动生成完整论文。"
+  },
+  {
+    "repo": "Shubhamsaboo/awesome-llm-apps",
+    "lang": "Python",
+    "today": 237,
+    "desc": "100+ AI Agents、Agent Skills 与 RAG 应用合集，免费开源。"
+  },
+  {
+    "repo": "SnailSploit/Claude-Red",
+    "lang": "—",
+    "today": 195,
+    "desc": "Claude 进攻性安全技能库：SQLi、shellcode、EDR 绕过等。"
+  },
+  {
+    "repo": "multimodal-art-projection/YuE",
+    "lang": "Python",
+    "today": 193,
+    "desc": "YuE2：前沿开源音乐生成，符号规划 + zero-shot 翻唱。"
+  },
+  {
+    "repo": "max-sixty/worktrunk",
+    "lang": "Rust",
+    "today": 137,
+    "desc": "Git worktree 管理 CLI，面向并行 AI Agent 工作流。"
+  }
 ];
 
 export const agentFrameworks = [
-  { repo: "FoundationAgents/MetaGPT", stars: 70337, lang: "Python", desc: "多智能体框架：首个“AI 软件公司”，自然语言驱动全流程。" },
-  { repo: "microsoft/autogen", stars: 60944, lang: "Python", desc: "面向 agentic AI 的编程框架，微软出品。" },
-  { repo: "crewAIInc/crewAI", stars: 58410, lang: "Python", desc: "编排角色扮演、自主协作 AI Agent 的框架。" },
-  { repo: "HKUDS/nanobot", stars: 48061, lang: "Python", desc: "超轻量、开源自托管的个人 AI Agent 框架。" },
-  { repo: "openai/openai-agents-python", stars: 29386, lang: "Python", desc: "OpenAI 官方轻量多智能体工作流框架。" },
-  { repo: "musistudio/claude-code-router", stars: 37204, lang: "TypeScript", desc: "一个本地控制平面：跨模型路由、为各种 Agent 融合新能力。" },
-  { repo: "anomalyco/opencode", stars: 206922, lang: "TypeScript", desc: "开源编码 Agent（OpenCode），终端里的编程助手。" },
-  { repo: "anthropics/claude-code", stars: 144843, lang: "Python", desc: "Claude Code：住在终端里的 agentic 编码工具。" },
-  { repo: "openai/codex", stars: 123607, lang: "Rust", desc: "Codex CLI：运行在终端里的轻量编码 Agent。" },
-  { repo: "google-gemini/gemini-cli", stars: 106944, lang: "TypeScript", desc: "开源 Agent，把 Gemini 能力直接带进终端。" }
+  {
+    "repo": "anomalyco/opencode",
+    "stars": 206922,
+    "lang": "TypeScript",
+    "desc": "开源编码 Agent（OpenCode），终端里的编程助手。"
+  },
+  {
+    "repo": "anthropics/claude-code",
+    "stars": 144843,
+    "lang": "Python",
+    "desc": "Claude Code：住在终端里的 agentic 编码工具。"
+  },
+  {
+    "repo": "Significant-Gravitas/AutoGPT",
+    "stars": 185600,
+    "lang": "Python",
+    "desc": "AutoGPT：开创性的自主 AI Agent 项目，社区影响力最大。"
+  },
+  {
+    "repo": "openai/codex",
+    "stars": 123607,
+    "lang": "Rust",
+    "desc": "Codex CLI：运行在终端里的轻量编码 Agent。"
+  },
+  {
+    "repo": "google-gemini/gemini-cli",
+    "stars": 106944,
+    "lang": "TypeScript",
+    "desc": "开源 Agent，把 Gemini 能力直接带进终端。"
+  },
+  {
+    "repo": "FoundationAgents/MetaGPT",
+    "stars": 70337,
+    "lang": "Python",
+    "desc": "多智能体框架：首个\"AI 软件公司\"，自然语言驱动全流程。"
+  },
+  {
+    "repo": "microsoft/autogen",
+    "stars": 60944,
+    "lang": "Python",
+    "desc": "面向 agentic AI 的编程框架，微软出品。"
+  },
+  {
+    "repo": "crewAIInc/crewAI",
+    "stars": 58410,
+    "lang": "Python",
+    "desc": "编排角色扮演、自主协作 AI Agent 的框架。"
+  },
+  {
+    "repo": "HKUDS/nanobot",
+    "stars": 48061,
+    "lang": "Python",
+    "desc": "超轻量、开源自托管的个人 AI Agent 框架。"
+  },
+  {
+    "repo": "openai/openai-agents-python",
+    "stars": 29386,
+    "lang": "Python",
+    "desc": "OpenAI 官方轻量多智能体工作流框架。"
+  }
 ];
 
 export const skills = [
-  { repo: "obra/superpowers", stars: 285728, lang: "Shell", desc: "Agentic 技能框架 + 软件开发方法论。" },
-  { repo: "mattpocock/skills", stars: 260369, lang: "Shell", desc: "面向真实工程师的技能包，作者 .agents 目录直出。" },
-  { repo: "affaan-m/ECC", stars: 256953, lang: "JavaScript", desc: "Agent Harness 性能优化系统：技能、直觉、记忆、自愈。" },
-  { repo: "anthropics/skills", stars: 175968, lang: "Python", desc: "Anthropic 官方 Agent Skills 公开仓库。" },
-  { repo: "Shubhamsaboo/awesome-llm-apps", stars: 137535, lang: "Python", desc: "100+ AI Agents、Agent Skills 与 RAG 应用合集。" },
-  { repo: "addyosmani/agent-skills", stars: 93710, lang: "JavaScript", desc: "面向 AI 编码 Agent 的生产级工程技能。" },
-  { repo: "mvanhorn/last30days-skill", stars: 61886, lang: "Python", desc: "跨 Reddit/X/YouTube/HN/Polymarket 做近 30 天调研的技能。" },
-  { repo: "tt-a1i/archify", stars: 59475, lang: "JavaScript", desc: "生成美观可验证的架构/工作流/时序/数据流图的技能。" },
-  { repo: "coreyhaines31/marketingskills", stars: 49782, lang: "JavaScript", desc: "面向 Claude Code 与 AI Agent 的营销技能：CRO/文案/SEO。" },
-  { repo: "blader/humanizer", stars: 47266, lang: "Python", desc: "去除文本“AI 味”的 Agent 技能，让文字更像人写的。" }
+  {
+    "repo": "obra/superpowers",
+    "stars": 285728,
+    "lang": "Shell",
+    "desc": "Agentic 技能框架 + 软件开发方法论，社区增长最快。"
+  },
+  {
+    "repo": "mattpocock/skills",
+    "stars": 260369,
+    "lang": "Shell",
+    "desc": "面向真实工程师的技能包，作者 .agents 目录直出。"
+  },
+  {
+    "repo": "affaan-m/ECC",
+    "stars": 256953,
+    "lang": "JavaScript",
+    "desc": "Agent Harness 性能优化系统：技能、直觉、记忆、自愈。"
+  },
+  {
+    "repo": "anthropics/skills",
+    "stars": 175968,
+    "lang": "Python",
+    "desc": "Anthropic 官方 Agent Skills 公开仓库。"
+  },
+  {
+    "repo": "Shubhamsaboo/awesome-llm-apps",
+    "stars": 137535,
+    "lang": "Python",
+    "desc": "100+ AI Agents、Agent Skills 与 RAG 应用合集。"
+  },
+  {
+    "repo": "addyosmani/agent-skills",
+    "stars": 93710,
+    "lang": "JavaScript",
+    "desc": "面向 AI 编码 Agent 的生产级工程技能（Google Addy Osmani）。"
+  },
+  {
+    "repo": "mvanhorn/last30days-skill",
+    "stars": 61886,
+    "lang": "Python",
+    "desc": "跨 Reddit/X/YouTube/HN/Polymarket 做近 30 天调研的技能。"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "stars": 59475,
+    "lang": "JavaScript",
+    "desc": "生成美观可验证的架构/工作流/时序/数据流图的技能。"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "stars": 49782,
+    "lang": "JavaScript",
+    "desc": "面向 Claude Code 与 AI Agent 的营销技能：CRO/文案/SEO。"
+  },
+  {
+    "repo": "blader/humanizer",
+    "stars": 47266,
+    "lang": "Python",
+    "desc": "去除文本\"AI 味\"的 Agent 技能，让文字更像人写的。"
+  }
 ];
