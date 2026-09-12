@@ -1,0 +1,14 @@
+{
+  "name": "ai-intel-station",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI 情报站 - AI 新闻 / 模型 / GitHub 热门 / Agent 框架 / Skills / 留言",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

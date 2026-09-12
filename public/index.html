@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>大瑞的AI小窝 · 每日 AI 情报汇总</title>
+<meta name="description" content="大瑞的AI小窝：每天为你汇总 AI 新闻、模型发布、GitHub 热门、Agent 框架与 Skills 技能生态。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="bg-glow"></div>
+<header class="site-head">
+  <div class="wrap head-inner">
+    <div class="brand">
+      <span class="logo">◆</span>
+      <span class="brand-name">大瑞的 <em>AI 小窝</em></span>
+    </div>
+    <nav class="nav" id="nav">
+      <a href="#news">AI 新闻</a>
+      <a href="#models">模型资讯</a>
+      <a href="#trending">GitHub 热门</a>
+      <a href="#agent">Agent 框架</a>
+      <a href="#skills">Skills 技能</a>
+      <a href="#guestbook">讨论区</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>每天为你汇总 <span class="grad">AI 情报</span></h1>
+    <p class="sub">新闻 · 模型 · GitHub 热门 · Agent 框架 · Skills 技能生态。所有条目均附真实出处，可一键跳转核对。</p>
+    <div class="hero-meta" id="heroMeta">
+      <span class="chip" id="genAt">—</span>
+      <span class="chip live-chip" id="liveChip">数据加载中…</span>
+    </div>
+  </section>
+
+  <section class="board" id="news">
+    <div class="board-head"><h2><span class="idx">01</span> AI 新闻区</h2><p class="board-sub">近期 AI 行业动态，均来自公开信源并标注出处</p></div>
+    <div class="grid news-grid" id="newsList"></div>
+  </section>
+
+  <section class="board" id="models">
+    <div class="board-head"><h2><span class="idx">02</span> AI 模型资讯区</h2><p class="board-sub">最新模型上架与发布 · 数据源 OpenRouter，实时更新</p></div>
+    <div class="grid model-grid" id="modelsList"></div>
+  </section>
+
+  <section class="board" id="trending">
+    <div class="board-head"><h2><span class="idx">03</span> GitHub 热门项目区</h2><p class="board-sub">今日 trending 榜单 · 实时抓取，点开直达仓库</p></div>
+    <div class="grid repo-grid" id="trendingList"></div>
+  </section>
+
+  <section class="board" id="agent">
+    <div class="board-head"><h2><span class="idx">04</span> AI Agent 框架 / 编码 CLI</h2><p class="board-sub">可接入智能体、跨模型路由调度，以及终端编码 Agent</p></div>
+    <div class="grid repo-grid" id="agentList"></div>
+  </section>
+
+  <section class="board" id="skills">
+    <div class="board-head"><h2><span class="idx">05</span> Skills 技能区</h2><p class="board-sub">热门智能体技能 / 技能框架合集</p></div>
+    <div class="grid repo-grid" id="skillsList"></div>
+  </section>
+
+  <section class="board" id="guestbook">
+    <div class="board-head"><h2><span class="idx">06</span> 讨论区</h2><p class="board-sub">按主题分版块讨论，可回复某条帖子形成讨论串</p></div>
+    <div class="tabs" id="boardTabs"></div>
+    <p class="board-desc" id="boardDesc"></p>
+    <form class="gb-form" id="gbForm" autocomplete="off">
+      <div class="reply-bar" id="replyBar" hidden></div>
+      <input type="text" id="gbName" maxlength="40" placeholder="昵称（可留空 = 匿名）">
+      <textarea id="gbText" maxlength="500" rows="3" placeholder="在这个版块说点什么…（最多 500 字）" required></textarea>
+      <div class="gb-foot"><span id="gbCount" class="gb-count">0 / 500</span><button type="submit" class="btn">发布</button></div>
+    </form>
+    <div class="gb-list" id="gbList"></div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p>大瑞的AI小窝 · 数据由程序实时/定期汇总，均附可核对出处。星标与榜单为 GitHub API / trending 快照。</p>
+    <p class="foot-tiny">Built with 千问办公 · 仅用于信息聚合与学习交流</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
