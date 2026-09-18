@@ -1,11 +1,11 @@
-// AI 情报站 — 数据文件（由 scripts/update-data.mjs 自动生成于 2026-09-17）
+// AI 情报站 — 数据文件（由 scripts/update-data.mjs 自动生成于 2026-09-18）
 // news: AI 新闻（中文 RSS：机器之心/量子位/IT之家）
 // models: OpenRouter 最新上架模型（描述已汉化）
 // trending: GitHub 今日热门（含总星数，描述已汉化）
 // agentFrameworks / skills: 固定榜单，自动刷新星数（描述已汉化）
 
 export const meta = {
-  "generatedAt": "2026-09-17",
+  "generatedAt": "2026-09-18",
   "note": "所有条目均附真实出处；描述与外文内容已自动汉化。星标数据来自 GitHub API，模型数据来自 OpenRouter 公开接口，新闻来自中文科技媒体 RSS。"
 };
 
@@ -119,11 +119,39 @@ export const seedPosts = [
 
 export const news = [
   {
-    "date": "2026-09-17",
-    "title": "《战狗》成“黑马”，发售表现超《ARC Raiders》《绝地潜兵 2》等热门游戏",
-    "desc": "IT之家 9 月 17 日消息，据外媒 Eurogamer 今天（17 日）晚间报道，《战狗》现已跻身今年 Steam 最热门的 PC 游戏之列。最新数据显示，其发售表现甚至超过《ARC Raiders》和《绝地潜兵 2…",
+    "date": "2026-09-18",
+    "title": "消息称 Steam 平台山寨游戏泛滥，爆款独立作品遭其他开发者利用 AI 快速复制",
+    "desc": "IT之家 9 月 18 日消息，外媒 Kotaku 发文指出，目前 Steam 平台盗版山寨游戏泛滥，在平台搜索某些突然爆红的独立游戏竟如同“大海捞针”，稍不留神就会被山寨游戏骗到。外媒表示，例如今年 8 月一款名为《N…",
     "source": "IT之家",
-    "url": "https://www.ithome.com/1/003/840.htm"
+    "url": "https://www.ithome.com/1/003/893.htm"
+  },
+  {
+    "date": "2026-09-18",
+    "title": "特斯拉推送 2026.26.200.11 软件更新：为更多车型上线豆包大模型语音助手",
+    "desc": "IT之家 9 月 18 日消息，特斯拉昨日发布了最新的 2026.26.200.11 版软件更新，已开始分批推送。本次升级涵盖豆包大模型、宠物模式、导航、辅助驾驶、媒体应用及安全修复。特斯拉车机新增豆包大模型语音助手（需…",
+    "source": "IT之家",
+    "url": "https://www.ithome.com/1/003/895.htm"
+  },
+  {
+    "date": "2026-09-18",
+    "title": "OpenAI 披露 GPT-5.6 Sol 异常行为：AI 模型会留下指令要求“未来版本的自己”隐瞒自身错误",
+    "desc": "IT之家 9 月 18 日消息，OpenAI 发文，披露研究团队在训练最新模型 GPT-5.6 Sol 的过程中，研究人员发现了一项异常行为：模型曾通过对话摘要向未来版本的自己留下指令，要求后续模型隐瞒自身错误以及与预期…",
+    "source": "IT之家",
+    "url": "https://www.ithome.com/1/003/896.htm"
+  },
+  {
+    "date": "2026-09-18",
+    "title": "OpenAI 被指控“为赚钱不择手段”：明知威胁出版商生存，仍大量侵权",
+    "desc": "北京时间 9 月 18 日，根据《纽约时报》提交的最新诉讼文件，OpenAI 在明知其对出版商构成“生存威胁”的情况下，仍复制了数百万篇受版权保护的文章，以打造潜在价值高达“天文数字”的 AI 技术。目前，《纽约时报》和…",
+    "source": "IT之家",
+    "url": "https://www.ithome.com/1/003/897.htm"
+  },
+  {
+    "date": "2026-09-18",
+    "title": "联想 Vantage 外设管理应用登陆谷歌 Googlebook 平台，意外曝光自家 AI Mouse 智能鼠标新品",
+    "desc": "IT之家 9 月 18 日消息，据外媒 Android Headlines 报道，联想旗下 Vantage 外设管理应用现已正式上架 Google Play 商店。事实上，对于使用过联想 Windows PC 的用户而言…",
+    "source": "IT之家",
+    "url": "https://www.ithome.com/1/003/900.htm"
   },
   {
     "date": "2026-09-17",
@@ -159,30 +187,16 @@ export const news = [
     "desc": "构建个体专属AI助理",
     "source": "量子位",
     "url": "https://www.qbitai.com/2026/09/491649.html"
-  },
-  {
-    "date": "2026-09-11",
-    "title": "科技爱好者周刊（第 412 期）：禁止 issue，只用 PR",
-    "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面 上海前滩太古里举办的\"英雄联盟15周年\"展…",
-    "source": "阮一峰周刊",
-    "url": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-412.html"
-  },
-  {
-    "date": "2026-09-04",
-    "title": "科技爱好者周刊（第 411 期）：OpenClaw 2.0 是一个缩影",
-    "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 宁夏西夏陵使用金属网，将残片还原成石像生…",
-    "source": "阮一峰周刊",
-    "url": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-411.html"
   }
 ];
 
 export const models = [
   {
-    "vendor": "Union Alpha",
-    "name": "union-alpha",
-    "date": "2026-09-16",
-    "desc": "Union Alpha是一个多模态模型，专为研究、编码和代理工作流程而构建，同时在广泛的，上下文 262k。",
-    "url": "https://openrouter.ai/stealth/union-alpha"
+    "vendor": "Pareto",
+    "name": "pareto",
+    "date": "2026-09-18",
+    "desc": "Pareto是一种多模态复合模型，专为研究、编码和代理工作流程而构建，同时在广泛的领域提供前沿水平的性能，上下文 262k。",
+    "url": "https://openrouter.ai/unbiased/pareto"
   },
   {
     "vendor": "Inference.net",
@@ -253,71 +267,71 @@ export const trending = [
   {
     "repo": "alibaba/open-code-review",
     "lang": "Go",
-    "today": 3290,
-    "stars": 33818,
+    "today": 3286,
+    "stars": 34667,
     "desc": "快速、高效、经受住阿里巴巴规模的考验。混合架构代码审核工具：确定性流水线+ LLM Agent、精确的行级注释、内置多语言规则集（ NPE、线程安全、XSS、SQL注入）、OpenAI & Anthropic兼容。"
   },
   {
     "repo": "cloudflare/security-audit-skill",
     "lang": "JavaScript",
-    "today": 3606,
-    "stars": 9452,
+    "today": 3607,
+    "stars": 10566,
     "desc": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果"
   },
   {
     "repo": "addyosmani/agent-skills",
     "lang": "JavaScript",
     "today": 680,
-    "stars": 95858,
+    "stars": 95835,
     "desc": "AI编码代理的生产级工程技能。"
   },
   {
     "repo": "Tencent/BrowserSkill",
     "lang": "TypeScript",
-    "today": 1350,
-    "stars": 3714,
+    "today": 1302,
+    "stars": 4099,
     "desc": "让人工智能代理使用您真实登录的浏览器，而不会中断您的工作。CLI +扩展用于跨任何支持外壳的AI代理的浏览器自动化。"
   },
   {
     "repo": "alphaXiv/OpenResearch",
     "lang": "Rust",
-    "today": 940,
-    "stars": 4895,
+    "today": 939,
+    "stars": 4932,
     "desc": "将您的编码代理转变为研究代理"
   },
   {
     "repo": "anthropics/claude-code",
     "lang": "TypeScript",
     "today": 538,
-    "stars": 145803,
+    "stars": 145860,
     "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
   },
   {
     "repo": "NationalSecurityAgency/ghidra",
     "lang": "Java",
     "today": 912,
-    "stars": 78233,
+    "stars": 78464,
     "desc": "Ghidra是一个软件逆向工程（ SRE ）框架"
   },
   {
     "repo": "anthropics/knowledge-work-plugins",
     "lang": "Python",
     "today": 287,
-    "stars": 24449,
+    "stars": 24552,
     "desc": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库"
   },
   {
     "repo": "Tencent/WeKnora",
     "lang": "Go",
-    "today": 1123,
-    "stars": 26031,
+    "today": 1125,
+    "stars": 26172,
     "desc": "开源LLM知识平台：将原始文档转化为可查询的RAG、自主推理代理和自我维护的Wiki。"
   },
   {
     "repo": "abue-ammar/tinycast",
     "lang": "Swift",
-    "today": 738,
-    "stars": 5964,
+    "today": 739,
+    "stars": 6135,
     "desc": "Tinycast —一个小巧、完全原生的macOS启动器、热键和剪贴板历史记录。"
   }
 ];
@@ -325,61 +339,61 @@ export const trending = [
 export const agentFrameworks = [
   {
     "repo": "anomalyco/opencode",
-    "stars": 208075,
+    "stars": 208193,
     "lang": "TypeScript",
     "desc": "开源编码代理。"
   },
   {
     "repo": "anthropics/claude-code",
-    "stars": 145803,
+    "stars": 145860,
     "lang": "TypeScript",
     "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
   },
   {
     "repo": "Significant-Gravitas/AutoGPT",
-    "stars": 187404,
+    "stars": 187416,
     "lang": "Python",
     "desc": "AutoGPT的愿景是为每个人提供可访问的人工智能，供其使用并以此为基础。我们的使命是提供工具，让您专注于重要的事情。"
   },
   {
     "repo": "openai/codex",
-    "stars": 124906,
+    "stars": 124915,
     "lang": "Rust",
     "desc": "在您的终端中运行的轻量级编码代理"
   },
   {
     "repo": "google-gemini/gemini-cli",
-    "stars": 107033,
+    "stars": 107043,
     "lang": "TypeScript",
     "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端。"
   },
   {
     "repo": "FoundationAgents/MetaGPT",
-    "stars": 70462,
+    "stars": 70474,
     "lang": "Python",
     "desc": "🌟 多Agent框架：第一个人工智能软件公司，迈向自然语言编程"
   },
   {
     "repo": "microsoft/autogen",
-    "stars": 61018,
+    "stars": 61024,
     "lang": "Python",
     "desc": "智能AI的编程框架"
   },
   {
     "repo": "crewAIInc/crewAI",
-    "stars": 58695,
+    "stars": 58710,
     "lang": "Python",
     "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
   },
   {
     "repo": "HKUDS/nanobot",
-    "stars": 48256,
+    "stars": 48285,
     "lang": "Python",
     "desc": "Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序"
   },
   {
     "repo": "openai/openai-agents-python",
-    "stars": 29517,
+    "stars": 29529,
     "lang": "Python",
     "desc": "轻量级、功能强大的多代理工作流程框架"
   }
@@ -388,61 +402,61 @@ export const agentFrameworks = [
 export const skills = [
   {
     "repo": "obra/superpowers",
-    "stars": 287930,
+    "stars": 288122,
     "lang": "Shell",
     "desc": "有效的代理技能框架和软件开发方法。"
   },
   {
     "repo": "mattpocock/skills",
-    "stars": 264109,
+    "stars": 264475,
     "lang": "Shell",
     "desc": "真正工程师的技能。直接来自我的.agents目录。"
   },
   {
     "repo": "affaan-m/ECC",
-    "stars": 260913,
+    "stars": 261149,
     "lang": "JavaScript",
     "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
   },
   {
     "repo": "anthropics/skills",
-    "stars": 176823,
+    "stars": 176889,
     "lang": "Python",
     "desc": "座席技能的公共存储库"
   },
   {
     "repo": "Shubhamsaboo/awesome-llm-apps",
-    "stars": 138619,
+    "stars": 138676,
     "lang": "Python",
     "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
   },
   {
     "repo": "addyosmani/agent-skills",
-    "stars": 95859,
+    "stars": 95836,
     "lang": "JavaScript",
     "desc": "AI编码代理的生产级工程技能。"
   },
   {
     "repo": "mvanhorn/last30days-skill",
-    "stars": 62191,
+    "stars": 62229,
     "lang": "Python",
     "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
   },
   {
     "repo": "tt-a1i/archify",
-    "stars": 65592,
+    "stars": 65819,
     "lang": "JavaScript",
     "desc": "美观、可验证的架构、工作流程、序列、数据流和生命周期图的代理技能--具有运动和清晰导出的自包含HTML。"
   },
   {
     "repo": "coreyhaines31/marketingskills",
-    "stars": 50677,
+    "stars": 50727,
     "lang": "JavaScript",
     "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
   },
   {
     "repo": "blader/humanizer",
-    "stars": 49445,
+    "stars": 49574,
     "lang": "Python",
     "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
   }

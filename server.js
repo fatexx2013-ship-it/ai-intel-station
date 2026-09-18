@@ -89,6 +89,21 @@ const server = http.createServer(async (req, res) => {
       });
     }
     if (p === '/api/boards') return send(res, 200, seed.boards);
+    // ---------- 历史归档 ----------
+    if (p === '/api/archives') {
+      try {
+        const idx = path.join(__dirname, 'docs', 'archive', 'index.json');
+        return send(res, 200, JSON.parse(fs.readFileSync(idx, 'utf8')));
+      } catch { return send(res, 200, []); }
+    }
+    if (p.startsWith('/api/archive/') && req.method === 'GET') {
+      const date = p.split('/').pop();
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return send(res, 400, { error: 'bad date' });
+      const f = path.join(__dirname, 'docs', 'archive', `${date}.json`);
+      try {
+        return send(res, 200, JSON.parse(fs.readFileSync(f, 'utf8')));
+      } catch { return send(res, 404, { error: '该日期暂无归档' }); }
+    }
     if (p === '/api/health') return send(res, 200, { ok: true, updated: seed.meta.generatedAt });
     if (p === '/api/messages' && req.method === 'GET') {
       const b = u.searchParams.get('board');

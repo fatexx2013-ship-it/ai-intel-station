@@ -38,21 +38,63 @@ function repoCard(x, mode) {
 async function load() {
   try {
     const d = await (await fetch('/api/data')).json();
-    $('#genAt').textContent = '数据生成 ' + d.meta.generatedAt;
-    $('#newsList').innerHTML = d.news.map(newsCard).join('');
-    $('#modelsList').innerHTML = d.models.map(modelCard).join('');
-    $('#trendingList').innerHTML = d.trending.map(x => repoCard(x, 'today')).join('');
-    $('#agentList').innerHTML = d.agentFrameworks.map(x => repoCard(x, 'stars')).join('');
-    $('#skillsList').innerHTML = d.skills.map(x => repoCard(x, 'stars')).join('');
-    const chip = $('#liveChip');
-    chip.textContent = '每日 05:00 / 17:00 自动更新 · 描述已汉化';
-    chip.className = 'chip live-chip on';
+    renderAll(d, false);
     if (d.boards && !state.board) { BOARDS = d.boards; switchBoard(BOARDS[0].id); }
   } catch (e) {
     $('#newsList').innerHTML = '<p class="err">数据加载失败：' + esc(e.message) + '</p>';
     $('#liveChip').textContent = '数据源连接异常'; $('#liveChip').className = 'chip live-chip off';
   }
 }
+
+function renderAll(d, isArchive) {
+  $('#genAt').textContent = '数据生成 ' + (d.meta.generatedAt || '—');
+  $('#newsList').innerHTML = d.news.map(newsCard).join('');
+  $('#modelsList').innerHTML = d.models.map(modelCard).join('');
+  $('#trendingList').innerHTML = d.trending.map(x => repoCard(x, 'today')).join('');
+  $('#agentList').innerHTML = d.agentFrameworks.map(x => repoCard(x, 'stars')).join('');
+  $('#skillsList').innerHTML = d.skills.map(x => repoCard(x, 'stars')).join('');
+  const chip = $('#liveChip');
+  if (isArchive) {
+    chip.textContent = '⏮ 正在浏览 ' + d.meta.generatedAt + ' 的历史快照';
+    chip.className = 'chip live-chip off';
+  } else {
+    chip.textContent = '每日 05:00 / 17:00 自动更新 · 描述已汉化';
+    chip.className = 'chip live-chip on';
+  }
+}
+
+// ---------- 历史归档 ----------
+async function loadArchiveIndex() {
+  try {
+    const dates = await (await fetch('/api/archives')).json();
+    const sel = $('#archiveSelect');
+    dates.forEach(dt => {
+      const o = document.createElement('option');
+      o.value = dt; o.textContent = dt;
+      sel.appendChild(o);
+    });
+  } catch {}
+}
+
+async function loadArchive(date) {
+  try {
+    const d = await (await fetch(`/api/archive/${date}`)).json();
+    renderAll(d, true);
+    document.querySelector('.hero').scrollIntoView({ behavior: 'smooth' });
+  } catch (e) {
+    $('#liveChip').textContent = '归档 ' + date + ' 加载失败'; $('#liveChip').className = 'chip live-chip off';
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const sel = $('#archiveSelect');
+  if (sel) {
+    sel.addEventListener('change', () => {
+      if (sel.value) loadArchive(sel.value); else load();
+    });
+  }
+  loadArchiveIndex();
+});
 
 // ---------- 讨论区（多子版块 + 回复 + 点赞收藏）----------
 let BOARDS = [];

@@ -274,6 +274,30 @@ function writeDataJSON(d) {
   fs.writeFileSync(DATA_JSON, JSON.stringify(out, null, 2));
 }
 
+// ---------- 6. 历史归档（方案 A：git 仓库即数据库）----------
+// 每次更新把当日完整快照存入 docs/archive/YYYY-MM-DD.json，并维护日期索引
+const ARCHIVE_DIR = path.join(ROOT, 'docs', 'archive');
+function writeArchive(d) {
+  fs.mkdirSync(ARCHIVE_DIR, { recursive: true });
+  const date = todayCN();
+  const snapshot = {
+    meta: { ...d.meta, generatedAt: date },
+    news: d.news, models: d.models, trending: d.trending,
+    agentFrameworks: d.agentFrameworks, skills: d.skills,
+    boards: d.boards
+  };
+  // 当天快照（同一天多次更新只保留最后一次）
+  fs.writeFileSync(path.join(ARCHIVE_DIR, `${date}.json`), JSON.stringify(snapshot, null, 2));
+  // 日期索引：合并已有归档日期，倒序排列
+  const indexFile = path.join(ARCHIVE_DIR, 'index.json');
+  let dates = [];
+  try { dates = JSON.parse(fs.readFileSync(indexFile, 'utf8')); } catch {}
+  if (!dates.includes(date)) dates.push(date);
+  dates.sort().reverse();
+  fs.writeFileSync(indexFile, JSON.stringify(dates, null, 2));
+  console.log(`📦 历史归档：${date}（累计 ${dates.length} 天）`);
+}
+
 // ---------- 主流程 ----------
 async function main() {
   console.log(`=== 数据更新开始 ${new Date().toISOString()} ===`);
@@ -316,6 +340,7 @@ async function main() {
 
   writeDataJS(result);
   writeDataJSON(result);
+  writeArchive(result);
   console.log('\n=== 更新报告 ===');
   for (const r of report) console.log('  ' + r);
   console.log(`\n✅ 写入完成：data.js + docs/data.json（${todayCN()}）`);
