@@ -1,15 +1,43 @@
 {
   "meta": {
-    "generatedAt": "2026-09-23",
+    "generatedAt": "2026-09-24",
     "note": "所有条目均附真实出处；描述与外文内容已自动汉化。星标数据来自 GitHub API，模型数据来自 OpenRouter 公开接口，新闻来自中文科技媒体 RSS。"
   },
   "news": [
     {
-      "date": "2026-09-23",
-      "title": "报告：美国人开始问 AI“吃什么零食”，高蛋白和重口味食品需求增长",
-      "desc": "IT之家 9 月 23 日消息，据路透社报道，康尼格拉食品公司（Conagra Brands）称，越来越多美国消费者开始向人工智能询问“该吃什么零食”。这家 Slim Jim 肉类零食棒制造商表示，这一消费习惯正在推动高…",
+      "date": "2026-09-24",
+      "title": "黄仁勋对 AI 公司放话：要求监管就不应获得反垄断豁免",
+      "desc": "北京时间 9 月 24 日，据路透社报道，英伟达 CEO 黄仁勋 (Jensen Huang) 认为，AI 公司不应获得反垄断法或责任法的豁免。在周三播出的《纽约时报》播客节目中，黄仁勋接受了近两个小时的采访，就 Ope…",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/006/471.htm"
+      "url": "https://www.ithome.com/1/006/514.htm"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "已证实首例：澳大利亚政府网站遭 OpenAI 智能体入侵",
+      "desc": "9 月 23 日，据路透社报道，澳大利亚总理安东尼 · 阿尔巴尼斯（Anthony Albanese）表示，OpenAI 开发的一款 AI 智能体在 6 月未经授权侵入了澳大利亚政府网站，访问了公共和非公共文件。这是已知…",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/006/515.htm"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "高通发布第二代骁龙音频平台至尊版：AI 能力翻倍、功耗降低 40%",
+      "desc": "IT之家 9 月 24 日消息，在夏威夷举办的 2026 骁龙峰会上，高通在宣布第六代骁龙 8 至尊版和第六代骁龙 8 超级至尊版芯片后，今天发布第二代骁龙音频平台至尊版。这也是高通首款融合优质音频、语音技术、终端侧智能…",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/006/516.htm"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯",
+      "desc": "IT之家 9 月 24 日消息，消息源 @itspdfu 今天（9 月 24 日）在 X 平台发布推文，挖掘 audioOS 27 系统，发现了适用于 HomePod 的 Siri AI 交互体验。IT之家注：audio…",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/006/519.htm"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "谷歌推出 Gemini 3.8 Flash / Flash-Lite 文本转语音模型，每一行台词都能精确控制",
+      "desc": "IT之家 9 月 23 日消息，谷歌今日宣布，Gemini 家族新增两款全新文本转语音模型，将语音生成从静态预设转变为动态创意工作室，能够帮助创作者、开发者和企业打造更丰富、更具表现力的音频体验，同时为 Gemini N…",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/006/509.htm"
     },
     {
       "date": "2026-09-23",
@@ -45,23 +73,37 @@
       "desc": "联想天禧AI携全场景多端产品矩阵亮相阿里云栖大会",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/09/496609.html"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "科技爱好者周刊（第 413 期）：再见了，React Native",
-      "desc": "这里记录每周值得分享的科技内容，周五发布。（[通知] 下周五开始的中秋和十一假期，周刊休息。） 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）…",
-      "source": "阮一峰周刊",
-      "url": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html"
-    },
-    {
-      "date": "2026-09-11",
-      "title": "科技爱好者周刊（第 412 期）：禁止 issue，只用 PR",
-      "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面 上海前滩太古里举办的\"英雄联盟15周年\"展…",
-      "source": "阮一峰周刊",
-      "url": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-412.html"
     }
   ],
   "models": [
+    {
+      "vendor": "Z.ai",
+      "name": "GLM 5.3 Prime",
+      "date": "2026-09-24",
+      "desc": "GLM-5，上下文 1000k。",
+      "url": "https://openrouter.ai/z-ai/glm-5.3-prime"
+    },
+    {
+      "vendor": "Qwen",
+      "name": "Qwen3.8 Max Prime",
+      "date": "2026-09-24",
+      "desc": "Qwen3，上下文 1000k。",
+      "url": "https://openrouter.ai/qwen/qwen3.8-max-prime"
+    },
+    {
+      "vendor": "Space Bunny Alpha",
+      "name": "space-bunny-alpha",
+      "date": "2026-09-23",
+      "desc": "Space Bunny Alpha是一个匿名大型模型，具有超快的推理能力、强大的编码能力和本地多模态输入支持，上下文 1000k。",
+      "url": "https://openrouter.ai/stealth/space-bunny-alpha"
+    },
+    {
+      "vendor": "AionLabs",
+      "name": "Aion 3.5 Mini",
+      "date": "2026-09-23",
+      "desc": "AION 3，上下文 262k。",
+      "url": "https://openrouter.ai/aion-labs/aion-3.5-mini"
+    },
     {
       "vendor": "AionLabs",
       "name": "Aion 3.5",
@@ -103,34 +145,6 @@
       "date": "2026-09-23",
       "desc": "GPT-6 Luna是OpenAI GPT-6系列中快速、经济高效的型号，位于GPT-6 Sol之下，上下文 1050k。",
       "url": "https://openrouter.ai/openai/gpt-6-luna"
-    },
-    {
-      "vendor": "OpenAI",
-      "name": "GPT-6 Luna (batch)",
-      "date": "2026-09-23",
-      "desc": "GPT-6 Luna是OpenAI GPT-6系列中快速、经济高效的型号，位于GPT-6 Sol之下，上下文 1050k。",
-      "url": "https://openrouter.ai/openai/gpt-6-luna:batch"
-    },
-    {
-      "vendor": "OpenAI",
-      "name": "GPT-6 Sol Pro",
-      "date": "2026-09-23",
-      "desc": "GPT-6 Sol Pro与[GPT-6 Sol] (https://openrouter相同的基础模型，上下文 1050k。",
-      "url": "https://openrouter.ai/openai/gpt-6-sol-pro"
-    },
-    {
-      "vendor": "OpenAI",
-      "name": "GPT-6 Sol Pro (batch)",
-      "date": "2026-09-23",
-      "desc": "GPT-6 Sol Pro与[GPT-6 Sol] (https://openrouter相同的基础模型，上下文 1050k。",
-      "url": "https://openrouter.ai/openai/gpt-6-sol-pro:batch"
-    },
-    {
-      "vendor": "OpenAI",
-      "name": "GPT-6 Sol",
-      "date": "2026-09-23",
-      "desc": "GPT-6 Sol是OpenAI GPT-6系列中具有成本效益的高端型号，位于旗舰GPT-6 Astra之下，位于快速GPT-6 Luna层之上，上下文 1050k。",
-      "url": "https://openrouter.ai/openai/gpt-6-sol"
     }
   ],
   "trending": [
@@ -138,101 +152,101 @@
       "repo": "anthropics/financial-services",
       "lang": "Python",
       "today": 665,
-      "stars": 36742,
+      "stars": 36918,
       "desc": "暂无项目简介。"
     },
     {
       "repo": "google/ax",
       "lang": "Go",
       "today": 1542,
-      "stars": 8471,
+      "stars": 9007,
       "desc": "Google的开放代理编排运行时"
     },
     {
       "repo": "davila7/claude-code-templates",
       "lang": "Python",
       "today": 393,
-      "stars": 31344,
+      "stars": 31482,
       "desc": "用于配置和监控Claude Code的CLI工具"
     },
     {
       "repo": "BuilderIO/agent-native",
       "lang": "TypeScript",
-      "today": 609,
-      "stars": 6400,
+      "today": 135,
+      "stars": 6522,
       "desc": "构建代理应用的框架"
     },
     {
       "repo": "obra/superpowers",
       "lang": "Shell",
-      "today": 528,
-      "stars": 290477,
+      "today": 485,
+      "stars": 290668,
       "desc": "有效的代理技能框架和软件开发方法。"
     },
     {
       "repo": "dream-num/univer",
       "lang": "TypeScript",
       "today": 1140,
-      "stars": 16104,
+      "stars": 16307,
       "desc": "适用于AI代理的Office线束—电子表格、文档、幻灯片、画布、关系表和PDF在一个运行时中。"
     },
     {
       "repo": "Open-Dev-Society/OpenStock",
       "lang": "TypeScript",
-      "today": 832,
-      "stars": 18593,
+      "today": 379,
+      "stars": 18796,
       "desc": "OpenStock是昂贵市场平台的开源替代品。实时跟踪价格，设置个性化提醒，并探索详细的公司洞察--为每个人公开构建，永远免费。"
     },
     {
       "repo": "agent-substrate/substrate",
       "lang": "Go",
       "today": 560,
-      "stars": 3294,
+      "stars": 3478,
       "desc": "Agent Substrate ：核心系统"
     },
     {
       "repo": "strands-agents/harness-sdk",
       "lang": "Python",
       "today": 96,
-      "stars": 7648,
+      "stars": 7827,
       "desc": "构建代理线束并进行端到端控制。适用于Python和TypeScript中生产AI代理的开源SDK -任何模型，任何云。"
     },
     {
       "repo": "HKUDS/CLI-Anything",
       "lang": "Python",
       "today": 41,
-      "stars": 49769,
+      "stars": 49902,
       "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
     }
   ],
   "agentFrameworks": [
     {
       "repo": "anomalyco/opencode",
-      "stars": 209581,
+      "stars": 209663,
       "lang": "TypeScript",
       "desc": "开源编码代理。"
     },
     {
       "repo": "anthropics/claude-code",
-      "stars": 147758,
+      "stars": 147805,
       "lang": "TypeScript",
       "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
     },
     {
       "repo": "Significant-Gravitas/AutoGPT",
-      "stars": 187509,
+      "stars": 187516,
       "lang": "Python",
       "desc": "AutoGPT的愿景是为每个人提供可访问的人工智能，供其使用并以此为基础。我们的使命是提供工具，让您专注于重要的事情。"
     },
     {
       "repo": "openai/codex",
-      "stars": 126135,
+      "stars": 126175,
       "lang": "Rust",
       "desc": "在您的终端中运行的轻量级编码代理"
     },
     {
       "repo": "google-gemini/gemini-cli",
-      "stars": 107140,
+      "stars": 107139,
       "lang": "TypeScript",
       "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端。"
     },
@@ -244,25 +258,25 @@
     },
     {
       "repo": "microsoft/autogen",
-      "stars": 61118,
+      "stars": 61127,
       "lang": "Python",
       "desc": "智能AI的编程框架"
     },
     {
       "repo": "crewAIInc/crewAI",
-      "stars": 58941,
+      "stars": 58957,
       "lang": "Python",
       "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
     },
     {
       "repo": "HKUDS/nanobot",
-      "stars": 48505,
+      "stars": 48517,
       "lang": "Python",
       "desc": "Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序"
     },
     {
       "repo": "openai/openai-agents-python",
-      "stars": 29653,
+      "stars": 29661,
       "lang": "Python",
       "desc": "轻量级、功能强大的多代理工作流程框架"
     }
@@ -270,61 +284,61 @@
   "skills": [
     {
       "repo": "obra/superpowers",
-      "stars": 290477,
+      "stars": 290669,
       "lang": "Shell",
       "desc": "有效的代理技能框架和软件开发方法。"
     },
     {
       "repo": "mattpocock/skills",
-      "stars": 268265,
+      "stars": 268470,
       "lang": "Shell",
       "desc": "真正工程师的技能。直接来自我的.agents目录。"
     },
     {
       "repo": "affaan-m/ECC",
-      "stars": 265896,
+      "stars": 266176,
       "lang": "JavaScript",
       "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
     },
     {
       "repo": "anthropics/skills",
-      "stars": 177770,
+      "stars": 177821,
       "lang": "Python",
       "desc": "座席技能的公共存储库"
     },
     {
       "repo": "Shubhamsaboo/awesome-llm-apps",
-      "stars": 139526,
+      "stars": 139563,
       "lang": "Python",
       "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
     },
     {
       "repo": "addyosmani/agent-skills",
-      "stars": 98625,
+      "stars": 98703,
       "lang": "JavaScript",
       "desc": "AI编码代理的生产级工程技能。"
     },
     {
       "repo": "mvanhorn/last30days-skill",
-      "stars": 62700,
+      "stars": 62720,
       "lang": "Python",
       "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
     },
     {
       "repo": "tt-a1i/archify",
-      "stars": 70384,
+      "stars": 70574,
       "lang": "JavaScript",
       "desc": "美观、可验证的架构、工作流程、序列、数据流和生命周期图的代理技能--具有运动和清晰导出的自包含HTML。"
     },
     {
       "repo": "coreyhaines31/marketingskills",
-      "stars": 51278,
+      "stars": 51329,
       "lang": "JavaScript",
       "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
     },
     {
       "repo": "blader/humanizer",
-      "stars": 51583,
+      "stars": 51666,
       "lang": "Python",
       "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
     }
