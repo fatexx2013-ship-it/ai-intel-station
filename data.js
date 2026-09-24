@@ -1,11 +1,11 @@
-// AI 情报站 — 数据文件（由 scripts/update-data.mjs 自动生成于 2026-09-24）
+// AI 情报站 — 数据文件（由 scripts/update-data.mjs 自动生成于 2026-09-25）
 // news: AI 新闻（中文 RSS：机器之心/量子位/IT之家）
 // models: OpenRouter 最新上架模型（描述已汉化）
 // trending: GitHub 今日热门（含总星数，描述已汉化）
 // agentFrameworks / skills: 固定榜单，自动刷新星数（描述已汉化）
 
 export const meta = {
-  "generatedAt": "2026-09-24",
+  "generatedAt": "2026-09-25",
   "note": "所有条目均附真实出处；描述与外文内容已自动汉化。星标数据来自 GitHub API，模型数据来自 OpenRouter 公开接口，新闻来自中文科技媒体 RSS。"
 };
 
@@ -119,32 +119,18 @@ export const seedPosts = [
 
 export const news = [
   {
-    "date": "2026-09-24",
-    "title": "三巨头联手，曝谷歌、OpenAI、Anthropic 拟共同组建 AI 安全标准自律组织",
-    "desc": "IT之家 9 月 24 日消息，The Information 今天（24 日）晚间援引知情人士消息称，谷歌、OpenAI 和 Anthropic 三家 AI 公司正自行推进成立 AI 安全标准机构的计划，希望在没有政府…",
+    "date": "2026-09-25",
+    "title": "英伟达黄仁勋：AI 不会必然消灭某个职业，“10 年内 AI 毁灭人类”更是无稽之谈",
+    "desc": "IT之家 9 月 25 日消息，在接受《纽约时报》采访时，英伟达首席执行官黄仁勋认为，当前行业和民众对 AI 的恐慌情绪已经过头了，并认为当前 AI 不一定会替代职业，但会首先替代任务。黄仁勋把工作拆分为任务（例如写代码…",
     "source": "IT之家",
-    "url": "https://www.ithome.com/1/007/016.htm"
+    "url": "https://www.ithome.com/1/007/051.htm"
   },
   {
-    "date": "2026-09-24",
-    "title": "海信新一代性能旗舰E7S Pro+正式发布，原生真彩再进阶",
-    "desc": "9月23日，2026海信电视秋季新品发布会上，定位“原生真彩，性能旗舰”的RGB-Mini LED新品E7S Pro+正式发布",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/09/496658.html"
-  },
-  {
-    "date": "2026-09-24",
-    "title": "5分钟完成机器人纳管、10秒启动跨集群任务，清华大学联合无问芯穹开源具身智能云原生平台RLark",
-    "desc": "开源一座具身智能的新“塔台”",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/09/496767.html"
-  },
-  {
-    "date": "2026-09-24",
-    "title": "教机器人干活，光“刷课时”可不够！灵初这次较真数据质量",
-    "desc": "专治人机动作对不齐",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/09/496778.html"
+    "date": "2026-09-25",
+    "title": "IT早报 0925：李佳琦称 AI 无法取代真人主播；华为余承东称会让每个界都获更充足资源；营业厅“0 元购机”全面停办；国补 5499 元荣耀 Magic9 价格提前公布...",
+    "desc": "“IT早报”时间，大家好，现在是 2026 年 9 月 25 日星期五，今天的重要科技资讯有：1. 外媒关注中国直播带货，李佳琦称 AI 无法取代真人主播如今，尽管行业增长放缓，AI 也正在重塑这一领域，但李佳琦仍然认为…",
+    "source": "IT之家",
+    "url": "https://www.ithome.com/1/007/058.htm"
   },
   {
     "date": "2026-09-24",
@@ -159,6 +145,27 @@ export const news = [
     "desc": "人类演示一次，机器人即可实现跨场景任务复用",
     "source": "量子位",
     "url": "https://www.qbitai.com/2026/09/496816.html"
+  },
+  {
+    "date": "2026-09-24",
+    "title": "时隔十年，AI大牛署名新论文",
+    "desc": "让自动驾驶“走一步想十步”",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/09/496834.html"
+  },
+  {
+    "date": "2026-09-24",
+    "title": "PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
+    "desc": "1.5台6000D跑赢1台B300！",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/09/496925.html"
+  },
+  {
+    "date": "2026-09-24",
+    "title": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
+    "desc": "懂出海，能记忆，自进化",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/09/496961.html"
   },
   {
     "date": "2026-09-18",
@@ -254,70 +261,70 @@ export const trending = [
     "repo": "rohitg00/ai-engineering-from-scratch",
     "lang": "Python",
     "today": 310,
-    "stars": 56023,
+    "stars": 56525,
     "desc": "学习它，构建它。为其他人运送。"
   },
   {
     "repo": "vectorize-io/hindsight",
     "lang": "Python",
     "today": 1607,
-    "stars": 27043,
+    "stars": 27752,
     "desc": "后见之明：学习的客服代表记忆"
   },
   {
     "repo": "dream-num/univer",
     "lang": "TypeScript",
     "today": 1060,
-    "stars": 17159,
+    "stars": 17566,
     "desc": "适用于AI代理的Office线束—电子表格、文档、幻灯片、画布、关系表和PDF在一个运行时中。"
   },
   {
     "repo": "google/ax",
     "lang": "Go",
     "today": 1376,
-    "stars": 9800,
+    "stars": 10383,
     "desc": "Google的开放代理编排运行时"
   },
   {
     "repo": "NVIDIA/Model-Optimizer",
     "lang": "Python",
     "today": 22,
-    "stars": 3914,
+    "stars": 4064,
     "desc": "量化、蒸馏、修剪、神经架构搜索、推测解码等SOTA模型优化技术的统一库。它压缩了TensorRT-LLM、TensorRT、vLLM等下游部署框架的深度学习模型，以优化推理速度。"
   },
   {
     "repo": "FxEmbed/FxEmbed",
     "lang": "TypeScript",
     "today": 165,
-    "stars": 5285,
+    "stars": 5360,
     "desc": "修复X/Twitter和Bluesky嵌入！在Discord、Telegram和其他平台上使用多个图片、视频、民意调查、翻译等"
   },
   {
     "repo": "anthropics/financial-services",
     "lang": "Python",
     "today": 510,
-    "stars": 37224,
+    "stars": 37345,
     "desc": "暂无项目简介。"
   },
   {
     "repo": "HKUDS/CLI-Anything",
     "lang": "Python",
     "today": 415,
-    "stars": 50172,
+    "stars": 50323,
     "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
   },
   {
     "repo": "mvt-project/mvt",
     "lang": "Python",
     "today": 275,
-    "stars": 14618,
+    "stars": 14722,
     "desc": "MVT （移动验证工具包）有助于对移动设备进行取证，以发现潜在泄露的迹象。"
   },
   {
     "repo": "obra/superpowers",
     "lang": "Shell",
     "today": 606,
-    "stars": 291016,
+    "stars": 291223,
     "desc": "有效的代理技能框架和软件开发方法。"
   }
 ];
@@ -325,61 +332,61 @@ export const trending = [
 export const agentFrameworks = [
   {
     "repo": "anomalyco/opencode",
-    "stars": 209802,
+    "stars": 209894,
     "lang": "TypeScript",
     "desc": "开源编码代理。"
   },
   {
     "repo": "anthropics/claude-code",
-    "stars": 147907,
+    "stars": 147964,
     "lang": "TypeScript",
     "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
   },
   {
     "repo": "Significant-Gravitas/AutoGPT",
-    "stars": 187523,
+    "stars": 187531,
     "lang": "Python",
     "desc": "AutoGPT的愿景是为每个人提供可访问的人工智能，供其使用并以此为基础。我们的使命是提供工具，让您专注于重要的事情。"
   },
   {
     "repo": "openai/codex",
-    "stars": 126304,
+    "stars": 126350,
     "lang": "Rust",
     "desc": "在您的终端中运行的轻量级编码代理"
   },
   {
     "repo": "google-gemini/gemini-cli",
-    "stars": 107144,
+    "stars": 107153,
     "lang": "TypeScript",
     "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端。"
   },
   {
     "repo": "FoundationAgents/MetaGPT",
-    "stars": 70588,
+    "stars": 70597,
     "lang": "Python",
     "desc": "🌟 多Agent框架：第一个人工智能软件公司，迈向自然语言编程"
   },
   {
     "repo": "microsoft/autogen",
-    "stars": 61141,
+    "stars": 61147,
     "lang": "Python",
     "desc": "智能AI的编程框架"
   },
   {
     "repo": "crewAIInc/crewAI",
-    "stars": 58978,
+    "stars": 58987,
     "lang": "Python",
     "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
   },
   {
     "repo": "HKUDS/nanobot",
-    "stars": 48545,
+    "stars": 48552,
     "lang": "Python",
     "desc": "Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序"
   },
   {
     "repo": "openai/openai-agents-python",
-    "stars": 29675,
+    "stars": 29682,
     "lang": "Python",
     "desc": "轻量级、功能强大的多代理工作流程框架"
   }
@@ -388,61 +395,61 @@ export const agentFrameworks = [
 export const skills = [
   {
     "repo": "obra/superpowers",
-    "stars": 291018,
+    "stars": 291223,
     "lang": "Shell",
     "desc": "有效的代理技能框架和软件开发方法。"
   },
   {
     "repo": "mattpocock/skills",
-    "stars": 268887,
+    "stars": 269120,
     "lang": "Shell",
     "desc": "真正工程师的技能。直接来自我的.agents目录。"
   },
   {
     "repo": "affaan-m/ECC",
-    "stars": 266537,
+    "stars": 266881,
     "lang": "JavaScript",
     "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
   },
   {
     "repo": "anthropics/skills",
-    "stars": 177914,
+    "stars": 177985,
     "lang": "Python",
     "desc": "座席技能的公共存储库"
   },
   {
     "repo": "Shubhamsaboo/awesome-llm-apps",
-    "stars": 139625,
+    "stars": 139664,
     "lang": "Python",
     "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
   },
   {
     "repo": "addyosmani/agent-skills",
-    "stars": 98817,
+    "stars": 98891,
     "lang": "JavaScript",
     "desc": "AI编码代理的生产级工程技能。"
   },
   {
     "repo": "mvanhorn/last30days-skill",
-    "stars": 62748,
+    "stars": 62768,
     "lang": "Python",
     "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
   },
   {
     "repo": "tt-a1i/archify",
-    "stars": 71026,
+    "stars": 71220,
     "lang": "JavaScript",
     "desc": "美观、可验证的架构、工作流程、序列、数据流和生命周期图的代理技能--具有运动和清晰导出的自包含HTML。"
   },
   {
     "repo": "coreyhaines31/marketingskills",
-    "stars": 51393,
+    "stars": 51424,
     "lang": "JavaScript",
     "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
   },
   {
     "repo": "blader/humanizer",
-    "stars": 51790,
+    "stars": 51861,
     "lang": "Python",
     "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
   }
