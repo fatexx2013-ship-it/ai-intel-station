@@ -1,12 +1,12 @@
-// AI 情报站 — 数据文件（由 scripts/update-data.mjs 自动生成于 2026-09-25）
-// news: AI 新闻（中文 RSS：机器之心/量子位/IT之家）
+// AI 情报站 — 数据文件（由值班助手自动更新于 2026-09-25）
+// news: AI 新闻（中文科技媒体 / 国际媒体）
 // models: OpenRouter 最新上架模型（描述已汉化）
-// trending: GitHub 今日热门（含总星数，描述已汉化）
-// agentFrameworks / skills: 固定榜单，自动刷新星数（描述已汉化）
+// trending: GitHub 今日热门（含今日新增星数，描述已汉化）
+// agentFrameworks / skills: 热门榜单（描述已汉化）
 
 export const meta = {
   "generatedAt": "2026-09-25",
-  "note": "所有条目均附真实出处；描述与外文内容已自动汉化。星标数据来自 GitHub API，模型数据来自 OpenRouter 公开接口，新闻来自中文科技媒体 RSS。"
+  "note": "所有条目均附真实出处；描述与外文内容已自动汉化。模型数据来自 OpenRouter 公开接口，GitHub 数据来自公开 trending 页面与搜索接口，新闻来自可核实的科技媒体。"
 };
 
 export const boards = [
@@ -120,337 +120,344 @@ export const seedPosts = [
 export const news = [
   {
     "date": "2026-09-25",
-    "title": "英伟达黄仁勋：AI 不会必然消灭某个职业，“10 年内 AI 毁灭人类”更是无稽之谈",
-    "desc": "IT之家 9 月 25 日消息，在接受《纽约时报》采访时，英伟达首席执行官黄仁勋认为，当前行业和民众对 AI 的恐慌情绪已经过头了，并认为当前 AI 不一定会替代职业，但会首先替代任务。黄仁勋把工作拆分为任务（例如写代码…",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/007/051.htm"
-  },
-  {
-    "date": "2026-09-25",
-    "title": "IT早报 0925：李佳琦称 AI 无法取代真人主播；华为余承东称会让每个界都获更充足资源；营业厅“0 元购机”全面停办；国补 5499 元荣耀 Magic9 价格提前公布...",
-    "desc": "“IT早报”时间，大家好，现在是 2026 年 9 月 25 日星期五，今天的重要科技资讯有：1. 外媒关注中国直播带货，李佳琦称 AI 无法取代真人主播如今，尽管行业增长放缓，AI 也正在重塑这一领域，但李佳琦仍然认为…",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/007/058.htm"
+    "title": "AI医疗公司OpenEvidence融资2.5亿美元，估值升至150亿美元",
+    "desc": "面向医生的AI搜索平台OpenEvidence近期完成2.5亿美元新一轮融资，由多家医院系统及安德森·霍洛维茨领投，估值升至150亿美元，较今年1月估值增长25%。该公司自2025年1月融资以来已累计融资超10亿美元。",
+    "source": "DoNews/IT之家",
+    "url": "https://www.donews.com/news/detail/8/6724178.html"
   },
   {
     "date": "2026-09-24",
-    "title": "Stripe Tour 中国首秀：构建 AI 经济基础设施，赋能全球商业增长",
-    "desc": "Stripe Managed Payments (SMP) 现已全面上线",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/09/496779.html"
+    "title": "白宫要求OpenAI等暂缓向英国测试机构提供新模型",
+    "desc": "据美国《政客新闻网》9月24日报道，白宫要求OpenAI和Anthropic暂缓向英国AI安全研究所提供新模型，直到美国完成审查。此举令企业面临两难：拒绝将模型提供给英国测试机构，或引发特朗普政府不满。",
+    "source": "观察者网（引用Politico）",
+    "url": "http://m.toutiao.com/group/7689373624368628224/"
   },
   {
-    "date": "2026-09-24",
-    "title": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
-    "desc": "人类演示一次，机器人即可实现跨场景任务复用",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/09/496816.html"
+    "date": "2026-09-23",
+    "title": "高通发布第六代骁龙8至尊版双旗舰平台，押注智能体AI",
+    "desc": "9月22日，高通在夏威夷骁龙峰会推出第六代骁龙8至尊版与第六代骁龙8超级至尊版两款旗舰移动平台，首次采用双旗舰策略。两款平台均围绕智能体AI、性能、游戏、影像与连接能力升级，高通CEO安蒙表示智能体时代已经到来。",
+    "source": "高通中国/新华网",
+    "url": "https://www.qualcomm.cn/news/releases/2026/09/releases-2026-09-22"
   },
   {
-    "date": "2026-09-24",
-    "title": "时隔十年，AI大牛署名新论文",
-    "desc": "让自动驾驶“走一步想十步”",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/09/496834.html"
+    "date": "2026-09-23",
+    "title": "当虹科技发布ArcSmartCut视频剪辑智能体",
+    "desc": "在2026高通骁龙峰会现场，当虹科技正式发布ArcSmartCut视频剪辑智能体。该产品依托第六代骁龙8超级至尊版移动平台，以夏威夷风光、体育赛事等视频为素材完成了智能剪辑演示，展示Agentic AI在视频处理领域的应用。",
+    "source": "每日经济新闻",
+    "url": "http://m.toutiao.com/group/7689271767211098664/"
   },
   {
-    "date": "2026-09-24",
-    "title": "PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
-    "desc": "1.5台6000D跑赢1台B300！",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/09/496925.html"
+    "date": "2026-09-23",
+    "title": "OpenAI发布GPT-6 Sol和Luna两款模型，MentalHealthBench上线",
+    "desc": "OpenAI于9月22日推出GPT-6 Sol和Luna两款模型，面向不同能力与成本组合的日常工作场景。同日，OpenAI研究页显示MentalHealthBench正式上线，这是基于专家意见设立的心理健康对话基准，用于评估AI在真实心理对话中能否提供实用且安全的回应。",
+    "source": "OpenAI官网",
+    "url": "https://openai.com/zh-Hans-CN/research/index/"
   },
   {
-    "date": "2026-09-24",
-    "title": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
-    "desc": "懂出海，能记忆，自进化",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/09/496961.html"
+    "date": "2026-09-22",
+    "title": "NVIDIA发布Isaac ROS 5.0，推动Agentic开源机器人开发",
+    "desc": "NVIDIA于9月22日发布Isaac ROS 5.0，将AI Agent能力引入ROS开发者生态系统，扩展开源物理AI库并部署至NVIDIA Jetson平台。该产品旨在帮助开发者构建能够在动态环境中感知、推理和行动的高级机器人应用。",
+    "source": "NVIDIA官方博客",
+    "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
   },
   {
-    "date": "2026-09-18",
-    "title": "科技爱好者周刊（第 413 期）：再见了，React Native",
-    "desc": "这里记录每周值得分享的科技内容，周五发布。（[通知] 下周五开始的中秋和十一假期，周刊休息。） 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）…",
-    "source": "阮一峰周刊",
-    "url": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html"
+    "date": "2026-09-22",
+    "title": "NVIDIA AI Day Singapore展示东南亚AI技术进展",
+    "desc": "NVIDIA AI Day Singapore于9月22日至23日在新加坡莱佛士城会议中心举行，NVIDIA与合作伙伴展示AI、Agentic AI和Physical AI在东南亚地区的最新进展。活动包括专家主导的会话、高级工具和实操培训，帮助企业从实验走向规模化生产。",
+    "source": "NVIDIA新闻",
+    "url": "https://nvidianews.nvidia.com/news/latest"
   },
   {
-    "date": "2026-09-11",
-    "title": "科技爱好者周刊（第 412 期）：禁止 issue，只用 PR",
-    "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面 上海前滩太古里举办的\"英雄联盟15周年\"展…",
-    "source": "阮一峰周刊",
-    "url": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-412.html"
+    "date": "2026-09-20",
+    "title": "Nature研究：AI重生到1900年，抢先爱因斯坦提出光量子",
+    "desc": "量子位报道，独立研究者Michael Hla将知识截止时间提前至1900年，从零训练历史语言模型GPT-1900，试图让AI重新发现光量子、狭义相对论和广义相对论。实验结果显示，GPT-1900输出了与爱因斯坦1905年论文高度相似的论述，引发学术界关注。",
+    "source": "量子位/36氪",
+    "url": "https://hub-assets-cache.baai.ac.cn/view/58121"
+  },
+  {
+    "date": "2026-09-20",
+    "title": "谷歌Dream-RSI：AI靠「做梦」学会递归自我改进",
+    "desc": "36氪报道，谷歌联合Google DeepMind、马里兰大学及弗吉尼亚大学发表Dream-RSI论文，提出让AI将过往实验记录存储为一棵树，并在「梦中」比较不同探索策略，从而提升递归自我改进效率。该系统无需重新训练Gemini，即可让AI持续进化。",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3986951406173191"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "高通骁龙峰会第二天：展示Agentic AI手机跨应用自动执行任务",
+    "desc": "据Chosun报道，在夏威夷毛伊岛举行的2026骁龙峰会进入第二天，高通详细展示了基于下一代骁龙平台的Agentic AI技术。高通产品管理副总裁维尼希·苏库马尔将移动AI演进描述为从感知AI到生成式AI、再到Agentic AI的路径，强调手机将作为个人AI的核心计算和调度中心。",
+    "source": "IT时代网（引用Chosun）",
+    "url": "http://m.toutiao.com/group/7689297495365370410/"
   }
 ];
 
 export const models = [
   {
     "vendor": "Fireworks",
-    "name": "Ember-1",
+    "name": "Ember-1（推理专用模型）",
     "date": "2026-09-24",
-    "desc": "Ember-1是Fireworks Research的专业推理模型，基于[Kimi K3] (https://openrouter，上下文 1049k。",
+    "desc": "Fireworks Research发布的推理专用模型，基于Kimi K3构建。该模型旨在让每个token都发挥更大作用，输出更短的推理链，支持文本和图片输入，上下文窗口达100万token。",
     "url": "https://openrouter.ai/fireworks/ember-1"
   },
   {
     "vendor": "Z.ai",
-    "name": "GLM 5.3 Prime",
-    "date": "2026-09-24",
-    "desc": "GLM-5，上下文 1000k。",
+    "name": "GLM 5.3 Prime（高速推理版）",
+    "date": "2026-09-23",
+    "desc": "Z.ai的GLM-5.3高速变体，继承GLM-5.3全部能力，通过推理加速实现1.5-2倍吞吐量。支持文本输入输出，上下文100万token，推理强制启用。",
     "url": "https://openrouter.ai/z-ai/glm-5.3-prime"
   },
   {
     "vendor": "Qwen",
-    "name": "Qwen3.8 Max Prime",
-    "date": "2026-09-24",
-    "desc": "Qwen3，上下文 1000k。",
+    "name": "Qwen3.8 Max Prime（高吞吐变体）",
+    "date": "2026-09-23",
+    "desc": "阿里巴巴Qwen团队的Qwen3.8 Max更高吞吐量变体，作为独立SKU以更高价格提供。支持文本、图像和视频输入，上下文100万token，推理启用。",
     "url": "https://openrouter.ai/qwen/qwen3.8-max-prime"
   },
   {
-    "vendor": "Space Bunny Alpha",
-    "name": "space-bunny-alpha",
-    "date": "2026-09-23",
-    "desc": "Space Bunny Alpha是一个匿名大型模型，具有超快的推理能力、强大的编码能力和本地多模态输入支持，上下文 1000k。",
-    "url": "https://openrouter.ai/stealth/space-bunny-alpha"
-  },
-  {
-    "vendor": "AionLabs",
-    "name": "Aion 3.5 Mini",
-    "date": "2026-09-23",
-    "desc": "AION 3，上下文 262k。",
-    "url": "https://openrouter.ai/aion-labs/aion-3.5-mini"
-  },
-  {
-    "vendor": "AionLabs",
-    "name": "Aion 3.5",
-    "date": "2026-09-23",
-    "desc": "AION 3，上下文 262k。",
-    "url": "https://openrouter.ai/aion-labs/aion-3.5"
-  },
-  {
-    "vendor": "Upstage",
-    "name": "Solar Mini 4",
-    "date": "2026-09-23",
-    "desc": "Solar Mini 4是Upstage紧凑、经济高效的语言模型，是35B参数的混合体，具有3B活动参数和524K上下文窗口，上下文 524k。",
-    "url": "https://openrouter.ai/upstage/solar-mini4"
-  },
-  {
-    "vendor": "Cohere",
-    "name": "Command A+",
-    "date": "2026-09-23",
-    "desc": "Command A +是Cohere的企业代理工作流程旗舰模型，上下文 192k。",
-    "url": "https://openrouter.ai/cohere/command-a-plus"
-  },
-  {
     "vendor": "OpenAI",
-    "name": "GPT-6 Luna Pro",
-    "date": "2026-09-23",
-    "desc": "GPT-6 Luna Pro与[GPT-6 Luna] (https://openrouter，上下文 1050k。",
+    "name": "GPT-6 Luna Pro（高速推理增强版）",
+    "date": "2026-09-22",
+    "desc": "GPT-6 Luna的Pro推理模式版本，启用更高阶推理模式以获得更强的推理能力。面向高吞吐、低延迟的推理场景优化，支持文本、图像和文件输入，上下文105万token。",
     "url": "https://openrouter.ai/openai/gpt-6-luna-pro"
   },
   {
     "vendor": "OpenAI",
-    "name": "GPT-6 Luna Pro (batch)",
-    "date": "2026-09-23",
-    "desc": "GPT-6 Luna Pro与[GPT-6 Luna] (https://openrouter，上下文 1050k。",
-    "url": "https://openrouter.ai/openai/gpt-6-luna-pro:batch"
+    "name": "GPT-6 Sol（高端性价比模型）",
+    "date": "2026-09-22",
+    "desc": "GPT-6系列中面向高性价比的高端模型，位于旗舰GPT-6 Astra之下、快速版GPT-6 Luna之上。适用于需要强大能力的专业任务，支持文本、图像和文件输入，上下文105万token。",
+    "url": "https://openrouter.ai/openai/gpt-6-sol"
+  },
+  {
+    "vendor": "Anthropic",
+    "name": "Claude Opus 5.5（旗舰推理模型）",
+    "date": "2026-09-22",
+    "desc": "Anthropic的旗舰模型，用于高难度推理、编码和长周期智能体任务，接替Claude Opus 5。在大型代码库的多步骤变更、复杂代码重构和长篇写作中表现突出，上下文100万token。",
+    "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+  },
+  {
+    "vendor": "Z.ai",
+    "name": "GLM 5.3 FlashX（多模态高速版）",
+    "date": "2026-09-18",
+    "desc": "Z.ai的GLM-5.3-Flash高速变体，原生多模态模型，推理速度高达200 tokens/s。支持文本、图像和视频输入，上下文100万token，推理强制启用。",
+    "url": "https://openrouter.ai/z-ai/glm-5.3-flashx"
+  },
+  {
+    "vendor": "Qwen",
+    "name": "Qwen3.8 Omni Flash（全模态推理模型）",
+    "date": "2026-09-21",
+    "desc": "阿里巴巴Qwen团队的全模态推理模型，是首个围绕智能体能力构建的Qwen模型，原生支持音视频理解。适用于音视频分析和总结，上下文100万token，推理启用。",
+    "url": "https://openrouter.ai/qwen/qwen3.8-omni-flash"
+  },
+  {
+    "vendor": "Xiaomi",
+    "name": "MiMo-V2.6-Pro（小米旗舰基础模型）",
+    "date": "2026-09-21",
+    "desc": "小米旗舰基础模型，参数规模超过1万亿，专为最严苛的任务设计。支持文本、图像、音频和视频多模态输入，上下文100万token。",
+    "url": "https://openrouter.ai/xiaomi/mimo-v2.6-pro"
+  },
+  {
+    "vendor": "X-ai",
+    "name": "Grok 4.7（编码与智能体旗舰模型）",
+    "date": "2026-09-21",
+    "desc": "SpaceXAI的旗舰模型，用于编码、智能体任务和知识工作，接替Grok 4.6。在长期软件工程任务、自我验证工作等方面表现强劲，上下文50万token，推理强制启用。",
+    "url": "https://openrouter.ai/x-ai/grok-4.7"
   }
 ];
 
 export const trending = [
   {
-    "repo": "rohitg00/ai-engineering-from-scratch",
-    "lang": "Python",
-    "today": 310,
-    "stars": 56525,
-    "desc": "学习它，构建它。为其他人运送。"
-  },
-  {
     "repo": "vectorize-io/hindsight",
     "lang": "Python",
-    "today": 1607,
-    "stars": 27752,
-    "desc": "后见之明：学习的客服代表记忆"
-  },
-  {
-    "repo": "dream-num/univer",
-    "lang": "TypeScript",
-    "today": 1060,
-    "stars": 17566,
-    "desc": "适用于AI代理的Office线束—电子表格、文档、幻灯片、画布、关系表和PDF在一个运行时中。"
+    "today": 1668,
+    "stars": 20000,
+    "desc": "Agent记忆系统，专注于让Agent持续学习而非仅仅回忆历史，在长期记忆任务中表现优异。"
   },
   {
     "repo": "google/ax",
     "lang": "Go",
-    "today": 1376,
-    "stars": 10383,
-    "desc": "Google的开放代理编排运行时"
+    "today": 1373,
+    "stars": 10741,
+    "desc": "Google开源的Agent编排运行时，用于在集群中声明式运行大规模自主Agent工作负载。"
   },
   {
-    "repo": "NVIDIA/Model-Optimizer",
-    "lang": "Python",
-    "today": 22,
-    "stars": 4064,
-    "desc": "量化、蒸馏、修剪、神经架构搜索、推测解码等SOTA模型优化技术的统一库。它压缩了TensorRT-LLM、TensorRT、vLLM等下游部署框架的深度学习模型，以优化推理速度。"
-  },
-  {
-    "repo": "FxEmbed/FxEmbed",
+    "repo": "dream-num/univer",
     "lang": "TypeScript",
-    "today": 165,
-    "stars": 5360,
-    "desc": "修复X/Twitter和Bluesky嵌入！在Discord、Telegram和其他平台上使用多个图片、视频、民意调查、翻译等"
-  },
-  {
-    "repo": "anthropics/financial-services",
-    "lang": "Python",
-    "today": 510,
-    "stars": 37345,
-    "desc": "暂无项目简介。"
-  },
-  {
-    "repo": "HKUDS/CLI-Anything",
-    "lang": "Python",
-    "today": 415,
-    "stars": 50323,
-    "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
-  },
-  {
-    "repo": "mvt-project/mvt",
-    "lang": "Python",
-    "today": 275,
-    "stars": 14722,
-    "desc": "MVT （移动验证工具包）有助于对移动设备进行取证，以发现潜在泄露的迹象。"
+    "today": 1082,
+    "stars": 17500,
+    "desc": "AI Agent办公套件，支持电子表格、文档、演示文稿、表格、画布和PDF的运行时框架。"
   },
   {
     "repo": "obra/superpowers",
     "lang": "Shell",
-    "today": 606,
-    "stars": 291223,
-    "desc": "有效的代理技能框架和软件开发方法。"
+    "today": 611,
+    "stars": 288598,
+    "desc": "完整的Agent驱动软件开发方法论，包含可组合技能、设计规划、测试驱动开发、子Agent开发和代码审查流程。"
+  },
+  {
+    "repo": "anthropics/financial-services",
+    "lang": "Python",
+    "today": 509,
+    "stars": 35198,
+    "desc": "Claude金融服务业参考实现，提供投行、股权研究、私募和财富管理等场景的Agent、技能和数据连接器。"
+  },
+  {
+    "repo": "rohitg00/ai-engineering-from-scratch",
+    "lang": "Python",
+    "today": 347,
+    "stars": 55981,
+    "desc": "从零学习AI工程的综合课程，提供523节课的实操内容，覆盖AI工程全栈知识。"
+  },
+  {
+    "repo": "HKUDS/CLI-Anything",
+    "lang": "Python",
+    "today": 413,
+    "stars": 49162,
+    "desc": "让所有软件变成Agent原生，通过CLI-Hub管理社区构建的CLI，使AI Agent能够直接操控软件。"
+  },
+  {
+    "repo": "mvt-project/mvt",
+    "lang": "Python",
+    "today": 272,
+    "stars": 13585,
+    "desc": "移动设备取证工具包，由Amnesty International Security Lab开发，用于检测Android和iOS设备是否存在潜在被入侵痕迹。"
+  },
+  {
+    "repo": "FxEmbed/FxEmbed",
+    "lang": "TypeScript",
+    "today": 182,
+    "stars": 5403,
+    "desc": "修复X/Twitter和Bluesky嵌入，支持在Discord、Telegram等平台中嵌入图片、视频、投票和翻译等多媒体内容。"
+  },
+  {
+    "repo": "NVIDIA/Model-Optimizer",
+    "lang": "Python",
+    "today": 44,
+    "stars": 3983,
+    "desc": "统一模型优化工具库，支持量化、蒸馏、剪枝、神经架构搜索和推测解码等技术，用于加速模型推理。"
   }
 ];
 
 export const agentFrameworks = [
   {
-    "repo": "anomalyco/opencode",
-    "stars": 209894,
+    "repo": "PeterSteinberger/openclaw",
+    "stars": 353000,
     "lang": "TypeScript",
-    "desc": "开源编码代理。"
+    "desc": "跨平台消息网关型Agent框架，覆盖Telegram、Discord、Slack、WhatsApp、iMessage等25+通道，MIT协议自托管个人AI助手。"
   },
   {
-    "repo": "anthropics/claude-code",
-    "stars": 147964,
-    "lang": "TypeScript",
-    "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
-  },
-  {
-    "repo": "Significant-Gravitas/AutoGPT",
-    "stars": 187531,
+    "repo": "deepseek-ai/deepseek-harness",
+    "stars": 203000,
     "lang": "Python",
-    "desc": "AutoGPT的愿景是为每个人提供可访问的人工智能，供其使用并以此为基础。我们的使命是提供工具，让您专注于重要的事情。"
+    "desc": "DeepSeek官方开源代理框架，插件化程度高，覆盖Web UI与无头运行模式，严格遵循「一切皆插件」的设计理念。"
+  },
+  {
+    "repo": "anomalyco/opencode",
+    "stars": 202000,
+    "lang": "Go",
+    "desc": "开源模型无关终端编码Agent，支持75+模型提供商，提供TUI和离线Ollama能力，Apache-2.0协议。"
+  },
+  {
+    "repo": "NousResearch/hermes-agent",
+    "stars": 190000,
+    "lang": "Python",
+    "desc": "具备自我改进能力的AI Agent，学习用户偏好，支持多平台消息网关和持续技能生成。"
+  },
+  {
+    "repo": "langchain-ai/langchain",
+    "stars": 134000,
+    "lang": "Python/TypeScript",
+    "desc": "AI Agent和LLM应用生态基础框架，包含1000+预置集成，连接模型、数据系统和外部API。"
   },
   {
     "repo": "openai/codex",
-    "stars": 126350,
+    "stars": 125000,
     "lang": "Rust",
-    "desc": "在您的终端中运行的轻量级编码代理"
+    "desc": "OpenAI终端编码Agent，默认禁用网络访问并提供三级自主性控制，适合沙箱化编码任务。"
   },
   {
-    "repo": "google-gemini/gemini-cli",
-    "stars": 107153,
-    "lang": "TypeScript",
-    "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端。"
-  },
-  {
-    "repo": "FoundationAgents/MetaGPT",
-    "stars": 70597,
+    "repo": "OpenHands/OpenHands",
+    "stars": 89000,
     "lang": "Python",
-    "desc": "🌟 多Agent框架：第一个人工智能软件公司，迈向自然语言编程"
+    "desc": "开源云编码Agent平台，支持云端Agent、SDK、Web UI和Kubernetes部署，面向企业软件工程。"
   },
   {
-    "repo": "microsoft/autogen",
-    "stars": 61147,
+    "repo": "langchain-ai/langgraph",
+    "stars": 41000,
     "lang": "Python",
-    "desc": "智能AI的编程框架"
+    "desc": "基于图模型的Agent运行时框架，提供可控的状态流和条件边，适合生产级Agent工作流。"
   },
   {
     "repo": "crewAIInc/crewAI",
-    "stars": 58987,
+    "stars": 54000,
     "lang": "Python",
-    "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
+    "desc": "多智能体编排框架，用角色、目标和协作机制组织AI Agent团队，适合多Agent任务协作。"
   },
   {
-    "repo": "HKUDS/nanobot",
-    "stars": 48552,
-    "lang": "Python",
-    "desc": "Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序"
-  },
-  {
-    "repo": "openai/openai-agents-python",
-    "stars": 29682,
-    "lang": "Python",
-    "desc": "轻量级、功能强大的多代理工作流程框架"
+    "repo": "aaif-goose/goose",
+    "stars": 54000,
+    "lang": "Rust",
+    "desc": "本地优先AI Agent，通过MCP生态连接70+工具，覆盖桌面、CLI和API运行模式。"
   }
 ];
 
 export const skills = [
   {
     "repo": "obra/superpowers",
-    "stars": 291223,
-    "lang": "Shell",
-    "desc": "有效的代理技能框架和软件开发方法。"
+    "stars": 290000,
+    "lang": "TypeScript",
+    "desc": "开源Agentic Skills框架，用14个可组合Skill覆盖开发全生命周期，从头脑风暴到审查验证。"
   },
   {
     "repo": "mattpocock/skills",
-    "stars": 269120,
-    "lang": "Shell",
-    "desc": "真正工程师的技能。直接来自我的.agents目录。"
+    "stars": 265000,
+    "lang": "TypeScript",
+    "desc": "2026年热门Claude Skills技能包，采用渐进式披露降低token消耗，是Claude Code生态核心技能之一。"
   },
   {
-    "repo": "affaan-m/ECC",
-    "stars": 266881,
-    "lang": "JavaScript",
-    "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
+    "repo": "multica-ai/andrej-karpathy-skills",
+    "stars": 199000,
+    "lang": "Markdown",
+    "desc": "将Andrej Karpathy的LLM编码陷阱观察转化为Claude Code行为准则，是热门Claude Code行为技能。"
   },
   {
     "repo": "anthropics/skills",
-    "stars": 177985,
-    "lang": "Python",
-    "desc": "座席技能的公共存储库"
+    "stars": 176000,
+    "lang": "TypeScript",
+    "desc": "Anthropic官方Agent Skills公开仓库，包含Claude Skills生态中的原生技能定义和示例。"
   },
   {
-    "repo": "Shubhamsaboo/awesome-llm-apps",
-    "stars": 139664,
+    "repo": "github/spec-kit",
+    "stars": 138000,
     "lang": "Python",
-    "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
+    "desc": "GitHub官方Spec-Driven Development工具包，1.0版本已发布，用需求规格驱动AI编码工作流。"
   },
   {
-    "repo": "addyosmani/agent-skills",
-    "stars": 98891,
+    "repo": "garrytan/gstack",
+    "stars": 134000,
+    "lang": "TypeScript",
+    "desc": "Garry Tan开源的Claude Code虚拟开发团队设置，将CEO、设计师、研发经理等角色嵌入Claude Code工作流。"
+  },
+  {
+    "repo": "DietrichGebert/ponytail",
+    "stars": 118000,
     "lang": "JavaScript",
-    "desc": "AI编码代理的生产级工程技能。"
+    "desc": "让AI Agent像「最懒的资深开发者」一样思考，优先极简方案，减少过度编码。"
   },
   {
-    "repo": "mvanhorn/last30days-skill",
-    "stars": 62768,
-    "lang": "Python",
-    "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
+    "repo": "forrestchang/andrej-karpathy-skills",
+    "stars": 98000,
+    "lang": "Markdown",
+    "desc": "Karpathy原始爆款GitHub仓库，把LLM编码陷阱提炼为CLAUDE.md，曾在2026年4月快速增长。"
   },
   {
     "repo": "tt-a1i/archify",
-    "stars": 71220,
+    "stars": 67000,
     "lang": "JavaScript",
-    "desc": "美观、可验证的架构、工作流程、序列、数据流和生命周期图的代理技能--具有运动和清晰导出的自包含HTML。"
+    "desc": "AI架构Agent技能，自动生成可验证的架构、工作流、序列、数据流和生命周期图表。"
   },
   {
-    "repo": "coreyhaines31/marketingskills",
-    "stars": 51424,
+    "repo": "gsd-build/get-shit-done",
+    "stars": 64000,
     "lang": "JavaScript",
-    "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
-  },
-  {
-    "repo": "blader/humanizer",
-    "stars": 51861,
-    "lang": "Python",
-    "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
+    "desc": "GSD元提示框架，为Claude Code等14个运行时提供结构化上下文工程和Spec-Driven工作流。"
   }
 ];
