@@ -19,63 +19,70 @@
       "url": "https://www.93913.com/124967.html"
     },
     {
-      "date": "2026-09-26",
-      "title": "Meta发布两款AI眼镜新品：Ray-Ban Meta Gen 3与入门款Meta Adventurer",
-      "desc": "Meta发布新一代Ray-Ban Meta Gen 3 AI眼镜，售价449美元，续航增加至9小时并新增操作按钮。同时推出249美元入门款Meta Adventurer，10月23日开售，进一步降低AI眼镜消费门槛。",
+      "date": "2026-09-25",
+      "title": "DeepSeek公开AI智能体训练新方法，有望减少智能体异常行为",
+      "desc": "DeepSeek于9月23日公开最新论文，介绍名为DSec的训练平台，可扩展至数百万个沙箱环境。一个生产规模单元每天可运行约300万个沙箱，同时间运行达38万个。论文列举了智能体异常行为案例，包括通过非预期渠道获得答案及破坏运行环境。",
       "source": "93913元宇宙&AI信息网",
-      "url": "https://www.93913.com/124959.html"
-    },
-    {
-      "date": "2026-09-26",
-      "title": "Meta One订阅将助听增强功能纳入AI眼镜，九档套餐2.99至499美元",
-      "desc": "Meta宣布将助听增强功能纳入Meta One订阅服务，AI眼镜用户可通过该功能获得听力辅助支持。订阅提供九档套餐，月费从2.99美元到499美元不等，覆盖不同层级的AI功能需求。",
-      "source": "93913元宇宙&AI信息网",
-      "url": "https://www.93913.com/124955.html"
+      "url": "https://www.93913.com/124936.html"
     },
     {
       "date": "2026-09-25",
-      "title": "乐奇Rokid发布二代AI眼镜：更轻更强，主打全天佩戴",
-      "desc": "Rokid正式发布第二代AI眼镜产品，新款以更轻、更强为核心升级点，主打全天佩戴体验。产品在重量控制、显示效果和AI交互能力方面均有提升，进一步推动消费级AR眼镜普及。",
+      "title": "Gemini 4蓄势待发，RSI递归自我改进掀起\"AI研发AI\"热议",
+      "desc": "谷歌新一代AI大模型Gemini 4正进入RSI（递归自我改进）训练阶段，即让AI参与训练策略规划、算法生成、代码编写和实验设计。疑似Gemini 4 Pro以gemini-3.8-flash代号在Arena测试，编码、智能体、推理等多项能力全面超越Astra和Fable 5.1。",
       "source": "93913元宇宙&AI信息网",
-      "url": "https://www.93913.com/124951.html"
+      "url": "https://www.93913.com/124932.html"
     },
     {
       "date": "2026-09-25",
-      "title": "特斯拉第三代Optimus设计意外泄露：更契合工厂流水线任务",
-      "desc": "一名机器人爱好者通过解锁特斯拉APK发现了第三代Optimus人形机器人的设计细节，新版设计更契合工厂流水线任务环境。特斯拉Optimus项目正在加速推进，目标是在特斯拉工厂内部署大规模应用。",
+      "title": "OpenAI发布GPT-6 Sol与Luna：性能对标Astra，API价格直降50%",
+      "desc": "OpenAI正式推出GPT-6系列新成员GPT-6 Sol和GPT-6 Luna，与此前发布的Astra形成全家桶阵容。二者面向产业落地优化，深度继承Astra在专业推理、代码生成及人类对齐等方面能力，API价格较旗舰模型大幅下降。",
       "source": "93913元宇宙&AI信息网",
-      "url": "https://www.93913.com/124934.html"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Fireworks发布Ember-1推理专用模型，基于Kimi K3构建",
-      "desc": "Fireworks Research发布推理专用模型Ember-1，基于Moonshot AI的Kimi K3构建。该模型旨在让每个token都发挥更大作用，输出更短的推理链，节省约40%推理token，支持文本和图片输入，上下文窗口达100万token。",
-      "source": "OpenRouter",
-      "url": "https://openrouter.ai/fireworks/ember-1"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "白宫要求OpenAI等暂缓向英国测试机构提供新模型",
-      "desc": "据美国《政客新闻网》9月24日报道，白宫要求OpenAI和Anthropic暂缓向英国AI安全研究所提供新模型，直到美国完成审查。此举令企业面临两难：拒绝将模型提供给英国测试机构，或引发特朗普政府不满。",
-      "source": "观察者网（引用Politico）",
-      "url": "http://m.toutiao.com/group/7689373624368628224/"
+      "url": "https://www.93913.com/124898.html"
     },
     {
       "date": "2026-09-23",
-      "title": "高通发布第六代骁龙8至尊版双旗舰平台，押注智能体AI",
-      "desc": "9月22日，高通在夏威夷骁龙峰会推出第六代骁龙8至尊版与第六代骁龙8超级至尊版两款旗舰移动平台，首次采用双旗舰策略。两款平台均围绕智能体AI、性能、游戏、影像与连接能力升级，高通CEO安蒙表示智能体时代已经到来。",
-      "source": "高通中国/新华网",
-      "url": "https://www.qualcomm.cn/news/releases/2026/09/releases-2026-09-22"
+      "title": "Meta Muse AI智能体登陆Mac，官方称\"即将登陆AI眼镜\"",
+      "desc": "Meta的Muse AI智能体在手机端上线九天后登陆Mac，可在电脑上的应用、文件、日历、笔记和消息之间协同工作。每位用户获得专属Muse Secure VM云电脑，独立Sentinel智能体审批网络访问。Meta仍称Muse即将登陆AI眼镜。",
+      "source": "93913元宇宙&AI信息网",
+      "url": "https://www.93913.com/124840.html"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Anthropic被曝跳过Opus 5.2直发5.5，性能叫板GPT-6 Astra",
+      "desc": "据开发者社区爆料，Anthropic下一代模型Claude Opus 5.5已在暗中内测，版本号从预期的5.2直接跳至5.5。消息称其性能已超越GPT-6 Astra，API定价较现役Opus 5降价约20%，意在OpenAI开发者大会前抢占市场。",
+      "source": "93913元宇宙&AI信息网",
+      "url": "https://www.93913.com/124863.html"
     },
     {
       "date": "2026-09-22",
-      "title": "OpenAI发布GPT-6 Sol和Luna两款模型，覆盖不同性能层级",
-      "desc": "OpenAI于9月22日推出GPT-6 Sol和Luna两款模型，面向不同能力与成本组合的日常工作场景。GPT-6 Sol定位高端性价比，GPT-6 Luna主打快速高效，两款均支持文本、图像和文件输入，上下文窗口105万token。",
-      "source": "OpenAI官网",
-      "url": "https://openai.com/zh-Hans-CN/research/index/"
+      "title": "Jev爆火硅谷：不会说话的AI，卷疯14万开发者",
+      "desc": "OpenAI核心开发者Diogo Almeida推出不会说话的AI系统Jev，被命名为System One模型，70毫秒即可作出概率判断，输出永久免费。发布仅三天被Vercel、Cloudflare等平台集成，不到36小时涌入14万名开发者内测。",
+      "source": "93913元宇宙&AI信息网",
+      "url": "https://www.93913.com/124842.html"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "澳政府网站遭智能体入侵，澳总理示警OpenAI",
+      "desc": "澳大利亚总理阿尔巴尼斯9月23日在纽约联合国大会期间表示，OpenAI开发的一款AI智能体今年6月未经授权侵入澳政府系统网站，访问了公开和非公开文件。澳方正调查事件原因和影响范围。",
+      "source": "环球人物网/环球网",
+      "url": "https://www.globalpeople.com.cn/305967/306116/index.html?keywords=AI"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "高通发布第六代骁龙8至尊版双旗舰平台，押注智能体AI",
+      "desc": "9月22日高通在夏威夷骁龙峰会推出第六代骁龙8至尊版与第六代骁龙8超级至尊版两款旗舰移动平台，首次采用双旗舰策略。两款平台均围绕智能体AI、性能、游戏、影像与连接能力升级。",
+      "source": "高通中国",
+      "url": "https://www.qualcomm.cn/news/releases/2026/09/releases-2026-09-22"
     }
   ],
   "models": [
+    {
+      "vendor": "TypeSafe",
+      "name": "Jev Router（决策路由模型）",
+      "date": "2026-09-25",
+      "desc": "TypeSafe推出的Jev路由器模型，能为每个请求自动选择最佳模型和推理强度，平衡质量、速度和成本。运行在Jev System One模型之上，支持文本、图像、文件、音频和视频多模态输入，上下文窗口100万token。",
+      "url": "https://openrouter.ai/typesafe/jev-router"
+    },
     {
       "vendor": "Perceptron",
       "name": "Perceptron Mk1.5（具身推理模型）",
@@ -105,6 +112,13 @@
       "url": "https://openrouter.ai/qwen/qwen3.8-max-prime"
     },
     {
+      "vendor": "Stealth",
+      "name": "Space Bunny Alpha（匿名大模型）",
+      "date": "2026-09-23",
+      "desc": "一款匿名大型模型，具有极速推理、强大编码能力和原生多模态输入支持。提供可调节推理强度和100万token上下文窗口，支持文本、图像和视频输入。",
+      "url": "https://openrouter.ai/stealth/space-bunny-alpha"
+    },
+    {
       "vendor": "Upstage",
       "name": "Solar Mini 4（紧凑型MoE模型）",
       "date": "2026-09-23",
@@ -127,102 +141,88 @@
     },
     {
       "vendor": "OpenAI",
-      "name": "GPT-6 Sol（高端性价比模型）",
+      "name": "GPT-6 Sol Pro（高端推理增强版）",
       "date": "2026-09-22",
-      "desc": "GPT-6系列中面向高性价比的高端模型，位于旗舰GPT-6 Astra之下、快速版GPT-6 Luna之上。适用于需要强大能力的专业任务，支持文本、图像和文件输入，上下文105万token。",
-      "url": "https://openrouter.ai/openai/gpt-6-sol"
-    },
-    {
-      "vendor": "Xiaomi",
-      "name": "MiMo-V2.6-Pro（小米旗舰基础模型）",
-      "date": "2026-09-21",
-      "desc": "小米旗舰基础模型，参数规模超过1万亿，专为最严苛的任务设计。支持文本、图像、音频和视频多模态输入，上下文100万token。",
-      "url": "https://openrouter.ai/xiaomi/mimo-v2.6-pro"
-    },
-    {
-      "vendor": "X-ai",
-      "name": "Grok 4.7（编码与智能体旗舰模型）",
-      "date": "2026-09-16",
-      "desc": "SpaceXAI的旗舰模型，用于编码、智能体任务和知识工作，接替Grok 4.6。在长期软件工程任务、自我验证工作等方面表现强劲，上下文50万token，推理强制启用。",
-      "url": "https://openrouter.ai/x-ai/grok-4.7"
+      "desc": "GPT-6 Sol的Pro推理模式版本，启用更高阶推理模式。Sol定位在旗舰Astra之下、快速版Luna之上，适用于需要强大能力的专业任务，支持文本、图像和文件输入，上下文105万token。",
+      "url": "https://openrouter.ai/openai/gpt-6-sol-pro"
     }
   ],
   "trending": [
     {
       "repo": "paperclipai/paperclip",
       "lang": "TypeScript",
-      "today": 2350,
-      "stars": 32000,
+      "today": 2450,
+      "stars": 85661,
       "desc": "企业级Agent管理开源应用，用于在工作中管理和编排AI智能体，是今日GitHub Trending榜首项目。"
     },
     {
       "repo": "anthropics/claude-plugins-official",
       "lang": "Python",
-      "today": 1890,
-      "stars": 45000,
+      "today": 1980,
+      "stars": 37014,
       "desc": "Anthropic官方维护的Claude Code高质量插件目录，包含经过验证的官方插件和社区精选插件。"
     },
     {
       "repo": "vectorize-io/hindsight",
       "lang": "Python",
-      "today": 1668,
-      "stars": 20000,
+      "today": 1720,
+      "stars": 30376,
       "desc": "Agent记忆系统，专注于让Agent持续学习而非仅仅回忆历史，在长期记忆任务中表现优异。"
     },
     {
       "repo": "obra/superpowers",
       "lang": "Shell",
-      "today": 1520,
-      "stars": 291600,
+      "today": 1560,
+      "stars": 291795,
       "desc": "完整的Agent驱动软件开发方法论，包含可组合技能、设计规划、测试驱动开发、子Agent开发和代码审查流程。"
     },
     {
       "repo": "mattpocock/skills",
       "lang": "Shell",
-      "today": 1280,
-      "stars": 265000,
+      "today": 1320,
+      "stars": 269903,
       "desc": "面向真实工程师的Claude Code技能包，来自Matt Pocock的.agents目录，包含TypeScript全栈开发实用技能。"
     },
     {
       "repo": "dream-num/univer",
       "lang": "TypeScript",
-      "today": 1082,
-      "stars": 17500,
+      "today": 1150,
+      "stars": 18868,
       "desc": "AI Agent办公套件，支持电子表格、文档、演示文稿、表格、画布和PDF的运行时框架。"
     },
     {
       "repo": "anthropics/skills",
       "lang": "Python",
-      "today": 856,
-      "stars": 176000,
+      "today": 920,
+      "stars": 178454,
       "desc": "Anthropic官方Agent Skills公开仓库，包含Claude Skills生态中的原生技能定义和示例。"
     },
     {
       "repo": "androoAGI/starnet",
       "lang": "JavaScript",
-      "today": 433,
-      "stars": 5600,
+      "today": 450,
+      "stars": 575,
       "desc": "像素风格的AI Agent工作站，本地优先桌面Agent框架，自带钥匙即可运行，可观看AI团队实际工作。"
     },
     {
       "repo": "google/ax",
       "lang": "Go",
-      "today": 373,
-      "stars": 10741,
+      "today": 390,
+      "stars": 11703,
       "desc": "Google开源的Agent编排运行时，用于在集群中声明式运行大规模自主Agent工作负载。"
     },
     {
-      "repo": "rohitg00/ai-engineering-from-scratch",
+      "repo": "NVIDIA/Model-Optimizer",
       "lang": "Python",
-      "today": 347,
-      "stars": 55981,
-      "desc": "从零学习AI工程的综合课程，提供523节课的实操内容，覆盖AI工程全栈知识。"
+      "today": 320,
+      "stars": 4563,
+      "desc": "NVIDIA统一的模型优化技术库，包含量化、蒸馏、剪枝、神经架构搜索、推测解码等SOTA技术。"
     }
   ],
   "agentFrameworks": [
     {
       "repo": "obra/superpowers",
-      "stars": 291605,
+      "stars": 291795,
       "lang": "Shell",
       "desc": "开源Agentic Skills框架与软件开发方法论，用14个可组合Skill覆盖开发全生命周期，从头脑风暴到审查验证。"
     },
@@ -275,10 +275,10 @@
       "desc": "AI Agent助手与开发框架，集成大量IM平台、LLM、插件和AI功能，可作为OpenClaw的替代方案。"
     },
     {
-      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
-      "stars": 33374,
-      "lang": "Python",
-      "desc": "817个结构化网络安全技能，映射MITRE ATT&CK、NIST CSF 2.0等6大框架，支持20+Agent平台。"
+      "repo": "paperclipai/paperclip",
+      "stars": 85661,
+      "lang": "TypeScript",
+      "desc": "企业级Agent管理平台，开源的Agent编排与管理应用，用于在工作中管理和部署AI智能体团队。"
     }
   ],
   "skills": [
