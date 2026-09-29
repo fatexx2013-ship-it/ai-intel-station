@@ -119,11 +119,18 @@ export const seedPosts = [
 
 export const news = [
   {
-    "date": "2026-09-28",
-    "title": "AI 初创公司 Instinct 完成 10 亿美元融资，投后估值达 100 亿美元",
-    "desc": "IT之家 9 月 28 日消息，据路透社今天报道，人工智能初创公司 Instinct 现已完成 10 亿美元（IT之家注：现汇率约合 67.19 亿元人民币）融资，投后估值达到 100 亿美元（现汇率约合 671.95 …",
+    "date": "2026-09-29",
+    "title": "内部测试发现安全隐患，消息称 OpenAI 取消发布 AI 模型 GPT‑6.1 Astra",
+    "desc": "IT之家 9 月 29 日消息，据《华尔街日报》报道，由于内部测试过程中研究人员提出多项安全隐患，OpenAI 决定取消 GPT‑6.1 Astra 的发布。这款下一代 AI 模型原本计划于 10 月正式亮相。报道称，该…",
     "source": "IT之家",
-    "url": "https://www.ithome.com/1/008/060.htm"
+    "url": "https://www.ithome.com/1/008/090.htm"
+  },
+  {
+    "date": "2026-09-29",
+    "title": "20 余名行业领袖示警“智能爆炸”，Anthropic、OpenAI 高管呼吁关注 AI 自我改进",
+    "desc": "IT之家 9 月 29 日消息，据彭博社 28 日报道，Anthropic、OpenAI、Meta 和微软的高管共同敦促政策制定者，密切关注 AI 系统自我改进到了何种程度，并采取措施保障 AI 技术安全。20 多名 A…",
+    "source": "IT之家",
+    "url": "https://www.ithome.com/1/008/096.htm"
   },
   {
     "date": "2026-09-28",
@@ -177,6 +184,20 @@ export const news = [
 ];
 
 export const models = [
+  {
+    "vendor": "Anthropic",
+    "name": "Claude Sonnet 5.5",
+    "date": "2026-09-29",
+    "desc": "克劳德十四行诗5，上下文 1000k。",
+    "url": "https://openrouter.ai/anthropic/claude-sonnet-5.5"
+  },
+  {
+    "vendor": "Anthropic",
+    "name": "Claude Sonnet 5.5 (batch)",
+    "date": "2026-09-29",
+    "desc": "克劳德十四行诗5，上下文 1000k。",
+    "url": "https://openrouter.ai/anthropic/claude-sonnet-5.5:batch"
+  },
   {
     "vendor": "TypeSafe",
     "name": "Jev Router",
@@ -232,20 +253,6 @@ export const models = [
     "date": "2026-09-23",
     "desc": "AION 3，上下文 262k。",
     "url": "https://openrouter.ai/aion-labs/aion-3.5"
-  },
-  {
-    "vendor": "Upstage",
-    "name": "Solar Mini 4",
-    "date": "2026-09-23",
-    "desc": "Solar Mini 4是Upstage紧凑、经济高效的语言模型，是35B参数的混合体，具有3B活动参数和524K上下文窗口，上下文 524k。",
-    "url": "https://openrouter.ai/upstage/solar-mini4"
-  },
-  {
-    "vendor": "Cohere",
-    "name": "Command A+",
-    "date": "2026-09-23",
-    "desc": "Command A +是Cohere的企业代理工作流程旗舰模型，上下文 192k。",
-    "url": "https://openrouter.ai/cohere/command-a-plus"
   }
 ];
 
@@ -253,57 +260,57 @@ export const trending = [
   {
     "repo": "debpalash/VoiceStudio",
     "lang": "Python",
-    "today": 3274,
-    "stars": 42944,
+    "today": 3221,
+    "stars": 44090,
     "desc": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言。"
   },
   {
     "repo": "paperclipai/paperclip",
     "lang": "TypeScript",
-    "today": 3185,
-    "stars": 92193,
+    "today": 3197,
+    "stars": 92803,
     "desc": "每个人都使用的开源应用程序来管理工作中的代理"
   },
   {
     "repo": "vectorize-io/hindsight",
     "lang": "Python",
-    "today": 4413,
-    "stars": 40524,
+    "today": 4561,
+    "stars": 40982,
     "desc": "后见之明：学习的客服代表记忆"
   },
   {
     "repo": "NawfalMotii79/PLFM_RADAR",
     "lang": "PLSQL",
-    "today": 145,
-    "stars": 25673,
+    "today": 158,
+    "stars": 25759,
     "desc": "开源、低成本的10.5 GHz PLFM相控阵雷达系统"
   },
   {
     "repo": "cs341-illinois/coursebook",
     "lang": "TeX",
-    "today": 265,
-    "stars": 2370,
+    "today": 195,
+    "stars": 2511,
     "desc": "伊利诺伊大学开源入门系统编程教科书"
   },
   {
     "repo": "byoungd/up",
     "lang": "JavaScript",
-    "today": 310,
-    "stars": 64550,
+    "today": 327,
+    "stars": 64671,
     "desc": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语"
   },
   {
     "repo": "mvschwarz/openrig",
     "lang": "TypeScript",
-    "today": 781,
-    "stars": 1532,
+    "today": 734,
+    "stars": 1720,
     "desc": "将Claude Code和Codex作为一个系统运行的多Agent线束"
   },
   {
     "repo": "dream-num/univer",
     "lang": "TypeScript",
-    "today": 1105,
-    "stars": 21086,
+    "today": 1099,
+    "stars": 21260,
     "desc": "适用于AI代理的Office线束—电子表格、文档、幻灯片、画布、关系表和PDF在一个运行时中。"
   }
 ];
@@ -311,61 +318,61 @@ export const trending = [
 export const agentFrameworks = [
   {
     "repo": "anomalyco/opencode",
-    "stars": 210588,
+    "stars": 210635,
     "lang": "TypeScript",
     "desc": "开源编码代理。"
   },
   {
     "repo": "anthropics/claude-code",
-    "stars": 148453,
+    "stars": 148485,
     "lang": "TypeScript",
     "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
   },
   {
     "repo": "Significant-Gravitas/AutoGPT",
-    "stars": 187598,
+    "stars": 187595,
     "lang": "Python",
     "desc": "AutoGPT的愿景是为每个人提供可访问的人工智能，供其使用并以此为基础。我们的使命是提供工具，让您专注于重要的事情。"
   },
   {
     "repo": "openai/codex",
-    "stars": 126957,
+    "stars": 126975,
     "lang": "Rust",
     "desc": "在您的终端中运行的轻量级编码代理"
   },
   {
     "repo": "google-gemini/gemini-cli",
-    "stars": 107172,
+    "stars": 107177,
     "lang": "TypeScript",
     "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端。"
   },
   {
     "repo": "FoundationAgents/MetaGPT",
-    "stars": 70670,
+    "stars": 70673,
     "lang": "Python",
     "desc": "🌟 多Agent框架：第一个人工智能软件公司，迈向自然语言编程"
   },
   {
     "repo": "microsoft/autogen",
-    "stars": 61204,
+    "stars": 61210,
     "lang": "Python",
     "desc": "智能AI的编程框架"
   },
   {
     "repo": "crewAIInc/crewAI",
-    "stars": 59138,
+    "stars": 59150,
     "lang": "Python",
     "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
   },
   {
     "repo": "HKUDS/nanobot",
-    "stars": 48645,
+    "stars": 48648,
     "lang": "Python",
     "desc": "Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序"
   },
   {
     "repo": "openai/openai-agents-python",
-    "stars": 29744,
+    "stars": 29749,
     "lang": "Python",
     "desc": "轻量级、功能强大的多代理工作流程框架"
   }
@@ -374,61 +381,61 @@ export const agentFrameworks = [
 export const skills = [
   {
     "repo": "obra/superpowers",
-    "stars": 292437,
+    "stars": 292513,
     "lang": "Shell",
     "desc": "有效的代理技能框架和软件开发方法。"
   },
   {
     "repo": "mattpocock/skills",
-    "stars": 271200,
+    "stars": 271330,
     "lang": "Shell",
     "desc": "真正工程师的技能。直接来自我的.agents目录。"
   },
   {
     "repo": "affaan-m/ECC",
-    "stars": 268806,
+    "stars": 268992,
     "lang": "JavaScript",
     "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
   },
   {
     "repo": "anthropics/skills",
-    "stars": 178784,
+    "stars": 178817,
     "lang": "Python",
     "desc": "座席技能的公共存储库"
   },
   {
     "repo": "Shubhamsaboo/awesome-llm-apps",
-    "stars": 140064,
+    "stars": 140086,
     "lang": "Python",
     "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
   },
   {
     "repo": "addyosmani/agent-skills",
-    "stars": 99661,
+    "stars": 99700,
     "lang": "JavaScript",
     "desc": "AI编码代理的生产级工程技能。"
   },
   {
     "repo": "mvanhorn/last30days-skill",
-    "stars": 63100,
+    "stars": 63118,
     "lang": "Python",
     "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
   },
   {
     "repo": "tt-a1i/archify",
-    "stars": 73392,
+    "stars": 73552,
     "lang": "JavaScript",
     "desc": "美观、可验证的架构、工作流程、序列、数据流和生命周期图的代理技能--具有运动和清晰导出的自包含HTML。"
   },
   {
     "repo": "coreyhaines31/marketingskills",
-    "stars": 51789,
+    "stars": 51817,
     "lang": "JavaScript",
     "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
   },
   {
     "repo": "blader/humanizer",
-    "stars": 52587,
+    "stars": 52653,
     "lang": "Python",
     "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
   }
