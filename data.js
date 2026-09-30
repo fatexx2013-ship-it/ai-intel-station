@@ -1,11 +1,11 @@
-// AI 情报站 — 数据文件（由 scripts/update-data.mjs 自动生成于 2026-09-29）
+// AI 情报站 — 数据文件（由 scripts/update-data.mjs 自动生成于 2026-09-30）
 // news: AI 新闻（中文 RSS：机器之心/量子位/IT之家）
 // models: OpenRouter 最新上架模型（描述已汉化）
 // trending: GitHub 今日热门（含总星数，描述已汉化）
 // agentFrameworks / skills: 固定榜单，自动刷新星数（描述已汉化）
 
 export const meta = {
-  "generatedAt": "2026-09-29",
+  "generatedAt": "2026-09-30",
   "note": "所有条目均附真实出处；描述与外文内容已自动汉化。星标数据来自 GitHub API，模型数据来自 OpenRouter 公开接口，新闻来自中文科技媒体 RSS。"
 };
 
@@ -119,18 +119,32 @@ export const seedPosts = [
 
 export const news = [
   {
-    "date": "2026-09-29",
-    "title": "报道称 OpenAI 年化经常性收入接近 700 亿美元，较三季度初增长超 70%",
-    "desc": "IT之家 9 月 29 日消息，据外媒 Axios 今天报道，据知情人士透露，OpenAI 年化经常性收入（ARR）已接近 700 亿美元（IT之家注：现汇率约合 4,705.11 亿元人民币）。据报道，自 2026 年…",
+    "date": "2026-09-30",
+    "title": "OpenAI 推出全天候 AI 智能体 Dots，相关域名已被马斯克拿下",
+    "desc": "IT之家 9 月 30 日消息，当地时间周二，OpenAI 发布了一款名叫 Dots 的新产品。这是一款可以持续运行的人工智能智能体，拥有一个软乎乎、圆滚滚的卡通形象。虽说这个色彩明快的虚拟形象或许能博得大家一笑，但这次…",
     "source": "IT之家",
-    "url": "https://www.ithome.com/1/008/510.htm"
+    "url": "https://www.ithome.com/1/008/559.htm"
   },
   {
-    "date": "2026-09-29",
-    "title": "李飞飞创业公司被苏姿丰550亿收购！世界模型最大交易落地",
-    "desc": "李飞飞将入职AMD首席科学家",
+    "date": "2026-09-30",
+    "title": "IT早报 0930：华为 Mate 90 定档 10 月 1 日发布并开售；OpenAI 发布 GPT-6.1 Sol；123 云盘就空间调整致歉；5999 元起 iQOO 16 手机发布...",
+    "desc": "“IT早报”时间，大家好，现在是 2026 年 9 月 30 日星期三，今天的重要科技资讯有：1. 华为 Mate 90 系列年度旗舰手机亮相，定档 10 月 1 日正式发布并开售华为终端 9 月 29 日宣布，Mate…",
+    "source": "IT之家",
+    "url": "https://www.ithome.com/1/008/561.htm"
+  },
+  {
+    "date": "2026-09-30",
+    "title": "麦当劳 AI 定价系统曝光：同款汉堡隔两英里价差达 21%",
+    "desc": "IT之家 9 月 30 日消息，据路透社报道，麦当劳正越来越多地借助人工智能，为美国本土以及部分海外市场制定菜单价格。这套方案意在提升总部的利润，但有可能招致消费者不满，同时还会引来反垄断机构的审查。人工智能重点测算的一…",
+    "source": "IT之家",
+    "url": "https://www.ithome.com/1/008/563.htm"
+  },
+  {
+    "date": "2026-09-30",
+    "title": "OpenAI光速上新GPT-6.1 Sol！一晚上25项更新，都在这里了",
+    "desc": "今年devday牙膏挤爆",
     "source": "量子位",
-    "url": "https://www.qbitai.com/2026/09/499098.html"
+    "url": "https://www.qbitai.com/2026/09/499246.html"
   },
   {
     "date": "2026-09-29",
@@ -178,6 +192,34 @@ export const news = [
 
 export const models = [
   {
+    "vendor": "OpenAI",
+    "name": "GPT-6.1 Sol Pro",
+    "date": "2026-09-30",
+    "desc": "GPT-6，上下文 1050k。",
+    "url": "https://openrouter.ai/openai/gpt-6.1-sol-pro"
+  },
+  {
+    "vendor": "OpenAI",
+    "name": "GPT-6.1 Sol Pro (batch)",
+    "date": "2026-09-30",
+    "desc": "GPT-6，上下文 1050k。",
+    "url": "https://openrouter.ai/openai/gpt-6.1-sol-pro:batch"
+  },
+  {
+    "vendor": "OpenAI",
+    "name": "GPT-6.1 Sol",
+    "date": "2026-09-30",
+    "desc": "GPT-6，上下文 1050k。",
+    "url": "https://openrouter.ai/openai/gpt-6.1-sol"
+  },
+  {
+    "vendor": "OpenAI",
+    "name": "GPT-6.1 Sol (batch)",
+    "date": "2026-09-30",
+    "desc": "GPT-6，上下文 1050k。",
+    "url": "https://openrouter.ai/openai/gpt-6.1-sol:batch"
+  },
+  {
     "vendor": "Anthropic",
     "name": "Claude Sonnet 5.5",
     "date": "2026-09-29",
@@ -218,34 +260,6 @@ export const models = [
     "date": "2026-09-24",
     "desc": "GLM-5，上下文 1000k。",
     "url": "https://openrouter.ai/z-ai/glm-5.3-prime"
-  },
-  {
-    "vendor": "Qwen",
-    "name": "Qwen3.8 Max Prime",
-    "date": "2026-09-24",
-    "desc": "Qwen3，上下文 1000k。",
-    "url": "https://openrouter.ai/qwen/qwen3.8-max-prime"
-  },
-  {
-    "vendor": "Space Bunny Alpha",
-    "name": "space-bunny-alpha",
-    "date": "2026-09-23",
-    "desc": "Space Bunny Alpha是一个匿名大型模型，具有超快的推理能力、强大的编码能力和本地多模态输入支持，上下文 1000k。",
-    "url": "https://openrouter.ai/stealth/space-bunny-alpha"
-  },
-  {
-    "vendor": "AionLabs",
-    "name": "Aion 3.5 Mini",
-    "date": "2026-09-23",
-    "desc": "AION 3，上下文 262k。",
-    "url": "https://openrouter.ai/aion-labs/aion-3.5-mini"
-  },
-  {
-    "vendor": "AionLabs",
-    "name": "Aion 3.5",
-    "date": "2026-09-23",
-    "desc": "AION 3，上下文 262k。",
-    "url": "https://openrouter.ai/aion-labs/aion-3.5"
   }
 ];
 
@@ -253,71 +267,71 @@ export const trending = [
   {
     "repo": "debpalash/VoiceStudio",
     "lang": "Python",
-    "today": 4712,
-    "stars": 46919,
+    "today": 4758,
+    "stars": 48062,
     "desc": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言。"
   },
   {
     "repo": "NVIDIA/OpenShell",
     "lang": "Rust",
-    "today": 978,
-    "stars": 10170,
+    "today": 990,
+    "stars": 10570,
     "desc": "OpenShell是自主AI代理的安全、私有运行时。"
   },
   {
     "repo": "vectorize-io/hindsight",
     "lang": "Python",
-    "today": 2541,
-    "stars": 42263,
+    "today": 2575,
+    "stars": 42813,
     "desc": "后见之明：学习的客服代表记忆"
   },
   {
     "repo": "paperclipai/paperclip",
     "lang": "TypeScript",
-    "today": 2412,
-    "stars": 94093,
+    "today": 2458,
+    "stars": 94436,
     "desc": "每个人都使用的开源应用程序来管理工作中的代理"
   },
   {
     "repo": "t8y2/dbx",
     "lang": "Rust",
-    "today": 460,
-    "stars": 21747,
+    "today": 232,
+    "stars": 21970,
     "desc": "100多个数据库的25MB轻量级跨平台数据库客户端，包括MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、SQL Server和Dameng。内置AI、MCP服务器、CLI、桌面和Docker。| 轻量级跨平台数据库管理工具，支持 MySQL、 PostgreSQL、 SQLite、 Redis、 MongoDB、达梦等 100 + 数据库，提供桌面端、 Docker、 CLI、内置 AI 助手和 MCP。"
   },
   {
     "repo": "mvschwarz/openrig",
     "lang": "TypeScript",
-    "today": 733,
-    "stars": 2176,
+    "today": 737,
+    "stars": 2423,
     "desc": "将Claude Code和Codex作为一个系统运行的多Agent线束"
   },
   {
     "repo": "oblien/openship",
     "lang": "TypeScript",
-    "today": 436,
-    "stars": 13639,
+    "today": 437,
+    "stars": 13809,
     "desc": "自托管部署平台"
   },
   {
     "repo": "averygan/reclip",
     "lang": "HTML",
-    "today": 114,
-    "stars": 9893,
+    "today": 113,
+    "stars": 10080,
     "desc": "从几乎所有网站下载视频。轻量级的自托管媒体下载器，具有干净的Web UI。"
   },
   {
     "repo": "cs341-illinois/coursebook",
     "lang": "TeX",
-    "today": 569,
-    "stars": 2911,
+    "today": 572,
+    "stars": 3092,
     "desc": "伊利诺伊大学开源入门系统编程教科书"
   },
   {
     "repo": "rohitg00/ai-engineering-from-scratch",
     "lang": "Python",
-    "today": 855,
-    "stars": 60974,
+    "today": 786,
+    "stars": 61334,
     "desc": "学习它，构建它。为其他人运送。"
   }
 ];
@@ -325,61 +339,61 @@ export const trending = [
 export const agentFrameworks = [
   {
     "repo": "anomalyco/opencode",
-    "stars": 210788,
+    "stars": 210933,
     "lang": "TypeScript",
     "desc": "开源编码代理。"
   },
   {
     "repo": "anthropics/claude-code",
-    "stars": 148567,
+    "stars": 148592,
     "lang": "TypeScript",
     "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
   },
   {
     "repo": "Significant-Gravitas/AutoGPT",
-    "stars": 187608,
+    "stars": 187620,
     "lang": "Python",
     "desc": "AutoGPT的愿景是为每个人提供可访问的人工智能，供其使用并以此为基础。我们的使命是提供工具，让您专注于重要的事情。"
   },
   {
     "repo": "openai/codex",
-    "stars": 127091,
+    "stars": 127198,
     "lang": "Rust",
     "desc": "在您的终端中运行的轻量级编码代理"
   },
   {
     "repo": "google-gemini/gemini-cli",
-    "stars": 107186,
+    "stars": 107195,
     "lang": "TypeScript",
     "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端。"
   },
   {
     "repo": "FoundationAgents/MetaGPT",
-    "stars": 70688,
+    "stars": 70694,
     "lang": "Python",
     "desc": "🌟 多Agent框架：第一个人工智能软件公司，迈向自然语言编程"
   },
   {
     "repo": "microsoft/autogen",
-    "stars": 61218,
+    "stars": 61222,
     "lang": "Python",
     "desc": "智能AI的编程框架"
   },
   {
     "repo": "crewAIInc/crewAI",
-    "stars": 59183,
+    "stars": 59195,
     "lang": "Python",
     "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
   },
   {
     "repo": "HKUDS/nanobot",
-    "stars": 48669,
+    "stars": 48683,
     "lang": "Python",
     "desc": "Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序"
   },
   {
     "repo": "openai/openai-agents-python",
-    "stars": 29762,
+    "stars": 29771,
     "lang": "Python",
     "desc": "轻量级、功能强大的多代理工作流程框架"
   }
@@ -388,61 +402,61 @@ export const agentFrameworks = [
 export const skills = [
   {
     "repo": "obra/superpowers",
-    "stars": 292740,
+    "stars": 292966,
     "lang": "Shell",
     "desc": "有效的代理技能框架和软件开发方法。"
   },
   {
     "repo": "mattpocock/skills",
-    "stars": 271824,
+    "stars": 272076,
     "lang": "Shell",
     "desc": "真正工程师的技能。直接来自我的.agents目录。"
   },
   {
     "repo": "affaan-m/ECC",
-    "stars": 269401,
+    "stars": 269645,
     "lang": "JavaScript",
     "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
   },
   {
     "repo": "anthropics/skills",
-    "stars": 178956,
+    "stars": 179004,
     "lang": "Python",
     "desc": "座席技能的公共存储库"
   },
   {
     "repo": "Shubhamsaboo/awesome-llm-apps",
-    "stars": 140188,
+    "stars": 140240,
     "lang": "Python",
     "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
   },
   {
     "repo": "addyosmani/agent-skills",
-    "stars": 99822,
+    "stars": 99935,
     "lang": "JavaScript",
     "desc": "AI编码代理的生产级工程技能。"
   },
   {
     "repo": "mvanhorn/last30days-skill",
-    "stars": 63179,
+    "stars": 63204,
     "lang": "Python",
     "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
   },
   {
     "repo": "tt-a1i/archify",
-    "stars": 74013,
+    "stars": 74248,
     "lang": "JavaScript",
     "desc": "美观、可验证的架构、工作流程、序列、数据流和生命周期图的代理技能--具有运动和清晰导出的自包含HTML。"
   },
   {
     "repo": "coreyhaines31/marketingskills",
-    "stars": 51890,
+    "stars": 51926,
     "lang": "JavaScript",
     "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
   },
   {
     "repo": "blader/humanizer",
-    "stars": 52825,
+    "stars": 52895,
     "lang": "Python",
     "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
   }
