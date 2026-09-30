@@ -6,59 +6,52 @@
   "news": [
     {
       "date": "2026-09-30",
-      "title": "OpenAI 推出全天候 AI 智能体 Dots，相关域名已被马斯克拿下",
-      "desc": "IT之家 9 月 30 日消息，当地时间周二，OpenAI 发布了一款名叫 Dots 的新产品。这是一款可以持续运行的人工智能智能体，拥有一个软乎乎、圆滚滚的卡通形象。虽说这个色彩明快的虚拟形象或许能博得大家一笑，但这次…",
+      "title": "OpenAI Dot 虚拟机配置曝光：AMD 霄龙 9V74 处理器 + 9.73GB 内存，Geekbench 7 多核 9435 分",
+      "desc": "IT之家 9 月 30 日消息，OpenAI 今日凌晨在 DevDay 活动上发布了 Dot 智能体，而每个 Dot 运行在独立的云端虚拟机中。Dot 虚拟机现已出现在 Geekbench 基准测试平台中，显示其搭载了 …",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/008/559.htm"
+      "url": "https://www.ithome.com/1/008/936.htm"
     },
     {
       "date": "2026-09-30",
-      "title": "IT早报 0930：华为 Mate 90 定档 10 月 1 日发布并开售；OpenAI 发布 GPT-6.1 Sol；123 云盘就空间调整致歉；5999 元起 iQOO 16 手机发布...",
-      "desc": "“IT早报”时间，大家好，现在是 2026 年 9 月 30 日星期三，今天的重要科技资讯有：1. 华为 Mate 90 系列年度旗舰手机亮相，定档 10 月 1 日正式发布并开售华为终端 9 月 29 日宣布，Mate…",
+      "title": "Glow Security：AI 智能体无意间泄露企业敏感信息，超 1.3 万张截图被放在 GitHub 公开仓库",
+      "desc": "IT之家 9 月 30 日消息，据科技媒体 TechRadar 今天报道，网络安全研究机构 Glow Security 近日发现，多个 AI 智能体创建的公开 GitHub 仓库存在超 1.3 万张屏幕截图，其中部分截图…",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/008/561.htm"
+      "url": "https://www.ithome.com/1/008/938.htm"
     },
     {
       "date": "2026-09-30",
-      "title": "麦当劳 AI 定价系统曝光：同款汉堡隔两英里价差达 21%",
-      "desc": "IT之家 9 月 30 日消息，据路透社报道，麦当劳正越来越多地借助人工智能，为美国本土以及部分海外市场制定菜单价格。这套方案意在提升总部的利润，但有可能招致消费者不满，同时还会引来反垄断机构的审查。人工智能重点测算的一…",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/008/563.htm"
+      "title": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
+      "desc": "DeepSeek在知乎独家发布技术长文，首次系统阐释了DeepSeek弹性计算（DeepSeek Elastic Compute，DSec）",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/09/499308.html"
     },
     {
       "date": "2026-09-30",
-      "title": "OpenAI光速上新GPT-6.1 Sol！一晚上25项更新，都在这里了",
-      "desc": "今年devday牙膏挤爆",
+      "title": "刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！",
+      "desc": "让GPT把机器人技能当工具调用",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/09/499246.html"
+      "url": "https://www.qbitai.com/2026/09/499493.html"
     },
     {
-      "date": "2026-09-29",
-      "title": "成立一年完成5轮融资，诺因智能再获数亿元，累计超10亿元",
-      "desc": "诺因从Demo走向家庭",
+      "date": "2026-09-30",
+      "title": "Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活",
+      "desc": "给Agent配上手机号，再拉个群",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/09/499135.html"
+      "url": "https://www.qbitai.com/2026/09/499592.html"
     },
     {
-      "date": "2026-09-29",
-      "title": "OpenAI因新模型太强叫停发布",
-      "desc": "AGI计划暂停。",
+      "date": "2026-09-30",
+      "title": "Anthropic，你是来给智谱打广告的吧！",
+      "desc": "实测说GLM-5.3很强",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/09/499140.html"
+      "url": "https://www.qbitai.com/2026/09/499597.html"
     },
     {
-      "date": "2026-09-29",
-      "title": "精准揪出RL训练数据Bug，Prompt直出小游戏，IQuest-Q1夯爆了！",
-      "desc": "点击查看详情。",
+      "date": "2026-09-30",
+      "title": "直播回顾：工业AI的下一个机会在哪？",
+      "desc": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/09/499188.html"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "正行创新联合创始人杨宇欣正式亮相：出任总裁，负责全球业务拓展",
-      "desc": "推动公司具身模型、本体、软件等全栈能力进入更多真实场景",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/09/499239.html"
+      "url": "https://www.qbitai.com/2026/09/499605.html"
     },
     {
       "date": "2026-09-18",
@@ -149,86 +142,86 @@
   ],
   "trending": [
     {
-      "repo": "debpalash/VoiceStudio",
-      "lang": "Python",
-      "today": 4758,
-      "stars": 48062,
-      "desc": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言。"
-    },
-    {
       "repo": "NVIDIA/OpenShell",
       "lang": "Rust",
-      "today": 990,
-      "stars": 10570,
+      "today": 1280,
+      "stars": 11720,
       "desc": "OpenShell是自主AI代理的安全、私有运行时。"
     },
     {
-      "repo": "vectorize-io/hindsight",
+      "repo": "debpalash/VoiceStudio",
       "lang": "Python",
-      "today": 2575,
-      "stars": 42813,
-      "desc": "后见之明：学习的客服代表记忆"
-    },
-    {
-      "repo": "paperclipai/paperclip",
-      "lang": "TypeScript",
-      "today": 2458,
-      "stars": 94436,
-      "desc": "每个人都使用的开源应用程序来管理工作中的代理"
-    },
-    {
-      "repo": "t8y2/dbx",
-      "lang": "Rust",
-      "today": 232,
-      "stars": 21970,
-      "desc": "100多个数据库的25MB轻量级跨平台数据库客户端，包括MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、SQL Server和Dameng。内置AI、MCP服务器、CLI、桌面和Docker。| 轻量级跨平台数据库管理工具，支持 MySQL、 PostgreSQL、 SQLite、 Redis、 MongoDB、达梦等 100 + 数据库，提供桌面端、 Docker、 CLI、内置 AI 助手和 MCP。"
+      "today": 3481,
+      "stars": 49934,
+      "desc": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言。"
     },
     {
       "repo": "mvschwarz/openrig",
       "lang": "TypeScript",
-      "today": 737,
-      "stars": 2423,
+      "today": 622,
+      "stars": 2789,
       "desc": "将Claude Code和Codex作为一个系统运行的多Agent线束"
     },
     {
-      "repo": "oblien/openship",
+      "repo": "mksglu/context-mode",
       "lang": "TypeScript",
-      "today": 437,
-      "stars": 13809,
-      "desc": "自托管部署平台"
+      "today": 88,
+      "stars": 24354,
+      "desc": "人工智能编码代理的上下文窗口优化。沙盒工具输出（减少98 ％ ） ，保持会话内存，并通过MCP +钩子在17个平台上强制路由。"
     },
     {
-      "repo": "averygan/reclip",
-      "lang": "HTML",
-      "today": 113,
-      "stars": 10080,
-      "desc": "从几乎所有网站下载视频。轻量级的自托管媒体下载器，具有干净的Web UI。"
+      "repo": "DietrichGebert/ponytail",
+      "lang": "JavaScript",
+      "today": 675,
+      "stars": 148776,
+      "desc": "让你的人工智能代理像房间里最懒惰的高级开发人员一样思考。最好的代码是你从未写过的代码。"
     },
     {
-      "repo": "cs341-illinois/coursebook",
-      "lang": "TeX",
-      "today": 572,
-      "stars": 3092,
-      "desc": "伊利诺伊大学开源入门系统编程教科书"
-    },
-    {
-      "repo": "rohitg00/ai-engineering-from-scratch",
+      "repo": "harry0703/MoneyPrinterTurbo",
       "lang": "Python",
-      "today": 786,
-      "stars": 61334,
-      "desc": "学习它，构建它。为其他人运送。"
+      "today": 338,
+      "stars": 127348,
+      "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow."
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "lang": "TypeScript",
+      "today": 136,
+      "stars": 390873,
+      "desc": "真正做事情的人工智能。任何操作系统。任何平台。龙虾路。 🦞"
+    },
+    {
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "lang": "Python",
+      "today": 118,
+      "stars": 76007,
+      "desc": "用于自定义Claude AI工作流程的精选Claude技能、资源和工具列表"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "lang": "Shell",
+      "today": 736,
+      "stars": 272716,
+      "desc": "真正工程师的技能。直接来自我的.agents目录。"
+    },
+    {
+      "repo": "heygen-com/hyperframes",
+      "lang": "TypeScript",
+      "today": 352,
+      "stars": 54508,
+      "desc": "编写HTML。渲染视频。专为客服代表打造。"
     }
   ],
   "agentFrameworks": [
     {
       "repo": "anomalyco/opencode",
-      "stars": 210933,
+      "stars": 211093,
       "lang": "TypeScript",
       "desc": "开源编码代理。"
     },
     {
       "repo": "anthropics/claude-code",
-      "stars": 148592,
+      "stars": 148673,
       "lang": "TypeScript",
       "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
     },
@@ -240,43 +233,43 @@
     },
     {
       "repo": "openai/codex",
-      "stars": 127198,
+      "stars": 127379,
       "lang": "Rust",
       "desc": "在您的终端中运行的轻量级编码代理"
     },
     {
       "repo": "google-gemini/gemini-cli",
-      "stars": 107195,
+      "stars": 107191,
       "lang": "TypeScript",
       "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端。"
     },
     {
       "repo": "FoundationAgents/MetaGPT",
-      "stars": 70694,
+      "stars": 70700,
       "lang": "Python",
       "desc": "🌟 多Agent框架：第一个人工智能软件公司，迈向自然语言编程"
     },
     {
       "repo": "microsoft/autogen",
-      "stars": 61222,
+      "stars": 61242,
       "lang": "Python",
       "desc": "智能AI的编程框架"
     },
     {
       "repo": "crewAIInc/crewAI",
-      "stars": 59195,
+      "stars": 59225,
       "lang": "Python",
       "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
     },
     {
       "repo": "HKUDS/nanobot",
-      "stars": 48683,
+      "stars": 48700,
       "lang": "Python",
       "desc": "Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序"
     },
     {
       "repo": "openai/openai-agents-python",
-      "stars": 29771,
+      "stars": 29785,
       "lang": "Python",
       "desc": "轻量级、功能强大的多代理工作流程框架"
     }
@@ -284,61 +277,61 @@
   "skills": [
     {
       "repo": "obra/superpowers",
-      "stars": 292966,
+      "stars": 293318,
       "lang": "Shell",
       "desc": "有效的代理技能框架和软件开发方法。"
     },
     {
       "repo": "mattpocock/skills",
-      "stars": 272076,
+      "stars": 272716,
       "lang": "Shell",
       "desc": "真正工程师的技能。直接来自我的.agents目录。"
     },
     {
       "repo": "affaan-m/ECC",
-      "stars": 269645,
+      "stars": 270017,
       "lang": "JavaScript",
       "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
     },
     {
       "repo": "anthropics/skills",
-      "stars": 179004,
+      "stars": 179125,
       "lang": "Python",
       "desc": "座席技能的公共存储库"
     },
     {
       "repo": "Shubhamsaboo/awesome-llm-apps",
-      "stars": 140240,
+      "stars": 140347,
       "lang": "Python",
       "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
     },
     {
       "repo": "addyosmani/agent-skills",
-      "stars": 99935,
+      "stars": 100076,
       "lang": "JavaScript",
       "desc": "AI编码代理的生产级工程技能。"
     },
     {
       "repo": "mvanhorn/last30days-skill",
-      "stars": 63204,
+      "stars": 63247,
       "lang": "Python",
       "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
     },
     {
       "repo": "tt-a1i/archify",
-      "stars": 74248,
+      "stars": 74975,
       "lang": "JavaScript",
       "desc": "美观、可验证的架构、工作流程、序列、数据流和生命周期图的代理技能--具有运动和清晰导出的自包含HTML。"
     },
     {
       "repo": "coreyhaines31/marketingskills",
-      "stars": 51926,
+      "stars": 51986,
       "lang": "JavaScript",
       "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
     },
     {
       "repo": "blader/humanizer",
-      "stars": 52895,
+      "stars": 53057,
       "lang": "Python",
       "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
     }
