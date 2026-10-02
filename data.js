@@ -120,31 +120,31 @@ export const seedPosts = [
 export const news = [
   {
     "date": "2026-10-02",
-    "title": "加州检察长向 OpenAI 发出传票，调查 AI 网络安全风险",
-    "desc": "IT之家 10 月 2 日消息，据路透社今天（2 日）凌晨报道，加利福尼亚州总检察长罗布 · 邦塔办公室宣布，邦塔本人已向 OpenAI 发出调查传票，要求其就 AI 模型涉及的网络安全事件和风险提供更多信息。邦塔上个月…",
+    "title": "Meta 旗下 AI 智能体 Muse 将登陆智能眼镜平台，可代用户完成各种任务",
+    "desc": "IT之家 10 月 2 日消息，Meta 宣布旗下 AI 智能体 Muse 将于近期登陆智能眼镜，用户无需拿出手机，只需通过语音下达指令，Muse 就能在后台代用户完成一系列任务。Meta 表示，Muse 基于 Muse…",
     "source": "IT之家",
-    "url": "https://www.ithome.com/1/009/204.htm"
+    "url": "https://www.ithome.com/1/009/363.htm"
   },
   {
     "date": "2026-10-02",
-    "title": "古尔曼：苹果首款智能家居中枢支持 AI 面部识别，为家人切换呈现专属内容",
-    "desc": "IT之家 10 月 2 日消息，在首期 Power On 播客节目中，彭博社的马克 · 古尔曼（Mark Gurman）爆料称，苹果公司首款智能家居中枢（Home Hub）将采用 AI 面部识别，会判断当前家庭成员并显示…",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/009/206.htm"
+    "title": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
+    "desc": "换区也没用",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/10/499958.html"
   },
   {
     "date": "2026-10-02",
-    "title": "苹果首款 AI 智能安防摄像头曝光：金属圆柱造型，不录不存视频、仅推送文本提醒",
-    "desc": "IT之家 10 月 2 日消息，在首期 Power On 播客节目中，彭博社的马克 · 古尔曼（Mark Gurman）爆料称，苹果正筹备推出家用智能摄像头（代号为 J450），将配套协同苹果首款智能家居中枢（Home …",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/009/208.htm"
+    "title": "丘成桐新论文致谢了GPT和Claude",
+    "desc": "44年前被亲自列入问题清单",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/10/499991.html"
   },
   {
     "date": "2026-10-02",
-    "title": "索尼 PlayStation 为标准版 PS5 游戏主机带来轻量级 AI 超分辨率技术 QSSR",
-    "desc": "IT之家 10 月 2 日消息，Sony（索尼）PlayStation 官方当地时间 1 日宣布为标准版 PS5 游戏主机推出基于人工智能的超分辨率 QSSR。该技术率先在《漫威金刚狼》《羊蹄山之魂》上得到支持。QSSR…",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/009/210.htm"
+    "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
+    "desc": "让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/10/500098.html"
   },
   {
     "date": "2026-10-01",
@@ -161,36 +161,29 @@ export const news = [
     "url": "https://www.qbitai.com/2026/10/499812.html"
   },
   {
-    "date": "2026-09-30",
-    "title": "Anthropic，你是来给智谱打广告的吧！",
-    "desc": "实测说GLM-5.3很强",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/09/499597.html"
-  },
-  {
-    "date": "2026-09-30",
-    "title": "直播回顾：工业AI的下一个机会在哪？",
-    "desc": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/09/499605.html"
-  },
-  {
-    "date": "2026-09-30",
-    "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
-    "desc": "千禧年难题的突破，10000个Agent最多占了10%的功劳。",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/09/499654.html"
-  },
-  {
     "date": "2026-09-18",
     "title": "科技爱好者周刊（第 413 期）：再见了，React Native",
     "desc": "这里记录每周值得分享的科技内容，周五发布。（[通知] 下周五开始的中秋和十一假期，周刊休息。） 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）…",
     "source": "阮一峰周刊",
     "url": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html"
+  },
+  {
+    "date": "2026-09-11",
+    "title": "科技爱好者周刊（第 412 期）：禁止 issue，只用 PR",
+    "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面 上海前滩太古里举办的\"英雄联盟15周年\"展…",
+    "source": "阮一峰周刊",
+    "url": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-412.html"
   }
 ];
 
 export const models = [
+  {
+    "vendor": "inclusionAI",
+    "name": "Ling 3.1 Flash",
+    "date": "2026-10-02",
+    "desc": "Ling 3，上下文 262k。",
+    "url": "https://openrouter.ai/inclusionai/ling-3.1-flash"
+  },
   {
     "vendor": "Apodex",
     "name": "Apodex 1.1 Mini (free)",
@@ -253,111 +246,104 @@ export const models = [
     "date": "2026-09-24",
     "desc": "Ember-1是Fireworks Research的专业推理模型，基于[Kimi K3] (https://openrouter，上下文 1049k。",
     "url": "https://openrouter.ai/fireworks/ember-1"
-  },
-  {
-    "vendor": "Z.ai",
-    "name": "GLM 5.3 Prime",
-    "date": "2026-09-24",
-    "desc": "GLM-5，上下文 1000k。",
-    "url": "https://openrouter.ai/z-ai/glm-5.3-prime"
   }
 ];
 
 export const trending = [
   {
+    "repo": "Panniantong/Agent-Reach",
+    "lang": "Python",
+    "today": 683,
+    "stars": 88096,
+    "desc": "让您的人工智能代理看到整个互联网。阅读和搜索Twitter、Reddit、YouTube、GitHub、Bilibili、XiaoHongShu —一个CLI ，无API费用。"
+  },
+  {
+    "repo": "JuliusBrussee/caveman",
+    "lang": "Go",
+    "today": 271,
+    "stars": 108930,
+    "desc": "🪨 为什么在很少令牌做恶作剧时使用许多令牌。病毒技能+编码代理的代理，通过像穴居人一样说话来削减65%的代币。"
+  },
+  {
+    "repo": "obra/superpowers",
+    "lang": "Shell",
+    "today": 561,
+    "stars": 294281,
+    "desc": "有效的代理技能框架和软件开发方法。"
+  },
+  {
     "repo": "DietrichGebert/ponytail",
     "lang": "JavaScript",
-    "today": 1194,
-    "stars": 150495,
+    "today": 1429,
+    "stars": 151304,
     "desc": "让你的人工智能代理像房间里最懒惰的高级开发人员一样思考。最好的代码是你从未写过的代码。"
+  },
+  {
+    "repo": "pbakaus/impeccable",
+    "lang": "JavaScript",
+    "today": 717,
+    "stars": 74050,
+    "desc": "让您的人工智能更好地进行设计的设计语言。"
   },
   {
     "repo": "mattpocock/skills",
     "lang": "Shell",
-    "today": 883,
-    "stars": 273891,
+    "today": 955,
+    "stars": 274474,
     "desc": "真正工程师的技能。直接来自我的.agents目录。"
   },
   {
     "repo": "NVIDIA/OpenShell",
     "lang": "Rust",
-    "today": 2456,
-    "stars": 14006,
+    "today": 584,
+    "stars": 14285,
     "desc": "OpenShell是自主AI代理的安全、私有运行时。"
   },
   {
-    "repo": "firebase/firebase-ios-sdk",
-    "lang": "C++",
-    "today": 112,
-    "stars": 6857,
-    "desc": "适用于Apple应用程序开发的Firebase SDK"
-  },
-  {
-    "repo": "mvschwarz/openrig",
-    "lang": "TypeScript",
-    "today": 642,
-    "stars": 3721,
-    "desc": "从Claude Code、Codex和Pi构建您自己的代理网络：具有角色、共享上下文和所有工作的持久团队。"
-  },
-  {
-    "repo": "cursor/plugins",
-    "lang": "TypeScript",
-    "today": 150,
-    "stars": 9319,
-    "desc": "光标插件规范和官方插件"
-  },
-  {
-    "repo": "obra/superpowers",
-    "lang": "Shell",
-    "today": 455,
-    "stars": 293965,
-    "desc": "有效的代理技能框架和软件开发方法。"
-  },
-  {
-    "repo": "mksglu/context-mode",
-    "lang": "TypeScript",
-    "today": 362,
-    "stars": 24776,
-    "desc": "人工智能编码代理的上下文窗口优化。沙盒工具输出（减少98 ％ ） ，保持会话内存，并通过MCP +钩子在17个平台上强制路由。"
+    "repo": "coreyhaines31/marketingskills",
+    "lang": "JavaScript",
+    "today": 139,
+    "stars": 52284,
+    "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
   },
   {
     "repo": "heygen-com/hyperframes",
     "lang": "TypeScript",
-    "today": 627,
-    "stars": 55336,
+    "today": 584,
+    "stars": 55697,
     "desc": "编写HTML。渲染视频。专为客服代表打造。"
   },
   {
-    "repo": "earendil-works/pi",
+    "repo": "mksglu/context-mode",
     "lang": "TypeScript",
-    "today": 298,
-    "stars": 111218,
-    "desc": "AI agent toolkit ：统一LLM API、agent loop、TUI、coding agent CLI"
+    "today": 276,
+    "stars": 24950,
+    "desc": "人工智能编码代理的上下文窗口优化。沙盒工具输出（减少98 ％ ） ，保持会话内存，并通过MCP +钩子在17个平台上强制路由。"
   }
 ];
 
 export const agentFrameworks = [
   {
     "repo": "anomalyco/opencode",
-    "stars": 211337,
+    "stars": 211450,
     "lang": "TypeScript",
     "desc": "开源编码代理。"
   },
   {
     "repo": "anthropics/claude-code",
-    "stars": 148868,
+    "stars": 148946,
     "lang": "TypeScript",
     "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
   },
   {
     "repo": "Significant-Gravitas/AutoGPT",
-    "stars": 187649,
+    "stars": 187655,
     "lang": "Python",
     "desc": "AutoGPT的愿景是为每个人提供可访问的人工智能，供其使用并以此为基础。我们的使命是提供工具，让您专注于重要的事情。"
   },
   {
     "repo": "openai/codex",
-    "stars": 127543,
+    "stars": 127618,
     "lang": "Rust",
     "desc": "在您的终端中运行的轻量级编码代理"
   },
@@ -369,31 +355,31 @@ export const agentFrameworks = [
   },
   {
     "repo": "FoundationAgents/MetaGPT",
-    "stars": 70717,
+    "stars": 70724,
     "lang": "Python",
     "desc": "🌟 多Agent框架：第一个人工智能软件公司，迈向自然语言编程"
   },
   {
     "repo": "microsoft/autogen",
-    "stars": 61252,
+    "stars": 61253,
     "lang": "Python",
     "desc": "智能AI的编程框架"
   },
   {
     "repo": "crewAIInc/crewAI",
-    "stars": 59271,
+    "stars": 59289,
     "lang": "Python",
     "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
   },
   {
     "repo": "HKUDS/nanobot",
-    "stars": 48735,
+    "stars": 48752,
     "lang": "Python",
     "desc": "Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序"
   },
   {
     "repo": "openai/openai-agents-python",
-    "stars": 29797,
+    "stars": 29801,
     "lang": "Python",
     "desc": "轻量级、功能强大的多代理工作流程框架"
   }
@@ -402,61 +388,61 @@ export const agentFrameworks = [
 export const skills = [
   {
     "repo": "obra/superpowers",
-    "stars": 293966,
+    "stars": 294281,
     "lang": "Shell",
     "desc": "有效的代理技能框架和软件开发方法。"
   },
   {
     "repo": "mattpocock/skills",
-    "stars": 273891,
+    "stars": 274474,
     "lang": "Shell",
     "desc": "真正工程师的技能。直接来自我的.agents目录。"
   },
   {
     "repo": "affaan-m/ECC",
-    "stars": 270709,
+    "stars": 271026,
     "lang": "JavaScript",
     "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
   },
   {
     "repo": "anthropics/skills",
-    "stars": 179326,
+    "stars": 179402,
     "lang": "Python",
     "desc": "座席技能的公共存储库"
   },
   {
     "repo": "Shubhamsaboo/awesome-llm-apps",
-    "stars": 140517,
+    "stars": 140556,
     "lang": "Python",
     "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
   },
   {
     "repo": "addyosmani/agent-skills",
-    "stars": 100349,
+    "stars": 100451,
     "lang": "JavaScript",
     "desc": "AI编码代理的生产级工程技能。"
   },
   {
     "repo": "mvanhorn/last30days-skill",
-    "stars": 63350,
+    "stars": 63386,
     "lang": "Python",
     "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
   },
   {
     "repo": "tt-a1i/archify",
-    "stars": 75827,
+    "stars": 76139,
     "lang": "JavaScript",
     "desc": "美观、可验证的架构、工作流程、序列、数据流和生命周期图的代理技能--具有运动和清晰导出的自包含HTML。"
   },
   {
     "repo": "coreyhaines31/marketingskills",
-    "stars": 52167,
+    "stars": 52283,
     "lang": "JavaScript",
     "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
   },
   {
     "repo": "blader/humanizer",
-    "stars": 53394,
+    "stars": 53544,
     "lang": "Python",
     "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
   }
