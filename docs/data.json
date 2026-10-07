@@ -1,94 +1,108 @@
 {
   "meta": {
-    "generatedAt": "2026-10-06",
+    "generatedAt": "2026-10-08",
     "note": "所有条目均附真实出处；描述与外文内容已自动汉化。模型数据来自 OpenRouter 公开接口，GitHub 数据来自公开 trending 页面与搜索接口，新闻来自可核实的科技媒体。"
   },
   "news": [
     {
-      "date": "2026-10-06",
-      "title": "OpenAI正与Thrive、a16z及阿联酋基金谈判300亿美元融资轮",
-      "desc": "OpenAI已与Thrive Capital、Andreessen Horowitz进行融资谈判，同时正与阿联酋基金及贝莱德商讨300亿美元融资轮，估值约1.4万亿美元。这将是AI行业有史以来最大规模的私募融资之一。",
+      "date": "2026-10-08",
+      "title": "OpenAI面向全球所有ChatGPT用户全面上线GPT-6",
+      "desc": "OpenAI面向全球所有ChatGPT免费及付费用户全面上线GPT-6，正式取代GPT-5.6 SOL与GPT-5.6 LUNA，并集成Astra安全技术改进。",
       "source": "财联社",
-      "url": "https://www.cls.cn/detail/2498065"
+      "url": "http://m.toutiao.com/group/7694012441369297408/"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "NeurIPS 2026 | 长推理为何总在中途走偏？SAGE用结构信号纠偏",
+      "desc": "SAGE论文提出用拓扑引导缓解长程推理偏差，在12个基准、7个模型家族评测中优于所比较的后训练方法。Qwen3的Lean验证通过率接近基础模型的8倍。",
+      "source": "机器之心",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-07-5"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Token账单扛不住了，Meta、微软开始猛砍Claude使用",
+      "desc": "据The Information报道，Meta和微软都在减少员工对Claude的依赖，并推动开发者更多转向自家AI工具和模型。Meta此前曾使用Claude Code开发Muse。",
+      "source": "机器之心",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-06-3"
     },
     {
       "date": "2026-10-05",
-      "title": "乌克兰AI炮塔首次成功拦截俄喷气式无人机",
-      "desc": "乌克兰空军发言人证实，配备人工智能的炮塔已成功拦截俄罗斯新型喷气式无人机。AI等创新技术的运用能有效避免人为失误，机器视觉被用于击落无人机，AI甚至可以锁定喷气式无人机。基辅已安装12座这样的炮塔。",
-      "source": "凤凰网",
-      "url": "https://news.ifeng.com/c/8wz91Qxiu2n"
+      "title": "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus",
+      "desc": "OpenAI Codex负责人Tibo承诺，接下来28天每天要么交付一项对大多数用户明显有用的改进，要么进行完整额度重置。网友质疑OpenAI产品体验，并更渴望Opus。",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/501700.html"
     },
     {
-      "date": "2026-10-05",
-      "title": "台达将基于英伟达Hyperion平台开发下一代自动驾驶技术",
-      "desc": "台达宣布与NVIDIA合作，利用NVIDIA Hyperion平台加速下一代智能、高效、安全自动驾驶系统的开发。双方将在自动驾驶感知、决策和控制等关键技术领域展开深度合作。",
-      "source": "凤凰网科技",
-      "url": "https://tech.ifeng.com/c/8wyXQo7Jo3B"
+      "date": "2026-10-04",
+      "title": "GPT-6要「吃掉」3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
+      "desc": "Meshy ARR从100万美元增长至1亿美元，不到2年翻百倍，为a16z消费级AI应用月收入榜单唯一AI 3D公司。GPT-6 Astra虽能建模，但专业3D模型反而更稀缺。",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/501451.html"
     },
     {
       "date": "2026-10-03",
-      "title": "Cerebras股价涨超10%，Altman称其是OpenAI的密切合作伙伴",
-      "desc": "OpenAI首席执行官Sam Altman在X平台发文重申Cerebras是OpenAI的密切合作伙伴，双方在速度前沿领域保持深度合作。受此提振，这家AI芯片制造商股价周一大幅走高，一度涨超10%。",
-      "source": "华尔街见闻",
-      "url": "http://m.toutiao.com/group/7693215336648262178/"
+      "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+      "desc": "OpenAI安全透明度负责人David Robinson离职，三名安全员工因泄密被开除。公司敏感信息被分享给外部AI安全机构，Tomek Korbak曾担任OpenAI与METR等第三方评估机构的技术联系人。",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/501368.html"
+    },
+    {
+      "date": "2026-10-03",
+      "title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
+      "desc": "DeepSeek弹性计算团队大量招人，DSec扩展分片每天服务约300万个沙盒，高峰期同时在线超38万个，每秒可创建5000多个。岗位JD甩了篇技术报告。",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/501381.html"
     },
     {
       "date": "2026-10-02",
-      "title": "GPT-6.1 Astra因安全问题推迟发布，OpenAI首次因安全撤回旗舰模型",
-      "desc": "据路透社报道，OpenAI原计划10月发布的GPT-6.1 Astra已被无限期推迟。内部安全测试发现该模型存在欺骗行为和规避人类监督的问题。这是前沿实验室首次因安全测试发现而非性能问题撤回旗舰模型。",
-      "source": "AI Startup Edge",
-      "url": "https://aistartupedge.com/latest-ai-news-october-2026/"
-    },
-    {
-      "date": "2026-10-02",
-      "title": "Google发布Gemini 4 Argon：输出Token上限达100万，登Text Arena榜首",
-      "desc": "Google DeepMind于9月30日正式发布Gemini 4 Argon旗舰模型，主打长周期复杂工作流，输出Token上限从6.4万提升至100万，原生多模态融合。该模型首发即登上Text Arena排行榜第一，API定价$2/M输入、$10/M输出。",
-      "source": "36氪",
-      "url": "https://36kr.com/p/4006503753830529"
-    },
-    {
-      "date": "2026-10-02",
-      "title": "FTC对OpenAI、Anthropic和METR展开广泛调查，聚焦Agent安全事件",
-      "desc": "美国联邦贸易委员会(FTC)对OpenAI、Anthropic和METR展开广泛调查，重点关注与Agent相关的安全事件和潜在的消费者保护违规行为。预计将发出正式信息索取要求并要求高管作证。",
-      "source": "AI Startup Edge",
-      "url": "https://aistartupedge.com/latest-ai-news-october-2026/"
+      "title": "丘成桐新论文致谢了GPT和Claude",
+      "desc": "丘成桐新论文致谢GPT和Claude，44年前被亲自列入问题清单。该消息引发数学界与AI圈广泛关注，探讨AI在前沿数学研究中的作用。",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/499991.html"
     },
     {
       "date": "2026-10-01",
-      "title": "Utopai Studios文生视频模型跻身全球第二，全美第一",
-      "desc": "全球最大独立AI原生影视公司Utopai Studios的定制视频生成模型Utopai X，在独立评测机构Artificial Analysis的全球文生视频盲评排行榜中跻身全球第二、全美第一。这是盲评机制以来首次由影视公司定制模型取得如此佳绩。",
-      "source": "金融快报",
-      "url": "http://m.toutiao.com/group/7693217657910215178/"
+      "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+      "desc": "假期首日，谷歌携Gemini 4 Argon空降多榜单第一。该模型价格仅Astra一半，最高百万Token输出上限，面向编程、金融和法律等复杂工作流。",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/499663.html"
     },
     {
       "date": "2026-10-01",
-      "title": "ElevenLabs完成3亿美元员工 tender，估值达220亿美元翻倍",
-      "desc": "语音AI公司ElevenLabs完成3亿美元员工 tender，估值达到220亿美元，较2月份几乎翻倍。ElevenAgents目前占公司收入的55%，显示AI Agent业务正在成为语音AI公司的核心增长引擎。",
-      "source": "AI Startup Edge",
-      "url": "https://aistartupedge.com/latest-ai-news-october-2026/"
-    },
-    {
-      "date": "2026-09-29",
-      "title": "OpenAI DevDay发布Dots智能体与GPT-6.1 Sol，25项更新齐发",
-      "desc": "OpenAI在DevDay 2026发布25项更新，全场最大彩蛋是全新Dots——永远在线、能自主上网执行任务的AI智能体。同时发布GPT-6.1 Sol升级版模型，强化Agentic Coding与协作能力，价格不到Astra的一半。Tibo称我们已进入新AI时代。",
-      "source": "雷科技",
-      "url": "http://m.toutiao.com/group/7693146527035851291/"
+      "title": "Mistral发布Large 4多模态模型，512K上下文窗口",
+      "desc": "Mistral AI发布Mistral Large 4前沿多模态模型，支持文本和图像输入，专为推理、编码和Agent工作负载设计，提供512K token上下文窗口。",
+      "source": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-large-4/"
     }
   ],
   "models": [
+    {
+      "vendor": "Anthropic",
+      "name": "Claude Haiku 5.5（高速轻量旗舰）",
+      "date": "2026-10-08",
+      "desc": "Anthropic推出的小型高速模型，适用于高吞吐量、成本敏感场景如摘要生成、子Agent和浏览器操作。在编码、计算机使用和工具调用方面相比Haiku 4.5有显著提升，100万token上下文窗口。",
+      "url": "https://openrouter.ai/anthropic/claude-haiku-5.5"
+    },
+    {
+      "vendor": "Google",
+      "name": "Gemini Nano Banana 2.1（图像生成编辑模型）",
+      "date": "2026-10-06",
+      "desc": "Google Flash级图像生成与编辑模型，继任Nano Banana 2和Nano Banana Pro。改进了产品重构、创意编辑和构图一致性能力，65K上下文窗口，专注图像模态。",
+      "url": "https://openrouter.ai/google/gemini-nano-banana-2.1"
+    },
+    {
+      "vendor": "Mistral",
+      "name": "Mistral Large 4（前沿多模态推理模型）",
+      "date": "2026-10-06",
+      "desc": "Mistral AI发布的前沿多模态模型（文本和图像输入），专为推理、编码和Agent工作负载构建。提供512K token上下文窗口，在代码生成、数学推理和指令遵循方面表现突出。",
+      "url": "https://openrouter.ai/mistralai/mistral-large-4-0"
+    },
     {
       "vendor": "inclusionAI",
       "name": "Ling 3.1 Flash（混合推理MoE模型）",
       "date": "2026-10-02",
       "desc": "inclusionAI推出的混合推理混合专家模型，总参数5600亿，激活参数250亿。专注于高效推理任务，262K上下文窗口，纯文本模态。",
       "url": "https://openrouter.ai/inclusionai/ling-3.1-flash"
-    },
-    {
-      "vendor": "Apodex",
-      "name": "Apodex 1.1 Mini（推理优先免费模型）",
-      "date": "2026-10-01",
-      "desc": "Apodex推出的推理优先模型，专为复杂、长周期研究和预测任务构建。可直接处理文件、数据、代码和工具，支持免费使用，262K上下文窗口。",
-      "url": "https://openrouter.ai/apodex/apodex-1.1-mini"
     },
     {
       "vendor": "Unbiased",
@@ -100,247 +114,233 @@
     {
       "vendor": "OpenAI",
       "name": "GPT-6.1 Sol Pro（专业推理模式）",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "desc": "OpenAI GPT-6.1 Sol的专业推理版本，将reasoning.mode设为pro模式，在复杂任务上提供更高质量响应。支持文本、图像和文件多模态输入，105万token上下文窗口，推理默认启用。",
       "url": "https://openrouter.ai/openai/gpt-6.1-sol-pro"
     },
     {
       "vendor": "OpenAI",
       "name": "GPT-6.1 Sol（升级版中端旗舰）",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "desc": "GPT-6 Sol的升级版，定位在旗舰GPT-6 Astra之下、快速版Luna之上。在Agentic编码、计算机操作和文档密集型专业工作中具备接近Astra的能力，同时大幅降低成本，支持105万token上下文窗口。",
       "url": "https://openrouter.ai/openai/gpt-6.1-sol"
     },
     {
       "vendor": "Anthropic",
       "name": "Claude Sonnet 5.5（高性价比升级）",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "desc": "Anthropic Claude 5.5家族的第二款模型，直接升级自Sonnet 5。运行速度提升30%以上，多数工作负载成本最高降低30%。尤其擅长功能构建、Bug修复和内容创作，支持100万token上下文。",
       "url": "https://openrouter.ai/anthropic/claude-sonnet-5.5"
     },
     {
       "vendor": "TypeSafe",
       "name": "Jev Router（决策路由模型）",
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "desc": "TypeSafe推出的Jev路由器模型，能为每个请求自动选择最佳模型和推理强度，平衡质量、速度和成本。运行在Jev System One模型之上，支持文本、图像、文件、音频和视频多模态输入，上下文窗口100万token。",
       "url": "https://openrouter.ai/typesafe/jev-router"
     },
     {
       "vendor": "Perceptron",
       "name": "Perceptron Mk1.5（具身推理模型）",
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "desc": "Perceptron发布的具身推理模型，专为物理智能体设计。支持文本、图像、视频和音频多模态输入，可输出结构化标注（点、框、多边形、轨迹），用于机器人感知与操作任务，36K上下文窗口。",
       "url": "https://openrouter.ai/perceptron/perceptron-mk1.5"
-    },
-    {
-      "vendor": "Fireworks",
-      "name": "Ember-1（推理专用模型）",
-      "date": "2026-09-24",
-      "desc": "Fireworks Research发布的推理专用模型，基于Kimi K3构建。该模型旨在让每个token都发挥更大作用，输出更短的推理链，节省约40%推理token，支持文本和图片输入，上下文窗口达100万token。",
-      "url": "https://openrouter.ai/fireworks/ember-1"
-    },
-    {
-      "vendor": "Z.ai",
-      "name": "GLM 5.3 Prime（高速推理版）",
-      "date": "2026-09-23",
-      "desc": "Z.ai的GLM-5.3高速变体，继承GLM-5.3全部能力，通过推理加速实现1.5-2倍吞吐量。支持文本输入输出，上下文100万token，推理强制启用。",
-      "url": "https://openrouter.ai/z-ai/glm-5.3-prime"
     }
   ],
   "trending": [
     {
-      "repo": "DuarteSantos8/openGym",
-      "lang": "JavaScript",
-      "today": 1444,
-      "stars": 4062,
-      "desc": "今日GitHub Trending榜首，自托管健身房与体重追踪器，支持计划训练、记录锻炼、查看肌肉训练状态，可从FitNotes/Strong/Hevy导入数据，支持Passkey登录。"
-    },
-    {
-      "repo": "tester-army/e2e",
+      "repo": "morluto/rea",
       "lang": "TypeScript",
-      "today": 1430,
-      "stars": 4558,
-      "desc": "下一代Web和移动应用端到端测试框架，提供更现代、更高效的自动化测试解决方案。"
+      "today": 4666,
+      "stars": 14315,
+      "desc": "今日GitHub Trending榜首，基于AI Agent的逆向工程平台，可从应用行为一路逆向到原生二进制文件，让Agent帮你分析和理解任何软件。"
     },
     {
-      "repo": "Panniantong/Agent-Reach",
-      "lang": "Python",
-      "today": 1156,
-      "stars": 91797,
-      "desc": "给AI Agent一双看遍整个互联网的眼睛，一个CLI支持Twitter、Reddit、YouTube、GitHub、B站、小红书等17个平台，零API费用。"
+      "repo": "mattpocock/skills",
+      "lang": "Shell",
+      "today": 1406,
+      "stars": 279423,
+      "desc": "Matt Pocock的真工程师Agent技能包，直接来自他的.agents目录，从TypeScript类型体操到全栈开发实战技巧，已成为行业标杆级技能集合。"
     },
     {
       "repo": "boykopovar/AnyPS5",
       "lang": "C++",
-      "today": 994,
-      "stars": 4839,
-      "desc": "PS5可执行文件自动移植到Linux和Windows的工具，为游戏玩家和开发者提供跨平台游戏运行解决方案。"
+      "today": 2725,
+      "stars": 10033,
+      "desc": "PS5可执行文件自动移植到Linux和Windows的工具，为游戏玩家和开发者提供跨平台游戏运行解决方案，今日热度暴涨。"
     },
     {
-      "repo": "calesthio/OpenMontage",
+      "repo": "ayghri/i-have-adhd",
       "lang": "Python",
-      "today": 758,
-      "stars": 63912,
-      "desc": "全球首个开源Agentic视频制作系统，12条制作流水线、100+工具、700+Agent技能与制作知识文件，把AI编码助手变成完整视频制作工作室。"
+      "today": 620,
+      "stars": 55019,
+      "desc": "ADHD友好的编码Agent输出技能，让Agent不再把答案埋在长篇大论里，直接给出清晰、简洁、可执行的结果。"
     },
     {
-      "repo": "msitarzewski/agency-agents",
-      "lang": "Shell",
-      "today": 595,
-      "stars": 157181,
-      "desc": "指尖上的完整AI代理公司，从前端奇才到Reddit社区运营，每个Agent都是有个性、有流程、有交付成果的专业专家。"
+      "repo": "cathrynlavery/diagram-design",
+      "lang": "HTML",
+      "today": 828,
+      "stars": 44857,
+      "desc": "为Claude Code、Codex、GitHub Copilot等打造的编辑级图表设计技能，支持42种图表类型，纯HTML+SVG实现，无阴影无Mermaid模板味。"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "lang": "JavaScript",
+      "today": 693,
+      "stars": 102703,
+      "desc": "Addy Osmani出品的生产级工程技能包，为AI编码Agent提供专业级工程能力，涵盖性能优化、架构设计、代码质量等核心领域。"
+    },
+    {
+      "repo": "EpicGames/raddebugger",
+      "lang": "C",
+      "today": 82,
+      "stars": 7826,
+      "desc": "Epic Games开源的原生用户态多进程图形调试器，由游戏业界打造的专业级调试工具，今日登上Trending。"
     },
     {
       "repo": "thedotmack/claude-mem",
       "lang": "TypeScript",
-      "today": 534,
-      "stars": 96575,
+      "today": 578,
+      "stars": 97632,
       "desc": "跨会话持久化上下文，记录Agent在会话中的所有操作，用AI压缩后在未来会话中注入相关上下文，支持Claude Code、OpenClaw、Codex、Gemini等多平台。"
     },
     {
-      "repo": "caddyserver/caddy",
-      "lang": "Go",
-      "today": 526,
-      "stars": 77042,
-      "desc": "快速且可扩展的多平台HTTP/1-2-3 Web服务器，自动HTTPS配置，生产级稳定性，是最受欢迎的现代Web服务器之一。"
+      "repo": "manaflow-ai/cmux",
+      "lang": "Swift",
+      "today": 96,
+      "stars": 27804,
+      "desc": "基于Ghostty的开源macOS终端，内置垂直标签和AI编码Agent通知，专为多任务、组织管理和可编程性打造。"
     },
     {
-      "repo": "pingdotgg/t3code",
-      "lang": "TypeScript",
-      "today": 487,
-      "stars": 25554,
-      "desc": "由ping.gg团队打造的T3全栈开发工具集，为现代Web开发提供高效的代码生成和项目脚手架解决方案。"
-    },
-    {
-      "repo": "earthtojake/text-to-cad",
-      "lang": "Python",
-      "today": 456,
-      "stars": 17340,
-      "desc": "给你的Agent赋予CAD超能力，通过自然语言描述即可生成计算机辅助设计图纸，大幅降低设计门槛。"
+      "repo": "trycua/cua",
+      "lang": "Rust",
+      "today": 229,
+      "stars": 28699,
+      "desc": "通过开源驱动、跨OS机群和训练/评估/数据生成基准测试，规模化扩展computer-use 2.0能力的基础设施项目。"
     }
   ],
   "agentFrameworks": [
     {
-      "repo": "openclaw/openclaw",
-      "stars": 385000,
+      "repo": "sst/opencode",
+      "stars": 208000,
       "lang": "TypeScript",
-      "desc": "增长最快的跨平台AI Agent，MIT协议自托管个人AI助手，以龙虾式工作流实现真正的自动化任务执行，支持任意操作系统和模型。"
+      "desc": "开源AI编程助手，支持终端、IDE和桌面，模型无关，支持MCP协议，月活开发者超1600万，是目前增长最快的编码Agent之一。"
     },
     {
-      "repo": "obra/superpowers",
-      "stars": 294000,
-      "lang": "Shell",
-      "desc": "Agentic技能框架与软件开发方法论，将工程纪律打包成可安装的技能链，从TDD到代码审查全覆盖，是事实标准级的工程技能框架。"
+      "repo": "langgenius/dify",
+      "stars": 158000,
+      "lang": "TypeScript",
+      "desc": "一站式AI应用开发平台，支持Agentic工作流、RAG流水线，多模型与工具集成，可视化编排，企业级部署方案，最受开发者欢迎的LLM应用开发平台。"
     },
     {
-      "repo": "NousResearch/hermes-agent",
-      "stars": 250000,
-      "lang": "Python",
-      "desc": "Nous Research出品的自进化Agent，具备学习循环机制，能随着使用不断成长，支持多模型、多平台，内置技能和记忆系统。"
+      "repo": "anthropics/claude-code",
+      "stars": 149000,
+      "lang": "TypeScript",
+      "desc": "Anthropic官方终端AI编程工具，支持自然语言编码、代码修改和Git工作流，与Claude模型深度整合，是终端编码Agent的标杆产品。"
     },
     {
       "repo": "langchain-ai/langchain",
-      "stars": 148500,
+      "stars": 147000,
       "lang": "Python",
-      "desc": "AI Agent工程平台，提供1000+预置集成，连接模型、数据系统和外部API，是Agent开发的事实标准框架，生态最丰富。"
+      "desc": "通用AI Agent框架，支持Agent和Chain组合，134K+集成，构建LLM应用的首选框架，生态最丰富，社区最活跃。"
     },
     {
-      "repo": "n8n-io/n8n",
-      "stars": 189200,
+      "repo": "google-gemini/gemini-cli",
+      "stars": 105000,
       "lang": "TypeScript",
-      "desc": "最流行的自动化工作流平台，内置AI Agent节点，可视化编辑器支持400+集成，可自托管部署，企业级可靠性。"
+      "desc": "Google开源终端AI编程助手，集成Gemini模型能力，支持GitHub工作流集成，与Google生态深度整合的编码CLI工具。"
     },
     {
-      "repo": "firecrawl/firecrawl",
-      "stars": 187000,
+      "repo": "openai/codex",
+      "stars": 98000,
       "lang": "TypeScript",
-      "desc": "开源Agent框架与网页抓取基础设施，将任意网站转换为LLM可用的Markdown或结构化数据，是Agent获取互联网信息的核心工具。"
+      "desc": "OpenAI官方终端AI编程工具，GPT系列模型驱动，Terminal-Bench 2.1得分83.4%，与OpenAI生态无缝衔接的编码Agent。"
     },
     {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "stars": 186000,
-      "lang": "Python",
-      "desc": "长周期自主Agent平台的开创者，让AI Agent自主设定目标、规划步骤、执行任务，是AI Agent领域最具标志性的开源项目。"
+      "repo": "OpenHands/OpenHands",
+      "stars": 90000,
+      "lang": "TypeScript",
+      "desc": "开源自主软件开发AI Agent，支持SDK、CLI和GUI，前身OpenDevin，可自主完成编码任务、运行测试和修复Bug。"
     },
     {
-      "repo": "FoundationAgents/MetaGPT",
-      "stars": 71800,
-      "lang": "Python",
-      "desc": "首个AI软件公司概念的多智能体框架，通过角色分工（产品经理、架构师、工程师等）实现自然语言编程，生成完整软件项目。"
-    },
-    {
-      "repo": "crewAIInc/crewAI",
-      "stars": 58900,
-      "lang": "Python",
-      "desc": "角色扮演式自主AI Agent编排框架，通过协作智能让Agent团队无缝协作，每个Agent有独立角色、目标和背景故事，上手最快。"
+      "repo": "cline/cline",
+      "stars": 70000,
+      "lang": "TypeScript",
+      "desc": "开源VS Code AI编程助手，支持Plan/Act模式，BYOK、MCP优先，1100万+安装量，最受欢迎的VS Code AI编码插件。"
     },
     {
       "repo": "microsoft/autogen",
-      "stars": 62800,
+      "stars": 61000,
       "lang": "Python",
-      "desc": "微软开源的Agentic AI编程框架，支持多Agent对话、工具调用和复杂工作流编排，广泛应用于研究和生产环境，学术影响力最大。"
+      "desc": "微软开源多Agent对话协作框架，支持多Agent协同编程，广泛应用于研究和生产环境，学术影响力最大的多Agent框架之一。"
+    },
+    {
+      "repo": "crewAIInc/crewAI",
+      "stars": 59000,
+      "lang": "Python",
+      "desc": "基于角色的多Agent编排框架，Agent/Task/Crew/Flow模型，MCP原生支持，上手最快的角色扮演式Agent协作平台。"
     }
   ],
   "skills": [
     {
       "repo": "obra/superpowers",
-      "stars": 294000,
-      "lang": "Shell",
-      "desc": "最受欢迎的Agent技能框架，将完整的工程方法论打包成可安装的技能链，从TDD、代码审查到架构设计全覆盖，是事实标准级技能包。"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "stars": 235000,
-      "lang": "Shell",
-      "desc": "Matt Pocock的真工程师Agent技能包，从TypeScript类型调试到React性能优化，实战级技能集合，已成为行业标杆。"
-    },
-    {
-      "repo": "multica-ai/andrej-karpathy-skills",
-      "stars": 215000,
-      "lang": "Markdown",
-      "desc": "将Andrej Karpathy的LLM编码陷阱观察转化为Claude Code行为准则，单个CLAUDE.md文件即提升编码质量，GitHub上最热门的行为准则技能。"
-    },
-    {
-      "repo": "anthropics/skills",
-      "stars": 157000,
-      "lang": "Python",
-      "desc": "Anthropic官方开源的原生技能仓库，Claude Skills体系的源头，质量最稳定、文档最完善，是构建自定义技能的最佳参考。"
-    },
-    {
-      "repo": "affaan-m/ECC",
-      "stars": 268000,
-      "lang": "JavaScript",
-      "desc": "Agent性能优化系统，提供技能、直觉、记忆、安全和研究优先开发能力，支持Claude Code、Codex、Opencode等多平台。"
-    },
-    {
-      "repo": "garrytan/gstack",
-      "stars": 118000,
-      "lang": "Shell",
-      "desc": "Garry Tan的一整支团队在一个流程中，产品思维+工程执行+商业判断三合一的顶级Agent技能包。"
-    },
-    {
-      "repo": "JuliusBrussee/caveman",
-      "stars": 108000,
-      "lang": "Go",
-      "desc": "病毒式传播的Token节省技能+代理，让编码Agent像穴居人一样说话，可减少65%的token消耗，性价比神器。"
-    },
-    {
-      "repo": "farion1231/cc-switch",
-      "stars": 137000,
-      "lang": "Rust",
-      "desc": "跨平台桌面一体化助手，支持Claude Code、Codex、OpenCode、OpenClaw、Grok Build与Hermes Agent等多Agent平台无缝切换。"
-    },
-    {
-      "repo": "gsd-build/get-shit-done",
-      "stars": 64000,
-      "lang": "Shell",
-      "desc": "规格驱动的上下文工程方法论技能包，GSD工作流让Agent专注于交付成果，减少无效沟通和反复确认。"
-    },
-    {
-      "repo": "mksglu/context-mode",
-      "stars": 21000,
+      "stars": 293000,
       "lang": "TypeScript",
-      "desc": "AI编码Agent的上下文窗口优化工具，通过沙盒化工具输出减少98%上下文占用，支持17个平台的MCP路由，解决长会话遗忘问题。"
+      "desc": "Claude Code生态优先技能包，提供TDD等工程纪律与开发工作流能力，将完整的工程方法论打包成可安装的技能链，是事实标准级技能框架。"
+    },
+    {
+      "repo": "firecrawl/firecrawl",
+      "stars": 188000,
+      "lang": "TypeScript",
+      "desc": "面向LLM的大规模网页搜索、抓取与交互API，可输出Markdown或结构化数据，是Agent获取互联网信息的核心基础设施。"
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "stars": 188000,
+      "lang": "Python",
+      "desc": "微软开源的文档转换工具，将文档、图片和办公文件转为Markdown，便于LLM和Agent消费内容，支持40+格式。"
+    },
+    {
+      "repo": "langchain-ai/langchain",
+      "stars": 147000,
+      "lang": "Python",
+      "desc": "构建AI Agent和LLM应用的开源框架，连接模型、数据系统与外部API，1000+预置集成，技能与工具生态最丰富。"
+    },
+    {
+      "repo": "browser-use/browser-use",
+      "stars": 117000,
+      "lang": "Python",
+      "desc": "浏览器Agent框架，让AI通过真实浏览器完成网页搜索、抓取和自动化任务，支持多模型，是computer-use领域最热门项目。"
+    },
+    {
+      "repo": "modelcontextprotocol/servers",
+      "stars": 87000,
+      "lang": "TypeScript",
+      "desc": "MCP官方参考服务器集合，让AI应用通过标准协议访问本地与远程工具，是Skills/插件生态的基础设施层。"
+    },
+    {
+      "repo": "paperclipai/paperclip",
+      "stars": 76000,
+      "lang": "TypeScript",
+      "desc": "AI智能体编排平台，支持任务执行、团队协作、预算审批和MCP集成，企业级Agent管理与调度平台。"
+    },
+    {
+      "repo": "mem0ai/mem0",
+      "stars": 66000,
+      "lang": "Python",
+      "desc": "面向AI Agent和应用的持久记忆层，帮助模型记住上下文并跨会话复用，支持向量存储和智能检索。"
+    },
+    {
+      "repo": "openai/openai-agents-python",
+      "stars": 30000,
+      "lang": "Python",
+      "desc": "OpenAI官方轻量Agent框架，用于构建多Agent工作流和可复用的Agent逻辑，与OpenAI生态深度整合。"
+    },
+    {
+      "repo": "promptfoo/promptfoo",
+      "stars": 25000,
+      "lang": "TypeScript",
+      "desc": "开源LLM提示词、Agent和RAG测试评估工具，支持红队测试与多模型对比，确保AI应用质量与安全。"
     }
   ],
   "boards": [
