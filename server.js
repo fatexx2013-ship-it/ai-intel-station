@@ -1,8 +1,9 @@
 // AI 情报站 — Node.js 后端（零依赖，使用内置 fetch）
-// - 静态托管 public/
-// - /api/data 返回六大版块（全部来自 data.js，中文内容，由 scripts/update-data.mjs 定时刷新）
+// - 静态托管 docs/（GitHub Pages 静态版，与线上一致）
+// - /api/data 返回六大版块（热数据读取 docs/data.json，由 scripts/update-data.mjs 定时刷新）
 // - /api/messages GET/POST 留言（内存 + messages.json 持久化）
 import http from 'node:http';
+import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -11,28 +12,26 @@ import * as seed from './data.js';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PORT = Number(process.env.PORT) || 8081;
 const HOST = process.env.HOST || '0.0.0.0';
-const PUB = path.join(__dirname, 'public');
+const PUB = path.join(__dirname, 'docs');
 const MSG_FILE = path.join(__dirname, 'messages.json');
 
 // ---------- 缓存层 ----------
-// 数据由 scripts/update-data.mjs（GitHub Actions 每日 05:00/17:00）定时刷新到 data.js
-// 服务端定期重载 data.js，保证本地版与最新数据同步
-const DATA_FILE = path.join(__dirname, 'data.js');
+// 数据由 scripts/update-data.mjs（GitHub Actions 每日 05:00/17:00）定时刷新到 docs/data.json
+// 服务端用 fs.readFile + JSON.parse 定期重载（避免动态 import 导致的内存泄漏），保证本地版与最新数据同步
+const DATA_FILE = path.join(__dirname, 'docs', 'data.json');
 let cached = { at: 0, seed: null };
-async function freshSeed() {
+function freshSeed() {
   const now = Date.now();
   if (!cached.seed || now - cached.at > 10 * 60 * 1000) {
     try {
-      // 清除模块缓存后重新加载最新 data.js
-      delete globalThis.__datajs_mtime;
       const stat = fs.statSync(DATA_FILE);
       const mtime = stat.mtimeMs;
       if (cached.seed && cached.seed.__mtime === mtime) {
         cached.at = now;
         return cached.seed;
       }
-      const mod = await import(`file://${DATA_FILE}?t=${mtime}`);
-      cached = { at: now, seed: { __mtime: mtime, ...mod } };
+      const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+      cached = { at: now, seed: { __mtime: mtime, ...data } };
     } catch (e) {
       console.error('[data-reload]', e.message);
       if (!cached.seed) cached.seed = { ...seed, __mtime: 0 };
@@ -71,6 +70,49 @@ function serveStatic(res, urlPath) {
   });
 }
 
+// ---------- 点赞安全辅助 ----------
+// 点赞去重：同一 IP 对同一帖子只记一次（内存 Map，服务重启后清空）
+const likeSeen = new Map();
+function clientIp(req) {
+  const xf = req.headers['x-forwarded-for'];
+  if (xf) return String(xf).split(',')[0].trim();
+  return req.socket.remoteAddress || 'unknown';
+}
+// 带大小上限的 JSON 请求体读取（超过 limit 直接 413，防止刷接口塞爆内存）
+function readJsonBody(req, res, limit, cb) {
+  const chunks = [];
+  let size = 0, overflow = false, done = false;
+  const fail = (code, msg) => {
+    if (done) return;
+    done = true;
+    try { send(res, code, { error: msg }); } catch (e) {}
+  };
+  const finish = (fn) => { if (done) return; done = true; fn(); };
+  req.on('data', (c) => {
+    if (overflow) return;
+    size += c.length;
+    if (size > limit) { overflow = true; req.pause(); fail(413, `请求体过大（上限 ${limit} 字节）`); return; }
+    chunks.push(c);
+  });
+  req.on('end', () => {
+    if (done) return;
+    try {
+      const obj = JSON.parse(Buffer.concat(chunks).toString('utf8') || '{}');
+      finish(() => cb(obj));
+    } catch (e) { fail(400, 'bad json'); }
+  });
+  req.on('error', () => fail(400, 'bad request'));
+}
+// 定期清理已不存在帖子的点赞记录，防止 Map 无限膨胀
+function pruneLikeSeen() {
+  if (likeSeen.size < 5000) return;
+  const ids = new Set(posts.map(x => String(x.id)));
+  for (const k of likeSeen.keys()) {
+    const pid = k.slice(k.lastIndexOf('|') + 1);
+    if (!ids.has(pid)) likeSeen.delete(k);
+  }
+}
+
 
 // ---------- 服务器 ----------
 const server = http.createServer(async (req, res) => {
@@ -89,7 +131,6 @@ const server = http.createServer(async (req, res) => {
       });
     }
     if (p === '/api/boards') return send(res, 200, seed.boards);
-    if (p === '/api/health') return send(res, 200, { ok: true, updated: seed.meta.generatedAt });
     if (p === '/api/messages' && req.method === 'GET') {
       const b = u.searchParams.get('board');
       return send(res, 200, b ? posts.filter(x => x.board === b) : posts);
@@ -104,10 +145,10 @@ const server = http.createServer(async (req, res) => {
           const n = String(name).trim().slice(0, 40);
           const t = String(text).trim().slice(0, 500);
           if (!t) return send(res, 400, { error: '内容不能为空' });
-          const rid = Number(replyTo);
+          const rid = String(replyTo || '').trim();
           const m = {
-            id: Date.now(), board: bd, name: n || '匿名', text: t, ts: Date.now(),
-            replyTo: (rid && posts.some(x => x.id === rid)) ? rid : null,
+            id: crypto.randomUUID(), board: bd, name: n || '匿名', text: t, ts: Date.now(),
+            replyTo: (rid && posts.some(x => String(x.id) === rid)) ? rid : null,
             likes: 0, favorites: 0
           };
           posts.push(m);
@@ -118,37 +159,37 @@ const server = http.createServer(async (req, res) => {
       });
       return;
     }
-    // 点赞 / 取消点赞
+    // 点赞 / 取消点赞（按 IP+帖子去重，防止刷赞与负数）
     if (p.startsWith('/api/messages/') && p.endsWith('/like') && req.method === 'POST') {
-      const id = Number(p.split('/')[3]);
-      const post = posts.find(x => x.id === id);
+      const id = p.split('/')[3];
+      const post = posts.find(x => String(x.id) === String(id));
       if (!post) return send(res, 404, { error: '帖子不存在' });
-      let body = '';
-      req.on('data', c => { body += c; });
-      req.on('end', () => {
-        try {
-          const { liked } = JSON.parse(body || '{}');
-          post.likes = Math.max(0, (post.likes || 0) + (liked ? 1 : -1));
-          savePosts();
-          return send(res, 200, { id: post.id, likes: post.likes });
-        } catch (e) { return send(res, 400, { error: 'bad json' }); }
+      const key = clientIp(req) + '|' + id;
+      readJsonBody(req, res, 1024, (body) => {
+        const liked = !!(body && body.liked === true);
+        const already = likeSeen.has(key);
+        if (liked) {
+          // 同一 IP 重复点赞：忽略，保持一次计数
+          if (!already) { likeSeen.set(key, true); post.likes = Math.max(0, (post.likes || 0) + 1); savePosts(); }
+        } else {
+          // 未点赞过却取消点赞：忽略，防止负数
+          if (already) { likeSeen.delete(key); post.likes = Math.max(0, (post.likes || 0) - 1); savePosts(); }
+        }
+        pruneLikeSeen();
+        return send(res, 200, { id: post.id, likes: post.likes, liked: likeSeen.has(key) });
       });
       return;
     }
     // 收藏 / 取消收藏
     if (p.startsWith('/api/messages/') && p.endsWith('/favorite') && req.method === 'POST') {
-      const id = Number(p.split('/')[3]);
-      const post = posts.find(x => x.id === id);
+      const id = p.split('/')[3];
+      const post = posts.find(x => String(x.id) === String(id));
       if (!post) return send(res, 404, { error: '帖子不存在' });
-      let body = '';
-      req.on('data', c => { body += c; });
-      req.on('end', () => {
-        try {
-          const { favorited } = JSON.parse(body || '{}');
-          post.favorites = Math.max(0, (post.favorites || 0) + (favorited ? 1 : -1));
-          savePosts();
-          return send(res, 200, { id: post.id, favorites: post.favorites });
-        } catch (e) { return send(res, 400, { error: 'bad json' }); }
+      readJsonBody(req, res, 1024, (body) => {
+        const favorited = !!(body && body.favorited);
+        post.favorites = Math.max(0, (post.favorites || 0) + (favorited ? 1 : -1));
+        savePosts();
+        return send(res, 200, { id: post.id, favorites: post.favorites });
       });
       return;
     }

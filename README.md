@@ -41,15 +41,13 @@ node server.js
 ai-intel-station/
 ├── server.js          # Node.js 后端（零依赖）
 ├── data.js            # 种子数据（新闻/模型/热门/框架/技能）
-├── public/            # 前端文件（完整版，含讨论区）
+├── docs/              # 统一前端（GitHub Pages 静态版 + 本地完整版共用一套）
 │   ├── index.html
 │   ├── styles.css
-│   └── app.js
-├── dist/              # 静态版（GitHub Pages 部署）
-│   ├── index.html
-│   ├── styles.css
-│   ├── app.js
-│   └── data.json
+│   ├── app.js         # 检测到本地 /api 时自动启用讨论区
+│   └── data.json      # 静态数据（每日自动更新）
+├── scripts/           # 数据更新脚本
+│   └── update-data.mjs
 └── messages.json      # 讨论区帖子（运行后自动生成）
 ```
 
