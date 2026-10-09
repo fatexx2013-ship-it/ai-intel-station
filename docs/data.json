@@ -6,24 +6,38 @@
   "news": [
     {
       "date": "2026-10-09",
-      "title": "新思科技拟寻求与中国 AI 实验室合作，在华加速芯片设计",
-      "desc": "IT之家 10 月 9 日消息，据日经亚洲报道，芯片设计软件龙头企业新思科技（Synopsys）表示，尽管美国政府收紧了对人工智能与半导体的出口管制，但公司计划通过与中国的大语言模型（LLM）构建者合作，利用其工具的 A…",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/010/777.htm"
-    },
-    {
-      "date": "2026-10-09",
-      "title": "字节 Seed 团队发现 DeepSeek“抽风”原因，长上下文可能性能漂移",
-      "desc": "IT之家 10 月 9 日消息，字节 Seed 团队今年 9 月底在预印本平台 arXiv 提交了一篇论文，谈到分块 KV 缓存压缩带来的相位敏感性，直指 DeepSeek“抽风”原因。该研究评估了基础版和后训练版的 D…",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/010/780.htm"
-    },
-    {
-      "date": "2026-10-09",
-      "title": "不等Gemini 4了！谷歌发布办公Agent，支持调用Claude",
-      "desc": "新的“缝合怪”已经出现，怎么能够停滞不前",
+      "title": "《柳叶刀》研究表明：AI 有望改善医患关系",
+      "desc": "Google 研究成果首次登上《柳叶刀》主刊",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502083.html"
+      "url": "https://www.qbitai.com/2026/10/502359.html"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "字节找到了DeepSeek时强时弱的原因",
+      "desc": "答不答得对，得看Token站位",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502364.html"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "0.2秒急停、秒级重规划！因果智能走进真实世界",
+      "desc": "这是一台机器人正在关闭微波炉门时，因人手突然插进来而紧急悬停的时间",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502411.html"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一",
+      "desc": "联想天禧AI自主研发的专业代码智能体框架TianxiCode 以71%的问题解决率登顶全球第一名",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502422.html"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "TRAE终于把Code和Work合并了",
+      "desc": "大写的方便",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502426.html"
     },
     {
       "date": "2026-10-08",
@@ -31,34 +45,6 @@
       "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 国产首列数字地铁列车 VELLINK，完…",
       "source": "阮一峰周刊",
       "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "浪子回头！Manus重启北京办公室大举招聘",
-      "desc": "开始和国产Agent抢人，还拿到5亿美元新融资",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502009.html"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "搭载NVIDIA RTX Spark™ N1X超级芯片：联想YOGA Pro 15开启盲约，重塑个人生产力边界",
-      "desc": "联想YOGA Pro 15 RTX Spark笔记本电脑，于10月8日9:00正式开启全网盲约。",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502020.html"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "正行创新亮相APRCE 2026，发布全球首个零售物理智能24/7服务解决方案",
-      "desc": "打造便利店“人机协作”运营新模式",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502035.html"
-    },
-    {
-      "date": "2026-10-08",
-      "title": "真香！做这个邪恶老奶版「GTA 6」，我只花了5元！",
-      "desc": "Vidu Q4预览版，了解一下~",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502049.html"
     },
     {
       "date": "2026-09-18",
@@ -142,127 +128,134 @@
   ],
   "trending": [
     {
-      "repo": "boykopovar/AnyPS5",
-      "lang": "C++",
-      "today": 4669,
-      "stars": 15790,
-      "desc": "用于自动将PS5可执行文件移植到Linux和Windows的工具"
-    },
-    {
-      "repo": "cathrynlavery/diagram-design",
-      "lang": "HTML",
-      "today": 1160,
-      "stars": 46369,
-      "desc": "Claude Code、Codex、GitHub Copilot、Factory Droid和Pi的编辑图设计。42种图类型。独立的HTML + SVG。没有阴影，没有美人鱼粪便。"
-    },
-    {
       "repo": "morluto/rea",
       "lang": "TypeScript",
-      "today": 7738,
-      "stars": 26604,
+      "today": 15335,
+      "stars": 38334,
       "desc": "使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。"
+    },
+    {
+      "repo": "boykopovar/AnyPS5",
+      "lang": "C++",
+      "today": 5925,
+      "stars": 20050,
+      "desc": "用于自动将PS5可执行文件移植到Linux和Windows的工具"
     },
     {
       "repo": "mattpocock/skills",
       "lang": "Shell",
-      "today": 1774,
-      "stars": 281097,
+      "today": 1696,
+      "stars": 282222,
       "desc": "真正工程师的技能。直接来自我的.agents目录。"
     },
     {
-      "repo": "thedotmack/claude-mem",
-      "lang": "TypeScript",
-      "today": 670,
-      "stars": 98477,
-      "desc": "每个座席跨会话的持久上下文–捕获座席在会话期间执行的所有操作，使用AI对其进行压缩，并将相关上下文注入到未来的会话中。适用于Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode等"
+      "repo": "cathrynlavery/diagram-design",
+      "lang": "HTML",
+      "today": 1744,
+      "stars": 47531,
+      "desc": "Claude Code、Codex、GitHub Copilot、Factory Droid和Pi的编辑图设计。42种图类型。独立的HTML + SVG。没有阴影，没有美人鱼粪便。"
     },
     {
-      "repo": "EpicGames/raddebugger",
-      "lang": "C",
-      "today": 279,
-      "stars": 8111,
-      "desc": "本机、用户模式、多进程、图形调试器。"
+      "repo": "alibaba/open-code-review",
+      "lang": "Go",
+      "today": 323,
+      "stars": 44930,
+      "desc": "安全、快速、高效，经受住阿里巴巴规模的考验。混合架构代码审核工具：确定性流水线+ LLM Agent、精确的行级注释、内置多语言规则集（ NPE、线程安全、XSS、SQL注入）、OpenAI & Anthropic兼容。"
     },
     {
       "repo": "anthropics/knowledge-work-plugins",
       "lang": "Python",
-      "today": 392,
-      "stars": 27570,
+      "today": 714,
+      "stars": 28062,
       "desc": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库"
+    },
+    {
+      "repo": "BerriAI/litellm",
+      "lang": "Python",
+      "today": 95,
+      "stars": 60510,
+      "desc": "最快、最轻的人工智能网关。使用Python SDK的Rust核心。调用100多个OpenAI （或本机）格式的LLM API ，包括成本跟踪、护栏、负载平衡和日志记录[Bedrock、Azure、OpenAI、Anthropic、OpenAI、VertexAI、vLLM、Nvidia NIM]"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "lang": "JavaScript",
+      "today": 751,
+      "stars": 103746,
+      "desc": "AI编码代理的生产级工程技能。"
     },
     {
       "repo": "storytold/artcraft",
       "lang": "Rust",
-      "today": 2103,
-      "stars": 7976,
+      "today": 3723,
+      "stars": 10359,
       "desc": "ArtCraft是艺术家、设计师和电影制作人的特意制作引擎"
     },
     {
-      "repo": "liquidslr/system-design-notes",
-      "lang": "—",
-      "today": 393,
-      "stars": 24625,
-      "desc": "《System Desgin Interview - An Insider's Guide》一书的笔记"
+      "repo": "Robbyant/lingbot-map",
+      "lang": "Python",
+      "today": 109,
+      "stars": 17590,
+      "desc": "[ECCV 2026最佳论文奖候选人] LingBot-Map ：用于流式3D重建的几何上下文变换器"
     }
   ],
   "agentFrameworks": [
     {
       "repo": "anomalyco/opencode",
-      "stars": 212200,
+      "stars": 212357,
       "lang": "TypeScript",
       "desc": "开源编码代理。"
     },
     {
       "repo": "anthropics/claude-code",
-      "stars": 149723,
+      "stars": 149842,
       "lang": "TypeScript",
       "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
     },
     {
       "repo": "Significant-Gravitas/AutoGPT",
-      "stars": 187485,
+      "stars": 187495,
       "lang": "Python",
       "desc": "AutoGPT的愿景是为每个人提供可访问的人工智能，供其使用并以此为基础。我们的使命是提供工具，让您专注于重要的事情。"
     },
     {
       "repo": "openai/codex",
-      "stars": 128212,
+      "stars": 128388,
       "lang": "Rust",
       "desc": "在您的终端中运行的轻量级编码代理"
     },
     {
       "repo": "google-gemini/gemini-cli",
-      "stars": 107257,
+      "stars": 107269,
       "lang": "TypeScript",
       "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端。"
     },
     {
       "repo": "FoundationAgents/MetaGPT",
-      "stars": 70780,
+      "stars": 70788,
       "lang": "Python",
       "desc": "🌟 多Agent框架：第一个人工智能软件公司，迈向自然语言编程"
     },
     {
       "repo": "microsoft/autogen",
-      "stars": 61312,
+      "stars": 61330,
       "lang": "Python",
       "desc": "智能AI的编程框架"
     },
     {
       "repo": "crewAIInc/crewAI",
-      "stars": 59476,
+      "stars": 59504,
       "lang": "Python",
       "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
     },
     {
       "repo": "HKUDS/nanobot",
-      "stars": 48876,
+      "stars": 48904,
       "lang": "Python",
       "desc": "Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序"
     },
     {
       "repo": "openai/openai-agents-python",
-      "stars": 29919,
+      "stars": 29936,
       "lang": "Python",
       "desc": "轻量级、功能强大的多代理工作流程框架"
     }
@@ -270,61 +263,61 @@
   "skills": [
     {
       "repo": "obra/superpowers",
-      "stars": 296569,
+      "stars": 296813,
       "lang": "Shell",
       "desc": "有效的代理技能框架和软件开发方法。"
     },
     {
       "repo": "mattpocock/skills",
-      "stars": 281097,
+      "stars": 282224,
       "lang": "Shell",
       "desc": "真正工程师的技能。直接来自我的.agents目录。"
     },
     {
       "repo": "affaan-m/ECC",
-      "stars": 275405,
+      "stars": 275755,
       "lang": "JavaScript",
       "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
     },
     {
       "repo": "anthropics/skills",
-      "stars": 180000,
+      "stars": 180131,
       "lang": "Python",
       "desc": "座席技能的公共存储库"
     },
     {
       "repo": "Shubhamsaboo/awesome-llm-apps",
-      "stars": 140822,
+      "stars": 140900,
       "lang": "Python",
       "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
     },
     {
       "repo": "addyosmani/agent-skills",
-      "stars": 103410,
+      "stars": 103746,
       "lang": "JavaScript",
       "desc": "AI编码代理的生产级工程技能。"
     },
     {
       "repo": "mvanhorn/last30days-skill",
-      "stars": 63769,
+      "stars": 63827,
       "lang": "Python",
       "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
     },
     {
       "repo": "tt-a1i/archify",
-      "stars": 80044,
+      "stars": 81023,
       "lang": "JavaScript",
       "desc": "将任何想法、计划或代码库转换为漂亮的交互式图表。Claude Code、Codex等的代理技能。"
     },
     {
       "repo": "coreyhaines31/marketingskills",
-      "stars": 53770,
+      "stars": 53901,
       "lang": "JavaScript",
       "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
     },
     {
       "repo": "blader/humanizer",
-      "stars": 54952,
+      "stars": 55154,
       "lang": "Python",
       "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
     }
