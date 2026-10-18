@@ -1,12 +1,12 @@
-// AI 情报站 — 数据文件（自动生成于 2026-10-18）
-// news: AI 新闻（中文来源：量子位等）
+// AI 情报站 — 数据文件（由 scripts/update-data.mjs 自动生成于 2026-10-18）
+// news: AI 新闻（中文 RSS：机器之心/量子位/IT之家）
 // models: OpenRouter 最新上架模型（描述已汉化）
 // trending: GitHub 今日热门（含总星数，描述已汉化）
 // agentFrameworks / skills: 固定榜单，自动刷新星数（描述已汉化）
 
 export const meta = {
   "generatedAt": "2026-10-18",
-  "note": "所有条目均附真实出处；描述与外文内容已自动汉化。星标数据来自 GitHub，模型数据来自 OpenRouter 公开接口，新闻来自中文科技媒体。"
+  "note": "所有条目均附真实出处；描述与外文内容已自动汉化。星标数据来自 GitHub API，模型数据来自 OpenRouter 公开接口，新闻来自中文科技媒体 RSS。"
 };
 
 export const boards = [
@@ -119,74 +119,67 @@ export const seedPosts = [
 
 export const news = [
   {
-    "date": "2026-10-17",
-    "title": "突发！DeepSeek 新模型发布，超级性价比斩杀一切",
-    "desc": "DeepSeek V4.1 Flash 更新至 1017 版本，并开放自研搜索 API，在多项基准测试中展现极高性价比。",
+    "date": "2026-10-18",
+    "title": "DeepSeek API 已支持网页搜索和抓取，单价为每 1000 次成功请求 5 元",
+    "desc": "IT之家 10 月 18 日消息，DeepSeek 今日发布公告，DeepSeek API 现已支持网页搜索与抓取，按请求次数计费，单价为每 1000 次成功请求 5 元。公告称，当前用户在 DeepSeek Harne…",
+    "source": "IT之家",
+    "url": "https://www.ithome.com/1/014/587.htm"
+  },
+  {
+    "date": "2026-10-18",
+    "title": "研究人员让 6 款 AI 智能体尝试“追回火车票退款”，暴露模型使用激进方式执行任务风险",
+    "desc": "IT之家 10 月 18 日消息，独立 AI 安全研究人员 Matilda Glynn-Henley 近期针对 6 款 AI 智能体进行安全测试，让相应模型尝试追回一笔已取消火车行程的退款，这些模型为了达成目的不惜编造理…",
+    "source": "IT之家",
+    "url": "https://www.ithome.com/1/014/589.htm"
+  },
+  {
+    "date": "2026-10-18",
+    "title": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
+    "desc": "让人人都能自由创造并体验可交互世界",
     "source": "量子位",
-    "url": "https://www.qbitai.com/2026/10/504067.html"
+    "url": "https://www.qbitai.com/2026/10/504136.html"
   },
   {
     "date": "2026-10-17",
-    "title": "智谱新模型，懂法方面全球第一了",
-    "desc": "智谱发布新模型，在法律理解与推理任务上登顶全球榜单，AI 的风刮到了法律圈。",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/10/503965.html"
-  },
-  {
-    "date": "2026-10-17",
-    "title": "清华开源！智能体操作系统任务成本降 83%，AI 记忆可查可改",
-    "desc": "清华大学开源智能体操作系统，任务成本降低 83%，AI 记忆支持查询与修改，整套系统原生支持 MCP。",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/10/503935.html"
-  },
-  {
-    "date": "2026-10-17",
-    "title": "Claude 半小时解开密码学悬案，学界集体走偏 20 年",
-    "desc": "Claude 在半小时内解决了困扰密码学界 20 年的悬案，谜底指向时间，引发学界广泛讨论。",
+    "title": "Claude半小时解开密码学悬案，学界集体走偏20年",
+    "desc": "谜底指向时间",
     "source": "量子位",
     "url": "https://www.qbitai.com/2026/10/503910.html"
   },
   {
     "date": "2026-10-17",
-    "title": "科技企业出海，为啥我推荐你去迪拜？",
-    "desc": "迪拜正成为科技企业出海的热门跳板，文章分析了其作为通往全球市场超级跳板的优势。",
+    "title": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改",
+    "desc": "整套系统原生支持MCP",
     "source": "量子位",
-    "url": "https://www.qbitai.com/2026/10/503893.html"
+    "url": "https://www.qbitai.com/2026/10/503935.html"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "智谱新模型，懂法方面全球第一了",
+    "desc": "AI的风还是刮到了法律圈",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/10/503965.html"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+    "desc": "新版本V4.1-Flash-1017，还开放了自研搜索API",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/10/504067.html"
   },
   {
     "date": "2026-10-16",
-    "title": "清华特奖得主 AI 创业再 +1：GeoPT 一作入局物理世界模型",
-    "desc": "从搭载物理建模能力的世界模型切入，清华特奖得主创办 AI 公司，入局物理世界模型赛道。",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/10/503880.html"
+    "title": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+    "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 湖北咸宁梓山湖度假区的美术馆。（via）…",
+    "source": "阮一峰周刊",
+    "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html"
   },
   {
-    "date": "2026-10-16",
-    "title": "从「看懂世界」到「预演下一步」：世界模型与 VLA 如何让机器人拥有具身大脑",
-    "desc": "VLA 解决「能干」，世界模型解决「想清楚再干」，探讨机器人具身智能的两条技术路径。",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/10/503865.html"
-  },
-  {
-    "date": "2026-10-16",
-    "title": "说真话就能拿 10 万？网易叭哥说重金求「真需求」，不卡专业学历",
-    "desc": "网易首个 AI 原生语音 Agent「网易叭哥说」上线，投入 10 万元征集真实产品建议，不卡专业学历。",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/10/503861.html"
-  },
-  {
-    "date": "2026-10-16",
-    "title": "霸榜三大基准！优必选 Thinker-WM 多模态统一表征，单模型实现六大能力",
-    "desc": "优必选 Thinker-WM 在三大公认具身世界模型基准评测中全部拿下第一名，单模型实现六大能力。",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/10/503843.html"
-  },
-  {
-    "date": "2026-10-16",
-    "title": "范式智能联合睿思智联推出开源一站式生产级 AI 部署平台「模域 ModelSphere」",
-    "desc": "一站式生产级 AI 部署平台「模域 ModelSphere」正式上线，面向生产环境的 AI 模型部署与管理。",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/10/503829.html"
+    "date": "2026-10-08",
+    "title": "科技爱好者周刊（第 414 期）：Jev 决策模型有什么用",
+    "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 国产首列数字地铁列车 VELLINK，完…",
+    "source": "阮一峰周刊",
+    "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html"
   }
 ];
 
@@ -195,269 +188,269 @@ export const models = [
     "vendor": "DeepSeek",
     "name": "DeepSeek V4.1 Flash 1017",
     "date": "2026-10-17",
-    "desc": "DeepSeek V4.1 Flash 的 10月17日快照版本，稀疏混合专家模型，通过基于自反馈的强化学习提升游戏开发、3D建模等从零构建完整项目的能力，并开放自研搜索 API。",
+    "desc": "DeepSeek V4，上下文 1049k。",
     "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
   },
   {
     "vendor": "Elorian",
     "name": "Glimpse",
     "date": "2026-10-17",
-    "desc": "Elorian 推出的多模态视觉推理模型，直接对图像和视频进行推理，面向物理世界的视觉理解与复杂视觉推理。",
+    "desc": "Glimpse是Elorian的多模态视觉推理模型，专为物理世界中的视觉理解和复杂的视觉推理而构建，上下文 262k。",
     "url": "https://openrouter.ai/elorian/glimpse"
   },
   {
-    "vendor": "XingChen/TeleAI",
+    "vendor": "XingChen",
     "name": "Xing4.0 29B A4B (free)",
-    "date": "2026-10-16",
-    "desc": "中国电信 AI 团队 TeleAI 的开源混合专家语言模型，TeleChat 系列继任者，29B 总参数 / 4B 激活，免费可用。",
+    "date": "2026-10-17",
+    "desc": "Xing4，上下文 262k。",
     "url": "https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free"
   },
   {
     "vendor": "Reflection",
     "name": "Beam 1.0 501B A23B",
     "date": "2026-10-16",
-    "desc": "Reflection 开源推理模型，面向编码和长周期 Agent 工作流，501B 总参数 / 23B 激活的稀疏 MoE 架构。",
+    "desc": "梁1，上下文 1049k。",
     "url": "https://openrouter.ai/reflection/beam-1.0-501b-a23b"
   },
   {
     "vendor": "Moondream",
     "name": "Moondream 3 Preview",
-    "date": "2026-10-15",
-    "desc": "9B 总参数 / 2B 激活的视觉语言 MoE 模型，支持视觉问答、字幕生成、OCR 和视觉推理。",
+    "date": "2026-10-16",
+    "desc": "Moondream 3 Preview是来自Moondream的视觉语言模型，总参数为9B ，活跃参数为2B （专家混合），上下文 32k。",
     "url": "https://openrouter.ai/moondream/moondream3-preview"
   },
   {
     "vendor": "Moondream",
     "name": "Moondream 3.1",
-    "date": "2026-10-15",
-    "desc": "Moondream 3 Preview 继任者，9B 总参数 / 2B 激活的视觉语言混合专家模型。",
+    "date": "2026-10-16",
+    "desc": "Moondream 3，上下文 32k。",
     "url": "https://openrouter.ai/moondream/moondream3.1-9b-a2b"
   },
   {
     "vendor": "Meta",
     "name": "Muse Spark Open",
-    "date": "2026-10-15",
-    "desc": "Meta 面向 Agent 编码工作流优化的开源模型，高首次尝试准确率、可靠工具调用和深度代码库理解。",
+    "date": "2026-10-16",
+    "desc": "Muse Spark Open是一种编码优化的开放权重模型，上下文 1049k。",
     "url": "https://openrouter.ai/meta/muse-spark-open"
   },
   {
     "vendor": "NVIDIA",
     "name": "Nemotron 3.5 Super VL",
     "date": "2026-10-15",
-    "desc": "120B 总参数 / 12B 激活的多模态混合专家模型，支持文本、图像、文档、GUI 截图和视频输入。",
+    "desc": "NVIDIA Nemotron 3，上下文 1049k。",
     "url": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl"
   },
   {
-    "vendor": "Pareto",
-    "name": "Pareto 26.10",
+    "vendor": "NVIDIA",
+    "name": "Nemotron 3.5 Super VL (free)",
     "date": "2026-10-15",
-    "desc": "面向研究、编码和 Agent 工作流的多模态复合模型，在广泛通用任务上提供前沿性能，为 26.9 的迭代版本。",
-    "url": "https://openrouter.ai/unbiased/pareto-26.10"
+    "desc": "NVIDIA Nemotron 3，上下文 1000k。",
+    "url": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free"
   },
   {
-    "vendor": "LiquidAI",
-    "name": "LFM2.5-24B-A2B",
-    "date": "2026-10-13",
-    "desc": "Liquid AI 的混合专家推理模型，24B 总参数 / 2.45B 激活，回答前先推理，专为工具调用 Agent 构建。",
-    "url": "https://openrouter.ai/liquid/lfm-2.5-24b-a2b"
+    "vendor": "Pareto 26.10",
+    "name": "pareto-26.10",
+    "date": "2026-10-15",
+    "desc": "Pareto是一种多模态复合模型，专为研究、编码和代理工作流程而构建，同时在广泛的领域提供前沿水平的性能，上下文 1049k。",
+    "url": "https://openrouter.ai/unbiased/pareto-26.10"
   }
 ];
 
 export const trending = [
   {
-    "repo": "anthropics/claude-plugins-official",
-    "lang": "Python",
-    "today": 1397,
-    "stars": 42147,
-    "desc": "Anthropic 官方管理的高质量 Claude Code 插件目录。"
-  },
-  {
     "repo": "MadsLorentzen/ai-job-search",
     "lang": "Python",
-    "today": 1365,
-    "stars": 51127,
-    "desc": "在本地运行的求职框架：基于 Claude Code 评估职位、定制简历、撰写求职信、准备面试，可自行 Fork 拥有。"
+    "today": 2213,
+    "stars": 51531,
+    "desc": "在您的机器上运行的作业搜索。基于Claude Code构建的人工智能求职框架：评估帖子、定制简历、撰写求职信、准备面试。分叉并拥有它。"
   },
   {
-    "repo": "affaan-m/ECC",
-    "lang": "JavaScript",
-    "today": 1145,
-    "stars": 282831,
-    "desc": "代理线束性能优化系统，为 Claude Code、Codex、Opencode、Cursor 等提供技能、本能、记忆、安全和研究优先开发。"
-  },
-  {
-    "repo": "K-Dense-AI/scientific-agent-skills",
+    "repo": "anthropics/claude-plugins-official",
     "lang": "Python",
-    "today": 878,
-    "stars": 52472,
-    "desc": "将任何 AI 代理变成 AI 科学家。科学领域排名第一的 Agent 技能库，25 万+科学家使用，含 177 个验证技能和 100+科学数据库。"
-  },
-  {
-    "repo": "stablyai/orca",
-    "lang": "TypeScript",
-    "today": 830,
-    "stars": 95795,
-    "desc": "Orca 是管理一组代理（如 Grok Bot、Claude Code）的平台，可用自己的订阅运行任何编码代理，支持桌面、移动端和远程运行时。"
-  },
-  {
-    "repo": "debpalash/VoiceStudio",
-    "lang": "Python",
-    "today": 2125,
-    "stars": 73978,
-    "desc": "开源、完全本地化的 ElevenLabs 替代品——语音克隆、语音设计、视频配音、听写、转录和有声书创作，支持 646 种语言。"
-  },
-  {
-    "repo": "HKUDS/CLI-Anything",
-    "lang": "Python",
-    "today": 574,
-    "stars": 54257,
-    "desc": "「CLI-Anything：让所有软件 Agent 原生」，打造统一的 CLI 工具接入层。"
+    "today": 1187,
+    "stars": 42302,
+    "desc": "由Anthropic管理的高质量Claude Code插件的官方目录。"
   },
   {
     "repo": "anomalyco/opencode",
     "lang": "TypeScript",
-    "today": 438,
-    "stars": 215793,
+    "today": 1417,
+    "stars": 215974,
     "desc": "开源编码代理。"
+  },
+  {
+    "repo": "cursor/plugins",
+    "lang": "TypeScript",
+    "today": 351,
+    "stars": 12519,
+    "desc": "光标插件规范和官方插件"
   },
   {
     "repo": "ruvnet/ruflo",
     "lang": "TypeScript",
-    "today": 420,
-    "stars": 76237,
-    "desc": "原始代理框架：部署智能多玩家集群、协调自主工作流、构建对话式 AI 系统，支持自适应记忆和向量 RAG。"
+    "today": 502,
+    "stars": 76301,
+    "desc": "🌊 原始代理线束。部署智能多玩家群体，协调自主工作流程，构建对话式人工智能系统。具有自适应记忆、自学习智能、联合、矢量RAG集成和本地Claude Code/Codex/Hermes等功能"
   },
   {
-    "repo": "anthropics/claude-code",
+    "repo": "akitaonrails/ai-memory",
+    "lang": "Rust",
+    "today": 513,
+    "stars": 10208,
+    "desc": "针对座席编码CLI的长期记忆解决方案，以及促进不同座席供应商之间切换的解决方案"
+  },
+  {
+    "repo": "stablyai/orca",
     "lang": "TypeScript",
-    "today": 179,
-    "stars": 152168,
-    "desc": "Claude Code 是一个代理编码工具，位于终端中，了解你的代码库，通过执行日常任务、解释复杂代码和处理 git 工作流帮助你更快编码。"
+    "today": 1146,
+    "stars": 95985,
+    "desc": "ORCA是与代理团队合作的地方（例如Grok Bot、Claude Code ）。使用您自己的订阅运行任何编码代理。可在桌面、移动和远程运行时使用。"
+  },
+  {
+    "repo": "HKUDS/CLI-Anything",
+    "lang": "Python",
+    "today": 582,
+    "stars": 54352,
+    "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+  },
+  {
+    "repo": "debpalash/VoiceStudio",
+    "lang": "Python",
+    "today": 2098,
+    "stars": 74274,
+    "desc": "VoiceStudio是开源、完全本地的ElevenLabs替代品--语音克隆、语音设计、视频配音、听写、转录和有声读物创作，支持646种语言。"
+  },
+  {
+    "repo": "android/skills",
+    "lang": "Kotlin",
+    "today": 381,
+    "stars": 8615,
+    "desc": "暂无项目简介。"
   }
 ];
 
 export const agentFrameworks = [
   {
     "repo": "anomalyco/opencode",
-    "stars": 215795,
+    "stars": 215974,
     "lang": "TypeScript",
     "desc": "开源编码代理。"
   },
   {
     "repo": "anthropics/claude-code",
-    "stars": 152168,
+    "stars": 152208,
     "lang": "TypeScript",
-    "desc": "Claude Code 是一个代理编码工具，位于终端中，了解你的代码库，通过执行日常任务、解释复杂代码和处理 git 工作流帮助你更快编码。"
+    "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
   },
   {
     "repo": "Significant-Gravitas/AutoGPT",
-    "stars": 187634,
+    "stars": 187636,
     "lang": "Python",
-    "desc": "AutoGPT 的愿景是为每个人提供可访问的人工智能，让你专注于重要的事情。"
+    "desc": "AutoGPT的愿景是为每个人提供可访问的人工智能，供其使用并以此为基础。我们的使命是提供工具，让您专注于重要的事情。"
   },
   {
     "repo": "openai/codex",
-    "stars": 129691,
+    "stars": 129711,
     "lang": "Rust",
-    "desc": "在终端中运行的轻量级编码代理。"
+    "desc": "在您的终端中运行的轻量级编码代理"
   },
   {
     "repo": "google-gemini/gemini-cli",
-    "stars": 107435,
+    "stars": 107434,
     "lang": "TypeScript",
-    "desc": "将 Gemini 的力量直接带入终端的开源 AI 代理。"
+    "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端。"
   },
   {
     "repo": "FoundationAgents/MetaGPT",
-    "stars": 70902,
+    "stars": 70906,
     "lang": "Python",
-    "desc": "多 Agent 框架：第一个人工智能软件公司，迈向自然语言编程。"
+    "desc": "🌟 多Agent框架：第一个人工智能软件公司，迈向自然语言编程"
   },
   {
     "repo": "microsoft/autogen",
-    "stars": 61457,
+    "stars": 61459,
     "lang": "Python",
-    "desc": "智能 AI 的编程框架。"
+    "desc": "智能AI的编程框架"
   },
   {
     "repo": "crewAIInc/crewAI",
-    "stars": 59822,
+    "stars": 59828,
     "lang": "Python",
-    "desc": "用于编排角色扮演、自主 AI 代理的框架，通过协作智能让代理无缝处理复杂任务。"
+    "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
   },
   {
     "repo": "HKUDS/nanobot",
     "stars": 49143,
     "lang": "Python",
-    "desc": "超轻量级、开源、自托管的个人 AI 代理框架，含 WebUI、工具、内存、MCP、多代理工作流和聊天应用。"
+    "desc": "Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序"
   },
   {
     "repo": "openai/openai-agents-python",
-    "stars": 30110,
+    "stars": 30113,
     "lang": "Python",
-    "desc": "轻量级、功能强大的多代理工作流框架。"
+    "desc": "轻量级、功能强大的多代理工作流程框架"
   }
 ];
 
 export const skills = [
   {
     "repo": "obra/superpowers",
-    "stars": 301362,
+    "stars": 301447,
     "lang": "Shell",
     "desc": "有效的代理技能框架和软件开发方法。"
   },
   {
     "repo": "mattpocock/skills",
-    "stars": 295478,
+    "stars": 295681,
     "lang": "Shell",
-    "desc": "真正工程师的技能，直接来自作者的 .agents 目录。"
+    "desc": "真正工程师的技能。直接来自我的.agents目录。"
   },
   {
     "repo": "affaan-m/ECC",
-    "stars": 282835,
+    "stars": 282970,
     "lang": "JavaScript",
-    "desc": "代理线束性能优化系统，为 Claude Code、Codex、Opencode、Cursor 等提供技能、本能、记忆、安全和研究优先开发。"
+    "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
   },
   {
     "repo": "anthropics/skills",
-    "stars": 181850,
+    "stars": 181898,
     "lang": "Python",
-    "desc": "代理技能的公共存储库。"
+    "desc": "座席技能的公共存储库"
   },
   {
     "repo": "Shubhamsaboo/awesome-llm-apps",
-    "stars": 142165,
+    "stars": 142179,
     "lang": "Python",
-    "desc": "100 多个 AI 代理、代理技能和 RAG 应用，全部免费开源。"
+    "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
   },
   {
     "repo": "addyosmani/agent-skills",
-    "stars": 107968,
+    "stars": 108020,
     "lang": "JavaScript",
-    "desc": "AI 编码代理的生产级工程技能。"
-  },
-  {
-    "repo": "tt-a1i/archify",
-    "stars": 85075,
-    "lang": "JavaScript",
-    "desc": "将任何想法、计划或代码库转换为漂亮的交互式图表，Claude Code、Codex 等的代理技能。"
+    "desc": "AI编码代理的生产级工程技能。"
   },
   {
     "repo": "mvanhorn/last30days-skill",
-    "stars": 64611,
+    "stars": 64627,
     "lang": "Python",
-    "desc": "研究 Reddit、X、YouTube、HN、Polymarket 和网络上任何主题，然后合成基础摘要的 AI 代理技能。"
+    "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
   },
   {
-    "repo": "blader/humanizer",
-    "stars": 57924,
-    "lang": "Python",
-    "desc": "从文本中删除 AI 生成文字迹象的代理技能。"
+    "repo": "tt-a1i/archify",
+    "stars": 85196,
+    "lang": "JavaScript",
+    "desc": "将任何想法、计划或代码库转换为漂亮的交互式图表。Claude Code、Codex等的代理技能。"
   },
   {
     "repo": "coreyhaines31/marketingskills",
-    "stars": 55291,
+    "stars": 55322,
     "lang": "JavaScript",
-    "desc": "Claude Code 和 AI 代理的营销技能：CRO、文案撰写、SEO、分析和增长工程。"
+    "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
+  },
+  {
+    "repo": "blader/humanizer",
+    "stars": 57969,
+    "lang": "Python",
+    "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
   }
 ];
