@@ -119,34 +119,6 @@ export const seedPosts = [
 
 export const news = [
   {
-    "date": "2026-10-24",
-    "title": "Kimi K3.1 Pro 正式发布：月之暗面最强 3 万亿级模型，编程智能体测评超 GPT-6",
-    "desc": "IT之家 10 月 24 日消息，今天（24 日）凌晨，月之暗面 Kimi 宣布正式推出 Kimi K3.1 系列的第一个模型 ——K3.1 Pro，也是公司迄今能力最强的 3 万亿级参数模型，支持 100 万上下文。高…",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/017/284.htm"
-  },
-  {
-    "date": "2026-10-24",
-    "title": "“行为难以预测”存在安全隐患，OpenAI 将不再在实时互联网上训练模型",
-    "desc": "IT之家 10 月 24 日消息，当地时间 23 日，OpenAI 宣布，今后将使用缓存的网页内容和模拟互联网环境训练模型，不再让模型直接接入真实互联网。公司认为，模型的行为仍然难以预测，直接赋予联网权限存在安全隐患。竞…",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/017/287.htm"
-  },
-  {
-    "date": "2026-10-24",
-    "title": "OpenAI 为前沿 AI 训练 / 评估开启“断网闭关”模式，遏制其越狱攻击",
-    "desc": "IT之家 10 月 24 日消息，OpenAI 昨日（10 月 23 日）发布博文，宣布针对最先进“前沿模型”的训练与评估环境，已经实施更严格的安全管控，明确在模型训练期间，不得直接访问实时互联网。该公司称出于对 AI …",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/017/289.htm"
-  },
-  {
-    "date": "2026-10-24",
-    "title": "谷歌 CEO 皮查伊：距离 AI 能自我改进的“最终状态”，我们还有很长的路要走",
-    "desc": "IT之家 10 月 24 日消息，据《商业内幕》报道，谷歌 CEO 桑达尔 · 皮查伊认为，距离 AI 能够完全自主地改进自身，还有很长的路要走。皮查伊透露，谷歌研究人员开始使用 AI 智能体辅助开发模型，但技术仍处于起…",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/017/290.htm"
-  },
-  {
     "date": "2026-10-23",
     "title": "科技爱好者周刊（第 416 期）：编程已经面目全非",
     "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 本周启用的上海大歌剧院内部装修。（via…",
@@ -187,6 +159,13 @@ export const news = [
     "desc": "10月22日，蚂蚁数科正式发布决策模型 LingDT-Decision-1.0。",
     "source": "量子位",
     "url": "https://www.qbitai.com/2026/10/504879.html"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+    "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 湖北咸宁梓山湖度假区的美术馆。（via）…",
+    "source": "阮一峰周刊",
+    "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html"
   }
 ];
 
@@ -267,119 +246,133 @@ export const trending = [
   {
     "repo": "cloudflare/security-audit-skill",
     "lang": "JavaScript",
-    "today": 2706,
-    "stars": 42084,
+    "today": 2271,
+    "stars": 43119,
     "desc": "用于多阶段安全审核的编码代理技能，具有经过独立验证的机器可读结果"
-  },
-  {
-    "repo": "php/php-src",
-    "lang": "C",
-    "today": 722,
-    "stars": 41557,
-    "desc": "PHP解释器"
-  },
-  {
-    "repo": "anthropics/knowledge-work-plugins",
-    "lang": "Python",
-    "today": 643,
-    "stars": 32194,
-    "desc": "主要供知识工作者在Claude Cowork中使用的插件的开源存储库"
   },
   {
     "repo": "NVIDIA/OpenShell",
     "lang": "Rust",
-    "today": 1240,
-    "stars": 18762,
+    "today": 893,
+    "stars": 19148,
     "desc": "OpenShell是自主AI代理的安全、私有运行时。"
   },
   {
-    "repo": "Renhuai123/ziwei-doushu",
+    "repo": "aws/agent-toolkit-for-aws",
+    "lang": "Python",
+    "today": 11,
+    "stars": 2980,
+    "desc": "AWS支持的官方MCP服务器、技能和插件，以帮助AI代理在AWS上构建"
+  },
+  {
+    "repo": "Nutlope/hallmark",
+    "lang": "CSS",
+    "today": 567,
+    "stars": 31547,
+    "desc": "Claude Code、Cursor和Codex的防AI倾斜设计技能。"
+  },
+  {
+    "repo": "luongnv89/claude-howto",
+    "lang": "Python",
+    "today": 1053,
+    "stars": 44185,
+    "desc": "以示例为导向的可视化Claude准则指南--从基本概念到高级客服代表，其中的复制粘贴模板可立即带来价值。"
+  },
+  {
+    "repo": "pbakaus/impeccable",
+    "lang": "Rust",
+    "today": 541,
+    "stars": 85894,
+    "desc": "让您的人工智能更好地进行设计的设计语言。"
+  },
+  {
+    "repo": "pollen-robotics/microduck",
+    "lang": "Rust",
+    "today": 421,
+    "stars": 10649,
+    "desc": "微型双足鸭机器人 🦆"
+  },
+  {
+    "repo": "google-gemini/gemini-cli",
     "lang": "TypeScript",
-    "today": 547,
-    "stars": 6843,
-    "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据"
+    "today": 38,
+    "stars": 107623,
+    "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端。"
   },
   {
-    "repo": "SnailSploit/Claude-Red",
+    "repo": "jbiaojerry/ebook-treasure-chest",
     "lang": "Python",
-    "today": 209,
-    "stars": 8455,
-    "desc": "claude-red是为Claude技能系统设计的攻击性安全技能精心策划的图书馆。每个技能都是一个结构化的SKILL.md文件，为Claude提供了针对特定攻击面的专家级方法—从SQLi到shellcode ，从EDR规避到利用开发。"
+    "today": 220,
+    "stars": 22316,
+    "desc": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。"
   },
   {
-    "repo": "OpenBMB/VoxCPM",
-    "lang": "Python",
-    "today": 144,
-    "stars": 40242,
-    "desc": "VoxCPM2 ：用于多语言语音生成、创意语音设计和真实克隆的无标记TTS"
-  },
-  {
-    "repo": "nodejs/node",
-    "lang": "JavaScript",
-    "today": 93,
-    "stars": 122852,
-    "desc": "Node.js JavaScript运行时 ✨🐢🚀✨"
+    "repo": "makecindy/cindy",
+    "lang": "TypeScript",
+    "today": 471,
+    "stars": 3779,
+    "desc": "考虑一下吧。开箱即用的开源AI代理· 想到，就能做到。开源、开箱即用的 AI Agent。"
   }
 ];
 
 export const agentFrameworks = [
   {
     "repo": "anomalyco/opencode",
-    "stars": 220613,
+    "stars": 220915,
     "lang": "TypeScript",
     "desc": "开源编码代理。"
   },
   {
     "repo": "anthropics/claude-code",
-    "stars": 153170,
+    "stars": 153235,
     "lang": "TypeScript",
     "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
   },
   {
     "repo": "Significant-Gravitas/AutoGPT",
-    "stars": 187717,
+    "stars": 187725,
     "lang": "Python",
     "desc": "AutoGPT的愿景是为每个人提供可访问的人工智能，供其使用并以此为基础。我们的使命是提供工具，让您专注于重要的事情。"
   },
   {
     "repo": "openai/codex",
-    "stars": 130655,
+    "stars": 130754,
     "lang": "Rust",
     "desc": "在您的终端中运行的轻量级编码代理"
   },
   {
     "repo": "google-gemini/gemini-cli",
-    "stars": 107563,
+    "stars": 107623,
     "lang": "TypeScript",
     "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端。"
   },
   {
     "repo": "FoundationAgents/MetaGPT",
-    "stars": 70996,
+    "stars": 71003,
     "lang": "Python",
     "desc": "🌟 多Agent框架：第一个人工智能软件公司，迈向自然语言编程"
   },
   {
     "repo": "microsoft/autogen",
-    "stars": 61540,
+    "stars": 61545,
     "lang": "Python",
     "desc": "智能AI的编程框架"
   },
   {
     "repo": "crewAIInc/crewAI",
-    "stars": 60042,
+    "stars": 60053,
     "lang": "Python",
     "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
   },
   {
     "repo": "HKUDS/nanobot",
-    "stars": 49304,
+    "stars": 49323,
     "lang": "Python",
     "desc": "Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序"
   },
   {
     "repo": "openai/openai-agents-python",
-    "stars": 30246,
+    "stars": 30252,
     "lang": "Python",
     "desc": "轻量级、功能强大的多代理工作流程框架"
   }
@@ -388,61 +381,61 @@ export const agentFrameworks = [
 export const skills = [
   {
     "repo": "obra/superpowers",
-    "stars": 304232,
+    "stars": 304467,
     "lang": "Shell",
     "desc": "有效的代理技能框架和软件开发方法。"
   },
   {
     "repo": "mattpocock/skills",
-    "stars": 301800,
+    "stars": 302191,
     "lang": "Shell",
     "desc": "真正工程师的技能。直接来自我的.agents目录。"
   },
   {
     "repo": "affaan-m/ECC",
-    "stars": 287312,
+    "stars": 287693,
     "lang": "JavaScript",
     "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
   },
   {
     "repo": "anthropics/skills",
-    "stars": 183292,
+    "stars": 183416,
     "lang": "Python",
     "desc": "座席技能的公共存储库"
   },
   {
     "repo": "Shubhamsaboo/awesome-llm-apps",
-    "stars": 142819,
+    "stars": 142894,
     "lang": "Python",
     "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
   },
   {
     "repo": "addyosmani/agent-skills",
-    "stars": 109913,
+    "stars": 110104,
     "lang": "JavaScript",
     "desc": "AI编码代理的生产级工程技能。"
   },
   {
     "repo": "mvanhorn/last30days-skill",
-    "stars": 65211,
+    "stars": 65255,
     "lang": "Python",
     "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
   },
   {
     "repo": "tt-a1i/archify",
-    "stars": 88282,
+    "stars": 88545,
     "lang": "JavaScript",
     "desc": "将任何想法、计划或代码库转换为漂亮的交互式图表。Claude Code、Codex等的代理技能。"
   },
   {
     "repo": "coreyhaines31/marketingskills",
-    "stars": 56240,
+    "stars": 56315,
     "lang": "JavaScript",
     "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
   },
   {
     "repo": "blader/humanizer",
-    "stars": 59991,
+    "stars": 60135,
     "lang": "Python",
     "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
   }
