@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-10-29",
+    "generatedAt": "2026-10-30",
     "note": "所有条目均附真实出处；描述与外文内容已自动汉化。星标数据来自 GitHub API，模型数据来自 OpenRouter 公开接口，新闻来自中文科技媒体 RSS。"
   },
   "news": [
     {
-      "date": "2026-10-29",
-      "title": "星闪 SLE 1.0 芯片累计发货量 7000 万，华为 2023 年实现首批商用终端产品落地",
-      "desc": "IT之家 10 月 29 日消息，《星闪 SLE3.0 技术标准演进蓝皮书》已在国际星闪联盟官网正式上线。据蓝皮书介绍，星闪 SLE 1.0 标准于 2022 年 11 月正式发布，SLE 1.0 芯片累计发货量 700…",
+      "date": "2026-10-30",
+      "title": "OpenAI“服软”：ChatGPT Pro 订阅用量翻倍，取消 Pro 200 砍半计划",
+      "desc": "IT之家 10 月 30 日消息，在用户强烈反对后，OpenAI 公司昨日（10 月 29 日）宣布，立即上调 ChatGPT Pro 及 Business Premium 订阅中 Work 与 Codex 的用量额度，…",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/019/791.htm"
+      "url": "https://www.ithome.com/1/019/848.htm"
     },
     {
       "date": "2026-10-29",
@@ -137,132 +137,132 @@
     {
       "repo": "HKUDS/DeepTutor",
       "lang": "Python",
-      "today": 1926,
-      "stars": 49439,
+      "today": 1930,
+      "stars": 50039,
       "desc": "DeepTutor ：终身个性化辅导。https://deeptutor.info/。"
     },
     {
       "repo": "obra/superpowers",
       "lang": "Shell",
-      "today": 1037,
-      "stars": 308126,
+      "today": 1034,
+      "stars": 308540,
       "desc": "有效的代理技能框架和软件开发方法。"
     },
     {
       "repo": "pbakaus/impeccable",
       "lang": "Rust",
-      "today": 2881,
-      "stars": 94660,
+      "today": 2870,
+      "stars": 95315,
       "desc": "您的编码代理的设计词汇。大胆引导，通过批评和审核进行评审，在AI SLOP出货前抓住它。"
     },
     {
       "repo": "JetBrains/thinkrail",
       "lang": "TypeScript",
-      "today": 1116,
-      "stars": 5783,
+      "today": 1117,
+      "stars": 6006,
       "desc": "轻量级的真实IDE中带有pi的Vibe代码，可根据您的工作方式自行定制—您需要的Vibe"
     },
     {
       "repo": "milind-soni/OpenMausBot",
       "lang": "TypeScript",
-      "today": 1190,
-      "stars": 7202,
+      "today": 1199,
+      "stars": 7471,
       "desc": "使用机器人可以使用的虚拟机的开源Grok机器人替代方案"
     },
     {
       "repo": "nightly-labs/openbot",
       "lang": "TypeScript",
-      "today": 705,
-      "stars": 3678,
+      "today": 709,
+      "stars": 3876,
       "desc": "持久性AI队友的本地首选桌面工作区。使用专用工作区、任务队列、文件共享、浏览器控制和代理间协作运行Codex、Claude和Grok。"
     },
     {
       "repo": "elayadesign/ai-design-skills",
       "lang": "—",
-      "today": 1178,
-      "stars": 11852,
+      "today": 1187,
+      "stars": 12147,
       "desc": "暂无项目简介。"
     },
     {
       "repo": "thedotmack/claude-mem",
       "lang": "TypeScript",
-      "today": 459,
-      "stars": 104372,
+      "today": 336,
+      "stars": 104793,
       "desc": "每个座席跨会话的持久上下文–捕获座席在会话期间执行的所有操作，使用AI对其进行压缩，并将相关上下文注入到未来的会话中。适用于Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode等"
     },
     {
       "repo": "CopilotKit/OpenBot",
       "lang": "TypeScript",
-      "today": 240,
-      "stars": 7881,
+      "today": 247,
+      "stars": 8145,
       "desc": "开源的人工智能同事，每个人都有一台自己的电脑：浏览器、文件和工具，每次操作都会在发生之前决定，并在之后记录下来。携带任何AG-UI代理。"
     },
     {
       "repo": "togg53192-cmd/jailbreaks",
       "lang": "—",
-      "today": 1610,
-      "stars": 8284,
+      "today": 1594,
+      "stars": 9028,
       "desc": "我所有的JAILBREAK列表"
     }
   ],
   "agentFrameworks": [
     {
       "repo": "anomalyco/opencode",
-      "stars": 222976,
+      "stars": 223063,
       "lang": "TypeScript",
       "desc": "开源编码代理。"
     },
     {
       "repo": "anthropics/claude-code",
-      "stars": 153833,
+      "stars": 153869,
       "lang": "TypeScript",
       "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
     },
     {
       "repo": "Significant-Gravitas/AutoGPT",
-      "stars": 187811,
+      "stars": 187819,
       "lang": "Python",
       "desc": "AutoGPT的愿景是为每个人提供可访问的人工智能，供其使用并以此为基础。我们的使命是提供工具，让您专注于重要的事情。"
     },
     {
       "repo": "openai/codex",
-      "stars": 131544,
+      "stars": 131570,
       "lang": "Rust",
       "desc": "在您的终端中运行的轻量级编码代理"
     },
     {
       "repo": "google-gemini/gemini-cli",
-      "stars": 108611,
+      "stars": 108619,
       "lang": "TypeScript",
       "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端。"
     },
     {
       "repo": "FoundationAgents/MetaGPT",
-      "stars": 71078,
+      "stars": 71076,
       "lang": "Python",
       "desc": "🌟 多Agent框架：第一个人工智能软件公司，迈向自然语言编程"
     },
     {
       "repo": "microsoft/autogen",
-      "stars": 61622,
+      "stars": 61624,
       "lang": "Python",
       "desc": "智能AI的编程框架"
     },
     {
       "repo": "crewAIInc/crewAI",
-      "stars": 60252,
+      "stars": 60266,
       "lang": "Python",
       "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
     },
     {
       "repo": "HKUDS/nanobot",
-      "stars": 49626,
+      "stars": 49641,
       "lang": "Python",
       "desc": "Python中的超轻量级、开源、自托管的个人AI代理框架，具有WebUI、工具、内存、MCP、多代理工作流程、自动化和聊天应用程序"
     },
     {
       "repo": "openai/openai-agents-python",
-      "stars": 30375,
+      "stars": 30381,
       "lang": "Python",
       "desc": "轻量级、功能强大的多代理工作流程框架"
     }
@@ -270,61 +270,61 @@
   "skills": [
     {
       "repo": "obra/superpowers",
-      "stars": 308128,
+      "stars": 308541,
       "lang": "Shell",
       "desc": "有效的代理技能框架和软件开发方法。"
     },
     {
       "repo": "mattpocock/skills",
-      "stars": 306331,
+      "stars": 306615,
       "lang": "Shell",
       "desc": "真正工程师的技能。直接来自我的.agents目录。"
     },
     {
       "repo": "affaan-m/ECC",
-      "stars": 292396,
+      "stars": 292714,
       "lang": "JavaScript",
       "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
     },
     {
       "repo": "anthropics/skills",
-      "stars": 184693,
+      "stars": 184797,
       "lang": "Python",
       "desc": "座席技能的公共存储库"
     },
     {
       "repo": "Shubhamsaboo/awesome-llm-apps",
-      "stars": 143409,
+      "stars": 143443,
       "lang": "Python",
       "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
     },
     {
       "repo": "addyosmani/agent-skills",
-      "stars": 111645,
+      "stars": 111747,
       "lang": "JavaScript",
       "desc": "AI编码代理的生产级工程技能。"
     },
     {
       "repo": "mvanhorn/last30days-skill",
-      "stars": 65844,
+      "stars": 65891,
       "lang": "Python",
       "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
     },
     {
       "repo": "tt-a1i/archify",
-      "stars": 91334,
+      "stars": 91436,
       "lang": "JavaScript",
       "desc": "将任何想法、计划或代码库转换为漂亮的交互式图表。Claude Code、Codex等的代理技能。"
     },
     {
       "repo": "coreyhaines31/marketingskills",
-      "stars": 57258,
+      "stars": 57336,
       "lang": "JavaScript",
       "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
     },
     {
       "repo": "blader/humanizer",
-      "stars": 62240,
+      "stars": 62359,
       "lang": "Python",
       "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
     }
