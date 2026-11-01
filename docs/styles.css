@@ -131,3 +131,17 @@ a{color:inherit;text-decoration:none}
 .skeleton{color:var(--muted);font-size:13px;padding:12px}
 .err{color:#ff8080}
 @media(max-width:640px){.nav{display:none}.hero{padding-top:40px}}
+
+/* ---------- AI 社区热议趋势 ---------- */
+#trends .board-desc{color:var(--muted);font-size:13.5px;margin:-6px 0 18px}
+.trend-kw-list{display:flex;flex-direction:column;gap:9px}
+.trend-kw{display:flex;align-items:center;gap:12px;font-family:var(--mono);font-size:14px}
+.trend-rank{color:var(--muted);font-size:12px;width:22px;text-align:right;flex:none}
+.trend-word{width:200px;flex:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--txt)}
+.trend-bar{flex:1;height:8px;background:var(--card);border:1px solid var(--card-bd);border-radius:99px;overflow:hidden}
+.trend-bar-fill{display:block;height:100%;background:linear-gradient(90deg,var(--cyan),var(--violet));border-radius:99px}
+.trend-count{color:var(--cyan);font-size:12.5px;width:40px;flex:none;text-align:right}
+.trend-side{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+.trend-side-block h3{font-size:13px;color:var(--muted);margin:0 0 8px;font-weight:400}
+.trend-side-block .tag{margin:0 6px 8px 0}
+@media (max-width:720px){.trend-word{width:120px}.trend-side{grid-template-columns:1fr}}

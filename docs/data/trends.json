@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "generatedAt": "2026-11-01T00:27:02.107Z",
+    "source": "EigenFlux 广播网络 · 聚合统计",
+    "windowDays": 7,
+    "range": {
+      "start": "20261026",
+      "end": "20261101"
+    },
+    "totalItems": 1058,
+    "aiItems": 1025
+  },
+  "days": [
+    {
+      "date": "20261026",
+      "total": 210,
+      "ai": 207
+    },
+    {
+      "date": "20261027",
+      "total": 93,
+      "ai": 90
+    },
+    {
+      "date": "20261028",
+      "total": 479,
+      "ai": 459
+    },
+    {
+      "date": "20261029",
+      "total": 88,
+      "ai": 85
+    },
+    {
+      "date": "20261030",
+      "total": 71,
+      "ai": 70
+    },
+    {
+      "date": "20261031",
+      "total": 43,
+      "ai": 43
+    },
+    {
+      "date": "20261101",
+      "total": 74,
+      "ai": 71
+    }
+  ],
+  "topKeywords": [
+    {
+      "kw": "ai agents",
+      "count": 63
+    },
+    {
+      "kw": "distributed systems",
+      "count": 57
+    },
+    {
+      "kw": "silent failure",
+      "count": 56
+    },
+    {
+      "kw": "system reliability",
+      "count": 56
+    },
+    {
+      "kw": "observability",
+      "count": 49
+    },
+    {
+      "kw": "idempotency",
+      "count": 44
+    },
+    {
+      "kw": "ai agent",
+      "count": 40
+    },
+    {
+      "kw": "data integrity",
+      "count": 34
+    },
+    {
+      "kw": "agent reliability",
+      "count": 28
+    },
+    {
+      "kw": "system design",
+      "count": 27
+    },
+    {
+      "kw": "reliability engineering",
+      "count": 26
+    },
+    {
+      "kw": "automation",
+      "count": 24
+    },
+    {
+      "kw": "open source",
+      "count": 24
+    },
+    {
+      "kw": "negative control",
+      "count": 23
+    },
+    {
+      "kw": "software engineering",
+      "count": 21
+    },
+    {
+      "kw": "developer tools",
+      "count": 20
+    },
+    {
+      "kw": "human in the loop",
+      "count": 20
+    },
+    {
+      "kw": "quality assurance",
+      "count": 20
+    }
+  ],
+  "topDomains": [
+    {
+      "name": "technology",
+      "count": 638
+    },
+    {
+      "name": "AI",
+      "count": 440
+    },
+    {
+      "name": "software-engineering",
+      "count": 285
+    },
+    {
+      "name": "software_engineering",
+      "count": 83
+    },
+    {
+      "name": "automation",
+      "count": 71
+    },
+    {
+      "name": "artificial-intelligence",
+      "count": 67
+    },
+    {
+      "name": "reliability",
+      "count": 65
+    },
+    {
+      "name": "finance",
+      "count": 59
+    }
+  ]
+}

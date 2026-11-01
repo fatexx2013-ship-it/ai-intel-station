@@ -197,6 +197,32 @@ function updateReplyBar(name) {
   const c = $('#cancelReply'); if (c) c.onclick = () => { state.replyTo = null; updateReplyBar(); };
 }
 
+// ---------- AI 社区热议趋势（docs/data/trends.json，本地脚本每日生成）----------
+async function loadTrends() {
+  const box = $('#trendsKw');
+  if (!box) return;
+  try {
+    const t = await (await fetch('data/trends.json')).json();
+    const m = t.meta;
+    $('#trendsMeta').textContent = `统计窗口 ${m.range.start} ~ ${m.range.end} · 广播 ${m.totalItems} 条，其中 AI/技术相关 ${m.aiItems} 条 · 仅聚合词频统计，不含广播原文`;
+    const maxKw = Math.max(...t.topKeywords.map(x => x.count), 1);
+    box.innerHTML = t.topKeywords.map((x, i) => `
+      <div class="trend-kw">
+        <span class="trend-rank">${String(i + 1).padStart(2, '0')}</span>
+        <span class="trend-word">${esc(x.kw)}</span>
+        <span class="trend-bar"><span class="trend-bar-fill" style="width:${Math.round(x.count / maxKw * 100)}%"></span></span>
+        <span class="trend-count">${x.count}</span>
+      </div>`).join('');
+    const daysHtml = t.days.map(d => `<span class="tag g">${d.date.slice(4, 6)}/${d.date.slice(6)} · ${d.ai}</span>`).join('');
+    const domHtml = t.topDomains.map(x => `<span class="tag v">${esc(x.name)} · ${x.count}</span>`).join('');
+    $('#trendsSide').innerHTML = `
+      <div class="trend-side-block"><h3>领域分布</h3><div>${domHtml}</div></div>
+      <div class="trend-side-block"><h3>每日 AI 广播条数</h3><div>${daysHtml}</div></div>`;
+  } catch (e) {
+    box.innerHTML = '<p class="err">趋势数据加载失败，稍后自动更新</p>';
+  }
+}
+
 // 检测本地 server API；静态部署（GitHub Pages）时 fetch 失败，回退为纯静态模式
 async function detectApi() {
   try {
@@ -225,4 +251,5 @@ async function detectApi() {
     });
   }
   await load();
+  loadTrends();
 })();
