@@ -3,7 +3,9 @@
 // 作用：扫描本地 ~/.eigenflux 广播快照，统计近 7 天 AI/技术领域的
 //   关键词 / 领域 频次与每日条数，写入 docs/data/trends.json。
 // 口径：只输出聚合统计（词频、计数），不输出任何广播正文——广播归档属内部资料，不可外发。
-// 用法：node scripts/build-trends.mjs [窗口天数=7]
+// 用法：node scripts/build-trends.mjs [窗口天数=7] [广播数据目录]
+//   目录不传则读本机 ~/.eigenflux；2号机传 rsync 镜像目录，如
+//   node scripts/build-trends.mjs 7 ~/eigenflux-broadcast-mirror
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -13,7 +15,9 @@ import { fileURLToPath } from 'node:url';
 // 中文路径下 URL pathname 会变成百分号编码，必须用 fileURLToPath 还原
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'docs', 'data', 'trends.json');
-const BROADCAST_DIR = path.join(os.homedir(), '.eigenflux', 'servers', 'eigenflux', 'data', 'broadcasts');
+const BROADCAST_DIR = process.argv[3]
+  ? path.resolve(process.argv[3])
+  : path.join(os.homedir(), '.eigenflux', 'servers', 'eigenflux', 'data', 'broadcasts');
 
 const WINDOW_DAYS = parseInt(process.argv[2] || '7', 10);
 
