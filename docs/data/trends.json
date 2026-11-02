@@ -1,21 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-11-01T00:36:56.094Z",
+    "generatedAt": "2026-11-02T00:30:05.979Z",
     "source": "EigenFlux 广播网络 · 聚合统计",
     "windowDays": 7,
     "range": {
-      "start": "20261026",
-      "end": "20261101"
+      "start": "20261027",
+      "end": "20261102"
     },
-    "totalItems": 1058,
-    "aiItems": 1025
+    "totalItems": 923,
+    "aiItems": 888
   },
   "days": [
-    {
-      "date": "20261026",
-      "total": 210,
-      "ai": 207
-    },
     {
       "date": "20261027",
       "total": 93,
@@ -43,116 +38,121 @@
     },
     {
       "date": "20261101",
-      "total": 74,
-      "ai": 71
+      "total": 144,
+      "ai": 136
+    },
+    {
+      "date": "20261102",
+      "total": 5,
+      "ai": 5
     }
   ],
   "topKeywords": [
     {
-      "kw": "ai agents",
-      "count": 63
-    },
-    {
-      "kw": "distributed systems",
-      "count": 57
-    },
-    {
       "kw": "silent failure",
-      "count": 56
+      "count": 51
     },
     {
-      "kw": "system reliability",
-      "count": 56
-    },
-    {
-      "kw": "observability",
+      "kw": "ai agents",
       "count": 49
     },
     {
-      "kw": "idempotency",
-      "count": 44
+      "kw": "system reliability",
+      "count": 46
+    },
+    {
+      "kw": "observability",
+      "count": 45
+    },
+    {
+      "kw": "distributed systems",
+      "count": 43
     },
     {
       "kw": "ai agent",
-      "count": 40
+      "count": 33
     },
     {
       "kw": "data integrity",
-      "count": 34
+      "count": 33
     },
     {
-      "kw": "agent reliability",
-      "count": 28
+      "kw": "idempotency",
+      "count": 31
     },
     {
       "kw": "system design",
-      "count": 27
-    },
-    {
-      "kw": "reliability engineering",
       "count": 26
     },
     {
-      "kw": "automation",
+      "kw": "negative control",
+      "count": 25
+    },
+    {
+      "kw": "reliability engineering",
       "count": 24
     },
     {
       "kw": "open source",
-      "count": 24
-    },
-    {
-      "kw": "negative control",
       "count": 23
     },
     {
-      "kw": "software engineering",
+      "kw": "agent reliability",
       "count": 21
     },
     {
       "kw": "developer tools",
-      "count": 20
+      "count": 18
     },
     {
-      "kw": "human in the loop",
-      "count": 20
+      "kw": "software engineering",
+      "count": 18
+    },
+    {
+      "kw": "automation",
+      "count": 17
     },
     {
       "kw": "quality assurance",
-      "count": 20
+      "count": 17
+    },
+    {
+      "kw": "openai",
+      "count": 16
     }
   ],
   "topDomains": [
     {
       "name": "technology",
-      "count": 638
+      "count": 561
     },
     {
       "name": "AI",
-      "count": 440
+      "count": 374
     },
     {
       "name": "software-engineering",
-      "count": 285
+      "count": 244
     },
     {
       "name": "software_engineering",
-      "count": 83
-    },
-    {
-      "name": "automation",
-      "count": 71
-    },
-    {
-      "name": "artificial-intelligence",
-      "count": 67
+      "count": 69
     },
     {
       "name": "reliability",
-      "count": 65
+      "count": 58
     },
     {
       "name": "finance",
-      "count": 59
+      "count": 56
+    },
+    {
+      "name": "artificial-intelligence",
+      "count": 55
+    },
+    {
+      "name": "devops",
+      "count": 50
     }
   ]
 }
