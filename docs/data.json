@@ -1,64 +1,50 @@
 {
   "meta": {
-    "generatedAt": "2026-11-03",
+    "generatedAt": "2026-11-04",
     "note": "所有条目均附真实出处；描述与外文内容已自动汉化。星标数据来自 GitHub API，模型数据来自 OpenRouter 公开接口，新闻来自中文科技媒体 RSS。"
   },
   "news": [
     {
       "date": "2026-11-03",
-      "title": "OpenAI Tibo“28 天更新挑战”以两次重置收尾，共 14 天发放 Codex / ChatGPT Work 额度重置",
-      "desc": "IT之家 11 月 3 日消息，OpenAI Codex 与 ChatGPT Work 团队负责人 Thibault Sottiaux（Tibo）发起的「28 天更新挑战」已于 11 月 2 日正式结束。这项挑战最终以 …",
+      "title": "广汽埃安 AION V 纯电 SUV 新车申报：自带“鼻孔”，165kW + 磷酸铁锂电池",
+      "desc": "IT之家 11 月 3 日消息，工信部发布第 413 批《道路机动车辆生产企业及产品公告》新产品公示，广汽埃安新能源汽车股份有限公司申报的埃安（AION）AION V 纯电动多用途乘用车完成申报，产品型号为 AHC646…",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/021/343.htm"
+      "url": "https://www.ithome.com/1/021/853.htm"
     },
     {
       "date": "2026-11-03",
-      "title": "豪掷 457.65 亿美元：苹果 2026 财年研发费用同比增 32% 创历史新高，加码 AI 投入",
-      "desc": "IT之家 11 月 3 日消息，科技媒体 9to5Mac 今天（11 月 3 日）发布博文，报道称基于官方披露数据，2026 财年（2025 年 9 月 28 日～2026 年 9 月 26 日）第四财季（2026 年 …",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/021/351.htm"
+      "title": "苹果被曝的新产品，中国央企8个月前已装进公共卫生间",
+      "desc": "TeleAI智慧看护助手",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507410.html"
     },
     {
       "date": "2026-11-03",
-      "title": "OpenAI 下一代 GPT-6.2 Astra 正灰度测试，Codex 用量统计中已单独列出",
-      "desc": "IT之家 11 月 3 日消息，经大量用户反馈，OpenAI 下一代模型 GPT-6.2 Astra 疑似已进入小范围测试，部分 Codex 用户的使用量统计中已经出现独立模型标识「gpt-6.2-astra」。不过，截…",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/021/352.htm"
+      "title": "纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri",
+      "desc": "终于，有了一个可以触摸的起点",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507419.html"
     },
     {
-      "date": "2026-11-02",
-      "title": "小米开源了个150元的AI小玩意，火到配件都涨价了",
-      "desc": "能指挥Agent干活，还能控制智能家居",
+      "date": "2026-11-03",
+      "title": "模型谁都买得到，拉开差距的是AI生产力系统",
+      "desc": "AI的下一程是生产力系统之争",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507107.html"
+      "url": "https://www.qbitai.com/2026/11/507448.html"
     },
     {
-      "date": "2026-11-02",
-      "title": "央视严选「中国AI创业十骏」：唯一AI制药公司是清华系",
-      "desc": "模型管线双驱动",
+      "date": "2026-11-03",
+      "title": "智己LS8纯电版背后：8年研发底盘，两大厂联合开发电池",
+      "desc": "两位CTO，关起门来吵架",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507150.html"
+      "url": "https://www.qbitai.com/2026/11/507473.html"
     },
     {
-      "date": "2026-11-02",
-      "title": "OpenAI重写大模型法则，第一条：忠于人类！！",
-      "desc": "新版“机器人三定律”。",
+      "date": "2026-11-03",
+      "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
+      "desc": "AI接管调度运营，仓库越干越聪明",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507225.html"
-    },
-    {
-      "date": "2026-11-02",
-      "title": "从“能调用”到“敢托付”：仪电智算云 Token 工厂的三重可信",
-      "desc": "上海仪电与上海创智学院联合发布“飞轮转・万象生”仪电智算数链生态。",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507260.html"
-    },
-    {
-      "date": "2026-11-02",
-      "title": "顶级AI翻车的活儿，被这个新出的免费国产AI接住了！",
-      "desc": "商汤SenseNova 6.8 Flash",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507277.html"
+      "url": "https://www.qbitai.com/2026/11/507507.html"
     },
     {
       "date": "2026-10-30",
@@ -149,86 +135,86 @@
   ],
   "trending": [
     {
-      "repo": "vercel-labs/agent-desktop",
-      "lang": "Rust",
-      "today": 2275,
-      "stars": 10092,
-      "desc": "AI代理的计算机使用CLI"
-    },
-    {
       "repo": "thedotmack/claude-mem",
       "lang": "TypeScript",
-      "today": 1803,
-      "stars": 110838,
+      "today": 1138,
+      "stars": 111546,
       "desc": "每个座席跨会话的持久上下文–捕获座席在会话期间执行的所有操作，使用AI对其进行压缩，并将相关上下文注入到未来的会话中。适用于Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode等"
     },
     {
-      "repo": "D4Vinci/Scrapling",
-      "lang": "Python",
-      "today": 706,
-      "stars": 93040,
-      "desc": "🕷️ 最好的Web抓取框架，可处理从单个请求到全面爬网的所有内容！不要害羞，在这里加入： https://discord.gg/EMgGbDceNQ并按照这里获取每日提示和技巧： https://x.com/Scrapling_dev"
+      "repo": "vercel-labs/agent-desktop",
+      "lang": "Rust",
+      "today": 3792,
+      "stars": 12070,
+      "desc": "AI代理的计算机使用CLI"
     },
     {
-      "repo": "hyprwm/Hyprland",
-      "lang": "C++",
-      "today": 509,
-      "stars": 39985,
-      "desc": "Hyprland是一款独立的、高度可定制的动态平铺Wayland合成器，不会牺牲外观。"
-    },
-    {
-      "repo": "Donchitos/Claude-Code-Game-Studios",
-      "lang": "Shell",
-      "today": 1379,
-      "stars": 33662,
-      "desc": "将Claude Code变成一个完整的游戏开发工作室--49个人工智能代理、72个工作流程技能，以及一个完整的协调系统，反映了真实的工作室层次结构。"
-    },
-    {
-      "repo": "FlashML-org/FreeToken",
-      "lang": "Python",
-      "today": 653,
-      "stars": 16140,
-      "desc": "FreeToken将数据中心规模的模型提供给您的桌面。在本地快速高效地运行大规模模型。"
-    },
-    {
-      "repo": "pingdotgg/t3code",
-      "lang": "TypeScript",
-      "today": 3229,
-      "stars": 42157,
-      "desc": "暂无项目简介。"
-    },
-    {
-      "repo": "shiyu-coder/Kronos",
-      "lang": "Python",
-      "today": 857,
-      "stars": 46042,
-      "desc": "Kronos ：金融市场语言的基础模型"
-    },
-    {
-      "repo": "kornia/kornia",
-      "lang": "Python",
-      "today": 412,
-      "stars": 12161,
-      "desc": "用于空间AI的🐍几何计算机视觉库"
+      "repo": "max-sixty/worktrunk",
+      "lang": "Rust",
+      "today": 437,
+      "stars": 10348,
+      "desc": "Worktrunk是用于Git工作树管理的CLI ，专为并行AI代理工作流程而设计"
     },
     {
       "repo": "JustVugg/colibri",
       "lang": "C",
-      "today": 675,
-      "stars": 46634,
-      "desc": "在您已经拥有的硬件上运行前沿MoE模型—纯C ，零DEPS ，从磁盘流式传输的专家。微型引擎，超大型号。 🐦"
+      "today": 803,
+      "stars": 47069,
+      "desc": "前沿MoE模型的分层推理引擎： GPU （ CUDA ， Vulkan ）的热门专家， RAM中的热门专家，从NVMe流式传输的冷门专家。用C编写，在您已经拥有的硬件上运行。"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "lang": "Shell",
+      "today": 1164,
+      "stars": 311090,
+      "desc": "真正工程师的技能。直接来自我的.agents目录。"
+    },
+    {
+      "repo": "p-e-w/heretic",
+      "lang": "Python",
+      "today": 699,
+      "stars": 38591,
+      "desc": "无需培训的语言模型修改：消除审查、抑制SLOP、减少嘲讽等"
+    },
+    {
+      "repo": "spotify/portal-ai-plugins",
+      "lang": "TypeScript",
+      "today": 94,
+      "stars": 2961,
+      "desc": "暂无项目简介。"
+    },
+    {
+      "repo": "floci-io/floci",
+      "lang": "Java",
+      "today": 679,
+      "stars": 28438,
+      "desc": "轻盈、蓬松且始终免费- AWS本地模拟器替代方案"
+    },
+    {
+      "repo": "Usagi-org/ai-goofish-monitor",
+      "lang": "Python",
+      "today": 204,
+      "stars": 16275,
+      "desc": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。"
+    },
+    {
+      "repo": "anomalyco/hex",
+      "lang": "Rust",
+      "today": 410,
+      "stars": 4372,
+      "desc": "Mac、Windows和Linux的本地语音听写"
     }
   ],
   "agentFrameworks": [
     {
       "repo": "anomalyco/opencode",
-      "stars": 224135,
+      "stars": 224289,
       "lang": "TypeScript",
       "desc": "开源编码代理。"
     },
     {
       "repo": "anthropics/claude-code",
-      "stars": 154311,
+      "stars": 154400,
       "lang": "TypeScript",
       "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
     },
@@ -240,43 +226,43 @@
     },
     {
       "repo": "openai/codex",
-      "stars": 132903,
+      "stars": 132999,
       "lang": "Rust",
       "desc": "在您的终端中运行的轻量级编码代理"
     },
     {
       "repo": "google-gemini/gemini-cli",
-      "stars": 108685,
+      "stars": 108696,
       "lang": "TypeScript",
       "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端。"
     },
     {
       "repo": "FoundationAgents/MetaGPT",
-      "stars": 71135,
+      "stars": 71151,
       "lang": "Python",
       "desc": "🌟 多Agent框架：第一个人工智能软件公司，迈向自然语言编程"
     },
     {
       "repo": "microsoft/autogen",
-      "stars": 61682,
+      "stars": 61691,
       "lang": "Python",
       "desc": "智能AI的编程框架"
     },
     {
       "repo": "crewAIInc/crewAI",
-      "stars": 60432,
+      "stars": 60453,
       "lang": "Python",
       "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
     },
     {
       "repo": "HKUDS/nanobot",
-      "stars": 49771,
+      "stars": 49793,
       "lang": "Python",
       "desc": "您的轻量级开源个人代理。"
     },
     {
       "repo": "openai/openai-agents-python",
-      "stars": 30463,
+      "stars": 30478,
       "lang": "Python",
       "desc": "轻量级、功能强大的多代理工作流程框架"
     }
@@ -284,61 +270,61 @@
   "skills": [
     {
       "repo": "obra/superpowers",
-      "stars": 311290,
+      "stars": 311702,
       "lang": "Shell",
       "desc": "有效的代理技能框架和软件开发方法。"
     },
     {
       "repo": "mattpocock/skills",
-      "stars": 310321,
+      "stars": 311091,
       "lang": "Shell",
       "desc": "真正工程师的技能。直接来自我的.agents目录。"
     },
     {
       "repo": "affaan-m/ECC",
-      "stars": 295724,
+      "stars": 296291,
       "lang": "JavaScript",
       "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
     },
     {
       "repo": "anthropics/skills",
-      "stars": 186800,
+      "stars": 187019,
       "lang": "Python",
       "desc": "座席技能的公共存储库"
     },
     {
       "repo": "Shubhamsaboo/awesome-llm-apps",
-      "stars": 143763,
+      "stars": 143822,
       "lang": "Python",
       "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
     },
     {
       "repo": "addyosmani/agent-skills",
-      "stars": 112841,
+      "stars": 112982,
       "lang": "JavaScript",
       "desc": "AI编码代理的生产级工程技能。"
     },
     {
       "repo": "mvanhorn/last30days-skill",
-      "stars": 66381,
+      "stars": 66449,
       "lang": "Python",
       "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
     },
     {
       "repo": "tt-a1i/archify",
-      "stars": 92771,
+      "stars": 93073,
       "lang": "JavaScript",
       "desc": "将任何想法、计划或代码库转换为漂亮的交互式图表。Claude Code、Codex等的代理技能。"
     },
     {
       "repo": "coreyhaines31/marketingskills",
-      "stars": 58122,
+      "stars": 58257,
       "lang": "JavaScript",
       "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
     },
     {
       "repo": "blader/humanizer",
-      "stars": 64049,
+      "stars": 64296,
       "lang": "Python",
       "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
     }
