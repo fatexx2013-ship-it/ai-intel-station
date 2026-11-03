@@ -119,11 +119,25 @@ export const seedPosts = [
 
 export const news = [
   {
-    "date": "2026-11-02",
-    "title": "OpenAI CEO 奥尔特曼称个人电脑浪费内存遭全网声讨，马斯克也来补刀",
-    "desc": "IT之家 11 月 2 日消息，萨姆 · 奥尔特曼近期关于内存的言论引发越来越多人反对，埃隆 · 马斯克也加入了这场声讨。上周，这位 OpenAI 首席执行官的一番话在全网、尤其是玩家群体中引发强烈不满。他称，人们把内存…",
+    "date": "2026-11-03",
+    "title": "OpenAI Tibo“28 天更新挑战”以两次重置收尾，共 14 天发放 Codex / ChatGPT Work 额度重置",
+    "desc": "IT之家 11 月 3 日消息，OpenAI Codex 与 ChatGPT Work 团队负责人 Thibault Sottiaux（Tibo）发起的「28 天更新挑战」已于 11 月 2 日正式结束。这项挑战最终以 …",
     "source": "IT之家",
-    "url": "https://www.ithome.com/1/021/274.htm"
+    "url": "https://www.ithome.com/1/021/343.htm"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "豪掷 457.65 亿美元：苹果 2026 财年研发费用同比增 32% 创历史新高，加码 AI 投入",
+    "desc": "IT之家 11 月 3 日消息，科技媒体 9to5Mac 今天（11 月 3 日）发布博文，报道称基于官方披露数据，2026 财年（2025 年 9 月 28 日～2026 年 9 月 26 日）第四财季（2026 年 …",
+    "source": "IT之家",
+    "url": "https://www.ithome.com/1/021/351.htm"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "OpenAI 下一代 GPT-6.2 Astra 正灰度测试，Codex 用量统计中已单独列出",
+    "desc": "IT之家 11 月 3 日消息，经大量用户反馈，OpenAI 下一代模型 GPT-6.2 Astra 疑似已进入小范围测试，部分 Codex 用户的使用量统计中已经出现独立模型标识「gpt-6.2-astra」。不过，截…",
+    "source": "IT之家",
+    "url": "https://www.ithome.com/1/021/352.htm"
   },
   {
     "date": "2026-11-02",
@@ -253,71 +267,71 @@ export const trending = [
   {
     "repo": "vercel-labs/agent-desktop",
     "lang": "Rust",
-    "today": 2243,
-    "stars": 9006,
+    "today": 2275,
+    "stars": 10092,
     "desc": "AI代理的计算机使用CLI"
   },
   {
     "repo": "thedotmack/claude-mem",
     "lang": "TypeScript",
-    "today": 1799,
-    "stars": 110517,
+    "today": 1803,
+    "stars": 110838,
     "desc": "每个座席跨会话的持久上下文–捕获座席在会话期间执行的所有操作，使用AI对其进行压缩，并将相关上下文注入到未来的会话中。适用于Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode等"
   },
   {
     "repo": "D4Vinci/Scrapling",
     "lang": "Python",
-    "today": 858,
-    "stars": 92583,
+    "today": 706,
+    "stars": 93040,
     "desc": "🕷️ 最好的Web抓取框架，可处理从单个请求到全面爬网的所有内容！不要害羞，在这里加入： https://discord.gg/EMgGbDceNQ并按照这里获取每日提示和技巧： https://x.com/Scrapling_dev"
   },
   {
     "repo": "hyprwm/Hyprland",
     "lang": "C++",
-    "today": 508,
-    "stars": 39805,
+    "today": 509,
+    "stars": 39985,
     "desc": "Hyprland是一款独立的、高度可定制的动态平铺Wayland合成器，不会牺牲外观。"
   },
   {
     "repo": "Donchitos/Claude-Code-Game-Studios",
     "lang": "Shell",
-    "today": 1380,
-    "stars": 33326,
+    "today": 1379,
+    "stars": 33662,
     "desc": "将Claude Code变成一个完整的游戏开发工作室--49个人工智能代理、72个工作流程技能，以及一个完整的协调系统，反映了真实的工作室层次结构。"
   },
   {
     "repo": "FlashML-org/FreeToken",
     "lang": "Python",
-    "today": 654,
-    "stars": 15926,
+    "today": 653,
+    "stars": 16140,
     "desc": "FreeToken将数据中心规模的模型提供给您的桌面。在本地快速高效地运行大规模模型。"
   },
   {
     "repo": "pingdotgg/t3code",
     "lang": "TypeScript",
-    "today": 3216,
-    "stars": 41188,
+    "today": 3229,
+    "stars": 42157,
     "desc": "暂无项目简介。"
   },
   {
     "repo": "shiyu-coder/Kronos",
     "lang": "Python",
-    "today": 855,
-    "stars": 45904,
+    "today": 857,
+    "stars": 46042,
     "desc": "Kronos ：金融市场语言的基础模型"
   },
   {
     "repo": "kornia/kornia",
     "lang": "Python",
     "today": 412,
-    "stars": 12071,
+    "stars": 12161,
     "desc": "用于空间AI的🐍几何计算机视觉库"
   },
   {
     "repo": "JustVugg/colibri",
     "lang": "C",
-    "today": 655,
-    "stars": 46415,
+    "today": 675,
+    "stars": 46634,
     "desc": "在您已经拥有的硬件上运行前沿MoE模型—纯C ，零DEPS ，从磁盘流式传输的专家。微型引擎，超大型号。 🐦"
   }
 ];
@@ -325,31 +339,31 @@ export const trending = [
 export const agentFrameworks = [
   {
     "repo": "anomalyco/opencode",
-    "stars": 224067,
+    "stars": 224135,
     "lang": "TypeScript",
     "desc": "开源编码代理。"
   },
   {
     "repo": "anthropics/claude-code",
-    "stars": 154278,
+    "stars": 154311,
     "lang": "TypeScript",
     "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
   },
   {
     "repo": "Significant-Gravitas/AutoGPT",
-    "stars": 187876,
+    "stars": 187885,
     "lang": "Python",
     "desc": "AutoGPT的愿景是为每个人提供可访问的人工智能，供其使用并以此为基础。我们的使命是提供工具，让您专注于重要的事情。"
   },
   {
     "repo": "openai/codex",
-    "stars": 132870,
+    "stars": 132903,
     "lang": "Rust",
     "desc": "在您的终端中运行的轻量级编码代理"
   },
   {
     "repo": "google-gemini/gemini-cli",
-    "stars": 108675,
+    "stars": 108685,
     "lang": "TypeScript",
     "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端。"
   },
@@ -361,25 +375,25 @@ export const agentFrameworks = [
   },
   {
     "repo": "microsoft/autogen",
-    "stars": 61680,
+    "stars": 61682,
     "lang": "Python",
     "desc": "智能AI的编程框架"
   },
   {
     "repo": "crewAIInc/crewAI",
-    "stars": 60428,
+    "stars": 60432,
     "lang": "Python",
     "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
   },
   {
     "repo": "HKUDS/nanobot",
-    "stars": 49766,
+    "stars": 49771,
     "lang": "Python",
     "desc": "您的轻量级开源个人代理。"
   },
   {
     "repo": "openai/openai-agents-python",
-    "stars": 30461,
+    "stars": 30463,
     "lang": "Python",
     "desc": "轻量级、功能强大的多代理工作流程框架"
   }
@@ -388,61 +402,61 @@ export const agentFrameworks = [
 export const skills = [
   {
     "repo": "obra/superpowers",
-    "stars": 311118,
+    "stars": 311290,
     "lang": "Shell",
     "desc": "有效的代理技能框架和软件开发方法。"
   },
   {
     "repo": "mattpocock/skills",
-    "stars": 310028,
+    "stars": 310321,
     "lang": "Shell",
     "desc": "真正工程师的技能。直接来自我的.agents目录。"
   },
   {
     "repo": "affaan-m/ECC",
-    "stars": 295474,
+    "stars": 295724,
     "lang": "JavaScript",
     "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
   },
   {
     "repo": "anthropics/skills",
-    "stars": 186705,
+    "stars": 186800,
     "lang": "Python",
     "desc": "座席技能的公共存储库"
   },
   {
     "repo": "Shubhamsaboo/awesome-llm-apps",
-    "stars": 143751,
+    "stars": 143763,
     "lang": "Python",
     "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
   },
   {
     "repo": "addyosmani/agent-skills",
-    "stars": 112756,
+    "stars": 112841,
     "lang": "JavaScript",
     "desc": "AI编码代理的生产级工程技能。"
   },
   {
     "repo": "mvanhorn/last30days-skill",
-    "stars": 66348,
+    "stars": 66381,
     "lang": "Python",
     "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
   },
   {
     "repo": "tt-a1i/archify",
-    "stars": 92686,
+    "stars": 92771,
     "lang": "JavaScript",
     "desc": "将任何想法、计划或代码库转换为漂亮的交互式图表。Claude Code、Codex等的代理技能。"
   },
   {
     "repo": "coreyhaines31/marketingskills",
-    "stars": 58051,
+    "stars": 58122,
     "lang": "JavaScript",
     "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
   },
   {
     "repo": "blader/humanizer",
-    "stars": 63942,
+    "stars": 64049,
     "lang": "Python",
     "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
   }
