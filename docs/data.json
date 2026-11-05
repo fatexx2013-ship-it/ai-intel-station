@@ -1,57 +1,71 @@
 {
   "meta": {
-    "generatedAt": "2026-11-05",
+    "generatedAt": "2026-11-06",
     "note": "所有条目均附真实出处；描述与外文内容已自动汉化。星标数据来自 GitHub API，模型数据来自 OpenRouter 公开接口，新闻来自中文科技媒体 RSS。"
   },
   "news": [
     {
-      "date": "2026-11-05",
-      "title": "比尔盖茨批评美国政府：AI 模型能力惊人，不作为让世界面临生物武器风险",
-      "desc": "北京时间 11 月 5 日，据《金融时报》报道，微软联合创始人比尔 · 盖茨 (Bill Gates) 指责特朗普政府阻碍了防范 AI 风险的努力。盖茨周三在《金融时报》举办的 AI 未来峰会上表示，AI 模型展现出的“…",
+      "date": "2026-11-06",
+      "title": "22999 元起：苹果首款触屏 MacBook Pro 正式开售，可选 M5 Pro/M5 Max 芯片",
+      "desc": "IT之家 11 月 6 日消息，苹果首款触控屏 MacBook Pro（配备 PROLED XDR 显示屏的 MacBook Pro）今日正式开售，定价 22999 元起。基础配置为 M5 Pro 芯片（15 核 CPU…",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/022/512.htm"
+      "url": "https://www.ithome.com/1/023/020.htm"
     },
     {
-      "date": "2026-11-05",
-      "title": "消息称荣耀 700 系列采用同档唯一双 8 芯片，Pro 用上骁龙 8 Gen5",
-      "desc": "IT之家 11 月 5 日消息，据博主 @数码闲聊站 今日爆料，荣耀 700 系列手机采用同档唯一双 8 芯片，标准版是骁龙 8s Gen4，Pro 直接了上骁龙 8 Gen5，拥有更强性能 + 更大电池 + 潜望镜 +…",
+      "date": "2026-11-06",
+      "title": "5499 元起：苹果 iPad mini 8 开售，A20 Pro 芯片（国补后到手价约 4999 元起）",
+      "desc": "IT之家 11 月 6 日消息，苹果 iPad mini（A20 Pro）今日正式开售，也就是大家俗称的“iPad mini 8”。新品起售价为 5499 元，国补后到手价约 4999 元。如果您可以使用教育优惠，国补后…",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/022/518.htm"
+      "url": "https://www.ithome.com/1/023/021.htm"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "12499 元 / 15999 元起：苹果 M6 芯片款 iMac、MacBook Pro 开售",
+      "desc": "IT之家 11 月 6 日消息，苹果 M6 芯片款 iMac、MacBook Pro 今日正式开售，起售价分别为 12499 元 / 15999 元，国补后起售价约 10999 元 / 14499 元。如果您能使用教育优…",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/023/022.htm"
     },
     {
       "date": "2026-11-05",
-      "title": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
-      "desc": "连路人都有自己的想法",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507647.html"
+      "title": "英伟达庆祝首款支持 CUDA 显卡 GeForce 8800 GTX 诞生 20 周年，同步推出纪念游戏带 PC 玩家重返 2006 年",
+      "desc": "IT之家 11 月 5 日消息，英伟达官方今日庆祝 GeForce 8800 GTX 显卡诞生 20 周年，同步推出一款 Steam 演示游戏，带领 PC 玩家回到 2006 年，一睹这款经典显卡的外貌。据IT之家了解，…",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/023/017.htm"
     },
     {
-      "date": "2026-11-04",
-      "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落",
-      "desc": "长视频记忆精度飙升，问答时延最高降97%",
+      "date": "2026-11-05",
+      "title": "GPT-Image-2.6全量上线！直出GIF和SVG，6.2 Astra也现身了",
+      "desc": "最快6秒出图",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507533.html"
+      "url": "https://www.qbitai.com/2026/11/507707.html"
     },
     {
-      "date": "2026-11-04",
-      "title": "虎鲸文娱“鲸锐AI”平台正式上线，AI视频单分钟成本节省30%以上",
-      "desc": "11月4日，虎鲸文娱集团打造的行业首个AI影视制作与管理平台“鲸锐AI”正式上线。",
+      "date": "2026-11-05",
+      "title": "基于本体+知识+Harness+Datat Agent的智能体完整落地链路！",
+      "desc": "Data + AI 技术实践巡展 · 上海站",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507567.html"
+      "url": "https://www.qbitai.com/2026/11/507696.html"
     },
     {
-      "date": "2026-11-04",
-      "title": "超维动力全栈矩阵亮相2026香港金融科技周，具身智能硬科技引爆全场",
-      "desc": "一场别开生面的具身智能科技盛宴",
+      "date": "2026-11-05",
+      "title": "以“真实工作”检验机器人价值，XROGO在CeMAT ASIA发布机器人到岗计划",
+      "desc": "像雇人一样雇机器人",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507574.html"
+      "url": "https://www.qbitai.com/2026/11/507767.html"
     },
     {
-      "date": "2026-11-04",
-      "title": "不靠堆砌数据，让机器人看懂真实物理世界 &#124; 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型",
-      "desc": "仅激活3B参数，十项基准全线提升！",
+      "date": "2026-11-05",
+      "title": "MIT神作被锤：Astra爆改Qwen权重？就吹吧！",
+      "desc": "spaCy作者长文炮轰",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507586.html"
+      "url": "https://www.qbitai.com/2026/11/507782.html"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+      "desc": "11月5日，百度正式开源最新基座模型文心5.5 Flash Base",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507787.html"
     },
     {
       "date": "2026-10-30",
@@ -59,16 +73,23 @@
       "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 四川宜宾市的青少年发展中心，建筑中庭的透…",
       "source": "阮一峰周刊",
       "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html"
-    },
-    {
-      "date": "2026-10-23",
-      "title": "科技爱好者周刊（第 416 期）：编程已经面目全非",
-      "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 本周启用的上海大歌剧院内部装修。（via…",
-      "source": "阮一峰周刊",
-      "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html"
     }
   ],
   "models": [
+    {
+      "vendor": "Auto Router",
+      "name": "auto",
+      "date": "2026-11-05",
+      "desc": "Auto是OpenRouter的旗舰型号路由器，专为通用用途而打造，上下文 2000k。",
+      "url": "https://openrouter.ai/openrouter/auto"
+    },
+    {
+      "vendor": "Auto Code",
+      "name": "auto-code",
+      "date": "2026-11-05",
+      "desc": "Auto Code是OpenRouter专为编码代理和线束构建的路由器，上下文 2000k。",
+      "url": "https://openrouter.ai/openrouter/auto-code"
+    },
     {
       "vendor": "ricursiveAI/Ripple-65B-Preview",
       "name": "ripple-65b-preview",
@@ -124,152 +145,138 @@
       "date": "2026-10-27",
       "desc": "GPT-6，上下文 1050k。",
       "url": "https://openrouter.ai/openai/gpt-6.1-terra"
-    },
-    {
-      "vendor": "OpenAI",
-      "name": "GPT-6.1 Terra (batch)",
-      "date": "2026-10-27",
-      "desc": "GPT-6，上下文 1050k。",
-      "url": "https://openrouter.ai/openai/gpt-6.1-terra:batch"
-    },
-    {
-      "vendor": "MoonshotAI",
-      "name": "Kimi K3.1 Pro",
-      "date": "2026-10-24",
-      "desc": "Kimi K3，上下文 1049k。",
-      "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro"
     }
   ],
   "trending": [
     {
       "repo": "NVIDIA/auto-ontology",
       "lang": "Python",
-      "today": 2050,
-      "stars": 5068,
+      "today": 2707,
+      "stars": 6810,
       "desc": "Auto Ontology是一个Python框架，用于在数据上构建基于图的语义推理层。它为LLM和代理工作流程提供了确定性的查询生成、更好的上下文检索和更可解释的人工智能。"
-    },
-    {
-      "repo": "max-sixty/worktrunk",
-      "lang": "Rust",
-      "today": 531,
-      "stars": 11047,
-      "desc": "Worktrunk是用于Git工作树管理的CLI ，专为并行AI代理工作流程而设计"
     },
     {
       "repo": "mattpocock/skills",
       "lang": "Shell",
-      "today": 1379,
-      "stars": 313342,
+      "today": 2053,
+      "stars": 314673,
       "desc": "真正工程师的技能。直接来自我的.agents目录。"
-    },
-    {
-      "repo": "floci-io/floci",
-      "lang": "Java",
-      "today": 1090,
-      "stars": 29638,
-      "desc": "轻盈、蓬松且始终免费- AWS本地模拟器替代方案"
-    },
-    {
-      "repo": "thedotmack/claude-mem",
-      "lang": "TypeScript",
-      "today": 1172,
-      "stars": 112875,
-      "desc": "每个座席跨会话的持久上下文–捕获座席在会话期间执行的所有操作，使用AI对其进行压缩，并将相关上下文注入到未来的会话中。适用于Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode等"
-    },
-    {
-      "repo": "vercel-labs/agent-desktop",
-      "lang": "Rust",
-      "today": 2470,
-      "stars": 15151,
-      "desc": "AI代理的计算机使用CLI"
-    },
-    {
-      "repo": "github/spec-kit",
-      "lang": "Python",
-      "today": 808,
-      "stars": 147317,
-      "desc": "帮助您开始使用SDD或任何其他流程的工💫具包！"
-    },
-    {
-      "repo": "The-PR-Agent/pr-agent",
-      "lang": "Python",
-      "today": 280,
-      "stars": 14776,
-      "desc": "🚀 公关代理人：最初的开源公关审稿人。此项目不是Qodo免费会员等级。"
-    },
-    {
-      "repo": "harry0703/MoneyPrinterTurbo",
-      "lang": "Python",
-      "today": 617,
-      "stars": 138985,
-      "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow."
     },
     {
       "repo": "garrytan/gstack",
       "lang": "TypeScript",
-      "today": 290,
-      "stars": 139353,
+      "today": 608,
+      "stars": 139778,
       "desc": "使用Garry Tan确切的Claude Code设置： 23个自以为是的工具，分别担任首席执行官、设计师、工程经理、发布经理、文档工程师和QA"
+    },
+    {
+      "repo": "Usagi-org/ai-goofish-monitor",
+      "lang": "Python",
+      "today": 242,
+      "stars": 17436,
+      "desc": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。"
+    },
+    {
+      "repo": "D4Vinci/Scrapling",
+      "lang": "Python",
+      "today": 1661,
+      "stars": 97648,
+      "desc": "🕷️ 最好的Web抓取框架，可处理从单个请求到全面爬网的所有内容！不要害羞，在这里加入： https://discord.gg/EMgGbDceNQ并按照这里获取每日提示和技巧： https://x.com/Scrapling_dev"
+    },
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "lang": "Rust",
+      "today": 2173,
+      "stars": 16462,
+      "desc": "AI代理的计算机使用CLI"
+    },
+    {
+      "repo": "max-sixty/worktrunk",
+      "lang": "Rust",
+      "today": 546,
+      "stars": 11387,
+      "desc": "Worktrunk是用于Git工作树管理的CLI ，专为并行AI代理工作流程而设计"
+    },
+    {
+      "repo": "lz4/lz4",
+      "lang": "C",
+      "today": 16,
+      "stars": 12289,
+      "desc": "极快的压缩算法"
+    },
+    {
+      "repo": "google/skills",
+      "lang": "Python",
+      "today": 199,
+      "stars": 22217,
+      "desc": "Google产品和技术的代理技能"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "lang": "Rust",
+      "today": 181,
+      "stars": 45719,
+      "desc": "适用于AI代理的浏览器自动化CLI"
     }
   ],
   "agentFrameworks": [
     {
       "repo": "anomalyco/opencode",
-      "stars": 224606,
+      "stars": 224745,
       "lang": "TypeScript",
       "desc": "开源编码代理。"
     },
     {
       "repo": "anthropics/claude-code",
-      "stars": 154559,
+      "stars": 154647,
       "lang": "TypeScript",
       "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
     },
     {
       "repo": "Significant-Gravitas/AutoGPT",
-      "stars": 187909,
+      "stars": 187913,
       "lang": "Python",
       "desc": "AutoGPT的愿景是为每个人提供可访问的人工智能，供其使用并以此为基础。我们的使命是提供工具，让您专注于重要的事情。"
     },
     {
       "repo": "openai/codex",
-      "stars": 133195,
+      "stars": 133317,
       "lang": "Rust",
       "desc": "在您的终端中运行的轻量级编码代理"
     },
     {
       "repo": "google-gemini/gemini-cli",
-      "stars": 108733,
+      "stars": 108736,
       "lang": "TypeScript",
       "desc": "一个开源的人工智能代理，将双子座的力量直接带入您的终端。"
     },
     {
       "repo": "FoundationAgents/MetaGPT",
-      "stars": 71174,
+      "stars": 71183,
       "lang": "Python",
       "desc": "🌟 多Agent框架：第一个人工智能软件公司，迈向自然语言编程"
     },
     {
       "repo": "microsoft/autogen",
-      "stars": 61705,
+      "stars": 61714,
       "lang": "Python",
       "desc": "智能AI的编程框架"
     },
     {
       "repo": "crewAIInc/crewAI",
-      "stars": 60511,
+      "stars": 60540,
       "lang": "Python",
       "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
     },
     {
       "repo": "HKUDS/nanobot",
-      "stars": 49827,
+      "stars": 49853,
       "lang": "Python",
       "desc": "您的轻量级开源个人代理。"
     },
     {
       "repo": "openai/openai-agents-python",
-      "stars": 30501,
+      "stars": 30521,
       "lang": "Python",
       "desc": "轻量级、功能强大的多代理工作流程框架"
     }
@@ -277,61 +284,61 @@
   "skills": [
     {
       "repo": "obra/superpowers",
-      "stars": 312454,
+      "stars": 312858,
       "lang": "Shell",
       "desc": "有效的代理技能框架和软件开发方法。"
     },
     {
       "repo": "mattpocock/skills",
-      "stars": 313347,
+      "stars": 314673,
       "lang": "Shell",
       "desc": "真正工程师的技能。直接来自我的.agents目录。"
     },
     {
       "repo": "affaan-m/ECC",
-      "stars": 297268,
+      "stars": 297680,
       "lang": "JavaScript",
       "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
     },
     {
       "repo": "anthropics/skills",
-      "stars": 187428,
+      "stars": 187663,
       "lang": "Python",
       "desc": "座席技能的公共存储库"
     },
     {
       "repo": "Shubhamsaboo/awesome-llm-apps",
-      "stars": 143901,
+      "stars": 143956,
       "lang": "Python",
       "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
     },
     {
       "repo": "addyosmani/agent-skills",
-      "stars": 113293,
+      "stars": 113442,
       "lang": "JavaScript",
       "desc": "AI编码代理的生产级工程技能。"
     },
     {
       "repo": "mvanhorn/last30days-skill",
-      "stars": 66619,
+      "stars": 66708,
       "lang": "Python",
       "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
     },
     {
       "repo": "tt-a1i/archify",
-      "stars": 93479,
+      "stars": 93785,
       "lang": "JavaScript",
       "desc": "将任何想法、计划或代码库转换为漂亮的交互式图表。Claude Code、Codex等的代理技能。"
     },
     {
       "repo": "coreyhaines31/marketingskills",
-      "stars": 58532,
+      "stars": 58665,
       "lang": "JavaScript",
       "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
     },
     {
       "repo": "blader/humanizer",
-      "stars": 64860,
+      "stars": 65159,
       "lang": "Python",
       "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
     }
