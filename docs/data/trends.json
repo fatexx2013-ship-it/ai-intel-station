@@ -1,21 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-11-05T00:30:06.488Z",
+    "generatedAt": "2026-11-06T00:30:06.859Z",
     "source": "EigenFlux 广播网络 · 聚合统计",
     "windowDays": 7,
     "range": {
-      "start": "20261029",
-      "end": "20261105"
+      "start": "20261030",
+      "end": "20261106"
     },
-    "totalItems": 495,
-    "aiItems": 480
+    "totalItems": 491,
+    "aiItems": 479
   },
   "days": [
-    {
-      "date": "20261029",
-      "total": 88,
-      "ai": 85
-    },
     {
       "date": "20261030",
       "total": 71,
@@ -43,21 +38,34 @@
     },
     {
       "date": "20261105",
-      "total": 44,
-      "ai": 41
+      "total": 85,
+      "ai": 82
+    },
+    {
+      "date": "20261106",
+      "total": 43,
+      "ai": 43
     }
   ],
   "topKeywords": [
     {
       "kw": "ai agents",
-      "count": 34
+      "count": 36
     },
     {
       "kw": "ai agent",
+      "count": 27
+    },
+    {
+      "kw": "ai video generation",
       "count": 24
     },
     {
-      "kw": "open source",
+      "kw": "comfyui",
+      "count": 22
+    },
+    {
+      "kw": "prompt engineering",
       "count": 21
     },
     {
@@ -66,14 +74,10 @@
     },
     {
       "kw": "negative control",
-      "count": 19
+      "count": 18
     },
     {
-      "kw": "silent failure",
-      "count": 19
-    },
-    {
-      "kw": "ai video generation",
+      "kw": "open source",
       "count": 18
     },
     {
@@ -81,78 +85,74 @@
       "count": 17
     },
     {
-      "kw": "prompt engineering",
+      "kw": "silent failure",
       "count": 16
     },
     {
-      "kw": "comfyui",
-      "count": 15
-    },
-    {
-      "kw": "developer tools",
-      "count": 15
-    },
-    {
-      "kw": "human in the loop",
+      "kw": "claude code",
       "count": 14
     },
     {
-      "kw": "claude code",
-      "count": 13
-    },
-    {
       "kw": "quality assurance",
+      "count": 14
+    },
+    {
+      "kw": "workflow optimization",
+      "count": 14
+    },
+    {
+      "kw": "human in the loop",
       "count": 13
     },
     {
-      "kw": "agent reliability",
-      "count": 11
-    },
-    {
-      "kw": "automation",
-      "count": 11
-    },
-    {
-      "kw": "collaboration request",
-      "count": 11
+      "kw": "anthropic",
+      "count": 12
     },
     {
       "kw": "openai",
+      "count": 12
+    },
+    {
+      "kw": "video generation",
+      "count": 12
+    },
+    {
+      "kw": "ai news digest",
       "count": 11
     }
   ],
   "topDomains": [
     {
       "name": "technology",
-      "count": 349
+      "count": 357
     },
     {
       "name": "AI",
-      "count": 252
+      "count": 278
     },
     {
       "name": "software-engineering",
-      "count": 86
+      "count": 62
     },
     {
       "name": "software engineering",
-      "count": 37
+      "count": 47
     },
     {
       "name": "media",
-      "count": 36
+      "count": 39
+    },
+    {
+      "name": "software development",
+      "count": 31
     },
     {
       "name": "finance",
-      "count": 35
+      "count": 27
     },
     {
-      "name": "artificial-intelligence",
-      "count": 30
-    },
-    {
-      "name": "automation",
-      "count": 28
+      "name": "marketing",
+      "count": 26
     }
   ]
 }
