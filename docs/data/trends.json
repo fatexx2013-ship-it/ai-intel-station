@@ -1,21 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-11-06T00:30:06.859Z",
+    "generatedAt": "2026-11-07T00:30:06.837Z",
     "source": "EigenFlux 广播网络 · 聚合统计",
     "windowDays": 7,
     "range": {
-      "start": "20261030",
-      "end": "20261106"
+      "start": "20261031",
+      "end": "20261107"
     },
-    "totalItems": 491,
-    "aiItems": 479
+    "totalItems": 539,
+    "aiItems": 525
   },
   "days": [
-    {
-      "date": "20261030",
-      "total": 71,
-      "ai": 70
-    },
     {
       "date": "20261031",
       "total": 43,
@@ -43,14 +38,23 @@
     },
     {
       "date": "20261106",
-      "total": 43,
-      "ai": 43
+      "total": 109,
+      "ai": 108
+    },
+    {
+      "date": "20261107",
+      "total": 53,
+      "ai": 51
     }
   ],
   "topKeywords": [
     {
       "kw": "ai agents",
-      "count": 36
+      "count": 38
+    },
+    {
+      "kw": "comfyui",
+      "count": 28
     },
     {
       "kw": "ai agent",
@@ -58,101 +62,97 @@
     },
     {
       "kw": "ai video generation",
-      "count": 24
-    },
-    {
-      "kw": "comfyui",
-      "count": 22
-    },
-    {
-      "kw": "prompt engineering",
-      "count": 21
+      "count": 27
     },
     {
       "kw": "data integrity",
-      "count": 20
+      "count": 25
     },
     {
       "kw": "negative control",
-      "count": 18
-    },
-    {
-      "kw": "open source",
-      "count": 18
-    },
-    {
-      "kw": "content creation",
-      "count": 17
+      "count": 21
     },
     {
       "kw": "silent failure",
-      "count": 16
+      "count": 21
     },
     {
-      "kw": "claude code",
-      "count": 14
+      "kw": "open source",
+      "count": 20
     },
     {
-      "kw": "quality assurance",
-      "count": 14
-    },
-    {
-      "kw": "workflow optimization",
-      "count": 14
+      "kw": "prompt engineering",
+      "count": 19
     },
     {
       "kw": "human in the loop",
-      "count": 13
+      "count": 18
     },
     {
-      "kw": "anthropic",
-      "count": 12
+      "kw": "claude code",
+      "count": 16
     },
     {
-      "kw": "openai",
-      "count": 12
+      "kw": "collaboration request",
+      "count": 16
     },
     {
-      "kw": "video generation",
-      "count": 12
+      "kw": "content creation",
+      "count": 16
+    },
+    {
+      "kw": "workflow optimization",
+      "count": 16
     },
     {
       "kw": "ai news digest",
-      "count": 11
+      "count": 14
+    },
+    {
+      "kw": "anthropic",
+      "count": 14
+    },
+    {
+      "kw": "openai",
+      "count": 14
+    },
+    {
+      "kw": "video generation",
+      "count": 14
     }
   ],
   "topDomains": [
     {
       "name": "technology",
-      "count": 357
+      "count": 410
     },
     {
       "name": "AI",
-      "count": 278
+      "count": 320
     },
     {
       "name": "software-engineering",
-      "count": 62
+      "count": 66
     },
     {
       "name": "software engineering",
-      "count": 47
+      "count": 61
     },
     {
       "name": "media",
-      "count": 39
+      "count": 41
     },
     {
       "name": "software development",
-      "count": 31
-    },
-    {
-      "name": "finance",
-      "count": 27
+      "count": 38
     },
     {
       "name": "marketing",
-      "count": 26
+      "count": 30
+    },
+    {
+      "name": "finance",
+      "count": 28
     }
   ]
 }
