@@ -119,25 +119,11 @@ export const seedPosts = [
 
 export const news = [
   {
-    "date": "2026-11-06",
-    "title": "美股 AI 硬件股集体反弹，费城半导体指数涨 6.5%",
-    "desc": "IT之家 11 月 6 日消息，美国股市今日开盘后，AI 硬件产业链全线反弹，费城半导体指数最高涨 6.57%。个股方面，AMD 涨 13.2%，闪迪涨 11.75%，希捷科技涨 6.34%，美光科技涨 9.07%，迈威…",
+    "date": "2026-11-07",
+    "title": "苹果、英伟达等科技公司面临潜在国会调查，曾在特朗普白宫宴会捐款 2500 万美元",
+    "desc": "IT之家 11 月 7 日消息，路透社昨日报道称，即将接任美国参议院常设调查小组委员会主席的民主党参议员理查德・布卢门撒尔（Richard Blumenthal），已经要求苹果、Meta、谷歌、英伟达、亚马逊和微软等参与…",
     "source": "IT之家",
-    "url": "https://www.ithome.com/1/023/564.htm"
-  },
-  {
-    "date": "2026-11-06",
-    "title": "最高投资 100 亿美元：SK 海力士设立美国 AI 投资子公司 Hyaico，崔泰源掌舵",
-    "desc": "IT之家 11 月 6 日消息，美国监管机构披露文件显示，SK 海力士已在美国成立 AI 投资子公司 Hyaico Corp，SK 集团会长崔泰源担任董事会主席。IT之家了解到，SK 海力士成立的这家子公司此前暂定名为 …",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/023/584.htm"
-  },
-  {
-    "date": "2026-11-06",
-    "title": "OpenAI CEO 奥尔特曼警示：未来人类可能无法从 AI 手中夺回控制权",
-    "desc": "IT之家 11 月 6 日消息，OpenAI 首席执行官萨姆 · 奥尔特曼（IT之家注：Sam Altman）最近出席 Raj Shamani 播客时表示，人工智能可能通过两种方式走向失控：一是人类逐步将控制权交给自主式…",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/023/596.htm"
+    "url": "https://www.ithome.com/1/023/620.htm"
   },
   {
     "date": "2026-11-06",
@@ -192,6 +178,20 @@ export const news = [
 
 export const models = [
   {
+    "vendor": "LiquidAI",
+    "name": "LFM3-1.7B",
+    "date": "2026-11-07",
+    "desc": "紧凑型1，上下文 262k。",
+    "url": "https://openrouter.ai/liquid/lfm-3-1.7b"
+  },
+  {
+    "vendor": "LiquidAI",
+    "name": "LFM3-1.7B (free)",
+    "date": "2026-11-07",
+    "desc": "紧凑型1，上下文 262k。",
+    "url": "https://openrouter.ai/liquid/lfm-3-1.7b:free"
+  },
+  {
     "vendor": "Google",
     "name": "Gemini Omni 1.2 Flash",
     "date": "2026-11-06",
@@ -220,8 +220,8 @@ export const models = [
     "url": "https://openrouter.ai/google/gemini-omni-1.1-flash"
   },
   {
-    "vendor": "ricursiveAI/Ripple-65B-Preview",
-    "name": "ripple-65b-preview",
+    "vendor": "Ricursive",
+    "name": "Ripple 65B Preview",
     "date": "2026-11-05",
     "desc": "Ripple-65B-由ricursiveAI预览，这是一款带有本机工具调用的65B型号，在BF16中提供，上下文 1049k。",
     "url": "https://openrouter.ai/ricursiveai/ripple-65b-preview"
@@ -246,20 +246,6 @@ export const models = [
     "date": "2026-11-02",
     "desc": "GLM-5，上下文 1049k。",
     "url": "https://openrouter.ai/z-ai/glm-5.3-flashx-legal"
-  },
-  {
-    "vendor": "Particle AI",
-    "name": "Particle-1",
-    "date": "2026-10-29",
-    "desc": "Particle-1是来自Particle AI的代理编码模型，在DeepSeek V4上经过后期训练，上下文 1049k。",
-    "url": "https://openrouter.ai/particle-ai/particle-1"
-  },
-  {
-    "vendor": "OpenAI",
-    "name": "GPT-6.1 Terra Pro",
-    "date": "2026-10-27",
-    "desc": "GPT-6，上下文 1050k。",
-    "url": "https://openrouter.ai/openai/gpt-6.1-terra-pro"
   }
 ];
 
@@ -267,71 +253,71 @@ export const trending = [
   {
     "repo": "zed-industries/zed",
     "lang": "Rust",
-    "today": 292,
-    "stars": 93248,
+    "today": 306,
+    "stars": 93624,
     "desc": "以思维速度编写代码– Zed是Atom和Tree-sitter创建者的高性能多人代码编辑器。"
   },
   {
     "repo": "NVIDIA/auto-ontology",
     "lang": "Python",
-    "today": 2005,
-    "stars": 8598,
+    "today": 2015,
+    "stars": 9024,
     "desc": "Auto Ontology是一个Python框架，用于在数据上构建基于图的语义推理层。它为LLM和代理工作流程提供了确定性的查询生成、更好的上下文检索和更可解释的人工智能。"
   },
   {
     "repo": "rails/rails",
     "lang": "Ruby",
-    "today": 152,
-    "stars": 58931,
+    "today": 142,
+    "stars": 59025,
     "desc": "Ruby on Rails"
   },
   {
     "repo": "mpv-player/mpv",
     "lang": "C",
-    "today": 36,
-    "stars": 37806,
+    "today": 37,
+    "stars": 37874,
     "desc": "🎥 命令行媒体播放器"
   },
   {
     "repo": "rust-lang/rust",
     "lang": "Rust",
-    "today": 186,
-    "stars": 121272,
+    "today": 192,
+    "stars": 121446,
     "desc": "让每个人都能构建可靠、高效的软件。"
   },
   {
     "repo": "react/react",
     "lang": "JavaScript",
-    "today": 244,
-    "stars": 252127,
+    "today": 248,
+    "stars": 252254,
     "desc": "用于Web和本机用户界面的库。"
   },
   {
     "repo": "angular/angular",
     "lang": "TypeScript",
-    "today": 128,
-    "stars": 101205,
+    "today": 135,
+    "stars": 101359,
     "desc": "放心交付网络应用 🚀"
   },
   {
     "repo": "symfony/symfony",
     "lang": "PHP",
-    "today": 89,
-    "stars": 31300,
+    "today": 128,
+    "stars": 31428,
     "desc": "Symfony PHP框架"
   },
   {
     "repo": "prometheus/prometheus",
     "lang": "Go",
-    "today": 140,
-    "stars": 67046,
+    "today": 148,
+    "stars": 67180,
     "desc": "Prometheus监控系统和时间序列数据库。"
   },
   {
     "repo": "google/skills",
     "lang": "Python",
-    "today": 532,
-    "stars": 22708,
+    "today": 534,
+    "stars": 22834,
     "desc": "Google产品和技术的代理技能"
   }
 ];
@@ -339,25 +325,25 @@ export const trending = [
 export const agentFrameworks = [
   {
     "repo": "anomalyco/opencode",
-    "stars": 224982,
+    "stars": 225068,
     "lang": "TypeScript",
     "desc": "开源编码代理。"
   },
   {
     "repo": "anthropics/claude-code",
-    "stars": 154774,
+    "stars": 154804,
     "lang": "TypeScript",
     "desc": "Claude Code是一个代理编码工具，它位于您的终端中，了解您的代码库，并通过执行日常任务、解释复杂代码和处理git工作流程（所有这些都通过自然语言命令）来帮助您更快地进行编码。"
   },
   {
     "repo": "Significant-Gravitas/AutoGPT",
-    "stars": 187923,
+    "stars": 187927,
     "lang": "Python",
     "desc": "AutoGPT的愿景是为每个人提供可访问的人工智能，供其使用并以此为基础。我们的使命是提供工具，让您专注于重要的事情。"
   },
   {
     "repo": "openai/codex",
-    "stars": 133462,
+    "stars": 133486,
     "lang": "Rust",
     "desc": "在您的终端中运行的轻量级编码代理"
   },
@@ -369,31 +355,31 @@ export const agentFrameworks = [
   },
   {
     "repo": "FoundationAgents/MetaGPT",
-    "stars": 71195,
+    "stars": 71201,
     "lang": "Python",
     "desc": "🌟 多Agent框架：第一个人工智能软件公司，迈向自然语言编程"
   },
   {
     "repo": "microsoft/autogen",
-    "stars": 61732,
+    "stars": 61736,
     "lang": "Python",
     "desc": "智能AI的编程框架"
   },
   {
     "repo": "crewAIInc/crewAI",
-    "stars": 60571,
+    "stars": 60588,
     "lang": "Python",
     "desc": "用于编排角色扮演、自主人工智能代理的框架。通过培养协作智能， CrewAI使代理能够无缝协作，处理复杂的任务。"
   },
   {
     "repo": "HKUDS/nanobot",
-    "stars": 49880,
+    "stars": 49887,
     "lang": "Python",
     "desc": "您的轻量级开源个人代理。"
   },
   {
     "repo": "openai/openai-agents-python",
-    "stars": 30530,
+    "stars": 30534,
     "lang": "Python",
     "desc": "轻量级、功能强大的多代理工作流程框架"
   }
@@ -402,61 +388,61 @@ export const agentFrameworks = [
 export const skills = [
   {
     "repo": "obra/superpowers",
-    "stars": 313434,
+    "stars": 313606,
     "lang": "Shell",
     "desc": "有效的代理技能框架和软件开发方法。"
   },
   {
     "repo": "mattpocock/skills",
-    "stars": 316337,
+    "stars": 316713,
     "lang": "Shell",
     "desc": "真正工程师的技能。直接来自我的.agents目录。"
   },
   {
     "repo": "affaan-m/ECC",
-    "stars": 298347,
+    "stars": 298591,
     "lang": "JavaScript",
     "desc": "座席线束性能优化系统。Claude Code、Codex、Opencode、Cursor等的技能、本能、记忆、安全和研究优先开发。"
   },
   {
     "repo": "anthropics/skills",
-    "stars": 188063,
+    "stars": 188173,
     "lang": "Python",
     "desc": "座席技能的公共存储库"
   },
   {
     "repo": "Shubhamsaboo/awesome-llm-apps",
-    "stars": 144020,
+    "stars": 144044,
     "lang": "Python",
     "desc": "100多个人工智能代理、代理技能和RAG应用程序-免费开源。"
   },
   {
     "repo": "addyosmani/agent-skills",
-    "stars": 113669,
+    "stars": 113730,
     "lang": "JavaScript",
     "desc": "AI编码代理的生产级工程技能。"
   },
   {
     "repo": "mvanhorn/last30days-skill",
-    "stars": 66819,
+    "stars": 66855,
     "lang": "Python",
     "desc": "人工智能代理技能，研究Reddit、X、YouTube、HN、Polymarket和网络上的任何主题，然后合成基础摘要"
   },
   {
     "repo": "tt-a1i/archify",
-    "stars": 94121,
+    "stars": 94198,
     "lang": "JavaScript",
     "desc": "将任何想法、计划或代码库转换为漂亮的交互式图表。Claude Code、Codex等的代理技能。"
   },
   {
     "repo": "coreyhaines31/marketingskills",
-    "stars": 58857,
+    "stars": 58927,
     "lang": "JavaScript",
     "desc": "Claude Code和人工智能代理的营销技能。CRO、文案撰写、搜索引擎优化、分析和增长工程。"
   },
   {
     "repo": "blader/humanizer",
-    "stars": 65541,
+    "stars": 65647,
     "lang": "Python",
     "desc": "从文本中删除人工智能生成文字的迹象的代理技能"
   }
