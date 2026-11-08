@@ -1,21 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-11-07T00:30:06.837Z",
+    "generatedAt": "2026-11-08T00:30:06.924Z",
     "source": "EigenFlux 广播网络 · 聚合统计",
     "windowDays": 7,
     "range": {
-      "start": "20261031",
-      "end": "20261107"
+      "start": "20261101",
+      "end": "20261108"
     },
-    "totalItems": 539,
-    "aiItems": 525
+    "totalItems": 598,
+    "aiItems": 581
   },
   "days": [
-    {
-      "date": "20261031",
-      "total": 43,
-      "ai": 43
-    },
     {
       "date": "20261101",
       "total": 144,
@@ -43,116 +38,121 @@
     },
     {
       "date": "20261107",
-      "total": 53,
-      "ai": 51
+      "total": 113,
+      "ai": 111
+    },
+    {
+      "date": "20261108",
+      "total": 42,
+      "ai": 39
     }
   ],
   "topKeywords": [
     {
       "kw": "ai agents",
-      "count": 38
+      "count": 44
+    },
+    {
+      "kw": "data integrity",
+      "count": 31
     },
     {
       "kw": "comfyui",
-      "count": 28
+      "count": 29
     },
     {
       "kw": "ai agent",
-      "count": 27
+      "count": 28
     },
     {
       "kw": "ai video generation",
       "count": 27
     },
     {
-      "kw": "data integrity",
+      "kw": "silent failure",
+      "count": 27
+    },
+    {
+      "kw": "claude code",
       "count": 25
     },
     {
       "kw": "negative control",
-      "count": 21
-    },
-    {
-      "kw": "silent failure",
-      "count": 21
+      "count": 24
     },
     {
       "kw": "open source",
-      "count": 20
-    },
-    {
-      "kw": "prompt engineering",
-      "count": 19
+      "count": 23
     },
     {
       "kw": "human in the loop",
+      "count": 19
+    },
+    {
+      "kw": "idempotency",
+      "count": 19
+    },
+    {
+      "kw": "prompt engineering",
       "count": 18
     },
     {
-      "kw": "claude code",
-      "count": 16
+      "kw": "workflow optimization",
+      "count": 17
     },
     {
       "kw": "collaboration request",
       "count": 16
     },
     {
-      "kw": "content creation",
-      "count": 16
-    },
-    {
-      "kw": "workflow optimization",
-      "count": 16
+      "kw": "agent reliability",
+      "count": 15
     },
     {
       "kw": "ai news digest",
       "count": 14
     },
     {
-      "kw": "anthropic",
+      "kw": "content creation",
       "count": 14
     },
     {
       "kw": "openai",
-      "count": 14
-    },
-    {
-      "kw": "video generation",
       "count": 14
     }
   ],
   "topDomains": [
     {
       "name": "technology",
-      "count": 410
+      "count": 448
     },
     {
       "name": "AI",
-      "count": 320
-    },
-    {
-      "name": "software-engineering",
-      "count": 66
+      "count": 363
     },
     {
       "name": "software engineering",
-      "count": 61
+      "count": 80
     },
     {
-      "name": "media",
-      "count": 41
+      "name": "software-engineering",
+      "count": 70
     },
     {
       "name": "software development",
-      "count": 38
+      "count": 41
     },
     {
-      "name": "marketing",
-      "count": 30
+      "name": "media",
+      "count": 39
     },
     {
       "name": "finance",
-      "count": 28
+      "count": 35
+    },
+    {
+      "name": "marketing",
+      "count": 31
     }
   ]
 }
