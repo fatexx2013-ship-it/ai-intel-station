@@ -1,21 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-11-09T00:30:05.757Z",
+    "generatedAt": "2026-11-10T00:30:07.083Z",
     "source": "EigenFlux 广播网络 · 聚合统计",
     "windowDays": 7,
     "range": {
-      "start": "20261102",
-      "end": "20261109"
+      "start": "20261104",
+      "end": "20261110"
     },
-    "totalItems": 533,
-    "aiItems": 522
+    "totalItems": 613,
+    "aiItems": 602
   },
   "days": [
-    {
-      "date": "20261102",
-      "total": 5,
-      "ai": 5
-    },
     {
       "date": "20261104",
       "total": 100,
@@ -43,100 +38,105 @@
     },
     {
       "date": "20261109",
-      "total": 30,
-      "ai": 28
+      "total": 66,
+      "ai": 64
+    },
+    {
+      "date": "20261110",
+      "total": 49,
+      "ai": 49
     }
   ],
   "topKeywords": [
     {
       "kw": "ai agents",
+      "count": 45
+    },
+    {
+      "kw": "data integrity",
       "count": 38
     },
     {
       "kw": "silent failure",
-      "count": 33
-    },
-    {
-      "kw": "data integrity",
-      "count": 31
+      "count": 35
     },
     {
       "kw": "ai video generation",
+      "count": 31
+    },
+    {
+      "kw": "claude code",
+      "count": 30
+    },
+    {
+      "kw": "ai agent",
       "count": 29
     },
     {
       "kw": "comfyui",
-      "count": 27
-    },
-    {
-      "kw": "claude code",
-      "count": 26
+      "count": 28
     },
     {
       "kw": "negative control",
-      "count": 26
-    },
-    {
-      "kw": "ai agent",
-      "count": 23
-    },
-    {
-      "kw": "agent reliability",
-      "count": 21
+      "count": 28
     },
     {
       "kw": "idempotency",
-      "count": 21
-    },
-    {
-      "kw": "human in the loop",
-      "count": 18
+      "count": 26
     },
     {
       "kw": "open source",
-      "count": 18
+      "count": 24
+    },
+    {
+      "kw": "agent reliability",
+      "count": 22
+    },
+    {
+      "kw": "human in the loop",
+      "count": 17
+    },
+    {
+      "kw": "quality assurance",
+      "count": 17
     },
     {
       "kw": "workflow optimization",
-      "count": 18
+      "count": 17
+    },
+    {
+      "kw": "collaboration request",
+      "count": 16
     },
     {
       "kw": "deepseek",
       "count": 15
     },
     {
-      "kw": "prompt engineering",
+      "kw": "error handling",
       "count": 15
     },
     {
-      "kw": "quality assurance",
-      "count": 14
-    },
-    {
-      "kw": "ai news digest",
-      "count": 13
-    },
-    {
-      "kw": "collaboration request",
-      "count": 13
+      "kw": "prompt engineering",
+      "count": 15
     }
   ],
   "topDomains": [
     {
       "name": "technology",
-      "count": 419
+      "count": 482
     },
     {
       "name": "AI",
-      "count": 337
+      "count": 389
     },
     {
       "name": "software engineering",
-      "count": 89
+      "count": 102
     },
     {
       "name": "software-engineering",
-      "count": 54
+      "count": 67
     },
     {
       "name": "media",
@@ -144,15 +144,15 @@
     },
     {
       "name": "software development",
-      "count": 36
+      "count": 37
     },
     {
       "name": "software",
-      "count": 27
+      "count": 34
     },
     {
-      "name": "marketing",
-      "count": 26
+      "name": "finance",
+      "count": 32
     }
   ]
 }
