@@ -1,11 +1,11 @@
-// AI 情报站 — 数据文件（由 scripts/update-data.mjs 自动生成于 2026-11-12）
+// AI 情报站 — 数据文件（由 scripts/update-data.mjs 自动生成于 2026-11-13）
 // news: AI 新闻（中文 RSS：机器之心/量子位/IT之家）
 // models: OpenRouter 最新上架模型（描述已汉化）
 // trending: GitHub 今日热门（含总星数，描述已汉化）
 // agentFrameworks / skills: 固定榜单，自动刷新星数（描述已汉化）
 
 export const meta = {
-  "generatedAt": "2026-11-12",
+  "generatedAt": "2026-11-13",
   "note": "所有条目均附真实出处；描述与外文内容已自动汉化。星标数据来自 GitHub API，模型数据来自 OpenRouter 公开接口，新闻来自中文科技媒体 RSS。"
 };
 
@@ -120,59 +120,52 @@ export const seedPosts = [
 export const news = [
   {
     "date": "2026-11-12",
-    "title": "百度李彦宏：人工智能的下一幕是智能组织，组织智能将是企业最深的护城河",
-    "desc": "IT之家 11 月 12 日现场消息，在今日的百度世界大会 2026 活动中，百度创始人李彦宏发表演讲，预言人工智能的下一幕是智能组织。李彦宏表示，在十年前的 2016 年他做了一个判断，说下一幕是人工智能。那一年的百度…",
+    "title": "黄仁勋辞任英伟达 CEO 重创全球 AI 概念股，AMD、博通逆势上涨",
+    "desc": "IT之家 11 月 12 日消息，据路透社报道，黄仁勋因婚外情丑闻持续发酵而辞去英伟达 CEO，引发全球 AI 概念股周四大跌。英伟达领导层突遭变动，也让原本就面临融资和监管压力的 AI 行业增添了新的风险。英伟达宣布，…",
     "source": "IT之家",
-    "url": "https://www.ithome.com/1/025/881.htm"
+    "url": "https://www.ithome.com/1/026/437.htm"
   },
   {
     "date": "2026-11-12",
-    "title": "黄仁勋遭美国议员要求辞职，英伟达面临国会问询压力",
-    "desc": "IT之家 11 月 12 日消息，CNBC 昨日（11 月 11 日）发布博文，报道称美国多名两党国会议员要求英伟达首席执行官黄仁勋辞职，部分众议院委员会负责人表示，已考虑在必要时动用传票，要求其就婚外情等出席闭门说明会…",
+    "title": "黄仁勋辞职后，特朗普呼吁苹果执行董事长库克接任英伟达 CEO",
+    "desc": "IT之家 11 月 12 日消息，黄仁勋离任英伟达 CEO 后，美国总统特朗普随即呼吁苹果执行董事长蒂姆 · 库克接掌英伟达。今天（12 日）晚间，特朗普在 Truth Social 发文称，能够接替黄仁勋的人“只有一个…",
     "source": "IT之家",
-    "url": "https://www.ithome.com/1/025/883.htm"
+    "url": "https://www.ithome.com/1/026/439.htm"
   },
   {
     "date": "2026-11-12",
-    "title": "亚马逊 AWS 掌门人谈太空 AI 算力：未来 10 至 20 年难具商业可行性",
-    "desc": "IT之家 11 月 12 日消息，昨日（11 月 11 日）作客 Sources 播客节目时，亚马逊云计算业务 AWS 首席执行官马特 · 加曼（Matt Garman）表示，未来 10 至 20 年内，太空数据中心很难…",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/025/888.htm"
+    "title": "让AI真正懂业务：璇玑如何成为企业AI的语义基础设施",
+    "desc": "企业 AI 的难题，不只是模型够不够强",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/11/509349.html"
   },
   {
-    "date": "2026-11-11",
-    "title": "无人拖拉机真正下地了！新疆大田深翻30+厘米，丘沃智能开物™系统首次完整曝光",
-    "desc": "L4无人化作业走向规模交付",
+    "date": "2026-11-12",
+    "title": "马斯克Grok泄露自家机密！SpaceX特斯拉工资绩效全曝光",
+    "desc": "Grok在让人破绷这件事上，从来不会让人失望。",
     "source": "量子位",
-    "url": "https://www.qbitai.com/2026/11/509052.html"
+    "url": "https://www.qbitai.com/2026/11/509355.html"
   },
   {
-    "date": "2026-11-11",
-    "title": "卷起来了！11月11日，大模型厂商在天猫打5折",
-    "desc": "大模型厂商智谱、MiniMax、千问办公、阿里云、Qoder都在天猫打5折。",
+    "date": "2026-11-12",
+    "title": "Anthropic启动IPO路演，估值已缩水6000亿美元",
+    "desc": "全世界都在踩刹车，达里奥一个人踩油门",
     "source": "量子位",
-    "url": "https://www.qbitai.com/2026/11/509085.html"
+    "url": "https://www.qbitai.com/2026/11/509381.html"
   },
   {
-    "date": "2026-11-11",
-    "title": "从“卖Token”到“卖结果” &#124; 科技有「联想」沙龙激辩Token经济三大议题",
-    "desc": "10月30日，“科技有「联想」·Token畅想曲”线下沙龙在京举行。",
+    "date": "2026-11-12",
+    "title": "从通用大模型到学习过程智能，AI如何真正进入课堂？",
+    "desc": "银河智学首席科学家邓澍军博士发表主题演讲",
     "source": "量子位",
-    "url": "https://www.qbitai.com/2026/11/509088.html"
+    "url": "https://www.qbitai.com/2026/11/509404.html"
   },
   {
-    "date": "2026-11-11",
-    "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
-    "desc": "价格、门槛全打穿",
+    "date": "2026-11-12",
+    "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
+    "desc": "「CAD拆解」",
     "source": "量子位",
-    "url": "https://www.qbitai.com/2026/11/509146.html"
-  },
-  {
-    "date": "2026-11-10",
-    "title": "英伟达机器人开源撞上Fable 5.2发布！Jim Fan：不是寒冬是夏天",
-    "desc": "点击查看详情。",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/11/509032.html"
+    "url": "https://www.qbitai.com/2026/11/509440.html"
   },
   {
     "date": "2026-11-06",
@@ -209,14 +202,14 @@ export const models = [
     "vendor": "Google",
     "name": "Gemini 4 Carbon",
     "date": "2026-11-11",
-    "desc": "Gemini 4 Carbon 是 Google 推出的前沿 Gemini 4 模型，适用于编程、代理和复杂推理工作，上下文 1049k。",
+    "desc": "Gemini 4 Carbon 是 Google 推出的前沿 Gemini 4 模型，适用于编码、代理和复杂推理工作，上下文 1049k。",
     "url": "https://openrouter.ai/google/gemini-4-carbon"
   },
   {
     "vendor": "Google",
     "name": "Gemini 4 Carbon (batch)",
     "date": "2026-11-11",
-    "desc": "Gemini 4 Carbon 是 Google 推出的前沿 Gemini 4 模型，适用于编程、代理和复杂推理工作，上下文 1049k。",
+    "desc": "Gemini 4 Carbon 是 Google 推出的前沿 Gemini 4 模型，适用于编码、代理和复杂推理工作，上下文 1049k。",
     "url": "https://openrouter.ai/google/gemini-4-carbon:batch"
   },
   {
@@ -251,7 +244,7 @@ export const models = [
     "vendor": "Meta",
     "name": "Muse Ember",
     "date": "2026-11-10",
-    "desc": "Muse Ember 是 Meta 推出的最小、最高效的模型，专为执行复杂推理以及工作代理全天重复的任务而设计：工具调用、协作，上下文 1049k。",
+    "desc": "Muse Ember 是 Meta 推出的最小型、最高效的模型，专为执行复杂的推理任务以及工作代理全天重复的任务而设计：工具调用、协作，上下文 1049k。",
     "url": "https://openrouter.ai/meta/muse-ember"
   },
   {
@@ -265,135 +258,135 @@ export const models = [
 
 export const trending = [
   {
-    "repo": "meta/astryx",
-    "lang": "TypeScript",
-    "today": 2776,
-    "stars": 25109,
-    "desc": "一个完全可定制且支持代理的开源设计系统"
-  },
-  {
-    "repo": "ZhuLinsen/daily_stock_analysis",
-    "lang": "Python",
-    "today": 278,
-    "stars": 70331,
-    "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
-  },
-  {
     "repo": "GoogleChrome/modern-web-guidance-src",
     "lang": "TypeScript",
-    "today": 159,
-    "stars": 1818,
+    "today": 799,
+    "stars": 2535,
     "desc": "暂无项目简介。"
-  },
-  {
-    "repo": "shadcn/improve",
-    "lang": "—",
-    "today": 361,
-    "stars": 10948,
-    "desc": "使用您最强大的模型来审核您的代码库，并编写供更便宜的模型执行的计划。"
-  },
-  {
-    "repo": "addyosmani/agent-skills",
-    "lang": "JavaScript",
-    "today": 787,
-    "stars": 115995,
-    "desc": "适用于 AI 编码代理的生产级工程技能。"
-  },
-  {
-    "repo": "vercel-labs/agent-browser",
-    "lang": "Rust",
-    "today": 708,
-    "stars": 49912,
-    "desc": "适用于 AI 代理的浏览器自动化 CLI"
-  },
-  {
-    "repo": "we-promise/sure",
-    "lang": "Ruby",
-    "today": 1078,
-    "stars": 13010,
-    "desc": "适合所有人的个人理财应用程序（由所有人打造）"
-  },
-  {
-    "repo": "homeassistant-ai/ha-mcp",
-    "lang": "Python",
-    "today": 645,
-    "stars": 7402,
-    "desc": "使用 Claude、ChatGPT 和其他 AI 助手配置和自动化 Home Assistant。"
   },
   {
     "repo": "openai/codex-security",
     "lang": "TypeScript",
-    "today": 52,
-    "stars": 11793,
+    "today": 663,
+    "stars": 12220,
     "desc": "OpenAI 的 Codex Security CLI 和 TypeScript SDK，用于查找、验证和修复安全漏洞。npm：https://www.npmjs.com/package/@openai/codex-security"
   },
   {
-    "repo": "TheAlgorithms/Java",
-    "lang": "Java",
-    "today": 51,
-    "stars": 67057,
-    "desc": "所有算法均以 Java 实现"
+    "repo": "nvm-sh/nvm",
+    "lang": "Shell",
+    "today": 107,
+    "stars": 95960,
+    "desc": "Node 版本管理器 - 符合 POSIX 标准的 bash 脚本，用于管理多个活动的 node.js 版本。"
+  },
+  {
+    "repo": "pookjw/HermesEnabler",
+    "lang": "Objective-C",
+    "today": 390,
+    "stars": 1441,
+    "desc": "在任何 Apple Watch 设备上启用爱马仕表盘"
+  },
+  {
+    "repo": "we-promise/sure",
+    "lang": "Ruby",
+    "today": 974,
+    "stars": 13679,
+    "desc": "面向所有人的个人理财应用（由所有人打造）"
+  },
+  {
+    "repo": "QwenLM/qwen-code",
+    "lang": "TypeScript",
+    "today": 151,
+    "stars": 29671,
+    "desc": "一款运行在终端上的开源 AI 编程代理。"
+  },
+  {
+    "repo": "ashhart/TensorFold",
+    "lang": "Zig",
+    "today": 94,
+    "stars": 1878,
+    "desc": "适用于 Metal、CUDA 和 Vulkan 的 LLM 推理引擎。"
+  },
+  {
+    "repo": "nodejs/node",
+    "lang": "JavaScript",
+    "today": 133,
+    "stars": 123544,
+    "desc": "Node.js JavaScript 运行时 ✨🐢🚀✨"
+  },
+  {
+    "repo": "addyosmani/agent-skills",
+    "lang": "JavaScript",
+    "today": 812,
+    "stars": 116501,
+    "desc": "适用于 AI 编码代理的生产级工程技能。"
+  },
+  {
+    "repo": "meta/astryx",
+    "lang": "TypeScript",
+    "today": 1789,
+    "stars": 26236,
+    "desc": "一个完全可定制且支持代理的开源设计系统"
   }
 ];
 
 export const agentFrameworks = [
   {
     "repo": "anomalyco/opencode",
-    "stars": 226196,
+    "stars": 226382,
     "lang": "TypeScript",
     "desc": "开源编码代理。"
   },
   {
     "repo": "anthropics/claude-code",
-    "stars": 155359,
+    "stars": 155422,
     "lang": "TypeScript",
-    "desc": "Claude Code 是一款智能编码工具，它运行在您的终端中，能够理解您的代码库，并通过执行日常任务、解释复杂代码以及处理 Git 工作流来帮助您更快地编写代码——所有这些都通过自然语言命令来实现。"
+    "desc": "Claude Code 是一款智能编码工具，驻留在您的终端中，能够理解您的代码库，并通过执行日常任务、解释复杂代码和处理 Git 工作流程来帮助您更快地编写代码——所有这些都通过自然语言命令来完成。"
   },
   {
     "repo": "Significant-Gravitas/AutoGPT",
-    "stars": 187999,
+    "stars": 188010,
     "lang": "Python",
     "desc": "AutoGPT的愿景是让每个人都能使用和基于其进行构建的无障碍人工智能。我们的使命是提供工具，让您能够专注于重要的事情。"
   },
   {
     "repo": "openai/codex",
-    "stars": 134925,
+    "stars": 135026,
     "lang": "Rust",
     "desc": "在您的终端中运行的轻量级编码代理"
   },
   {
     "repo": "google-gemini/gemini-cli",
-    "stars": 108781,
+    "stars": 108798,
     "lang": "TypeScript",
     "desc": "一款开源人工智能代理，将Gemini的强大功能直接带入您的终端。"
   },
   {
     "repo": "FoundationAgents/MetaGPT",
-    "stars": 71255,
+    "stars": 71263,
     "lang": "Python",
     "desc": "🌟 多智能体框架：首家人工智能软件公司，迈向自然语言编程"
   },
   {
     "repo": "microsoft/autogen",
-    "stars": 61786,
+    "stars": 61795,
     "lang": "Python",
-    "desc": "用于自主人工智能的编程框架"
+    "desc": "用于自主型人工智能的编程框架"
   },
   {
     "repo": "crewAIInc/crewAI",
-    "stars": 60787,
+    "stars": 60815,
     "lang": "Python",
-    "desc": "用于编排角色扮演型自主人工智能代理的框架。通过培养协作智能，CrewAI使代理能够无缝协作，共同应对复杂任务。"
+    "desc": "用于编排角色扮演型自主人工智能代理的框架。通过培养协作智能，CrewAI 使代理能够无缝协作，共同应对复杂任务。"
   },
   {
     "repo": "HKUDS/nanobot",
-    "stars": 50021,
+    "stars": 50043,
     "lang": "Python",
     "desc": "您的轻量级开源个人代理。"
   },
   {
     "repo": "openai/openai-agents-python",
-    "stars": 30622,
+    "stars": 30639,
     "lang": "Python",
     "desc": "一个轻量级、功能强大的多代理工作流框架"
   }
@@ -402,61 +395,61 @@ export const agentFrameworks = [
 export const skills = [
   {
     "repo": "obra/superpowers",
-    "stars": 316331,
+    "stars": 316653,
     "lang": "Shell",
-    "desc": "行之有效的代理技能框架和软件开发方法。"
+    "desc": "一个行之有效的代理技能框架和软件开发方法。"
   },
   {
     "repo": "mattpocock/skills",
-    "stars": 322084,
+    "stars": 322786,
     "lang": "Shell",
     "desc": "真正工程师的技能。直接来自我的.agents目录。"
   },
   {
     "repo": "affaan-m/ECC",
-    "stars": 301414,
+    "stars": 301846,
     "lang": "JavaScript",
-    "desc": "代理工具性能优化系统。针对Claude Code、Codex、Opencode、Cursor等工具的技能、直觉、记忆、安全性和“研究先行”开发。"
+    "desc": "代理性能优化系统。针对Claude Code、Codex、Opencode、Cursor等工具的技能、直觉、记忆、安全性和研究导向型开发。"
   },
   {
     "repo": "anthropics/skills",
-    "stars": 193185,
+    "stars": 193579,
     "lang": "Python",
     "desc": "客服代表技能的公开存储库"
   },
   {
     "repo": "Shubhamsaboo/awesome-llm-apps",
-    "stars": 144438,
+    "stars": 144496,
     "lang": "Python",
-    "desc": "100 多个 AI 代理、代理技能和 RAG 应用 - 免费且开源。"
+    "desc": "100 多个 AI 代理、代理技能和 RAG 应用——免费且开源。"
   },
   {
     "repo": "addyosmani/agent-skills",
-    "stars": 115996,
+    "stars": 116502,
     "lang": "JavaScript",
     "desc": "适用于 AI 编码代理的生产级工程技能。"
   },
   {
     "repo": "mvanhorn/last30days-skill",
-    "stars": 67348,
+    "stars": 67424,
     "lang": "Python",
-    "desc": "一种 AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
+    "desc": "AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
   },
   {
     "repo": "tt-a1i/archify",
-    "stars": 95667,
+    "stars": 95859,
     "lang": "JavaScript",
     "desc": "将任何想法、计划或代码库转化为精美的交互式图表。适用于 Claude Code、Codex 等的代理技能。"
   },
   {
     "repo": "coreyhaines31/marketingskills",
-    "stars": 59792,
+    "stars": 59929,
     "lang": "JavaScript",
     "desc": "适用于 Claude Code 和 AI 代理的营销技能。转化率优化 (CRO)、文案撰写、搜索引擎优化 (SEO)、分析和增长工程。"
   },
   {
     "repo": "blader/humanizer",
-    "stars": 68010,
+    "stars": 68326,
     "lang": "Python",
     "desc": "可从文本中去除 AI 生成写作迹象的客服代表技能"
   }
