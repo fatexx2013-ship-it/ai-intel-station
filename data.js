@@ -119,25 +119,11 @@ export const seedPosts = [
 
 export const news = [
   {
-    "date": "2026-11-13",
-    "title": "索尼：PS5 超分技术 QSSR 即将登陆《漫威蜘蛛侠 2》《ARC Raiders》等作品",
-    "desc": "IT之家 11 月 13 日消息，索尼 PlayStation 今天（13 日）晚间宣布，PS5 超分技术 QSSR 即将登陆《漫威蜘蛛侠 2》《控制：共振》《THE FINALS》《ARC Raiders》等作品，相关…",
+    "date": "2026-11-14",
+    "title": "马斯克声援黄仁勋：将签署请愿，支持其重返英伟达 CEO 岗位",
+    "desc": "IT之家 11 月 14 日消息，全球首富埃隆 · 马斯克（Elon Musk）昨日（11 月 13 日）发布推文，回应网友关于“约 1600 名英伟达员工呼吁黄仁勋回归”的推文，表示“一项要求让黄仁勋复职的请愿正在进行…",
     "source": "IT之家",
-    "url": "https://www.ithome.com/1/026/967.htm"
-  },
-  {
-    "date": "2026-11-13",
-    "title": "华为麒麟 9050 系列芯片新一代灵犀 CPU 详细信息公开：9 核 16 线程并行调度，支持内存压缩加速",
-    "desc": "IT之家 11 月 13 日消息，华为麒麟官方公众号继续揭秘首款「逻辑折叠」技术 τ 芯片 —— 麒麟 9050 系列更多配置信息，新一代灵犀 CPU 详情已公开。据介绍，麒麟 9050 系列搭载新一代灵犀 CPU，支持…",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/026/993.htm"
-  },
-  {
-    "date": "2026-11-13",
-    "title": "让智能体帮你购物，OpenAI 推出支付功能 ChatGPT Wallet",
-    "desc": "IT之家 11 月 13 日消息，OpenAI 今天（13 日）宣布推出支付功能 ChatGPT Wallet，让旗下 dot AI 智能体代替用户购物。ChatGPT Wallet 由 OpenAI 与美国运通、万事达…",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/026/994.htm"
+    "url": "https://www.ithome.com/1/027/033.htm"
   },
   {
     "date": "2026-11-13",
@@ -192,17 +178,24 @@ export const news = [
 
 export const models = [
   {
+    "vendor": "inclusionAI",
+    "name": "Ling 3.2 Flash (free)",
+    "date": "2026-11-14",
+    "desc": "Ling 3，上下文 1049k。",
+    "url": "https://openrouter.ai/inclusionai/ling-3.2-flash:free"
+  },
+  {
     "vendor": "Google",
     "name": "Gemini 4 Hydrogen",
     "date": "2026-11-13",
-    "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力模型，专为高吞吐量代理工作流、编码和多模态应用而打造。，上下文 1049k。",
+    "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力机型，专为高吞吐量代理工作流、编码和多模态应用而打造。，上下文 1049k。",
     "url": "https://openrouter.ai/google/gemini-4-hydrogen"
   },
   {
     "vendor": "Google",
     "name": "Gemini 4 Hydrogen (batch)",
     "date": "2026-11-13",
-    "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力模型，专为高吞吐量代理工作流、编码和多模态应用而打造。，上下文 1049k。",
+    "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力机型，专为高吞吐量代理工作流、编码和多模态应用而打造。，上下文 1049k。",
     "url": "https://openrouter.ai/google/gemini-4-hydrogen:batch"
   },
   {
@@ -223,14 +216,14 @@ export const models = [
     "vendor": "Google",
     "name": "Gemini 4 Carbon",
     "date": "2026-11-11",
-    "desc": "Gemini 4 Carbon 是 Google 推出的前沿 Gemini 4 模型，适用于编码、代理和复杂推理工作，上下文 1049k。",
+    "desc": "Gemini 4 Carbon 是 Google 推出的前沿 Gemini 4 模型，适用于编程、代理和复杂推理工作，上下文 1049k。",
     "url": "https://openrouter.ai/google/gemini-4-carbon"
   },
   {
     "vendor": "Google",
     "name": "Gemini 4 Carbon (batch)",
     "date": "2026-11-11",
-    "desc": "Gemini 4 Carbon 是 Google 推出的前沿 Gemini 4 模型，适用于编码、代理和复杂推理工作，上下文 1049k。",
+    "desc": "Gemini 4 Carbon 是 Google 推出的前沿 Gemini 4 模型，适用于编程、代理和复杂推理工作，上下文 1049k。",
     "url": "https://openrouter.ai/google/gemini-4-carbon:batch"
   },
   {
@@ -253,13 +246,6 @@ export const models = [
     "date": "2026-11-10",
     "desc": "Inkling 2 Small 是由 Thinking Machines Lab 开发的开放权重多模态混合专家推理模型，在总计 5940 亿个参数中拥有 170 亿个有效参数，上下文 1049k。",
     "url": "https://openrouter.ai/thinkingmachines/inkling-2-small:free"
-  },
-  {
-    "vendor": "Anthropic",
-    "name": "Claude Fable 5.2",
-    "date": "2026-11-10",
-    "desc": "克劳德寓言 5，上下文 1000k。",
-    "url": "https://openrouter.ai/anthropic/claude-fable-5.2"
   }
 ];
 
@@ -267,71 +253,71 @@ export const trending = [
   {
     "repo": "alibaba/open-code-review",
     "lang": "Go",
-    "today": 206,
-    "stars": 50358,
-    "desc": "安全、快速、高效，经阿里巴巴规模的实战检验。混合架构代码审查工具：确定性管道 + LLM 代理，精确的行级注释，内置多语言规则集（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 和 Anthropic。"
+    "today": 215,
+    "stars": 50636,
+    "desc": "安全、快速、高效，经阿里巴巴规模的实战检验。混合架构代码审查工具：确定性管道 + LLM 代理、精确的行级注释、内置多语言规则集（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 和 Anthropic。"
   },
   {
     "repo": "GoogleChrome/modern-web-guidance-src",
     "lang": "TypeScript",
-    "today": 1875,
-    "stars": 4468,
+    "today": 1925,
+    "stars": 4873,
     "desc": "让您的编码代理始终掌握最新的网络最佳实践"
   },
   {
     "repo": "openai/codex-security",
     "lang": "TypeScript",
-    "today": 754,
-    "stars": 12950,
+    "today": 751,
+    "stars": 13145,
     "desc": "OpenAI 的 Codex Security CLI 和 TypeScript SDK，用于查找、验证和修复安全漏洞。npm：https://www.npmjs.com/package/@openai/codex-security"
   },
   {
     "repo": "ZhuLinsen/daily_stock_analysis",
     "lang": "Python",
-    "today": 272,
-    "stars": 71408,
+    "today": 256,
+    "stars": 71616,
     "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
   },
   {
     "repo": "we-promise/sure",
     "lang": "Ruby",
-    "today": 944,
-    "stars": 14515,
-    "desc": "适合所有人的个人理财应用（由所有人打造）"
+    "today": 925,
+    "stars": 14762,
+    "desc": "面向所有人的个人理财应用（由所有人打造）"
   },
   {
     "repo": "backnotprop/plannotator",
     "lang": "TypeScript",
-    "today": 100,
-    "stars": 10343,
+    "today": 108,
+    "stars": 10465,
     "desc": "用于随时掌握最新动态并掌控代理的工作空间——塑造、决策、规划、注释、审核代码、与团队分享，并一键将所有反馈发送给代理。"
   },
   {
     "repo": "louislam/uptime-kuma",
     "lang": "JavaScript",
-    "today": 61,
-    "stars": 93724,
+    "today": 71,
+    "stars": 93869,
     "desc": "一款出色的自托管监控工具"
   },
   {
     "repo": "block/buzz",
     "lang": "Rust",
-    "today": 95,
-    "stars": 37224,
+    "today": 97,
+    "stars": 37300,
     "desc": "一个群体智慧沟通平台"
   },
   {
     "repo": "tradermonty/claude-trading-skills",
     "lang": "Python",
-    "today": 60,
-    "stars": 4000,
+    "today": 69,
+    "stars": 4183,
     "desc": "面向股票投资者和交易者的 Claude Code 技能——市场分析、技术图表、经济日历、筛选器和交易策略制定。"
   },
   {
     "repo": "tailscale/tailcat",
     "lang": "Go",
-    "today": 324,
-    "stars": 9306,
+    "today": 256,
+    "stars": 9465,
     "desc": "类似于 netcat，但通过 Tailscale 的数据面，不使用 Tailscale 的控制面"
   }
 ];
@@ -339,51 +325,51 @@ export const trending = [
 export const agentFrameworks = [
   {
     "repo": "anomalyco/opencode",
-    "stars": 226607,
+    "stars": 226681,
     "lang": "TypeScript",
     "desc": "开源编码代理。"
   },
   {
     "repo": "anthropics/claude-code",
-    "stars": 155543,
+    "stars": 155572,
     "lang": "TypeScript",
     "desc": "Claude Code 是一款智能编码工具，它驻留在您的终端中，能够理解您的代码库，并通过执行日常任务、解释复杂代码以及处理 Git 工作流来帮助您更快地编写代码——所有这些都通过自然语言命令来实现。"
   },
   {
     "repo": "Significant-Gravitas/AutoGPT",
-    "stars": 188015,
+    "stars": 188019,
     "lang": "Python",
     "desc": "AutoGPT的愿景是让每个人都能使用和基于其进行构建的无障碍人工智能。我们的使命是提供工具，让您能够专注于重要的事情。"
   },
   {
     "repo": "openai/codex",
-    "stars": 135180,
+    "stars": 135192,
     "lang": "Rust",
     "desc": "在终端中运行的轻量级编码代理"
   },
   {
     "repo": "google-gemini/gemini-cli",
-    "stars": 108814,
+    "stars": 108820,
     "lang": "TypeScript",
     "desc": "一款开源人工智能代理，将 Gemini 的强大功能直接带入您的终端。"
   },
   {
     "repo": "FoundationAgents/MetaGPT",
-    "stars": 71273,
+    "stars": 71274,
     "lang": "Python",
     "desc": "🌟 多智能体框架：首家人工智能软件公司，迈向自然语言编程"
   },
   {
     "repo": "microsoft/autogen",
-    "stars": 61805,
+    "stars": 61808,
     "lang": "Python",
     "desc": "用于自主人工智能的编程框架"
   },
   {
     "repo": "crewAIInc/crewAI",
-    "stars": 60852,
+    "stars": 60867,
     "lang": "Python",
-    "desc": "用于编排角色扮演型自主人工智能代理的框架。通过培养协作智能，CrewAI 使代理能够无缝协作，共同应对复杂任务。"
+    "desc": "用于编排角色扮演型自主人工智能体的框架。通过培养协作智能，CrewAI 使代理能够无缝协作，共同应对复杂任务。"
   },
   {
     "repo": "HKUDS/nanobot",
@@ -393,70 +379,70 @@ export const agentFrameworks = [
   },
   {
     "repo": "openai/openai-agents-python",
-    "stars": 30651,
+    "stars": 30657,
     "lang": "Python",
-    "desc": "一个轻量级、功能强大的多代理工作流框架"
+    "desc": "一个轻量级、功能强大的多智能体工作流框架"
   }
 ];
 
 export const skills = [
   {
     "repo": "obra/superpowers",
-    "stars": 317135,
+    "stars": 317246,
     "lang": "Shell",
     "desc": "一个行之有效的代理技能框架和软件开发方法。"
   },
   {
     "repo": "mattpocock/skills",
-    "stars": 323622,
+    "stars": 323843,
     "lang": "Shell",
     "desc": "真正工程师的技能。直接来自我的.agents目录。"
   },
   {
     "repo": "affaan-m/ECC",
-    "stars": 302337,
+    "stars": 302475,
     "lang": "JavaScript",
     "desc": "代理工具性能优化系统。针对 Claude Code、Codex、Opencode、Cursor 等工具的技能、直觉、记忆、安全性和“研究先行”开发。"
   },
   {
     "repo": "anthropics/skills",
-    "stars": 194037,
+    "stars": 194149,
     "lang": "Python",
-    "desc": "客服代表技能的公共存储库"
+    "desc": "客服代表技能的公开存储库"
   },
   {
     "repo": "Shubhamsaboo/awesome-llm-apps",
-    "stars": 144567,
+    "stars": 144585,
     "lang": "Python",
-    "desc": "100 多个 AI 代理、代理技能和 RAG 应用——免费且开源。"
+    "desc": "100 多个 AI 代理、代理技能和 RAG 应用 - 免费且开源。"
   },
   {
     "repo": "addyosmani/agent-skills",
-    "stars": 117052,
+    "stars": 117154,
     "lang": "JavaScript",
     "desc": "适用于 AI 编码代理的生产级工程技能。"
   },
   {
     "repo": "mvanhorn/last30days-skill",
-    "stars": 67523,
+    "stars": 67563,
     "lang": "Python",
-    "desc": "一种 AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
+    "desc": "AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
   },
   {
     "repo": "tt-a1i/archify",
-    "stars": 96167,
+    "stars": 96229,
     "lang": "JavaScript",
     "desc": "将任何想法、计划或代码库转化为精美的交互式图表。适用于 Claude Code、Codex 等的代理技能。"
   },
   {
     "repo": "coreyhaines31/marketingskills",
-    "stars": 60110,
+    "stars": 60180,
     "lang": "JavaScript",
-    "desc": "适用于 Claude Code 和 AI 代理的营销技能。转化率优化 (CRO)、文案撰写、搜索引擎优化 (SEO)、分析和增长工程。"
+    "desc": "适用于 Claude Code 和 AI 代理的营销技能。CRO、文案撰写、SEO、分析和增长工程。"
   },
   {
     "repo": "blader/humanizer",
-    "stars": 68721,
+    "stars": 68829,
     "lang": "Python",
     "desc": "可从文本中去除 AI 生成写作迹象的客服代表技能"
   }
