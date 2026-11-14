@@ -120,10 +120,45 @@ export const seedPosts = [
 export const news = [
   {
     "date": "2026-11-14",
-    "title": "马斯克声援黄仁勋：将签署请愿，支持其重返英伟达 CEO 岗位",
-    "desc": "IT之家 11 月 14 日消息，全球首富埃隆 · 马斯克（Elon Musk）昨日（11 月 13 日）发布推文，回应网友关于“约 1600 名英伟达员工呼吁黄仁勋回归”的推文，表示“一项要求让黄仁勋复职的请愿正在进行…",
+    "title": "“像一大群蜜蜂”：亚马逊 Prime Air 送货无人机噪音过大，遭当地居民投诉",
+    "desc": "IT之家 11 月 14 日消息，据休斯顿纪事报报道，亚马逊旗下的超快无人机配送服务 Prime Air 曾承诺，无论是午间零食、日用百货还是紧急医疗用品，只要重量在 5 磅（IT之家注：约 2.3 千克）以内，最快都能…",
     "source": "IT之家",
-    "url": "https://www.ithome.com/1/027/033.htm"
+    "url": "https://www.ithome.com/1/027/239.htm"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "中专生拍出《哈利·波特》爆款！欧美明星、好莱坞制片人集体点赞",
+    "desc": "狂揽3000万播放量",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/11/510013.html"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "绿电进Token出！联想重新定义词元工厂",
+    "desc": "年产2000万亿Token，成本狂降70%",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/11/510094.html"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "程序员集体沉迷折纸飞机！最长滞空31.2秒",
+    "desc": "童年的纸飞机，现在终于飞回我手里～",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/11/510150.html"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+    "desc": "斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/11/510232.html"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
+    "desc": "马斯克也签名了",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/2026/11/510297.html"
   },
   {
     "date": "2026-11-13",
@@ -131,41 +166,6 @@ export const news = [
     "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 成都麓湖生态城的 Q8 步行桥，采用双曲…",
     "source": "阮一峰周刊",
     "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html"
-  },
-  {
-    "date": "2026-11-13",
-    "title": "从仰望极速新纪录和鼎曜全球发布 看比亚迪的国际化与高端化之路",
-    "desc": "比亚迪正在把规模优势转化为技术与品牌价值",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/11/509716.html"
-  },
-  {
-    "date": "2026-11-13",
-    "title": "比亚迪第1900万辆新能源汽车下线，科技新奢旗舰SUV方程豹钛9开启预订",
-    "desc": "比亚迪第1900万辆新能源汽车在西安工厂正式下线",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/11/509730.html"
-  },
-  {
-    "date": "2026-11-13",
-    "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
-    "desc": "250名国内顶尖三甲医院医生联合评测",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/11/509796.html"
-  },
-  {
-    "date": "2026-11-13",
-    "title": "MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
-    "desc": "12.9 北京，来MEET2027现场",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/11/509827.html"
-  },
-  {
-    "date": "2026-11-13",
-    "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
-    "desc": "一个时代结束了",
-    "source": "量子位",
-    "url": "https://www.qbitai.com/2026/11/509995.html"
   },
   {
     "date": "2026-11-06",
@@ -188,14 +188,14 @@ export const models = [
     "vendor": "Google",
     "name": "Gemini 4 Hydrogen",
     "date": "2026-11-13",
-    "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力机型，专为高吞吐量代理工作流、编码和多模态应用而打造。，上下文 1049k。",
+    "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力模型，专为高吞吐量代理工作流、编码和多模态应用而打造。，上下文 1049k。",
     "url": "https://openrouter.ai/google/gemini-4-hydrogen"
   },
   {
     "vendor": "Google",
     "name": "Gemini 4 Hydrogen (batch)",
     "date": "2026-11-13",
-    "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力机型，专为高吞吐量代理工作流、编码和多模态应用而打造。，上下文 1049k。",
+    "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力模型，专为高吞吐量代理工作流、编码和多模态应用而打造。，上下文 1049k。",
     "url": "https://openrouter.ai/google/gemini-4-hydrogen:batch"
   },
   {
@@ -251,135 +251,135 @@ export const models = [
 
 export const trending = [
   {
-    "repo": "alibaba/open-code-review",
-    "lang": "Go",
-    "today": 215,
-    "stars": 50636,
-    "desc": "安全、快速、高效，经阿里巴巴规模的实战检验。混合架构代码审查工具：确定性管道 + LLM 代理、精确的行级注释、内置多语言规则集（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 和 Anthropic。"
+    "repo": "backnotprop/plannotator",
+    "lang": "TypeScript",
+    "today": 412,
+    "stars": 10791,
+    "desc": "用于随时掌握最新动态并掌控代理的工作空间——塑造、决策、规划、注释、审核代码、与团队分享，并一键将所有反馈发送给代理。"
   },
   {
     "repo": "GoogleChrome/modern-web-guidance-src",
     "lang": "TypeScript",
-    "today": 1925,
-    "stars": 4873,
+    "today": 1225,
+    "stars": 5528,
     "desc": "让您的编码代理始终掌握最新的网络最佳实践"
-  },
-  {
-    "repo": "openai/codex-security",
-    "lang": "TypeScript",
-    "today": 751,
-    "stars": 13145,
-    "desc": "OpenAI 的 Codex Security CLI 和 TypeScript SDK，用于查找、验证和修复安全漏洞。npm：https://www.npmjs.com/package/@openai/codex-security"
-  },
-  {
-    "repo": "ZhuLinsen/daily_stock_analysis",
-    "lang": "Python",
-    "today": 256,
-    "stars": 71616,
-    "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
-  },
-  {
-    "repo": "we-promise/sure",
-    "lang": "Ruby",
-    "today": 925,
-    "stars": 14762,
-    "desc": "面向所有人的个人理财应用（由所有人打造）"
-  },
-  {
-    "repo": "backnotprop/plannotator",
-    "lang": "TypeScript",
-    "today": 108,
-    "stars": 10465,
-    "desc": "用于随时掌握最新动态并掌控代理的工作空间——塑造、决策、规划、注释、审核代码、与团队分享，并一键将所有反馈发送给代理。"
-  },
-  {
-    "repo": "louislam/uptime-kuma",
-    "lang": "JavaScript",
-    "today": 71,
-    "stars": 93869,
-    "desc": "一款出色的自托管监控工具"
-  },
-  {
-    "repo": "block/buzz",
-    "lang": "Rust",
-    "today": 97,
-    "stars": 37300,
-    "desc": "一个群体智慧沟通平台"
   },
   {
     "repo": "tradermonty/claude-trading-skills",
     "lang": "Python",
-    "today": 69,
-    "stars": 4183,
+    "today": 556,
+    "stars": 4521,
     "desc": "面向股票投资者和交易者的 Claude Code 技能——市场分析、技术图表、经济日历、筛选器和交易策略制定。"
   },
   {
-    "repo": "tailscale/tailcat",
+    "repo": "ChromeDevTools/chrome-devtools-mcp",
+    "lang": "TypeScript",
+    "today": 673,
+    "stars": 56052,
+    "desc": "适用于编码代理的 Chrome DevTools"
+  },
+  {
+    "repo": "alibaba/open-code-review",
     "lang": "Go",
-    "today": 256,
-    "stars": 9465,
-    "desc": "类似于 netcat，但通过 Tailscale 的数据面，不使用 Tailscale 的控制面"
+    "today": 897,
+    "stars": 51174,
+    "desc": "安全、快速、高效，在阿里巴巴的规模下经过实战检验。混合架构代码审查工具：确定性管道 + LLM 代理，精确的行级注释，内置多语言规则集（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 和 Anthropic。"
+  },
+  {
+    "repo": "QwenLM/qwen-code",
+    "lang": "TypeScript",
+    "today": 462,
+    "stars": 30188,
+    "desc": "一款运行在终端上的开源 AI 编程代理。"
+  },
+  {
+    "repo": "dream-num/univer",
+    "lang": "TypeScript",
+    "today": 495,
+    "stars": 24291,
+    "desc": "使用 Univer Office SDK 构建您自己的 AI 办公套件。将编辑、计算、协作和文件处理功能集成到您的产品中，供人和 AI 代理使用。基于可扩展的开源核心构建。"
+  },
+  {
+    "repo": "ag-ui-protocol/ag-ui",
+    "lang": "TypeScript",
+    "today": 9,
+    "stars": 17226,
+    "desc": "AG-UI：代理与用户交互协议。将代理引入前端应用程序。"
+  },
+  {
+    "repo": "ashhart/TensorFold",
+    "lang": "Zig",
+    "today": 188,
+    "stars": 2105,
+    "desc": "适用于 Metal、CUDA 和 Vulkan 的 LLM 推理引擎。"
+  },
+  {
+    "repo": "JuliusBrussee/caveman",
+    "lang": "Go",
+    "today": 227,
+    "stars": 119859,
+    "desc": "🪨 既然少量token就能搞定，为什么要用那么多token呢？病毒式技能 + 编码代理的代理，通过像穴居人一样说话，可减少 65% 的 token。"
   }
 ];
 
 export const agentFrameworks = [
   {
     "repo": "anomalyco/opencode",
-    "stars": 226681,
+    "stars": 226804,
     "lang": "TypeScript",
     "desc": "开源编码代理。"
   },
   {
     "repo": "anthropics/claude-code",
-    "stars": 155572,
+    "stars": 155638,
     "lang": "TypeScript",
-    "desc": "Claude Code 是一款智能编码工具，它驻留在您的终端中，能够理解您的代码库，并通过执行日常任务、解释复杂代码以及处理 Git 工作流来帮助您更快地编写代码——所有这些都通过自然语言命令来实现。"
+    "desc": "Claude Code是一款智能编码工具，运行在您的终端中，能够理解您的代码库，并通过执行日常任务、解释复杂代码以及处理Git工作流来帮助您更快地编写代码——所有这些都通过自然语言命令来实现。"
   },
   {
     "repo": "Significant-Gravitas/AutoGPT",
-    "stars": 188019,
+    "stars": 188024,
     "lang": "Python",
     "desc": "AutoGPT的愿景是让每个人都能使用和基于其进行构建的无障碍人工智能。我们的使命是提供工具，让您能够专注于重要的事情。"
   },
   {
     "repo": "openai/codex",
-    "stars": 135192,
+    "stars": 135264,
     "lang": "Rust",
-    "desc": "在终端中运行的轻量级编码代理"
+    "desc": "在您的终端中运行的轻量级编码代理"
   },
   {
     "repo": "google-gemini/gemini-cli",
-    "stars": 108820,
+    "stars": 108824,
     "lang": "TypeScript",
-    "desc": "一款开源人工智能代理，将 Gemini 的强大功能直接带入您的终端。"
+    "desc": "一款开源人工智能代理，将Gemini的强大功能直接带入您的终端。"
   },
   {
     "repo": "FoundationAgents/MetaGPT",
-    "stars": 71274,
+    "stars": 71279,
     "lang": "Python",
-    "desc": "🌟 多智能体框架：首家人工智能软件公司，迈向自然语言编程"
+    "desc": "🌟多智能体框架：首家人工智能软件公司，迈向自然语言编程"
   },
   {
     "repo": "microsoft/autogen",
-    "stars": 61808,
+    "stars": 61816,
     "lang": "Python",
-    "desc": "用于自主人工智能的编程框架"
+    "desc": "用于自主式人工智能的编程框架"
   },
   {
     "repo": "crewAIInc/crewAI",
-    "stars": 60867,
+    "stars": 60887,
     "lang": "Python",
-    "desc": "用于编排角色扮演型自主人工智能体的框架。通过培养协作智能，CrewAI 使代理能够无缝协作，共同应对复杂任务。"
+    "desc": "用于编排角色扮演型自主人工智能代理的框架。通过培养协作智能，CrewAI 使代理能够无缝协作，共同应对复杂任务。"
   },
   {
     "repo": "HKUDS/nanobot",
-    "stars": 50067,
+    "stars": 50081,
     "lang": "Python",
     "desc": "您的轻量级开源个人代理。"
   },
   {
     "repo": "openai/openai-agents-python",
-    "stars": 30657,
+    "stars": 30680,
     "lang": "Python",
     "desc": "一个轻量级、功能强大的多智能体工作流框架"
   }
@@ -388,62 +388,62 @@ export const agentFrameworks = [
 export const skills = [
   {
     "repo": "obra/superpowers",
-    "stars": 317246,
+    "stars": 317488,
     "lang": "Shell",
-    "desc": "一个行之有效的代理技能框架和软件开发方法。"
+    "desc": "行之有效的代理技能框架和软件开发方法。"
   },
   {
     "repo": "mattpocock/skills",
-    "stars": 323843,
+    "stars": 324249,
     "lang": "Shell",
     "desc": "真正工程师的技能。直接来自我的.agents目录。"
   },
   {
     "repo": "affaan-m/ECC",
-    "stars": 302475,
+    "stars": 302724,
     "lang": "JavaScript",
-    "desc": "代理工具性能优化系统。针对 Claude Code、Codex、Opencode、Cursor 等工具的技能、直觉、记忆、安全性和“研究先行”开发。"
+    "desc": "代理性能优化系统。针对Claude Code、Codex、Opencode、Cursor等工具的技能、直觉、记忆、安全性和研究先行开发。"
   },
   {
     "repo": "anthropics/skills",
-    "stars": 194149,
+    "stars": 194439,
     "lang": "Python",
-    "desc": "客服代表技能的公开存储库"
+    "desc": "客服代表技能的公共存储库"
   },
   {
     "repo": "Shubhamsaboo/awesome-llm-apps",
-    "stars": 144585,
+    "stars": 144619,
     "lang": "Python",
     "desc": "100 多个 AI 代理、代理技能和 RAG 应用 - 免费且开源。"
   },
   {
     "repo": "addyosmani/agent-skills",
-    "stars": 117154,
+    "stars": 117418,
     "lang": "JavaScript",
     "desc": "适用于 AI 编码代理的生产级工程技能。"
   },
   {
     "repo": "mvanhorn/last30days-skill",
-    "stars": 67563,
+    "stars": 67628,
     "lang": "Python",
-    "desc": "AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
+    "desc": "一种 AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
   },
   {
     "repo": "tt-a1i/archify",
-    "stars": 96229,
+    "stars": 96378,
     "lang": "JavaScript",
     "desc": "将任何想法、计划或代码库转化为精美的交互式图表。适用于 Claude Code、Codex 等的代理技能。"
   },
   {
     "repo": "coreyhaines31/marketingskills",
-    "stars": 60180,
+    "stars": 60273,
     "lang": "JavaScript",
-    "desc": "适用于 Claude Code 和 AI 代理的营销技能。CRO、文案撰写、SEO、分析和增长工程。"
+    "desc": "适用于 Claude Code 和 AI 代理的营销技能。转化率优化 (CRO)、文案撰写、搜索引擎优化 (SEO)、分析和增长工程。"
   },
   {
     "repo": "blader/humanizer",
-    "stars": 68829,
+    "stars": 69050,
     "lang": "Python",
-    "desc": "可从文本中去除 AI 生成写作迹象的客服代表技能"
+    "desc": "可从文本中去除 AI 生成写作痕迹的客服代表技能"
   }
 ];
