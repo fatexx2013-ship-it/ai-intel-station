@@ -1,22 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-11-15",
+    "generatedAt": "2026-11-16",
     "note": "所有条目均附真实出处；描述与外文内容已自动汉化。星标数据来自 GitHub API，模型数据来自 OpenRouter 公开接口，新闻来自中文科技媒体 RSS。"
   },
   "news": [
     {
-      "date": "2026-11-15",
-      "title": "开源盘古模型 openPangu-2.1-Pro 上线华为云，围绕 Agent 开发、AI 编码、推理优化方向能力升级",
-      "desc": "IT之家 11 月 15 日消息，华为云今日宣布，华为云 MaaS 模型即服务平台正式上线开源盘古模型 openPangu-2.1-Pro。该模型围绕 Agent 开发、AI 编码和推理优化三大方向进行能力升级，在深度研…",
+      "date": "2026-11-16",
+      "title": "腾讯 WorkBuddy 国际版上线 Gemini 4 Carbon 大模型：支持百万 Token 上下文，暂仅限 Pro 用户使用",
+      "desc": "IT之家 11 月 16 日消息，腾讯 WorkBuddy 国际版昨日宣布，已正式上线谷歌 Gemini 4 Carbon 模型，主要面向需要更深入推理和处理更长任务的使用场景。官方将其定位为适合处理复杂问题的模型，目前…",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/027/450.htm"
-    },
-    {
-      "date": "2026-11-15",
-      "title": "韩国税务师考试头名 AI 作弊曝光后，政府全面调查今年国家资格考试",
-      "desc": "IT之家 11 月 15 日消息，据韩联社今日报道，由于税务师考试第一名考生存在利用人工智能进行作弊的行为被曝光，韩国政府决定对今年所有国家资格考试进行全面调查，以打击此类作弊行为。报道称，劳动部和相关机构决定对在第 6…",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/027/453.htm"
+      "url": "https://www.ithome.com/1/027/487.htm"
     },
     {
       "date": "2026-11-14",
@@ -80,14 +73,14 @@
       "vendor": "Google",
       "name": "Gemini 4 Hydrogen",
       "date": "2026-11-13",
-      "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力机型，专为高吞吐量代理工作流、编码和多模态应用而打造。，上下文 1049k。",
+      "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力模型，专为高吞吐量代理工作流、编码和多模型而打造。，上下文 1049k。",
       "url": "https://openrouter.ai/google/gemini-4-hydrogen"
     },
     {
       "vendor": "Google",
       "name": "Gemini 4 Hydrogen (batch)",
       "date": "2026-11-13",
-      "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力机型，专为高吞吐量代理工作流、编码和多模态应用而打造。，上下文 1049k。",
+      "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力模型，专为高吞吐量代理工作流、编码和多模型而打造。，上下文 1049k。",
       "url": "https://openrouter.ai/google/gemini-4-hydrogen:batch"
     },
     {
@@ -108,14 +101,14 @@
       "vendor": "Google",
       "name": "Gemini 4 Carbon",
       "date": "2026-11-11",
-      "desc": "Gemini 4 Carbon 是 Google 推出的前沿 Gemini 4 模型，适用于编码、代理和复杂推理工作，上下文 1049k。",
+      "desc": "Gemini 4 Carbon 是 Google 推出的前沿 Gemini 4 模型，适用于编程、代理和复杂推理工作，上下文 1049k。",
       "url": "https://openrouter.ai/google/gemini-4-carbon"
     },
     {
       "vendor": "Google",
       "name": "Gemini 4 Carbon (batch)",
       "date": "2026-11-11",
-      "desc": "Gemini 4 Carbon 是 Google 推出的前沿 Gemini 4 模型，适用于编码、代理和复杂推理工作，上下文 1049k。",
+      "desc": "Gemini 4 Carbon 是 Google 推出的前沿 Gemini 4 模型，适用于编程、代理和复杂推理工作，上下文 1049k。",
       "url": "https://openrouter.ai/google/gemini-4-carbon:batch"
     },
     {
@@ -144,132 +137,132 @@
     {
       "repo": "dream-num/univer",
       "lang": "TypeScript",
-      "today": 1041,
-      "stars": 25342,
-      "desc": "使用 Univer Office SDK 构建您自己的 AI Office。将编辑、计算、协作和文件处理功能集成到您的产品中，供人和 AI 代理使用。基于可扩展的开源核心构建。"
+      "today": 988,
+      "stars": 25667,
+      "desc": "使用 Univer Office SDK 构建您自己的 AI 办公套件。将编辑、计算、协作和文件处理功能集成到您的产品中，供人和 AI 代理使用。基于可扩展的开源核心构建。"
     },
     {
       "repo": "ag-ui-protocol/ag-ui",
       "lang": "TypeScript",
-      "today": 393,
-      "stars": 17642,
+      "today": 355,
+      "stars": 17861,
       "desc": "AG-UI：代理与用户交互协议。将代理引入前端应用程序。"
     },
     {
       "repo": "google-labs-code/stitch-skills",
       "lang": "TypeScript",
-      "today": 248,
-      "stars": 9113,
-      "desc": "一个专为与 Stitch MCP 服务器配合使用的 Agent Skills 库。每项技能均遵循 Agent Skills 开放标准，以便与 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理兼容。"
+      "today": 247,
+      "stars": 9294,
+      "desc": "一个专为与 Stitch MCP 服务器配合使用的 Agent 技能库。每项技能均遵循 Agent Skills 开放标准，以兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理。"
     },
     {
       "repo": "backnotprop/plannotator",
       "lang": "TypeScript",
-      "today": 860,
-      "stars": 11660,
+      "today": 866,
+      "stars": 11832,
       "desc": "用于随时掌握最新动态并掌控代理的工作空间——塑造、决策、规划、注释、审核代码、与团队共享，并一键将所有反馈发送给代理。"
     },
     {
       "repo": "ChromeDevTools/chrome-devtools-mcp",
       "lang": "TypeScript",
-      "today": 718,
-      "stars": 56717,
+      "today": 717,
+      "stars": 56927,
       "desc": "适用于编码代理的 Chrome DevTools"
     },
     {
       "repo": "alibaba/open-code-review",
       "lang": "Go",
-      "today": 688,
-      "stars": 51808,
-      "desc": "安全、快速、高效，在阿里巴巴的规模下经过实战检验。混合架构代码审查工具：确定性管道 + LLM 代理、精确的行级注释、内置多语言规则集（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 和 Anthropic。"
+      "today": 691,
+      "stars": 52094,
+      "desc": "安全、快速、高效，在阿里巴巴的规模下经过实战检验。混合架构代码审查工具：确定性管道 + LLM 代理，精确的行级注释，内置多语言规则集（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 和 Anthropic。"
     },
     {
       "repo": "Tencent/LoopForge",
       "lang": "Go",
-      "today": 484,
-      "stars": 1277,
-      "desc": "用于交付编码代理的自托管工作流。使用脚本和人工审批关卡来协调 CodeBuddy、Codex 和 Claude Code。包括用于编码助手的本地工作流。"
+      "today": 423,
+      "stars": 1484,
+      "desc": "用于交付编码代理的自托管工作流。使用脚本和人工审批关卡编排 CodeBuddy、Codex 和 Claude Code。包括用于编码助手的本地工作流。"
     },
     {
       "repo": "ggml-org/ggml",
       "lang": "C++",
-      "today": 154,
-      "stars": 15820,
+      "today": 43,
+      "stars": 15907,
       "desc": "用于机器学习的张量库"
     },
     {
       "repo": "elementalsouls/Claude-BugHunter",
       "lang": "Python",
-      "today": 124,
-      "stars": 6022,
-      "desc": "一个用于漏洞挖掘和外部红队工作的Claude Code技能包——82项技能、15个斜杠命令、681个披露报告模式（涵盖24个核心漏洞类别），外加企业身份和基础设施攻击矩阵。"
+      "today": 98,
+      "stars": 6441,
+      "desc": "用于漏洞挖掘和外部红队工作的 Claude Code 技能包——82 项技能、15 个斜杠命令、681 个披露报告模式（涵盖 24 个核心漏洞类别），以及企业身份 + 基础设施攻击矩阵。"
     },
     {
       "repo": "GoogleChrome/modern-web-guidance-src",
       "lang": "TypeScript",
-      "today": 1220,
-      "stars": 6830,
+      "today": 1219,
+      "stars": 7167,
       "desc": "让您的编码代理始终掌握最新的网络最佳实践"
     }
   ],
   "agentFrameworks": [
     {
       "repo": "anomalyco/opencode",
-      "stars": 226992,
+      "stars": 227058,
       "lang": "TypeScript",
       "desc": "开源编码代理。"
     },
     {
       "repo": "anthropics/claude-code",
-      "stars": 155757,
+      "stars": 155794,
       "lang": "TypeScript",
-      "desc": "Claude Code 是一款智能编码工具，它驻留在您的终端中，能够理解您的代码库，并通过执行日常任务、解释复杂代码和处理 Git 工作流来帮助您更快地编写代码——所有这些都通过自然语言命令来实现。"
+      "desc": "Claude Code 是一款智能编码工具，它驻留在您的终端中，能够理解您的代码库，并通过执行日常任务、解释复杂代码以及处理 Git 工作流来帮助您更快地编写代码——所有这些都通过自然语言命令来实现。"
     },
     {
       "repo": "Significant-Gravitas/AutoGPT",
-      "stars": 188037,
+      "stars": 188045,
       "lang": "Python",
-      "desc": "AutoGPT的愿景是让每个人都能使用和基于其进行构建的无障碍人工智能。我们的使命是提供工具，让您能够专注于重要的事情。"
+      "desc": "AutoGPT的愿景是让每个人都能使用和基于人工智能进行构建。我们的使命是提供工具，让您能够专注于重要的事情。"
     },
     {
       "repo": "openai/codex",
-      "stars": 135383,
+      "stars": 135407,
       "lang": "Rust",
       "desc": "在终端中运行的轻量级编码代理"
     },
     {
       "repo": "google-gemini/gemini-cli",
-      "stars": 108848,
+      "stars": 108851,
       "lang": "TypeScript",
-      "desc": "一款开源人工智能代理，将 Gemini 的强大功能直接带入您的终端。"
+      "desc": "一款开源人工智能代理，将Gemini的强大功能直接带入您的终端。"
     },
     {
       "repo": "FoundationAgents/MetaGPT",
-      "stars": 71281,
+      "stars": 71282,
       "lang": "Python",
-      "desc": "🌟 多智能体框架：首家人工智能软件公司，迈向自然语言编程"
+      "desc": "🌟多智能体框架：首家人工智能软件公司，迈向自然语言编程"
     },
     {
       "repo": "microsoft/autogen",
-      "stars": 61850,
+      "stars": 61859,
       "lang": "Python",
       "desc": "用于自主人工智能的编程框架"
     },
     {
       "repo": "crewAIInc/crewAI",
-      "stars": 60949,
+      "stars": 60961,
       "lang": "Python",
-      "desc": "用于编排角色扮演型自主人工智能代理的框架。通过培养协作智能，CrewAI 使代理能够无缝协作，应对复杂任务。"
+      "desc": "用于编排角色扮演型自主人工智能代理的框架。通过培养协作智能，CrewAI 使代理能够无缝协作，共同应对复杂任务。"
     },
     {
       "repo": "HKUDS/nanobot",
-      "stars": 50104,
+      "stars": 50107,
       "lang": "Python",
       "desc": "您的轻量级开源个人代理。"
     },
     {
       "repo": "openai/openai-agents-python",
-      "stars": 30693,
+      "stars": 30698,
       "lang": "Python",
       "desc": "一个轻量级、功能强大的多智能体工作流框架"
     }
@@ -277,63 +270,63 @@
   "skills": [
     {
       "repo": "obra/superpowers",
-      "stars": 317932,
+      "stars": 318080,
       "lang": "Shell",
-      "desc": "行之有效的代理技能框架和软件开发方法。"
+      "desc": "一个行之有效的代理技能框架和软件开发方法。"
     },
     {
       "repo": "mattpocock/skills",
-      "stars": 324894,
+      "stars": 325182,
       "lang": "Shell",
       "desc": "真正工程师的技能。直接来自我的.agents目录。"
     },
     {
       "repo": "affaan-m/ECC",
-      "stars": 303615,
+      "stars": 303856,
       "lang": "JavaScript",
-      "desc": "代理性能优化系统。针对Claude Code、Codex、Opencode、Cursor等工具的技能、直觉、记忆、安全性和研究先行开发。"
+      "desc": "代理工具性能优化系统。针对 Claude Code、Codex、Opencode、Cursor 等工具的技能、直觉、记忆、安全性和“研究先行”开发。"
     },
     {
       "repo": "anthropics/skills",
-      "stars": 195166,
+      "stars": 195367,
       "lang": "Python",
       "desc": "客服代表技能的公开存储库"
     },
     {
       "repo": "Shubhamsaboo/awesome-llm-apps",
-      "stars": 144706,
+      "stars": 144742,
       "lang": "Python",
       "desc": "100 多个 AI 代理、代理技能和 RAG 应用 - 免费且开源。"
     },
     {
       "repo": "addyosmani/agent-skills",
-      "stars": 117807,
+      "stars": 117947,
       "lang": "JavaScript",
       "desc": "适用于 AI 编码代理的生产级工程技能。"
     },
     {
       "repo": "mvanhorn/last30days-skill",
-      "stars": 67733,
+      "stars": 67781,
       "lang": "Python",
       "desc": "AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
     },
     {
       "repo": "tt-a1i/archify",
-      "stars": 96635,
+      "stars": 96805,
       "lang": "JavaScript",
       "desc": "将任何想法、计划或代码库转化为精美的交互式图表。适用于 Claude Code、Codex 等的代理技能。"
     },
     {
       "repo": "coreyhaines31/marketingskills",
-      "stars": 60502,
+      "stars": 60582,
       "lang": "JavaScript",
-      "desc": "适用于 Claude Code 和 AI 代理的营销技能。CRO、文案撰写、SEO、分析和增长工程。"
+      "desc": "适用于 Claude Code 和 AI 代理的营销技能。转化率优化 (CRO)、文案撰写、搜索引擎优化 (SEO)、分析和增长工程。"
     },
     {
       "repo": "blader/humanizer",
-      "stars": 69377,
+      "stars": 69482,
       "lang": "Python",
-      "desc": "可从文本中去除 AI 生成写作迹象的客服代表技能"
+      "desc": "可从文本中去除 AI 生成写作迹象的代理技能"
     }
   ],
   "boards": [
