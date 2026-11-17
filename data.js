@@ -119,20 +119,6 @@ export const seedPosts = [
 
 export const news = [
   {
-    "date": "2026-11-17",
-    "title": "华为 Mate 90 系列手机  HarmonyOS 7 小艺 AI 快捷栏适配效果公开",
-    "desc": "IT之家 11 月 17 日消息，在今年 9 月 7 日的 HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会上，鸿蒙 7 操作系统正式发布。在发布会现场，华为还剧透了全新功能 —— 小艺 …",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/028/007.htm"
-  },
-  {
-    "date": "2026-11-16",
-    "title": "华为 WATCH Air 新款智能手表外观曝光：圆润机身 + 超轻薄设计，预装鸿蒙 HarmonyOS 系统",
-    "desc": "IT之家 11 月 16 日消息，博主 @鹏鹏君驾到 今日曝光了一款华为穿戴新品 —— HUAWEI WATCH Air 智能手表。从画面可以看到，华为 WATCH Air 采用超轻薄设计，拥有圆润的弧面机身，侧边配有一…",
-    "source": "IT之家",
-    "url": "https://www.ithome.com/1/027/992.htm"
-  },
-  {
     "date": "2026-11-16",
     "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
     "desc": "11月16日，阿里巴巴发布全新一代基座大模型Qwen4-Max",
@@ -209,14 +195,14 @@ export const models = [
     "vendor": "Google",
     "name": "Gemini 4 Hydrogen",
     "date": "2026-11-13",
-    "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力机型，专为高吞吐量代理工作流、编码和多模态应用而打造。，上下文 1049k。",
+    "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力机型，专为高吞吐量代理工作流、编码和多模态而打造。，上下文 1049k。",
     "url": "https://openrouter.ai/google/gemini-4-hydrogen"
   },
   {
     "vendor": "Google",
     "name": "Gemini 4 Hydrogen (batch)",
     "date": "2026-11-13",
-    "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力机型，专为高吞吐量代理工作流、编码和多模态应用而打造。，上下文 1049k。",
+    "desc": "Gemini 4 Hydrogen 是 Google Gemini 4 系列的高效主力机型，专为高吞吐量代理工作流、编码和多模态而打造。，上下文 1049k。",
     "url": "https://openrouter.ai/google/gemini-4-hydrogen:batch"
   },
   {
@@ -260,71 +246,71 @@ export const trending = [
   {
     "repo": "ag-ui-protocol/ag-ui",
     "lang": "TypeScript",
-    "today": 790,
-    "stars": 18737,
-    "desc": "AG-UI：代理-用户交互协议。将代理引入前端应用程序。"
+    "today": 791,
+    "stars": 19214,
+    "desc": "AG-UI：代理与用户交互协议。将代理引入前端应用程序。"
   },
   {
     "repo": "backnotprop/plannotator",
     "lang": "TypeScript",
-    "today": 689,
-    "stars": 12424,
+    "today": 696,
+    "stars": 12669,
     "desc": "用于随时掌握最新动态并掌控代理的工作空间——塑造、决策、规划、注释、审核代码、与团队共享，并一键将所有反馈发送给代理。"
   },
   {
     "repo": "dream-num/univer",
     "lang": "TypeScript",
-    "today": 1878,
-    "stars": 27673,
+    "today": 1828,
+    "stars": 27901,
     "desc": "使用 Univer Office SDK 构建您自己的 AI 办公套件。将编辑、计算、协作和文件处理功能集成到您的产品中，供人和 AI 代理使用。基于可扩展的开源核心构建。"
   },
   {
     "repo": "tradermonty/claude-trading-skills",
     "lang": "Python",
-    "today": 841,
-    "stars": 6176,
+    "today": 837,
+    "stars": 6425,
     "desc": "面向股票投资者和交易者的 Claude Code 技能——市场分析、技术图表、经济日历、筛选器和交易策略制定。"
   },
   {
     "repo": "elementalsouls/Claude-BugHunter",
     "lang": "Python",
-    "today": 1057,
-    "stars": 7223,
-    "desc": "用于漏洞挖掘和外部红队工作的 Claude Code 技能包——82 项技能、15 个斜杠命令、681 个披露报告模式（涵盖 24 个核心漏洞类别），以及企业身份 + 基础设施攻击矩阵。"
+    "today": 1094,
+    "stars": 7539,
+    "desc": "一个用于漏洞挖掘和外部红队工作的Claude Code技能包——82项技能、15个斜杠命令、681个披露报告模式（涵盖24个核心漏洞类别），以及企业身份+基础设施攻击矩阵。"
   },
   {
     "repo": "getarcaneapp/arcane",
     "lang": "Go",
-    "today": 31,
-    "stars": 8588,
+    "today": 46,
+    "stars": 8832,
     "desc": "面向所有人的现代化Docker管理"
   },
   {
     "repo": "DeanChensj/jiangshan-map",
     "lang": "JavaScript",
-    "today": 285,
-    "stars": 6639,
+    "today": 288,
+    "stars": 7046,
     "desc": "江山时序 · 中国历史交互地图时间轴（公元前403年– 至今）| 跨越18个朝代、198个领土快照、从古代到现代的地名谱系和古典诗歌路线的中国历史交互地图集"
   },
   {
     "repo": "google-labs-code/stitch-skills",
     "lang": "TypeScript",
-    "today": 540,
-    "stars": 9670,
-    "desc": "一个专为与 Stitch MCP 服务器配合使用而设计的 Agent Skill 库。每项技能均遵循 Agent Skills 开放标准，以便与 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理兼容。"
+    "today": 529,
+    "stars": 9783,
+    "desc": "一个专为与 Stitch MCP 服务器配合使用的 Agent Skills 库。每项技能均遵循 Agent Skills 开放标准，以兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理。"
   },
   {
     "repo": "mvanhorn/last30days-skill",
     "lang": "Python",
-    "today": 122,
-    "stars": 68008,
-    "desc": "一种 AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
+    "today": 135,
+    "stars": 68241,
+    "desc": "AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
   },
   {
     "repo": "NVIDIA/SkillEvaluator",
     "lang": "Python",
-    "today": 953,
-    "stars": 2495,
+    "today": 873,
+    "stars": 2840,
     "desc": "用于评估 AI 代理技能和插件的多层框架，包括质量关卡、语义重叠检测、合成评估数据集生成以及实时代理评估，后者用于衡量技能如何影响代理行为。"
   }
 ];
@@ -332,61 +318,61 @@ export const trending = [
 export const agentFrameworks = [
   {
     "repo": "anomalyco/opencode",
-    "stars": 227267,
+    "stars": 227356,
     "lang": "TypeScript",
     "desc": "开源编码代理。"
   },
   {
     "repo": "anthropics/claude-code",
-    "stars": 155897,
+    "stars": 155939,
     "lang": "TypeScript",
-    "desc": "Claude Code 是一款智能编码工具，它驻留在您的终端中，能够理解您的代码库，并通过执行日常任务、解释复杂代码和处理 Git 工作流来帮助您更快地编写代码——所有这些都通过自然语言命令来实现。"
+    "desc": "Claude Code是一款智能编码工具，运行在您的终端中，能够理解您的代码库，并通过执行日常任务、解释复杂代码和处理Git工作流来帮助您更快地编写代码——所有这些都通过自然语言命令来实现。"
   },
   {
     "repo": "Significant-Gravitas/AutoGPT",
-    "stars": 188059,
+    "stars": 188065,
     "lang": "Python",
     "desc": "AutoGPT的愿景是让每个人都能使用和基于其进行构建的无障碍人工智能。我们的使命是提供工具，让您能够专注于重要的事情。"
   },
   {
     "repo": "openai/codex",
-    "stars": 135523,
+    "stars": 135551,
     "lang": "Rust",
     "desc": "在终端中运行的轻量级编码代理"
   },
   {
     "repo": "google-gemini/gemini-cli",
-    "stars": 108869,
+    "stars": 108882,
     "lang": "TypeScript",
-    "desc": "一款开源人工智能代理，将 Gemini 的强大功能直接带入您的终端。"
+    "desc": "一款开源人工智能代理，将Gemini的强大功能直接带入您的终端。"
   },
   {
     "repo": "FoundationAgents/MetaGPT",
-    "stars": 71297,
+    "stars": 71315,
     "lang": "Python",
     "desc": "🌟 多智能体框架：首家人工智能软件公司，迈向自然语言编程"
   },
   {
     "repo": "microsoft/autogen",
-    "stars": 61874,
+    "stars": 61877,
     "lang": "Python",
     "desc": "用于自主式人工智能的编程框架"
   },
   {
     "repo": "crewAIInc/crewAI",
-    "stars": 60991,
+    "stars": 61002,
     "lang": "Python",
-    "desc": "用于编排角色扮演型自主人工智能代理的框架。通过培养协作智能，CrewAI 使代理能够无缝协作，共同应对复杂任务。"
+    "desc": "用于编排角色扮演型自主人工智能代理的框架。通过培养协作智能，CrewAI 使代理能够无缝协作，从而应对复杂任务。"
   },
   {
     "repo": "HKUDS/nanobot",
-    "stars": 50128,
+    "stars": 50131,
     "lang": "Python",
     "desc": "您的轻量级开源个人代理。"
   },
   {
     "repo": "openai/openai-agents-python",
-    "stars": 30716,
+    "stars": 30726,
     "lang": "Python",
     "desc": "一个轻量级、功能强大的多智能体工作流框架"
   }
@@ -395,61 +381,61 @@ export const agentFrameworks = [
 export const skills = [
   {
     "repo": "obra/superpowers",
-    "stars": 318610,
+    "stars": 318742,
     "lang": "Shell",
-    "desc": "行之有效的代理技能框架和软件开发方法。"
+    "desc": "一个行之有效的代理技能框架和软件开发方法。"
   },
   {
     "repo": "mattpocock/skills",
-    "stars": 325839,
+    "stars": 326032,
     "lang": "Shell",
     "desc": "真正工程师的技能。直接来自我的.agents目录。"
   },
   {
     "repo": "affaan-m/ECC",
-    "stars": 304452,
+    "stars": 304719,
     "lang": "JavaScript",
-    "desc": "代理性能优化系统。针对Claude Code、Codex、Opencode、Cursor等工具的技能、直觉、记忆、安全性和研究优先开发。"
+    "desc": "代理工具性能优化系统。针对Claude Code、Codex、Opencode、Cursor等工具的技能、直觉、记忆、安全性和“研究先行”开发。"
   },
   {
     "repo": "anthropics/skills",
-    "stars": 195902,
+    "stars": 196133,
     "lang": "Python",
     "desc": "客服代表技能的公共存储库"
   },
   {
     "repo": "Shubhamsaboo/awesome-llm-apps",
-    "stars": 144863,
+    "stars": 144891,
     "lang": "Python",
     "desc": "100 多个 AI 代理、代理技能和 RAG 应用 - 免费且开源。"
   },
   {
     "repo": "addyosmani/agent-skills",
-    "stars": 118261,
+    "stars": 118374,
     "lang": "JavaScript",
     "desc": "适用于 AI 编码代理的生产级工程技能。"
   },
   {
     "repo": "mvanhorn/last30days-skill",
-    "stars": 68008,
+    "stars": 68241,
     "lang": "Python",
-    "desc": "一种 AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
+    "desc": "AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
   },
   {
     "repo": "tt-a1i/archify",
-    "stars": 97129,
+    "stars": 97201,
     "lang": "JavaScript",
     "desc": "将任何想法、计划或代码库转化为精美的交互式图表。适用于 Claude Code、Codex 等的代理技能。"
   },
   {
     "repo": "coreyhaines31/marketingskills",
-    "stars": 60760,
+    "stars": 60847,
     "lang": "JavaScript",
     "desc": "适用于 Claude Code 和 AI 代理的营销技能。转化率优化 (CRO)、文案撰写、搜索引擎优化 (SEO)、分析和增长工程。"
   },
   {
     "repo": "blader/humanizer",
-    "stars": 69842,
+    "stars": 69960,
     "lang": "Python",
     "desc": "可从文本中去除 AI 生成写作痕迹的客服代表技能"
   }
