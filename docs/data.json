@@ -6,17 +6,24 @@
   "news": [
     {
       "date": "2026-11-19",
-      "title": "腾讯：更多企业转向国产芯片，将助推国内供应链建设提速",
-      "desc": "IT之家 11 月 19 日消息，腾讯昨日发布第三季度财报。财报显示，其第三季度实现营收 2073.36 亿元，同比增长 8%；毛利 1159.11 亿元，同比增长 7%；归母净利润为 636.12 亿元，同比增长 0.…",
+      "title": "最高每小时狂写 30GB：英伟达 621.24 驱动反馈加速消耗 SSD 寿命",
+      "desc": "IT之家 11 月 19 日消息，科技媒体 Tom's Hardware 今天（11 月 19 日）发布博文，报道称英伟达 GeForce 驱动 621.14 和 621.24 两个版本存在异常后台写入问题，即使电脑处于…",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/029/124.htm"
+      "url": "https://www.ithome.com/1/029/169.htm"
     },
     {
-      "date": "2026-11-18",
-      "title": "英伟达AMD首次联手押注！Genesis完成A轮融资，估值超230亿",
-      "desc": "具身全栈玩家",
+      "date": "2026-11-19",
+      "title": "陈立武：英特尔 18A 芯片制造工艺已签下首家外部客户",
+      "desc": "IT之家 11 月 19 日消息，据 CNBC 今日报道，英特尔 CEO 陈立武当地时间周三表示，英特尔 18A 芯片制造工艺已签下首家外部客户。陈立武在美国得克萨斯州奥斯汀举行的 TomorrowX 峰会上表示：“代工…",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/029/172.htm"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "初中毕业烘焙师，1 人搓出单集千万播放科幻剧，中国AI长片杀疯了！",
+      "desc": "国产AI工具实现「一个人就是一个剧组」",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/510821.html"
+      "url": "https://www.qbitai.com/2026/11/510947.html"
     },
     {
       "date": "2026-11-18",
@@ -62,6 +69,20 @@
     }
   ],
   "models": [
+    {
+      "vendor": "Google",
+      "name": "Gemini 4 Neon",
+      "date": "2026-11-18",
+      "desc": "Gemini 4 Neon 是 Google Gemini 4 系列中一款快速、中等价位的模型，专为编程和代理工作而打造，上下文 1049k。",
+      "url": "https://openrouter.ai/google/gemini-4-neon"
+    },
+    {
+      "vendor": "Google",
+      "name": "Gemini 4 Neon (batch)",
+      "date": "2026-11-18",
+      "desc": "Gemini 4 Neon 是 Google Gemini 4 系列中一款快速、中等价位的模型，专为编程和代理工作而打造，上下文 1049k。",
+      "url": "https://openrouter.ai/google/gemini-4-neon:batch"
+    },
     {
       "vendor": "OpenAI",
       "name": "GPT-6.2 Astra Pro",
@@ -117,214 +138,200 @@
       "date": "2026-11-18",
       "desc": "GPT-6，上下文 1050k。",
       "url": "https://openrouter.ai/openai/gpt-6.2-sol:batch"
-    },
-    {
-      "vendor": "Tencent",
-      "name": "Hy4 flash",
-      "date": "2026-11-16",
-      "desc": "Hy4 flash 是 [Hy4](https://openrouter) 的经济高效版本，上下文 1049k。",
-      "url": "https://openrouter.ai/tencent/hy4-flash"
-    },
-    {
-      "vendor": "Qwen",
-      "name": "Qwen4 Max",
-      "date": "2026-11-16",
-      "desc": "Qwen4 Max 是阿里巴巴 Qwen4 系列的旗舰模型，上下文 1000k。",
-      "url": "https://openrouter.ai/qwen/qwen4-max"
     }
   ],
   "trending": [
     {
-      "repo": "elementalsouls/Claude-BugHunter",
-      "lang": "Python",
-      "today": 2322,
-      "stars": 10956,
-      "desc": "一个用于漏洞挖掘和外部红队工作的Claude Code技能包——82项技能、15个斜杠命令、681个披露报告模式（涵盖24个核心漏洞类别），以及企业身份+基础设施攻击矩阵。"
-    },
-    {
       "repo": "cursor/plugins",
       "lang": "TypeScript",
-      "today": 315,
-      "stars": 17118,
+      "today": 314,
+      "stars": 17242,
       "desc": "Cursor 插件规范和官方插件"
     },
     {
       "repo": "HKUDS/CLI-Anything",
       "lang": "Python",
-      "today": 384,
-      "stars": 59520,
-      "desc": "“CLI-Anything：让所有软件都具备原生代理功能” -- CLI-Hub：https://clianything.cc/"
+      "today": 389,
+      "stars": 59818,
+      "desc": "“CLI-Anything：让所有软件都原生支持代理” -- CLI-Hub：https://clianything.cc/"
     },
     {
       "repo": "mvanhorn/last30days-skill",
       "lang": "Python",
-      "today": 1062,
-      "stars": 69789,
+      "today": 1059,
+      "stars": 70077,
       "desc": "AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
     },
     {
       "repo": "getarcaneapp/arcane",
       "lang": "Go",
       "today": 547,
-      "stars": 9702,
-      "desc": "现代Docker管理，专为所有人设计"
+      "stars": 9842,
+      "desc": "面向所有人的现代化Docker管理"
     },
     {
       "repo": "NVIDIA/SkillEvaluator",
       "lang": "Python",
-      "today": 323,
-      "stars": 3591,
-      "desc": "用于评估 AI 代理技能和插件的多层框架，包括质量关卡、语义重叠检测、合成评估数据集生成以及实时代理评估，后者用于衡量技能如何影响代理行为。"
+      "today": 312,
+      "stars": 3759,
+      "desc": "用于评估 AI 代理技能和插件的多层框架，包含质量关卡、语义重叠检测、合成评估数据集生成以及实时代理评估（衡量技能如何影响代理行为）。"
     },
     {
       "repo": "nvm-sh/nvm",
       "lang": "Shell",
-      "today": 111,
-      "stars": 96121,
+      "today": 237,
+      "stars": 96161,
       "desc": "Node 版本管理器 - 符合 POSIX 标准的 bash 脚本，用于管理多个活动的 node.js 版本。"
     },
     {
       "repo": "astral-sh/uv",
       "lang": "Rust",
-      "today": 260,
-      "stars": 92168,
+      "today": 258,
+      "stars": 92245,
       "desc": "一款用 Rust 编写的超快 Python 包和项目管理器。"
     },
     {
       "repo": "google-research/paper-orchestra",
       "lang": "Python",
-      "today": 1529,
-      "stars": 4039,
-      "desc": "PaperOrchestra 是一个多智能体框架，用于自动撰写人工智能研究论文。"
+      "today": 1524,
+      "stars": 4351,
+      "desc": "PaperOrchestra 是一个用于自动撰写人工智能研究论文的多智能体框架。"
     },
     {
       "repo": "google-labs-code/stitch-skills",
       "lang": "TypeScript",
-      "today": 369,
-      "stars": 10335,
-      "desc": "一个专为与 Stitch MCP 服务器配合使用的 Agent Skills 库。每项技能均遵循 Agent Skills 开放标准，以兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理。"
+      "today": 365,
+      "stars": 10425,
+      "desc": "一个专为与 Stitch MCP 服务器配合使用的 Agent Skill 库。每项技能均遵循 Agent Skills 开放标准，以兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编程代理。"
+    },
+    {
+      "repo": "sveltejs/svelte",
+      "lang": "JavaScript",
+      "today": 692,
+      "stars": 89637,
+      "desc": "面向普通大众的网页开发"
     }
   ],
   "agentFrameworks": [
     {
       "repo": "anomalyco/opencode",
-      "stars": 227786,
+      "stars": 227846,
       "lang": "TypeScript",
       "desc": "开源编码代理。"
     },
     {
       "repo": "anthropics/claude-code",
-      "stars": 156142,
+      "stars": 156186,
       "lang": "TypeScript",
-      "desc": "Claude Code是一款智能编码工具，运行在您的终端中，能够理解您的代码库，并通过执行日常任务、解释复杂代码以及处理Git工作流来帮助您更快地编写代码——所有这些都通过自然语言命令来完成。"
+      "desc": "Claude Code是一款智能编码工具，运行在您的终端中，能够理解您的代码库，并通过执行日常任务、解释复杂代码和处理Git工作流来帮助您更快地编写代码——所有这些都通过自然语言命令来完成。"
     },
     {
       "repo": "Significant-Gravitas/AutoGPT",
-      "stars": 188084,
+      "stars": 188098,
       "lang": "Python",
       "desc": "AutoGPT的愿景是让每个人都能使用和基于其进行构建的无障碍人工智能。我们的使命是提供工具，让您能够专注于重要的事情。"
     },
     {
       "repo": "openai/codex",
-      "stars": 135780,
+      "stars": 135802,
       "lang": "Rust",
-      "desc": "在您的终端中运行的轻量级编码代理"
+      "desc": "在终端中运行的轻量级编码代理"
     },
     {
       "repo": "google-gemini/gemini-cli",
-      "stars": 108919,
+      "stars": 108929,
       "lang": "TypeScript",
       "desc": "一款开源人工智能代理，将Gemini的强大功能直接带入您的终端。"
     },
     {
       "repo": "FoundationAgents/MetaGPT",
-      "stars": 71343,
+      "stars": 71350,
       "lang": "Python",
       "desc": "🌟 多智能体框架：首家人工智能软件公司，迈向自然语言编程"
     },
     {
       "repo": "microsoft/autogen",
-      "stars": 61926,
+      "stars": 61930,
       "lang": "Python",
-      "desc": "用于自主型人工智能的编程框架"
+      "desc": "用于自主人工智能的编程框架"
     },
     {
       "repo": "crewAIInc/crewAI",
-      "stars": 61077,
+      "stars": 61088,
       "lang": "Python",
       "desc": "用于编排角色扮演型自主人工智能代理的框架。通过培养协作智能，CrewAI 使代理能够无缝协作，共同应对复杂任务。"
     },
     {
       "repo": "HKUDS/nanobot",
-      "stars": 50183,
+      "stars": 50190,
       "lang": "Python",
       "desc": "您的轻量级开源个人代理。"
     },
     {
       "repo": "openai/openai-agents-python",
-      "stars": 30752,
+      "stars": 30757,
       "lang": "Python",
-      "desc": "一个轻量级、功能强大的多智能体工作流框架"
+      "desc": "一个轻量级、功能强大的多代理工作流框架"
     }
   ],
   "skills": [
     {
       "repo": "obra/superpowers",
-      "stars": 319866,
+      "stars": 321368,
       "lang": "Shell",
-      "desc": "行之有效的代理技能框架和软件开发方法。"
+      "desc": "一个行之有效的代理技能框架和软件开发方法。"
     },
     {
       "repo": "mattpocock/skills",
-      "stars": 327328,
+      "stars": 327517,
       "lang": "Shell",
       "desc": "真正工程师的技能。直接来自我的.agents目录。"
     },
     {
       "repo": "affaan-m/ECC",
-      "stars": 306299,
+      "stars": 306573,
       "lang": "JavaScript",
-      "desc": "代理性能优化系统。针对Claude Code、Codex、Opencode、Cursor等工具的技能、直觉、记忆、安全性和研究优先开发。"
+      "desc": "代理工具性能优化系统。针对Claude Code、Codex、Opencode、Cursor等工具的技能、直觉、记忆、安全性和研究优先开发。"
     },
     {
       "repo": "anthropics/skills",
-      "stars": 197092,
+      "stars": 197241,
       "lang": "Python",
-      "desc": "客服代表技能的公开存储库"
+      "desc": "客服代表技能的公共存储库"
     },
     {
       "repo": "Shubhamsaboo/awesome-llm-apps",
-      "stars": 145015,
+      "stars": 145037,
       "lang": "Python",
       "desc": "100 多个 AI 代理、代理技能和 RAG 应用——免费且开源。"
     },
     {
       "repo": "addyosmani/agent-skills",
-      "stars": 118884,
+      "stars": 118962,
       "lang": "JavaScript",
       "desc": "适用于 AI 编码代理的生产级工程技能。"
     },
     {
       "repo": "mvanhorn/last30days-skill",
-      "stars": 69788,
+      "stars": 70077,
       "lang": "Python",
       "desc": "AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
     },
     {
       "repo": "tt-a1i/archify",
-      "stars": 97687,
+      "stars": 97774,
       "lang": "JavaScript",
       "desc": "将任何想法、计划或代码库转化为精美的交互式图表。适用于 Claude Code、Codex 等的代理技能。"
     },
     {
       "repo": "coreyhaines31/marketingskills",
-      "stars": 61196,
+      "stars": 61276,
       "lang": "JavaScript",
       "desc": "适用于 Claude Code 和 AI 代理的营销技能。转化率优化 (CRO)、文案撰写、搜索引擎优化 (SEO)、分析和增长工程。"
     },
     {
       "repo": "blader/humanizer",
-      "stars": 70734,
+      "stars": 70850,
       "lang": "Python",
       "desc": "可从文本中去除 AI 生成写作迹象的客服代表技能"
     }
