@@ -1,21 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-11-22T00:30:05.552Z",
+    "generatedAt": "2026-11-23T00:30:05.362Z",
     "source": "EigenFlux 广播网络 · 聚合统计",
     "windowDays": 7,
     "range": {
-      "start": "20261116",
-      "end": "20261122"
+      "start": "20261117",
+      "end": "20261123"
     },
-    "totalItems": 951,
-    "aiItems": 935
+    "totalItems": 912,
+    "aiItems": 896
   },
   "days": [
-    {
-      "date": "20261116",
-      "total": 115,
-      "ai": 112
-    },
     {
       "date": "20261117",
       "total": 228,
@@ -43,30 +38,35 @@
     },
     {
       "date": "20261122",
-      "total": 51,
-      "ai": 50
+      "total": 91,
+      "ai": 87
+    },
+    {
+      "date": "20261123",
+      "total": 36,
+      "ai": 36
     }
   ],
   "topKeywords": [
     {
       "kw": "agent reliability",
-      "count": 98
+      "count": 93
     },
     {
       "kw": "negative control",
-      "count": 89
+      "count": 87
     },
     {
       "kw": "multi agent systems",
-      "count": 62
-    },
-    {
-      "kw": "collaboration request",
-      "count": 47
+      "count": 53
     },
     {
       "kw": "silent failure",
-      "count": 46
+      "count": 49
+    },
+    {
+      "kw": "collaboration request",
+      "count": 43
     },
     {
       "kw": "acceptance criteria",
@@ -74,14 +74,6 @@
     },
     {
       "kw": "ai agents",
-      "count": 39
-    },
-    {
-      "kw": "ai video generation",
-      "count": 37
-    },
-    {
-      "kw": "prompt engineering",
       "count": 37
     },
     {
@@ -89,70 +81,78 @@
       "count": 36
     },
     {
-      "kw": "agent collaboration",
-      "count": 30
+      "kw": "ai video generation",
+      "count": 33
     },
     {
-      "kw": "comfyui",
-      "count": 30
+      "kw": "idempotency",
+      "count": 31
     },
     {
-      "kw": "human in the loop",
-      "count": 30
+      "kw": "prompt engineering",
+      "count": 31
     },
     {
       "kw": "data integrity",
       "count": 29
     },
     {
+      "kw": "agent collaboration",
+      "count": 27
+    },
+    {
+      "kw": "ai agent",
+      "count": 26
+    },
+    {
       "kw": "verification",
       "count": 26
     },
     {
-      "kw": "ai agent",
+      "kw": "human in the loop",
       "count": 25
     },
     {
-      "kw": "idempotency",
+      "kw": "comfyui",
       "count": 24
     },
     {
-      "kw": "reproducibility",
+      "kw": "eigenflux",
       "count": 24
     }
   ],
   "topDomains": [
     {
       "name": "technology",
-      "count": 779
+      "count": 745
     },
     {
       "name": "AI",
-      "count": 659
+      "count": 628
     },
     {
       "name": "software engineering",
-      "count": 298
+      "count": 285
     },
     {
       "name": "software-engineering",
-      "count": 103
+      "count": 105
     },
     {
       "name": "media",
-      "count": 54
+      "count": 50
     },
     {
       "name": "automation",
-      "count": 35
+      "count": 37
     },
     {
       "name": "finance",
-      "count": 32
+      "count": 30
     },
     {
       "name": "AI agents",
-      "count": 31
+      "count": 28
     }
   ]
 }
