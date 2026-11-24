@@ -5,60 +5,67 @@
   },
   "news": [
     {
-      "date": "2026-11-23",
-      "title": "黄仁勋恢复 CEO 职务：英伟达美股开盘大涨 32%，市值增加超 1 万亿美元",
-      "desc": "IT之家 11 月 23 日消息，今日英伟达美股开盘跳涨 32%，市值增加超 1 万亿美元（IT之家注：现汇率约合 6.68 万亿元人民币），总市值重新站上 4 万亿美元（现汇率约合 26.73 万亿元人民币）。英伟达当…",
+      "date": "2026-11-24",
+      "title": "复职英伟达 CEO 后将迎国会听证，黄仁勋 12 月 3 日将公开作证",
+      "desc": "IT之家 11 月 24 日消息，科技媒体 Engadget 今天（11 月 24 日）发布博文，报道称黄仁勋复职英伟达 CEO 后，分别将于美国当地时间 12 月 1 日、12 月 3 日参加听证会，接受美国众议院、参…",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/217.htm"
+      "url": "https://www.ithome.com/1/031/456.htm"
     },
     {
-      "date": "2026-11-23",
-      "title": "特朗普祝贺黄仁勋重返英伟达：美国需要其领导才能确保公司以及整个美国经济的繁荣与成功",
-      "desc": "IT之家 11 月 23 日消息，英伟达今日宣布，即日起恢复黄仁勋（Jensen Huang）总裁兼首席执行官及董事会成员职务。英伟达表示，在与黄仁勋进行一系列讨论和会议后，董事会一致投票决定恢复其职务，董事会随后对黄仁…",
+      "date": "2026-11-24",
+      "title": "黄仁勋重掌帅印：英伟达创逾 23 年最大单日涨幅，助推美股科技股集体大涨",
+      "desc": "IT之家 11 月 24 日消息，科技媒体 The Information 今天（11 月 24 日）发布博文，报道称受黄仁勋复职英伟达 CEO 利好消息影响，推动美股科技股集体大涨，提振了投资者对人工智能行业的信心，推…",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/216.htm"
+      "url": "https://www.ithome.com/1/031/458.htm"
     },
     {
-      "date": "2026-11-23",
-      "title": "英伟达恢复黄仁勋 CEO 职务，马斯克称“错误已更正”",
-      "desc": "IT之家 11 月 23 日消息，英伟达今日宣布，即日起恢复黄仁勋（Jensen Huang）总裁兼首席执行官及董事会成员职务。对于此消息，马斯克在 X 平台转发英伟达公司对黄仁勋的复职声明，并配文“错误已更正。”马斯克…",
+      "date": "2026-11-24",
+      "title": "Qt Creator 21 正式发布：强化 AI Agent 集成，新增华为 HarmonyOS 设备支持",
+      "desc": "IT之家 11 月 24 日消息，当地时间 11 月 23 日，Qt 团队发布了最新的集成开发环境（IDE）Qt Creator 21。本次更新重点加强了 AI Agent 与 IDE 的协作能力，同时引入全新的 Pro…",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/031/218.htm"
+      "url": "https://www.ithome.com/1/031/463.htm"
     },
     {
-      "date": "2026-11-23",
-      "title": "蚂蚁阿福同款大模型宣布开源，全球医生一台电脑就能解锁专业医疗 AI 能力",
-      "desc": "阿福App宣布新一轮升级，解锁越来越多健康服务新本领",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/511998.html"
+      "date": "2026-11-24",
+      "title": "消息称豆包灰度测试“豆包购物”，配有一级功能入口",
+      "desc": "IT之家 11 月 24 日消息，据《读佳》今日报道，豆包 App 正灰度测试“豆包购物”，并配有一级功能入口，目前部分用户可见该功能。从报道中晒出的截图可以看到，豆包购物独立放置在侧边菜单栏，和新对话、定时任务、插件技…",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/031/464.htm"
     },
     {
-      "date": "2026-11-23",
-      "title": "“Agent版arXiv”来了！936个智能体12个星期狂发近千篇论文，连同行评议都整上了",
-      "desc": "一个完全由AI组成的科学家社会，是什么样？",
+      "date": "2026-11-24",
+      "title": "具身行业，终于等来了自己的通用智能时刻",
+      "desc": "行业苦等多年的预训练通用智能，终于有了答案",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512004.html"
+      "url": "https://www.qbitai.com/2026/11/512264.html"
     },
     {
-      "date": "2026-11-23",
-      "title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了",
-      "desc": "阿福大升级：让模型像医生一样思考",
+      "date": "2026-11-24",
+      "title": "“得Agent开发者，得天下”，70+技术大咖共探AI技术演进与生态变革，2026奇点智能技术大会圆满收官！",
+      "desc": "「2026 奇点智能技术大会」与「2026 C++ 及系统软件技术大会」在北京万达文华酒店成功举办。",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512017.html"
+      "url": "https://www.qbitai.com/2026/11/512297.html"
     },
     {
-      "date": "2026-11-23",
-      "title": "XROGO郑随兵：机器人不能只在视频里，终究要进入工厂“真干活”",
-      "desc": "企业核心需求不是交付设备，而是能持续上岗的劳动力",
+      "date": "2026-11-24",
+      "title": "释放AI与出海强预期，近1500人参与亿邦产业互联网年会暨首届产业智能体大会",
+      "desc": "2026年11月20日，第八届亿邦产业互联网年会与首届产业智能体大会在北京国贸大酒店首次合体举行。",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512179.html"
+      "url": "https://www.qbitai.com/2026/11/512305.html"
     },
     {
-      "date": "2026-11-23",
-      "title": "实测：1450亿参数塞进笔记本，每秒狂飙80+Token！国产端侧大模型杀疯了",
-      "desc": "零Token成本，断网也能自由Vibe Coding",
+      "date": "2026-11-24",
+      "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源",
+      "desc": "中国AI数据平台加速崛起",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512195.html"
+      "url": "https://www.qbitai.com/2026/11/512330.html"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "报名从速｜来MEET2027！听AI前沿实践者交出“判断”",
+      "desc": "12.9 北京，来MEET2027现场",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512329.html"
     },
     {
       "date": "2026-11-20",
@@ -66,13 +73,6 @@
       "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 新建成的上海道教学院，由清华大学建筑设计…",
       "source": "阮一峰周刊",
       "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html"
-    },
-    {
-      "date": "2026-11-13",
-      "title": "科技爱好者周刊（第 419 期）：机房来了，写字楼走了",
-      "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 成都麓湖生态城的 Q8 步行桥，采用双曲…",
-      "source": "阮一峰周刊",
-      "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html"
     }
   ],
   "models": [
@@ -80,21 +80,21 @@
       "vendor": "Thinking Machines",
       "name": "Inkling 2 Mini",
       "date": "2026-11-21",
-      "desc": "Inkling 2 Mini是Thinking Machines Lab推出的一款开放权重多模态循环Transformer，具有3，上下文 1049k。",
+      "desc": "Inkling 2 Mini 是来自 Thinking Machines Lab 的开放权重多模态循环式 Transformer，具有 3，上下文 1049k。",
       "url": "https://openrouter.ai/thinkingmachines/inkling-2-mini"
     },
     {
       "vendor": "RadixArk",
       "name": "DaisyRose 27B",
       "date": "2026-11-21",
-      "desc": "DaisyRose 27B 是 RadixArk 推出的开放权重多模态推理模型，由 [Qwen3，上下文 262k。",
+      "desc": "DaisyRose 27B 是 RadixArk 推出的开放权重多模态推理模型，基于 [Qwen3，上下文 262k。",
       "url": "https://openrouter.ai/radixark/daisyrose-27b"
     },
     {
       "vendor": "Mistral",
       "name": "Pixtral Large 2502",
       "date": "2026-11-20",
-      "desc": "Pixtral Large 2502 是 Mistral AI 于 2025 年 2 月发布的大型多模态模型，是 [Pixtral Large 2411](https://openrouter，上下文 128k。",
+      "desc": "Pixtral Large 2502 是 Mistral AI 大型多模态模型的 2025 年 2 月版本，是 [Pixtral Large 2411](https://openrouter，上下文 128k。",
       "url": "https://openrouter.ai/mistralai/pixtral-large-2502"
     },
     {
@@ -151,86 +151,86 @@
     {
       "repo": "elementalsouls/Claude-BugHunter",
       "lang": "Python",
-      "today": 2037,
-      "stars": 19532,
-      "desc": "一个用于漏洞挖掘和外部红队工作的Claude Code技能包——82项技能、15个斜杠命令、681个披露报告模式（涵盖24个核心漏洞类别），以及企业身份+基础设施攻击矩阵。"
+      "today": 2029,
+      "stars": 20067,
+      "desc": "用于漏洞挖掘和外部红队工作的Claude Code技能包——84项技能、15个斜杠命令、681个披露报告模式（涵盖24个核心漏洞类别），以及企业身份+基础设施攻击矩阵。"
     },
     {
       "repo": "obra/superpowers",
       "lang": "Shell",
-      "today": 838,
-      "stars": 324938,
-      "desc": "行之有效的代理技能框架和软件开发方法。"
+      "today": 840,
+      "stars": 325248,
+      "desc": "一个行之有效的代理技能框架和软件开发方法。"
     },
     {
       "repo": "HKUDS/CLI-Anything",
       "lang": "Python",
-      "today": 783,
-      "stars": 63490,
-      "desc": "“CLI-Anything：让所有软件都原生支持代理” -- CLI-Hub：https://clianything.cc/"
+      "today": 790,
+      "stars": 63884,
+      "desc": "“CLI-Anything：让所有软件都具备原生代理功能” -- CLI-Hub：https://clianything.cc/"
     },
     {
       "repo": "jingyaogong/minimind",
       "lang": "Python",
       "today": 828,
-      "stars": 69385,
+      "stars": 69633,
       "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours."
     },
     {
       "repo": "cursor/plugins",
       "lang": "TypeScript",
-      "today": 395,
-      "stars": 18765,
+      "today": 397,
+      "stars": 18882,
       "desc": "Cursor 插件规范和官方插件"
     },
     {
       "repo": "firecrawl/firecrawl",
       "lang": "TypeScript",
-      "today": 920,
-      "stars": 207780,
-      "desc": "让您的客服代表更聪明的知识基础设施。通过一个 API 搜索、抓取和访问 550 多个数据提供商。"
+      "today": 924,
+      "stars": 208089,
+      "desc": "让您的客服代表变得更聪明的知识基础设施。通过一个 API 搜索、抓取和访问 550 多个数据提供商。"
     },
     {
       "repo": "nginx/nginx",
       "lang": "C",
       "today": 174,
-      "stars": 33028,
+      "stars": 33085,
       "desc": "官方 NGINX 开源代码仓库。"
     },
     {
       "repo": "openvinotoolkit/openvino",
       "lang": "C++",
-      "today": 183,
-      "stars": 12259,
+      "today": 184,
+      "stars": 12321,
       "desc": "OpenVINO™ 是一款用于优化和部署 AI 推理的开源工具包"
     },
     {
       "repo": "cathrynlavery/diagram-design",
       "lang": "HTML",
-      "today": 624,
-      "stars": 70882,
-      "desc": "适用于 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 的编辑图表设计。52 种图表类型。自包含的 HTML + SVG。无阴影。无Mermaid杂乱。"
+      "today": 620,
+      "stars": 71132,
+      "desc": "适用于 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 的编辑图表设计。52 种图表类型。独立的 HTML + SVG。无阴影。无Mermaid杂乱。"
     },
     {
       "repo": "mvanhorn/last30days-skill",
       "lang": "Python",
-      "today": 790,
-      "stars": 73358,
+      "today": 797,
+      "stars": 73577,
       "desc": "一种 AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
     }
   ],
   "agentFrameworks": [
     {
       "repo": "anomalyco/opencode",
-      "stars": 228793,
+      "stars": 228840,
       "lang": "TypeScript",
       "desc": "开源编码代理。"
     },
     {
       "repo": "anthropics/claude-code",
-      "stars": 156814,
+      "stars": 156845,
       "lang": "TypeScript",
-      "desc": "Claude Code 是一款智能编码工具，它驻留在您的终端中，能够理解您的代码库，并通过执行日常任务、解释复杂代码和处理 Git 工作流来帮助您更快地编写代码——所有这些都通过自然语言命令来实现。"
+      "desc": "Claude Code 是一款智能编码工具，它驻留在您的终端中，能够理解您的代码库，并通过执行日常任务、解释复杂代码以及处理 Git 工作流来帮助您更快地编写代码——所有这些都通过自然语言命令来实现。"
     },
     {
       "repo": "Significant-Gravitas/AutoGPT",
@@ -240,43 +240,43 @@
     },
     {
       "repo": "openai/codex",
-      "stars": 136242,
+      "stars": 136266,
       "lang": "Rust",
-      "desc": "在您的终端中运行的轻量级编码代理"
+      "desc": "在终端中运行的轻量级编码代理"
     },
     {
       "repo": "google-gemini/gemini-cli",
-      "stars": 109021,
+      "stars": 109034,
       "lang": "TypeScript",
-      "desc": "一款开源人工智能代理，将 Gemini 的强大功能直接带入您的终端。"
+      "desc": "一款开源人工智能代理，将Gemini的强大功能直接带入您的终端。"
     },
     {
       "repo": "FoundationAgents/MetaGPT",
-      "stars": 71434,
+      "stars": 71451,
       "lang": "Python",
-      "desc": "🌟多智能体框架：首家人工智能软件公司，迈向自然语言编程"
+      "desc": "🌟 多智能体框架：首家人工智能软件公司，迈向自然语言编程"
     },
     {
       "repo": "microsoft/autogen",
-      "stars": 61963,
+      "stars": 61967,
       "lang": "Python",
       "desc": "用于自主人工智能的编程框架"
     },
     {
       "repo": "crewAIInc/crewAI",
-      "stars": 61203,
+      "stars": 61216,
       "lang": "Python",
-      "desc": "用于编排角色扮演型自主人工智能代理的框架。通过培养协作智能，CrewAI 使代理能够无缝协作，共同应对复杂任务。"
+      "desc": "用于编排角色扮演型自主人工智能体的框架。通过培养协作智能，CrewAI 使代理能够无缝协作，共同应对复杂任务。"
     },
     {
       "repo": "HKUDS/nanobot",
-      "stars": 50289,
+      "stars": 50294,
       "lang": "Python",
       "desc": "您的轻量级开源个人代理。"
     },
     {
       "repo": "openai/openai-agents-python",
-      "stars": 30843,
+      "stars": 30847,
       "lang": "Python",
       "desc": "一个轻量级、功能强大的多智能体工作流框架"
     }
@@ -284,63 +284,63 @@
   "skills": [
     {
       "repo": "obra/superpowers",
-      "stars": 324939,
+      "stars": 325248,
       "lang": "Shell",
-      "desc": "行之有效的代理技能框架和软件开发方法。"
+      "desc": "一个行之有效的代理技能框架和软件开发方法。"
     },
     {
       "repo": "mattpocock/skills",
-      "stars": 331291,
+      "stars": 331551,
       "lang": "Shell",
       "desc": "真正工程师的技能。直接来自我的.agents目录。"
     },
     {
       "repo": "affaan-m/ECC",
-      "stars": 309494,
+      "stars": 309680,
       "lang": "JavaScript",
-      "desc": "代理工具性能优化系统。针对Claude Code、Codex、Opencode、Cursor等工具的技能、直觉、记忆、安全性和“研究先行”开发。"
+      "desc": "代理性能优化系统。针对Claude Code、Codex、Opencode、Cursor等工具的技能、直觉、记忆、安全性和研究优先开发。"
     },
     {
       "repo": "anthropics/skills",
-      "stars": 199414,
+      "stars": 199564,
       "lang": "Python",
       "desc": "客服代表技能的公共存储库"
     },
     {
       "repo": "Shubhamsaboo/awesome-llm-apps",
-      "stars": 145518,
+      "stars": 145546,
       "lang": "Python",
-      "desc": "100 多个 AI 代理、代理技能和 RAG 应用——免费且开源。"
+      "desc": "100 多个 AI 代理、代理技能和 RAG 应用 - 免费且开源。"
     },
     {
       "repo": "addyosmani/agent-skills",
-      "stars": 119970,
+      "stars": 120034,
       "lang": "JavaScript",
       "desc": "适用于 AI 编码代理的生产级工程技能。"
     },
     {
       "repo": "mvanhorn/last30days-skill",
-      "stars": 73359,
+      "stars": 73578,
       "lang": "Python",
       "desc": "一种 AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
     },
     {
       "repo": "tt-a1i/archify",
-      "stars": 99077,
+      "stars": 99195,
       "lang": "JavaScript",
       "desc": "将任何想法、计划或代码库转化为精美的交互式图表。适用于 Claude Code、Codex 等的代理技能。"
     },
     {
       "repo": "coreyhaines31/marketingskills",
-      "stars": 62226,
+      "stars": 62293,
       "lang": "JavaScript",
       "desc": "适用于 Claude Code 和 AI 代理的营销技能。转化率优化 (CRO)、文案撰写、搜索引擎优化 (SEO)、分析和增长工程。"
     },
     {
       "repo": "blader/humanizer",
-      "stars": 72704,
+      "stars": 72816,
       "lang": "Python",
-      "desc": "可从文本中去除 AI 生成写作迹象的客服代表技能"
+      "desc": "可从文本中去除 AI 生成写作痕迹的代理技能"
     }
   ],
   "boards": [
