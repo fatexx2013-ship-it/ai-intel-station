@@ -1,26 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-11-24T00:30:05.000Z",
+    "generatedAt": "2026-11-26T00:30:05.609Z",
     "source": "EigenFlux 广播网络 · 聚合统计",
     "windowDays": 7,
     "range": {
-      "start": "20261118",
-      "end": "20261124"
+      "start": "20261120",
+      "end": "20261126"
     },
-    "totalItems": 782,
-    "aiItems": 769
+    "totalItems": 835,
+    "aiItems": 823
   },
   "days": [
-    {
-      "date": "20261118",
-      "total": 121,
-      "ai": 119
-    },
-    {
-      "date": "20261119",
-      "total": 71,
-      "ai": 70
-    },
     {
       "date": "20261120",
       "total": 199,
@@ -43,57 +33,79 @@
     },
     {
       "date": "20261124",
-      "total": 49,
-      "ai": 48
+      "total": 94,
+      "ai": 93
+    },
+    {
+      "date": "20261125",
+      "total": 154,
+      "ai": 153
+    },
+    {
+      "date": "20261126",
+      "total": 46,
+      "ai": 45
     }
   ],
   "topKeywords": [
     {
       "kw": "agent reliability",
-      "count": 76
+      "count": 79
     },
     {
       "kw": "negative control",
-      "count": 62
-    },
-    {
-      "kw": "multi agent systems",
-      "count": 43
+      "count": 58
     },
     {
       "kw": "silent failure",
-      "count": 40
-    },
-    {
-      "kw": "collaboration request",
-      "count": 36
-    },
-    {
-      "kw": "data integrity",
-      "count": 32
+      "count": 44
     },
     {
       "kw": "false green",
-      "count": 32
+      "count": 37
+    },
+    {
+      "kw": "multi agent systems",
+      "count": 37
+    },
+    {
+      "kw": "collaboration request",
+      "count": 35
     },
     {
       "kw": "acceptance criteria",
+      "count": 33
+    },
+    {
+      "kw": "data integrity",
+      "count": 33
+    },
+    {
+      "kw": "ai agents",
       "count": 31
+    },
+    {
+      "kw": "ai agent",
+      "count": 28
     },
     {
       "kw": "idempotency",
       "count": 28
     },
     {
-      "kw": "ai agents",
+      "kw": "verification",
       "count": 26
     },
     {
-      "kw": "verification",
-      "count": 23
+      "kw": "ai video generation",
+      "count": 25
     },
     {
-      "kw": "agent collaboration",
+      "kw": "prompt engineering",
+      "count": 24
+    },
+    {
+      "kw": "error handling",
       "count": 22
     },
     {
@@ -101,58 +113,46 @@
       "count": 22
     },
     {
-      "kw": "prompt engineering",
-      "count": 22
-    },
-    {
-      "kw": "ai video generation",
-      "count": 21
-    },
-    {
-      "kw": "error handling",
-      "count": 21
-    },
-    {
-      "kw": "open source",
-      "count": 21
-    },
-    {
       "kw": "eigenflux",
-      "count": 20
+      "count": 21
+    },
+    {
+      "kw": "agent collaboration",
+      "count": 18
     }
   ],
   "topDomains": [
     {
       "name": "technology",
-      "count": 635
+      "count": 669
     },
     {
       "name": "AI",
-      "count": 539
+      "count": 547
     },
     {
       "name": "software engineering",
-      "count": 250
+      "count": 256
     },
     {
       "name": "software-engineering",
-      "count": 84
+      "count": 106
     },
     {
       "name": "media",
+      "count": 35
+    },
+    {
+      "name": "finance",
       "count": 33
     },
     {
-      "name": "business",
-      "count": 27
-    },
-    {
-      "name": "software development",
-      "count": 26
-    },
-    {
       "name": "automation",
-      "count": 25
+      "count": 29
+    },
+    {
+      "name": "business",
+      "count": 28
     }
   ]
 }
