@@ -5,32 +5,32 @@
   },
   "news": [
     {
-      "date": "2026-11-26",
-      "title": "腾讯用 AI 挑战药物研发领域前沿难题：成果登 Nature，在减重降糖、肿瘤免疫方向完成验证",
-      "desc": "IT之家 11 月 26 日消息，腾讯今日宣布，11 月 25 日，腾讯生命科学实验室的一项 AI for Science 研究成果，正式以第一单位登上《Nature》主刊。据介绍，腾讯用 AI 挑战了药物研发领域的一个…",
+      "date": "2026-11-27",
+      "title": "联发科技：天玑旗舰智能手机芯片仍正常迭代，2027 年将按既定计划更新",
+      "desc": "IT之家 11 月 27 日消息，据台媒《电子时报》(DIGITIMES) 消息称，联发科技 (MediaTek) 针对近期流言回应称：天玑系列的旗舰手机 SoC 新品开发未中断，2027 年仍会照原定计划推出旗舰手机 …",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/033/125.htm"
+      "url": "https://www.ithome.com/1/033/222.htm"
     },
     {
-      "date": "2026-11-26",
-      "title": "瑞士发生五起 AI 智能体网络攻击，电力供水通信系统遭入侵",
-      "desc": "IT之家 11 月 26 日消息，据路透社报道，瑞士联邦网络安全局（BACS）周四通报，过去几天瑞士发生五起网络攻击，攻击者使用 AI 智能体针对企业以及关键基础设施运营方发起入侵。IT之家注意到，该局在公告中表示，五起…",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/033/131.htm"
+      "date": "2026-11-27",
+      "title": "科技爱好者周刊（第 421 期）：AI 的疯狂造富",
+      "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 本周，小鹏公司展示它的人形机器人。（vi…",
+      "source": "阮一峰周刊",
+      "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-421.html"
     },
     {
-      "date": "2026-11-26",
-      "title": "报名最后2天｜AI浪潮之中，来认识创造未来的人",
-      "desc": "12月6日，WAIC将携手第六届“海聚英才”全球创新创业峰会，把这场关于“人”的讨论带回现场。",
+      "date": "2026-11-27",
+      "title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+      "desc": "Quickwit查询总耗时降31%，最高降87%",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512942.html"
+      "url": "https://www.qbitai.com/2026/11/513053.html"
     },
     {
-      "date": "2026-11-26",
-      "title": "极客公园创新大会 2027 全议程公布！",
-      "desc": "今天，IF 2027 全议程揭晓。",
+      "date": "2026-11-27",
+      "title": "陶哲轩下场验证黎曼猜想！“AI批量吐证明就像发电厂排核废料”",
+      "desc": "担心课题被AI抢先，该怎么办？",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512952.html"
+      "url": "https://www.qbitai.com/2026/11/513075.html"
     },
     {
       "date": "2026-11-26",
@@ -59,13 +59,6 @@
       "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 新建成的上海道教学院，由清华大学建筑设计…",
       "source": "阮一峰周刊",
       "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html"
-    },
-    {
-      "date": "2026-11-13",
-      "title": "科技爱好者周刊（第 419 期）：机房来了，写字楼走了",
-      "desc": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 成都麓湖生态城的 Q8 步行桥，采用双曲…",
-      "source": "阮一峰周刊",
-      "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html"
     }
   ],
   "models": [
@@ -87,7 +80,7 @@
       "vendor": "Upstage",
       "name": "Solar Pro 4 Contributor",
       "date": "2026-11-25",
-      "desc": "Solar Pro 4 Contributor 与 Upstage 的 Solar Pro 4 型号相同，以较低的价格提供，但条件是允许 Upstage 使用互动数据来进行改进，上下文 524k。",
+      "desc": "Solar Pro 4 Contributor is the same Solar Pro 4 model from Upstage, offered at a lower rate in exchange for allowing Upstage to use interaction data to improve ，上下文 524k。",
       "url": "https://openrouter.ai/upstage/solar-pro-4-contributor"
     },
     {
@@ -101,35 +94,35 @@
       "vendor": "Thinking Machines",
       "name": "Inkling 2 Mini",
       "date": "2026-11-21",
-      "desc": "Inkling 2 Mini 是 Thinking Machines Lab 开发的一款开放权重多模态循环变压器，具有 3，上下文 1049k。",
+      "desc": "Inkling 2 Mini is an open-weight multimodal looped transformer from Thinking Machines Lab, with 3，上下文 1049k。",
       "url": "https://openrouter.ai/thinkingmachines/inkling-2-mini"
     },
     {
       "vendor": "RadixArk",
       "name": "DaisyRose 27B",
       "date": "2026-11-21",
-      "desc": "DaisyRose 27B 是 RadixArk 推出的开放权重多模态推理模型，由 [Qwen3，上下文 262k。",
+      "desc": "DaisyRose 27B is an open-weight multimodal reasoning model from RadixArk, trained from [Qwen3，上下文 262k。",
       "url": "https://openrouter.ai/radixark/daisyrose-27b"
     },
     {
       "vendor": "Mistral",
       "name": "Pixtral Large 2502",
       "date": "2026-11-20",
-      "desc": "Pixtral Large 2502 是 Mistral AI 大型多模态模型的 2025 年 2 月版本，继 [Pixtral Large 2411](https://openrouter，上下文 128k。",
+      "desc": "Pixtral Large 2502 is the February 2025 version of Mistral AI's large multimodal model, following [Pixtral Large 2411](https://openrouter，上下文 128k。",
       "url": "https://openrouter.ai/mistralai/pixtral-large-2502"
     },
     {
       "vendor": "Google",
       "name": "Gemini 4 Neon",
       "date": "2026-11-18",
-      "desc": "Gemini 4 Neon 是 Google Gemini 4 系列中一款快速、中等价位的模型，专为编程和代理工作而打造，上下文 1049k。",
+      "desc": "Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work，上下文 1049k。",
       "url": "https://openrouter.ai/google/gemini-4-neon"
     },
     {
       "vendor": "Google",
       "name": "Gemini 4 Neon (batch)",
       "date": "2026-11-18",
-      "desc": "Gemini 4 Neon 是 Google Gemini 4 系列中一款快速、中等价位的模型，专为编程和代理工作而打造，上下文 1049k。",
+      "desc": "Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work，上下文 1049k。",
       "url": "https://openrouter.ai/google/gemini-4-neon:batch"
     },
     {
@@ -144,196 +137,196 @@
     {
       "repo": "elementalsouls/Claude-BugHunter",
       "lang": "Python",
-      "today": 1600,
-      "stars": 24245,
-      "desc": "用于漏洞挖掘和外部红队工作的Claude Code技能包——85项技能、16个斜杠命令、681个披露报告模式（涵盖24个核心漏洞类别），以及企业身份+基础设施攻击矩阵。"
+      "today": 1597,
+      "stars": 24784,
+      "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices."
     },
     {
       "repo": "obra/superpowers",
       "lang": "Shell",
-      "today": 853,
-      "stars": 327298,
-      "desc": "行之有效的代理技能框架和软件开发方法。"
+      "today": 854,
+      "stars": 327586,
+      "desc": "An agentic skills framework & software development methodology that works."
     },
     {
       "repo": "HKUDS/CLI-Anything",
       "lang": "Python",
-      "today": 744,
-      "stars": 66221,
-      "desc": "“CLI-Anything：让所有软件都具备原生代理功能” -- CLI-Hub：https://clianything.cc/"
+      "today": 746,
+      "stars": 66465,
+      "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
     },
     {
       "repo": "jingyaogong/minimind",
       "lang": "Python",
-      "today": 701,
-      "stars": 71547,
+      "today": 702,
+      "stars": 71768,
       "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours."
     },
     {
       "repo": "cursor/plugins",
       "lang": "TypeScript",
-      "today": 268,
-      "stars": 19739,
-      "desc": "Cursor 插件规范和官方插件"
+      "today": 270,
+      "stars": 19816,
+      "desc": "Cursor plugin specification and official plugins"
     },
     {
       "repo": "firecrawl/firecrawl",
       "lang": "TypeScript",
-      "today": 1042,
-      "stars": 210770,
-      "desc": "让您的客服代表更聪明的知识基础设施。通过一个 API 搜索、抓取和访问 550 多家数据提供商。"
+      "today": 1046,
+      "stars": 211043,
+      "desc": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API."
     },
     {
       "repo": "nginx/nginx",
       "lang": "C",
       "today": 150,
-      "stars": 33493,
-      "desc": "官方 NGINX 开源代码仓库。"
+      "stars": 33543,
+      "desc": "The official NGINX Open Source repository."
     },
     {
       "repo": "openvinotoolkit/openvino",
       "lang": "C++",
       "today": 176,
-      "stars": 12783,
-      "desc": "OpenVINO™ 是一款用于优化和部署 AI 推理的开源工具包"
+      "stars": 12840,
+      "desc": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference"
     },
     {
       "repo": "cathrynlavery/diagram-design",
       "lang": "HTML",
-      "today": 951,
-      "stars": 73709,
-      "desc": "适用于 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 的编辑图表设计。52 种图表类型。独立的 HTML + SVG。无阴影。无Mermaid杂乱。"
+      "today": 955,
+      "stars": 73951,
+      "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop."
     },
     {
       "repo": "mvanhorn/last30days-skill",
       "lang": "Python",
-      "today": 755,
-      "stars": 75622,
-      "desc": "AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
+      "today": 759,
+      "stars": 75863,
+      "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
     }
   ],
   "agentFrameworks": [
     {
       "repo": "anomalyco/opencode",
-      "stars": 229373,
+      "stars": 229441,
       "lang": "TypeScript",
-      "desc": "开源编码代理。"
+      "desc": "The open source coding agent."
     },
     {
       "repo": "anthropics/claude-code",
-      "stars": 157194,
+      "stars": 157238,
       "lang": "TypeScript",
-      "desc": "Claude Code 是一款智能编码工具，驻留在您的终端中，能够理解您的代码库，并通过执行日常任务、解释复杂代码和处理 Git 工作流来帮助您更快地编写代码——所有这些都通过自然语言命令来实现。"
+      "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
     },
     {
       "repo": "Significant-Gravitas/AutoGPT",
       "stars": 188202,
       "lang": "Python",
-      "desc": "AutoGPT的愿景是让每个人都能使用和基于其进行构建的无障碍人工智能。我们的使命是提供工具，让您能够专注于重要的事情。"
+      "desc": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
     },
     {
       "repo": "openai/codex",
-      "stars": 136568,
+      "stars": 136599,
       "lang": "Rust",
-      "desc": "在您的终端中运行的轻量级编码代理"
+      "desc": "Lightweight coding agent that runs in your terminal"
     },
     {
       "repo": "google-gemini/gemini-cli",
-      "stars": 109185,
+      "stars": 109206,
       "lang": "TypeScript",
-      "desc": "一款开源人工智能代理，将 Gemini 的强大功能直接带入您的终端。"
+      "desc": "An open-source AI agent that brings the power of Gemini directly into your terminal."
     },
     {
       "repo": "FoundationAgents/MetaGPT",
       "stars": 71494,
       "lang": "Python",
-      "desc": "🌟 多智能体框架：首家人工智能软件公司，迈向自然语言编程"
+      "desc": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming"
     },
     {
       "repo": "microsoft/autogen",
       "stars": 61970,
       "lang": "Python",
-      "desc": "用于自主人工智能的编程框架"
+      "desc": "A programming framework for agentic AI"
     },
     {
       "repo": "crewAIInc/crewAI",
-      "stars": 61301,
+      "stars": 61311,
       "lang": "Python",
-      "desc": "用于编排角色扮演型自主人工智能代理的框架。通过培养协作智能，CrewAI 使代理能够无缝协作，共同应对复杂任务。"
+      "desc": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks."
     },
     {
       "repo": "HKUDS/nanobot",
-      "stars": 50364,
+      "stars": 50370,
       "lang": "Python",
-      "desc": "您的轻量级开源个人代理。"
+      "desc": "Your lightweight open-source personal agent."
     },
     {
       "repo": "openai/openai-agents-python",
       "stars": 30890,
       "lang": "Python",
-      "desc": "一个轻量级、功能强大的多智能体工作流框架"
+      "desc": "A lightweight, powerful framework for multi-agent workflows"
     }
   ],
   "skills": [
     {
       "repo": "obra/superpowers",
-      "stars": 327298,
+      "stars": 327589,
       "lang": "Shell",
-      "desc": "行之有效的代理技能框架和软件开发方法。"
+      "desc": "An agentic skills framework & software development methodology that works."
     },
     {
       "repo": "mattpocock/skills",
-      "stars": 333485,
+      "stars": 333680,
       "lang": "Shell",
-      "desc": "真正工程师的技能。直接来自我的.agents目录。"
+      "desc": "Skills for Real Engineers. Straight from my .agents directory."
     },
     {
       "repo": "affaan-m/ECC",
-      "stars": 311193,
+      "stars": 311370,
       "lang": "JavaScript",
-      "desc": "代理工具性能优化系统。针对 Claude Code、Codex、Opencode、Cursor 等工具的技能、直觉、记忆、安全性和研究优先开发。"
+      "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
     },
     {
       "repo": "anthropics/skills",
-      "stars": 200945,
+      "stars": 201099,
       "lang": "Python",
-      "desc": "客服代表技能的公开存储库"
+      "desc": "Public repository for Agent Skills"
     },
     {
       "repo": "Shubhamsaboo/awesome-llm-apps",
-      "stars": 145826,
+      "stars": 145858,
       "lang": "Python",
-      "desc": "100 多个 AI 代理、代理技能和 RAG 应用 - 免费且开源。"
+      "desc": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source."
     },
     {
       "repo": "addyosmani/agent-skills",
-      "stars": 120573,
+      "stars": 120628,
       "lang": "JavaScript",
-      "desc": "适用于 AI 编码代理的生产级工程技能。"
+      "desc": "Production-grade engineering skills for AI coding agents."
     },
     {
       "repo": "mvanhorn/last30days-skill",
-      "stars": 75623,
+      "stars": 75866,
       "lang": "Python",
-      "desc": "AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后综合生成有事实依据的摘要"
+      "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
     },
     {
       "repo": "tt-a1i/archify",
-      "stars": 100488,
+      "stars": 100644,
       "lang": "JavaScript",
-      "desc": "将任何想法、计划或代码库转化为交互式图表或一页式答案：10 种图表类型、架构诊断、故事视频和 PR 演练。适用于 Claude Code、Codex、Cursor 等的 Agent Skill。"
+      "desc": "Turn any idea, plan, or codebase into an interactive diagram or one-page answer: 10 diagram types, Architecture Diagnosis, Story video and PR walkthroughs. An Agent Skill for Claude Code, Codex, Cursor and more."
     },
     {
       "repo": "coreyhaines31/marketingskills",
-      "stars": 62806,
+      "stars": 62871,
       "lang": "JavaScript",
-      "desc": "适用于 Claude Code 和 AI 代理的营销技能。转化率优化 (CRO)、文案撰写、搜索引擎优化 (SEO)、分析和增长工程。"
+      "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering."
     },
     {
       "repo": "blader/humanizer",
-      "stars": 73929,
+      "stars": 74041,
       "lang": "Python",
-      "desc": "可从文本中去除 AI 生成写作迹象的客服代表技能"
+      "desc": "Agent skill that removes signs of AI-generated writing from text"
     }
   ],
   "boards": [
